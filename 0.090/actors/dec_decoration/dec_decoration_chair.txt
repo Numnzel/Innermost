@@ -1,0 +1,16 @@
+Actor Chair 15013
+{
+//$NotAngled
+//$Category Decorate/Decoration
+//$Title "Chair"
+  +FloorClip
+  -Solid
+  Height 30
+  Radius 15
+  States
+  {
+  Spawn:
+    CHAI A -1
+    Stop
+  }
+}

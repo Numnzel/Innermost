@@ -1,0 +1,267 @@
+monospacefonts true, "0";
+interpolateHealth true, 8;
+interpolateArmor true, 8;
+
+statusbar fullscreen, fullscreenoffsets {
+
+	// AirLevel
+	
+	ifwaterlevel 3 {
+		
+		drawbar "air_bar", "hudbot2", airtime, Horizontal, 170, -117;
+		drawnumber 2, HUDFONT_HIDDEN, White, airtime, drawshadow(1, 1), 160, -120; // Alignment(Center), 80, -15;
+		
+		//DrawNumber 2, SMALLFONT, White, airtime, drawshadow(1, 1), 95, -150, 0;
+	}
+	
+	// Inventory
+	
+	inventorybarnotvisible { drawselectedinventory centerbottom, alwaysshowcounter, drawshadow(1, 1), HUDFONT_HIDDEN, 430, -20, 490, -40, White; }
+	
+	// Armor
+	
+	drawbar "armor_bl", "hudbot2", armor(200), Horizontal, 170, -77;
+	
+	ininventory bluearmor, 1 {
+		
+		drawnumber 4, HUDFONT_HIDDEN, Blue, armor, drawshadow(1, 1), whennotzero, 160, -80; // Alignment(Center), 80, -15;
+		drawnumber 4, HUDFONT_HIDDEN, DarkBlue, savepercent, drawshadow(1, 1), whennotzero, 95, -80;
+	}
+	ininventory armor, 101 {
+		
+		drawnumber 4, HUDFONT_HIDDEN, Green, armor, drawshadow(1, 1), whennotzero, 160, -80; // Alignment(Center), 80, -15;
+		drawnumber 4, HUDFONT_HIDDEN, DarkGreen, savepercent, drawshadow(1, 1), whennotzero, 95, -80;
+	}
+	
+	
+	// drawimage armoricon, 20, -50, centerbottom;
+	// drawnumber 4, HUDFONT_HIDDEN, Blue, armor, drawshadow(1, 1), whennotzero, 135, -80, 0;
+	
+	// Health
+	
+	ifinvulnerable     { drawbar "hp_god", "hudbot", health(fakemaxhp), Horizontal, 170, -37; }
+	ifinvulnerable not { drawbar "hp_top", "hudbot", health(fakemaxhp), Horizontal, 170, -37; }
+	
+	drawnumber 4, HUDFONT_HIDDEN, Red, health, drawshadow(1, 1), 160, -40; // Alignment(Center), 80, -15;
+	drawnumber 4, HUDFONT_HIDDEN, DarkRed, fakemaxhp, drawshadow(1, 1), 95, -40;
+	drawimage "hpcross", 350, -12, centerbottom, 32, 32;
+	
+	// drawimage "MEDIA0", 20, -10, centerbottom;
+	// drawnumber 4, HUDFONT_HIDDEN, DarkGreen, fakemaxhp, drawshadow(1, 1), 135, -40;
+	// ifhealth 0		{ drawnumber 4, HUDFONT_HIDDEN, Red, health, drawshadow(1, 1), 200, -40; }
+	// ifhealth 20%	{ drawnumber 4, HUDFONT_HIDDEN, Orange, health, drawshadow(1, 1), 200, -40; }
+	// ifhealth 50%	{ drawnumber 4, HUDFONT_HIDDEN, Yellow, health, drawshadow(1, 1), 200, -40; }
+	// ifhealth 90%	{ drawnumber 4, HUDFONT_HIDDEN, Green, health, drawshadow(1, 1), 200, -40; }
+	
+	
+	// Powerups
+	
+	drawbar "hudp_god", "hudp_bck", PowerupTime InvulnerabilitySphere, Vertical, -25, -320;
+	drawbar "hudp_eye", "hudp_bck", PowerupTime BlurSphere, Vertical, -25, -295;
+	drawbar "hudp_rad", "hudp_bck", PowerupTime RadSuit, Vertical, -25, -270;
+
+	// Military badges
+	
+	ininventory electronicdevicecoin, 0 { 										Alpha 0.5 DrawString SMALLFONT, Grey, "PASS", -10, -240, 0, drawshadow(1, 1);
+																				DrawNumber 4, SMALLFONT, Red, "ElectronicDeviceCoin", drawshadow(1, 1), interpolate(8), -40, -240, 0;
+	}
+	
+	// Credits
+	
+	ininventory bitcoins, 0 { 													Alpha 0.5 DrawString SMALLFONT, Grey, "CRED", -10, -225, 0, drawshadow(1, 1);
+																				DrawNumber 4, SMALLFONT, Yellow, "Bitcoins", 		drawshadow(1, 1), interpolate(8), -40, -225, 0;
+	}
+	
+	// Ammo list
+	
+	ininventory ElectronCell, 0 { 												Alpha 0.5 DrawString SMALLFONT, Grey, "ELMG", -10, -195, 0, drawshadow(1, 1); }
+	ininventory HeavyClip, 0 { 													Alpha 0.5 DrawString SMALLFONT, Grey, "HBLL", -10, -180, 0, drawshadow(1, 1); }
+	ininventory NewCells, 0 { 													Alpha 0.5 DrawString SMALLFONT, Grey, "CELL", -10, -165, 0, drawshadow(1, 1); }
+	ininventory NewRocketAmmo, 0 { 												Alpha 0.5 DrawString SMALLFONT, Grey, "RCKT", -10, -150, 0, drawshadow(1, 1); }
+	ininventory NewShells, 0 { 													Alpha 0.5 DrawString SMALLFONT, Grey, "SHEL", -10, -135, 0, drawshadow(1, 1); }
+	ininventory NewClip, 0 { 													Alpha 0.5 DrawString SMALLFONT, Grey, "BULL", -10, -120, 0, drawshadow(1, 1); }
+	
+	ininventory Backpack, 0 {
+		
+		ininventory ElectronCell, 2400 { 										DrawNumber 4, SMALLFONT, Gold, "ElectronCell", 		drawshadow(1, 1), interpolate(64), -40, -195, 0; }
+		ininventory HeavyClip, 200 { 											DrawNumber 4, SMALLFONT, Gold, "HeavyClip", 		drawshadow(1, 1), interpolate(8), -40, -180, 0; }
+		ininventory NewCells, 600 { 											DrawNumber 4, SMALLFONT, Gold, "NewCells", 			drawshadow(1, 1), interpolate(8), -40, -165, 0; }
+		ininventory NewRocketAmmo, 80 { 										DrawNumber 4, SMALLFONT, Gold, "NewRocketAmmo", 	drawshadow(1, 1), interpolate(8), -40, -150, 0; }
+		ininventory NewShells, 100 { 											DrawNumber 4, SMALLFONT, Gold, "NewShells", 		drawshadow(1, 1), interpolate(8), -40, -135, 0; }
+		ininventory NewClip, 700 { 												DrawNumber 4, SMALLFONT, Gold, "NewClip", 			drawshadow(1, 1), interpolate(8), -40, -120, 0; }
+		
+		ininventory ElectronCell, 0 { ininventory not ElectronCell, 2400 { 		DrawNumber 4, SMALLFONT, Grey, "ElectronCell", 		drawshadow(1, 1), interpolate(64), -40, -195, 0; }}
+		ininventory HeavyClip, 0 { ininventory not HeavyClip, 200 { 			DrawNumber 4, SMALLFONT, Grey, "HeavyClip", 		drawshadow(1, 1), interpolate(8), -40, -180, 0; }}
+		ininventory NewCells, 0 { ininventory not NewCells, 600 { 				DrawNumber 4, SMALLFONT, Grey, "NewCells", 			drawshadow(1, 1), interpolate(8), -40, -165, 0; }}
+		ininventory NewRocketAmmo, 0 { ininventory not NewRocketAmmo, 80 { 		DrawNumber 4, SMALLFONT, Grey, "NewRocketAmmo", 	drawshadow(1, 1), interpolate(8), -40, -150, 0; }}
+		ininventory NewShells, 0 { ininventory not NewShells, 100 { 			DrawNumber 4, SMALLFONT, Grey, "NewShells", 		drawshadow(1, 1), interpolate(8), -40, -135, 0; }}
+		ininventory NewClip, 0 { ininventory not NewClip, 700 { 				DrawNumber 4, SMALLFONT, Grey, "NewClip", 			drawshadow(1, 1), interpolate(8), -40, -120, 0; }}
+	}
+	
+	ininventory not Backpack, 0 {
+		
+		ininventory ElectronCell, 1200 { 										DrawNumber 4, SMALLFONT, Gold, "ElectronCell", 		drawshadow(1, 1), interpolate(64), -40, -195, 0; }
+		ininventory HeavyClip, 100 { 											DrawNumber 4, SMALLFONT, Gold, "HeavyClip", 		drawshadow(1, 1), interpolate(8), -40, -180, 0; }
+		ininventory NewCells, 300 { 											DrawNumber 4, SMALLFONT, Gold, "NewCells", 			drawshadow(1, 1), interpolate(8), -40, -165, 0; }
+		ininventory NewRocketAmmo, 40 { 										DrawNumber 4, SMALLFONT, Gold, "NewRocketAmmo", 	drawshadow(1, 1), interpolate(8), -40, -150, 0; }
+		ininventory NewShells, 50 { 											DrawNumber 4, SMALLFONT, Gold, "NewShells", 		drawshadow(1, 1), interpolate(8), -40, -135, 0; }
+		ininventory NewClip, 350 { 												DrawNumber 4, SMALLFONT, Gold, "NewClip", 			drawshadow(1, 1), interpolate(8), -40, -120, 0; }
+		
+		ininventory ElectronCell, 0 { ininventory not ElectronCell, 1200 { 		DrawNumber 4, SMALLFONT, Grey, "ElectronCell", 		drawshadow(1, 1), interpolate(64), -40, -195, 0; }}
+		ininventory HeavyClip, 0 { ininventory not HeavyClip, 100 { 			DrawNumber 4, SMALLFONT, Grey, "HeavyClip", 		drawshadow(1, 1), interpolate(8), -40, -180, 0; }}
+		ininventory NewCells, 0 { ininventory not NewCells, 300 { 				DrawNumber 4, SMALLFONT, Grey, "NewCells", 			drawshadow(1, 1), interpolate(8), -40, -165, 0; }}
+		ininventory NewRocketAmmo, 0 { ininventory not NewRocketAmmo, 40 { 		DrawNumber 4, SMALLFONT, Grey, "NewRocketAmmo", 	drawshadow(1, 1), interpolate(8), -40, -150, 0; }}
+		ininventory NewShells, 0 { ininventory not NewShells, 50 { 				DrawNumber 4, SMALLFONT, Grey, "NewShells", 		drawshadow(1, 1), interpolate(8), -40, -135, 0; }}
+		ininventory NewClip, 0 { ininventory not NewClip, 350 { 				DrawNumber 4, SMALLFONT, Grey, "NewClip", 			drawshadow(1, 1), interpolate(8), -40, -120, 0; }}
+	}
+	
+	
+	
+	
+	// DrawImage "graphics/hud/BITCA0.png", 20, -90, centerbottom;
+	//DrawImage "HUD_BITC", 20, -105, centerbottom;
+	//Alpha 0.6
+	
+	
+	// Ammo
+	
+	usesammo {
+		
+		drawimage ammoicon1, -20, -16, centerbottom;
+		
+		weaponammo NewRocketAmmo {
+			
+			alpha 0.9 drawnumber 2, HUDFONT_HIDDEN, Grey, ammo1, drawshadow(1, 1), -90, -40, 0;
+			alpha 0.4 drawnumber 2, HUDFONT_HIDDEN, DarkGrey, ammo1capacity, drawshadow(1, 1), -45, -40, 0;
+		}
+		weaponammo ElectronCell {
+			
+			alpha 0.9 drawnumber 4, HUDFONT_HIDDEN, Grey, ammo1, drawshadow(1, 1), -130, -40, 0;
+			alpha 0.4 drawnumber 4, HUDFONT_HIDDEN, DarkGrey, ammo1capacity, drawshadow(1, 1), -45, -40, 0;
+		}
+		weaponammo not NewRocketAmmo { weaponammo not ElectronCell {
+			
+			alpha 0.9 drawnumber 3, HUDFONT_HIDDEN, Grey, ammo1, drawshadow(1, 1), -110, -40, 0;
+			alpha 0.4 drawnumber 3, HUDFONT_HIDDEN, DarkGrey, ammo1capacity, drawshadow(1, 1), -45, -40, 0;
+		}}
+	}
+
+	// Secondary ammo
+	
+	usessecondaryammo {
+		
+		drawimage ammoicon2, -20, -56, centerbottom;
+		
+		weaponammo NewRocketAmmo {
+			
+			alpha 0.9 drawnumber 2, HUDFONT_HIDDEN, Grey, ammo2, drawshadow(1, 1), -140, -80, 0;
+			alpha 0.4 drawnumber 2, HUDFONT_HIDDEN, DarkGrey, ammo2capacity, drawshadow(1, 1), -45, -80, 0;
+		}
+		weaponammo ElectronCell {
+			
+			alpha 0.9 drawnumber 4, HUDFONT_HIDDEN, Grey, ammo2, drawshadow(1, 1), -140, -80, 0;
+			alpha 0.4 drawnumber 4, HUDFONT_HIDDEN, DarkGrey, ammo2capacity, drawshadow(1, 1), -45, -80, 0;
+		}
+		weaponammo not NewRocketAmmo { weaponammo not ElectronCell {
+			
+			alpha 0.9 drawnumber 3, HUDFONT_HIDDEN, Grey, ammo2, drawshadow(1, 1), -140, -80, 0;
+			alpha 0.4 drawnumber 3, HUDFONT_HIDDEN, DarkGrey, ammo2capacity, drawshadow(1, 1), -45, -80, 0;
+		}}
+	}
+	
+	// Frags (Deathmatch)
+	
+	gamemode deathmatch {
+	
+		drawnumber 2, HUDFONT_HIDDEN, untranslated, frags, drawshadow(1, 1), -3, 1;
+	}
+	
+	// Keys (Not Deathmatch)
+	
+	gamemode singleplayer, cooperative, teamgame {
+	
+		drawkeybar 24, vertical, reverserows, auto, -10, 2, 0, 3, auto;
+	}
+}
+
+
+statusbar normal {
+	
+	drawimage "STBAR", 0, 168;
+	drawimage "STTPRCNT", 90, 171;
+	drawimage "STTPRCNT", 221, 171;
+	drawnumber 3, HUDFONT_HIDDEN, untranslated, ammo1, 44, 171;
+	drawnumber 3, HUDFONT_HIDDEN, untranslated, health, 90, 171;
+	drawnumber 3, HUDFONT_HIDDEN, untranslated, armor, 221, 171;
+
+	//keys
+	drawswitchableimage keyslot 2 && 5, "nullimage", "STKEYS0", "STKEYS3", "STKEYS6", 239, 171;
+	drawswitchableimage keyslot 3 && 6, "nullimage", "STKEYS1", "STKEYS4", "STKEYS7", 239, 181;
+	drawswitchableimage keyslot 1 && 4, "nullimage", "STKEYS2", "STKEYS5", "STKEYS8", 239, 191;
+
+	drawnumber 3, INDEXFONT, gold, ammo Clip, 288, 173;
+	drawnumber 3, INDEXFONT, gold, ammo Shell, 288, 179;
+	drawnumber 3, INDEXFONT, gold, ammo RocketAmmo, 288, 185;
+	drawnumber 3, INDEXFONT, gold, ammo Cell, 288, 191;
+
+	drawnumber 3, INDEXFONT, gold, ammocapacity Clip, 314, 173;
+	drawnumber 3, INDEXFONT, gold, ammocapacity Shell, 314, 179;
+	drawnumber 3, INDEXFONT, gold, ammocapacity RocketAmmo, 314, 185;
+	drawnumber 3, INDEXFONT, gold, ammocapacity Cell, 314, 191;
+	gamemode deathmatch, teamgame
+	{
+		drawnumber 2, HUDFONT_HIDDEN, untranslated, frags, 138, 171;
+	}
+	gamemode cooperative, singleplayer
+	{
+		drawimage "STARMS", 104, 168;
+		drawswitchableimage weaponslot 2, "STGNUM2", "STYSNUM2", 111, 172; 
+		drawswitchableimage weaponslot 3, "STGNUM3", "STYSNUM3", 123, 172;
+		drawswitchableimage weaponslot 4, "STGNUM4", "STYSNUM4", 135, 172;
+		drawswitchableimage weaponslot 5, "STGNUM5", "STYSNUM5", 111, 182;
+		drawswitchableimage weaponslot 6, "STGNUM6", "STYSNUM6", 123, 182;
+		drawswitchableimage weaponslot 7, "STGNUM7", "STYSNUM7", 135, 182;
+	}
+	gamemode cooperative, deathmatch, teamgame
+	{
+		drawimage translatable "STFBANY", 144, 169;
+	}
+	drawselectedinventory alternateonempty, INDEXFONT, 143, 168
+	{
+		drawmugshot 5, 143, 168;
+	}
+}
+
+statusbar inventory // Standard bar overlay (ZDoom Addition)
+{
+	drawinventorybar Doom, 7, INDEXFONT, 50, 170;
+}
+
+statusbar inventoryfullscreen // ZDoom HUD overlay.
+{
+	drawinventorybar Doom, translucent, 7, INDEXFONT, 50, 170;
+}
+
+
+
+
+
+
+
+
+
+/*
+
+Statusbar Fullscreen, FullScreenOffsets, 0.6
+{
+	drawimage "ICO1A0", -145, 5;
+	drawnumber 3, HUDFONT_HIDDEN, grey, GlobalVar 1, -105, 5;
+}
+
+statusbar normal, FullScreenOffsets, 0.6
+{
+	drawimage "ICO1A0", -145, 5;
+	drawnumber 3, HUDFONT_HIDDEN, grey, GlobalVar 1, -105, 5;
+}
+
+*/

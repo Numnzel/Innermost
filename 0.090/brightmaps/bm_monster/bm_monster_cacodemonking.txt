@@ -1,0 +1,33 @@
+// CacodemonKing
+
+brightmap sprite CACKA1 { map "brightmaps/bm_monster/bm_monster_cacodemonking/CACBA1.png" disablefullbright }
+brightmap sprite CACKA2A8 { map "brightmaps/bm_monster/bm_monster_cacodemonking/CACBA2A8.png" disablefullbright }
+brightmap sprite CACKA3A7 { map "brightmaps/bm_monster/bm_monster_cacodemonking/CACBA3A7.png" disablefullbright }
+
+brightmap sprite CACKB1 { map "brightmaps/bm_monster/bm_monster_cacodemonking/CACBB1.png" disablefullbright }
+brightmap sprite CACKB2B8 { map "brightmaps/bm_monster/bm_monster_cacodemonking/CACBB2B8.png" disablefullbright }
+brightmap sprite CACKB3B7 { map "brightmaps/bm_monster/bm_monster_cacodemonking/CACBB3B7.png" disablefullbright }
+brightmap sprite CACKB4B6 { map "brightmaps/bm_monster/bm_monster_cacodemonking/CACBB4B6.png" disablefullbright }
+brightmap sprite CACKB5 { map "brightmaps/bm_monster/bm_monster_cacodemonking/CACBB5.png" disablefullbright }
+
+brightmap sprite CACKC1 { map "brightmaps/bm_monster/bm_monster_cacodemonking/CACBC1.png" disablefullbright }
+brightmap sprite CACKC2C8 { map "brightmaps/bm_monster/bm_monster_cacodemonking/CACBC2C8.png" disablefullbright }
+brightmap sprite CACKC3C7 { map "brightmaps/bm_monster/bm_monster_cacodemonking/CACBC3C7.png" disablefullbright }
+brightmap sprite CACKC4C6 { map "brightmaps/bm_monster/bm_monster_cacodemonking/CACBC4C6.png" disablefullbright }
+brightmap sprite CACKC5 { map "brightmaps/bm_monster/bm_monster_cacodemonking/CACBC5.png" disablefullbright }
+
+brightmap sprite CACKD1 { map "brightmaps/bm_monster/bm_monster_cacodemonking/CACBD1.png" disablefullbright }
+brightmap sprite CACKD2D8 { map "brightmaps/bm_monster/bm_monster_cacodemonking/CACBD2D8.png" disablefullbright }
+brightmap sprite CACKD3D7 { map "brightmaps/bm_monster/bm_monster_cacodemonking/CACBD3D7.png" disablefullbright }
+brightmap sprite CACKD4D6 { map "brightmaps/bm_monster/bm_monster_cacodemonking/CACBD4D6.png" disablefullbright }
+brightmap sprite CACKD5 { map "brightmaps/bm_monster/bm_monster_cacodemonking/CACBD5.png" disablefullbright }
+
+brightmap sprite CACKE1 { map "brightmaps/bm_monster/bm_monster_cacodemonking/CACBE1.png" disablefullbright }
+brightmap sprite CACKE2E8 { map "brightmaps/bm_monster/bm_monster_cacodemonking/CACBE2E8.png" disablefullbright }
+brightmap sprite CACKE3E7 { map "brightmaps/bm_monster/bm_monster_cacodemonking/CACBE3E7.png" disablefullbright }
+
+brightmap sprite CACKF1 { map "brightmaps/bm_monster/bm_monster_cacodemonking/CACBF1.png" disablefullbright }
+brightmap sprite CACKF2F8 { map "brightmaps/bm_monster/bm_monster_cacodemonking/CACBF2F8.png" disablefullbright }
+brightmap sprite CACKF3F7 { map "brightmaps/bm_monster/bm_monster_cacodemonking/CACBF3F7.png" disablefullbright }
+
+brightmap sprite CACKG0 { map "brightmaps/bm_monster/bm_monster_cacodemonking/CACBG0.png" disablefullbright }

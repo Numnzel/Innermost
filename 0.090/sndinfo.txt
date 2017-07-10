@@ -1,0 +1,321 @@
+//SPLASHES --------------------------------
+
+	world/drip						dsempty
+	world/watersplash				dssplash
+	world/watersplashsmall			dssplsml
+	world/sludgegloop				dsploosh
+	world/sludgegloopsmall			dsplosml
+	world/lavasizzle				dslvsiz
+	world/lavsiz2					dslvsiz2
+	world/lavasizzlesmall			dslavsml
+	world/thunder					dsthun
+	//water/splash					dssplash
+
+	$limit world/drip				1
+	$limit world/watersplash		1
+	$limit world/watersplashsmall	2
+	$limit world/sludgegloop		1
+	$limit world/sludgegloopsmall	2
+	$limit world/lavasizzle			1
+	$limit world/lavsiz2			1
+	$limit world/lavasizzlesmall	2
+
+
+//------------------------------------------
+
+// Monster: Guardian Cube
+
+	monster/cubsit					dscubsit
+	weapons/bounc1					dsbounc1
+	monster/cubfly					dscubfly
+	monster/cubdth 					dscubdth
+	weapons/firsfi 					dsfirsfi
+	weapons/maceex 					dsmaceex
+
+// Monster: Umynobus
+
+	Hectebus/Sight					DSHECSIT
+	Hectebus/Pain					DSHCPAIN
+	Hectebus/Death					DSHECDTH
+	Hectebus/Active					DSHECACT
+	$Random hectebus/attack			{ HectAtk1 HectAtk2 }
+	HectAtk1						DSHECATK
+	HectAtk2						DSHCATK2
+	$Random hectebus/step 			{ HectStp1 HectStp2 HectStp3 HectStp4 HectStp5 }
+	HectStp1						DSHECST1
+	HectStp2						DSHECST2
+	HectStp3						DSHECST3
+	HectStp4						DSHECST4
+	HectStp5						DSHECST5
+
+// Monster : Insignificant
+
+	$Random Insignificant/Sight 	{ INSISIG1 INSISIG2 INSISIG3 }
+	INSISIG1						INSISIG1
+	INSISIG2						INSISIG2
+	INSISIG3						INSISIG3
+	INSISIG4						INSISIG4
+	$Random Insignificant/Active 	{ INSIACT1 INSIACT2 INSIACT3 }
+	INSIACT1						INSIACT1
+	INSIACT2						INSIACT2
+	INSIACT3						INSIACT3
+	$Random Insignificant/Attack 	{ INSIATT1 INSIATT2 INSIATT3 }
+	INSIATT1						INSIATT1
+	INSIATT2						INSIATT2
+	INSIATT3						INSIATT3
+	$Random Insignificant/MeleeHit 	{ INSIHIT1 INSIHIT2 }
+	INSIHIT1						INSIHIT1
+	INSIHIT2						INSIHIT2
+	$Random Insignificant/Step 		{ INSISTE1 INSISTE2 INSISTE3 INSISTE4 }
+	INSISTE1						INSISTE1
+	INSISTE2						INSISTE2
+	INSISTE3						INSISTE3
+	INSISTE4						INSISTE4
+	$Random Insignificant/Pain 		{ INSIPAI1 INSIPAI2 INSIPAI3 }
+	INSIPAI1						INSIPAI1
+	INSIPAI2						INSIPAI2
+	INSIPAI3						INSIPAI3
+	$Random Insignificant/Death 	{ INSIDEA1 INSIDEA2 INSIDEA3 }
+	INSIDEA1						INSIDEA1
+	INSIDEA2						INSIDEA2
+	INSIDEA3						INSIDEA3
+	$Random Insignificant/Splat 	{ INSISPL1 INSISPL2 }
+	INSISPL1						INSISPL1
+	INSISPL2						INSISPL2
+
+	$Volume Insignificant/Sight 	0.5
+	$Volume Insignificant/Active 	0.5
+	$Volume Insignificant/Attack 	0.5
+	$Volume Insignificant/MeleeHit 	0.5
+	$Volume Insignificant/Pain 		0.5
+	$Volume Insignificant/Death 	0.5
+	$Volume Insignificant/Splat 	0.5
+	$Volume Insignificant/Step 		0.2
+
+// Monster : Railbot
+
+	DSLSRFIR	DSLSRFIR
+	DSLSRIC1	DSLSRIC1
+	DSLSRIC2	DSLSRIC2
+	DSLSRIC3	DSLSRIC3
+	DSLSRIC4	DSLSRIC4
+	DSRBPAN1	DSRBPAN1
+	DSRBPAN2	DSRBPAN2
+	DSRBPAN3	DSRBPAN3
+	DSRBDIE		DSRBDIE
+	DSRBBEEP	DSRBBEEP
+
+	RailBot/Fire					DSLSRFIR
+	Railbot/Death					DSRBDIE
+	RailBot/Beep					DSRBBEEP
+
+	$random Railbot/Pain			{ DSRBPAN1 DSRBPAN2 DSRBPAN3 }
+	$random Laser/Bounce			{ DSLSRIC1 DSLSRIC2 DSLSRIC3 DSLSRIC4 }
+
+// Steam
+
+	Steam/Loop						STEMLOOP
+	Steam/Fire						STEMFIRE
+
+// Weapon: FireLance
+
+	Weapons/KarasawaHit				KSAWHIT
+	Weapons/KarasawaFly				KSAWFLY
+	Weapons/KarasawaFire			KSAWFIRE
+	Weapons/KarasawaIdle			KSAWIDLE
+	Weapons/KarasawaCharge			KSAWCHRG
+
+	$Limit Weapons/KarasawaFly 		0
+	$Limit Weapons/KarasawaHit		0
+	$Limit Weapons/KarasawaFire    	0
+
+// Weapon: Saiga
+
+	Weapons/SAIGAFIR 				SAIGAFIR
+
+// Projectile: Nail
+
+	Weapons/NailMGFire				NAILFIRE
+	Weapons/NailHit					NAILHIT
+	Weapons/NailHitBleed			NAILHTBD
+	Weapons/NailFlight				NAILFLY
+
+	$Limit Weapons/NailHit			0
+	$Limit Weapons/NailHitBleed		0
+
+/////////////////////
+// RICOCHET SOUNDS //
+/////////////////////
+
+// Richochets
+
+	$random puff/ric 				{ puff/ric1 puff/ric2 puff/ric3 puff/ric4 puff/ric5 puff/ric6 puff/ric7 }
+	puff/ric1 						impact1
+	puff/ric2 						impact2
+	puff/ric3 						impact3
+	puff/ric4 						impact4
+	puff/ric5 						impact5
+	puff/ric6 						impact6
+	puff/ric7 						impact7
+	
+	$Volume puff/ric				1.0
+	//puff/ric1 					dsrich1
+	//puff/ric2 					dsrich2
+	//puff/ric3 					dsrich3
+	//puff/ric4 					dsrich4
+	//puff/ric5 					dsrich5
+	//puff/ric6 					dsrich6
+	//puff/ric7 					dsrich7
+
+// Alternative deaths
+
+	Arachnotron/Death2				ATRNDTH2
+
+// Flares
+
+	Flare/Light						FLARLITE
+	Flare/Loop						FLARLOOP
+
+	$Volume Flare/Light 			0.5
+	$Volume Flare/Loop				0.5
+	$Limit Flare/Loop				5
+
+// Fire
+
+	SFX/FireStart					FIRESTRT
+	SFX/FireLoop1					FIRELOP1
+	SFX/FireLoop2					FIRELOP2
+	SFX/FireLoop3					FIRELOP3
+	SFX/FireDie						FIREDIE
+
+	$Limit SFX/FireStart			0
+	$Limit SFX/FireLoop				0
+	$Limit SFX/FireDie				0
+
+// SentryGun
+
+	Sentry/Active					DSBEEPR
+	Sentry/Death					DSSENTDI
+	Sentry/Attack					DSFATK
+	$limit Sentry/Attack			0
+
+// Ambient sounds--------------------------------------------------------
+
+	basic/basicgenerator			AMGENOIS
+	generator/compressgenerator		AMCOMPGE
+	ambient/dark					DSAMB
+
+	$ambient 1 basic/basicgenerator				point			continuous 0.2
+	$ambient 2 generator/compressgenerator		point 2.0		continuous 0.2
+	$ambient 3 ambient/dark						world			continuous 0.5
+
+// Glasspack--------------------------------------------------------
+
+	tubes/break						TSTTB
+
+// HeavyRifle ----------------------------------------------------------
+
+	weapons/riflefre				dshvyrfl
+	weapons/rifleup					dsriflup
+
+// Model 1887---------------------------------------------------------
+
+	Weapons/MSSFIR					DSNSFIR //MSSFIR
+
+// ScatterPistol-------------------------------------------------------
+
+	SPRPSHOT						SPRPSHOT
+	$Limit SPRPSHOT					0
+
+	SPRPIMPT						SPRPIMPT
+	$Limit SPRPIMPT					0
+
+	NDLSHOT							NDLSHOT
+	$Limit NDLSHOT					0
+
+// MachineRifle-------------------------------------------------------
+
+	weapons/Machinegun	     	   SAIGAFIR
+
+// Colt45-------------------------------------------------------
+
+	Weapon/COLTFIRE					COLTFIRE
+
+// Drone-------------------------------------------------------
+
+	weapon/lightningfire			lite2
+	weapon/lightningcontinuous		gntpow
+	weapon/lightningready			wepele2
+	weapon/lightningzap				gntact1
+
+// Blooddemon-----------------------------------------------------------
+
+	blooddemon/sight				DSBLDSIT
+	blooddemon/pain					DSBLDPAI
+	blooddemon/death				DSBLDDTH
+	blooddemon/active				DSBLDACT
+	blooddemon/melee				DSBLDATK
+	blooddemon/walk					DSBLDWAL
+
+// Cacodemonking------------------------------------------------------------
+
+	cacok/comet						COMETPR
+	cacok/cometex					DEEPCHSH
+	cacok/sight						DSCAKSIT
+
+// Interactions------------------------------------------------------------
+
+	interaction/paper				XTYL33_P
+
+// DoomPlayer-------------------------------------------------------------
+
+//===========================================================================
+//
+// Doom-specific player sounds
+//
+//===========================================================================
+
+$playersound	player	male	*death		dspldeth
+$playersound	player	male	*xdeath		dspdiehi
+$playersound	player	male	*gibbed		dsslop
+$playersound	player	male	*pain100	dsplpain
+$playersounddup	player	male	*pain75		*pain100
+$playersounddup	player	male	*pain50		*pain100
+$playersounddup	player	male	*pain25		*pain100
+$playersound	player	male	*grunt		dsoof
+$playersounddup	player	male	*land		*grunt
+$playersound	player	male	*jump		dsjump
+$playersound	player	male	*fist		dspunch
+$playersound	player	male	*usefail	dsnoway
+$playersound	player	male	*falling	MGFALL
+$playersound	player	male	*splat		FALLHIT
+
+$playersound	player	female	*death		dsfldeth
+$playersound	player	female	*xdeath		dsfdiehi
+$playersound	player	female	*gibbed		dsslop
+$playersound	player	female	*pain100	dsflpain
+$playersounddup	player	female	*pain75		*pain100
+$playersounddup	player	female	*pain50		*pain100
+$playersounddup	player	female	*pain25		*pain100
+$playersound	player	female	*grunt		dsfoof
+$playersounddup	player	female	*land		*grunt
+$playersound	player	female	*jump		dsfjump
+$playersound	player	female	*fist		dspunch
+$playersound	player	female	*usefail	dsfnoway
+$playersound	player	female	*falling	MGFALL
+$playersound	player	female	*splat		FALLHIT
+
+$playersound	player	other	*death		dscldeth
+$playersound	player	other	*xdeath		dscdiehi
+$playersound	player	other	*gibbed		dsslop
+$playersound	player	other	*pain100	dsclpain
+$playersounddup	player	other	*pain75		*pain100
+$playersounddup	player	other	*pain50		*pain100
+$playersounddup	player	other	*pain25		*pain100
+$playersound	player	other	*grunt		dscoof
+$playersounddup	player	other	*land		*grunt
+$playersound	player	other	*jump		dscjump
+$playersound	player	other	*fist		dspunch
+$playersound 	player	other 	*usefail	dscnoway
+$playersound	player	other	*falling	MGFALL
+$playersound	player	other	*splat		FALLHIT

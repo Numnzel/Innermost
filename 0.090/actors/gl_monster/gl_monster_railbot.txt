@@ -1,0 +1,48 @@
+Pointlight RailBotAttack1
+{
+	Color 1.0 0.8 0.5
+	Size 20
+}
+
+Pointlight RailBotAttack2
+{
+	Color 1.0 0.8 0.5
+	Size 25
+}
+
+Object RailBot
+{
+	Frame AGUNB { Light RailBotAttack1 }
+	Frame AGUNC { Light RailBotAttack2 }
+}
+
+flickerlight BOTBOOM_X1
+{
+    color 1.0 0.7 0.0
+    size 48
+    secondarySize 54
+    chance 0.3
+}
+
+flickerlight BOTBOOM_X2
+{
+    color 0.5 0.1 0.0
+    size 60
+    secondarySize 66
+    chance 0.3
+}
+
+flickerlight BOTBOOM_X3
+{
+    color 0.3 0.0 0.0
+    size 72
+    secondarySize 78
+    chance 0.3
+}
+
+object RailBotBoom
+{
+    Frame MISLB { Light BOTBOOM_X1 }
+    Frame MISLC { Light BOTBOOM_X2 }
+    Frame MISLD { Light BOTBOOM_X3 }
+}

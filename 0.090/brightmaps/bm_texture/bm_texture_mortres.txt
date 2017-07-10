@@ -1,0 +1,30 @@
+// Mortres textures Brightmaps (Made by Numnzel)
+
+
+brightmap texture NTLTBL01 { map "brightmaps/bm_texture/bm_tex_mortres/NTLTGY01.png" }
+brightmap texture NTLTGN01 { map "brightmaps/bm_texture/bm_tex_mortres/NTLTGY01.png" }
+brightmap texture NTLTGY01 { map "brightmaps/bm_texture/bm_tex_mortres/NTLTGY01.png" }
+brightmap texture NTLTOR01 { map "brightmaps/bm_texture/bm_tex_mortres/NTLTGY01.png" }
+brightmap texture NTLTRD01 { map "brightmaps/bm_texture/bm_tex_mortres/NTLTGY01.png" }
+brightmap texture NTLTYL01 { map "brightmaps/bm_texture/bm_tex_mortres/NTLTGY01.png" }
+
+brightmap texture NTLTBL02 { map "brightmaps/bm_texture/bm_tex_mortres/NTLTGY02.png" }
+brightmap texture NTLTGN02 { map "brightmaps/bm_texture/bm_tex_mortres/NTLTGY02.png" }
+brightmap texture NTLTGY02 { map "brightmaps/bm_texture/bm_tex_mortres/NTLTGY02.png" }
+brightmap texture NTLTOR02 { map "brightmaps/bm_texture/bm_tex_mortres/NTLTGY02.png" }
+brightmap texture NTLTRD02 { map "brightmaps/bm_texture/bm_tex_mortres/NTLTGY02.png" }
+brightmap texture NTLTYL02 { map "brightmaps/bm_texture/bm_tex_mortres/NTLTGY02.png" }
+
+brightmap texture NTLTBL03 { map "brightmaps/bm_texture/bm_tex_mortres/NTLTGY03.png" }
+brightmap texture NTLTGN03 { map "brightmaps/bm_texture/bm_tex_mortres/NTLTGY03.png" }
+brightmap texture NTLTGY03 { map "brightmaps/bm_texture/bm_tex_mortres/NTLTGY03.png" }
+brightmap texture NTLTOR03 { map "brightmaps/bm_texture/bm_tex_mortres/NTLTGY03.png" }
+brightmap texture NTLTRD03 { map "brightmaps/bm_texture/bm_tex_mortres/NTLTGY03.png" }
+brightmap texture NTLTYL03 { map "brightmaps/bm_texture/bm_tex_mortres/NTLTGY03.png" }
+
+brightmap texture NTLTBL04 { map "brightmaps/bm_texture/bm_tex_mortres/NTLTGY04.png" }
+brightmap texture NTLTGN04 { map "brightmaps/bm_texture/bm_tex_mortres/NTLTGY04.png" }
+brightmap texture NTLTGY04 { map "brightmaps/bm_texture/bm_tex_mortres/NTLTGY04.png" }
+brightmap texture NTLTOR04 { map "brightmaps/bm_texture/bm_tex_mortres/NTLTGY04.png" }
+brightmap texture NTLTRD04 { map "brightmaps/bm_texture/bm_tex_mortres/NTLTGY04.png" }
+brightmap texture NTLTYL04 { map "brightmaps/bm_texture/bm_tex_mortres/NTLTGY04.png" }

@@ -1,0 +1,7 @@
+#include "brightmaps/bm_item/bm_item_maxhealthsynthesizer.txt"
+#include "brightmaps/bm_item/bm_item_healthsynthesizer.txt"
+
+
+
+
+

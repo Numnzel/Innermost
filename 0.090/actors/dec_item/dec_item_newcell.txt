@@ -1,0 +1,24 @@
+ACTOR NewCells : Ammo 15079 {
+	
+	//$NotAngled
+	//$Category Decorate/Ammo
+	//$Title "Energy cell"
+	
+	Height 12
+	Radius 9
+	
+	Inventory.PickupMessage "Cells +20" // "Picked up an energy cell."
+	Inventory.Amount 20
+	Inventory.MaxAmount 300
+	Inventory.Icon "CELLA0"
+	
+	Ammo.BackpackAmount 20
+	Ammo.BackpackMaxAmount 600
+	
+	States {
+	
+		Spawn:
+			CELL A -1
+			Stop
+	}
+}

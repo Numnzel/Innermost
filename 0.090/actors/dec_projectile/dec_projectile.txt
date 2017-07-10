@@ -1,0 +1,10 @@
+#include "actors/dec_projectile/dec_projectile_aplasmaball_mod.txt"
+#include "actors/dec_projectile/dec_projectile_bulletpuff_mod.txt"
+#include "actors/dec_projectile/dec_projectile_plasmaball_mod.txt"
+#include "actors/dec_projectile/dec_projectile_rocket_mod.txt"
+#include "actors/dec_projectile/dec_projectile_heavybulletpuff.txt"
+#include "actors/dec_projectile/dec_projectile_soulcry.txt"
+#include "actors/dec_projectile/dec_projectile_nail.txt"
+
+
+

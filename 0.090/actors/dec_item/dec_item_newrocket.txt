@@ -1,0 +1,24 @@
+ACTOR NewRocketAmmo : Ammo 15081 {
+	
+	//$NotAngled
+	//$Category Decorate/Ammo
+	//$Title "Rocket ammo"
+	
+	Height 27
+	Radius 6
+	
+	Inventory.PickupMessage "Rockets +1" // "Picked up a rocket."
+	Inventory.Amount 1
+	Inventory.MaxAmount 40
+	Inventory.Icon "ROCKA0"
+	
+	Ammo.BackpackAmount 1
+	Ammo.BackpackMaxAmount 80
+	
+	States {
+	
+		Spawn:
+			ROCK A -1
+			Stop
+	}
+}

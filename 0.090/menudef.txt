@@ -1,0 +1,30 @@
+DEFAULTLISTMENU
+{
+	Font "CONFONT", "Pink"
+	IfGame(Doom, Chex)
+	{
+		Selector "M_SKULL1", -32, -5
+		Linespacing 16
+		Font "CONFONT", "Red"
+	}
+	IfGame(Strife)
+	{
+		Selector "M_CURS1", -28, -5
+		Linespacing 19
+	}
+	IfGame(Heretic, Hexen)
+	{
+		Selector "M_SLCTR1", -28, -1
+		Linespacing 20
+	}
+}
+
+OptionMenuSettings
+{
+	// These can be overridden if a different menu fonts requires it.
+	Linespacing 14
+	IfGame(Heretic, Hexen)
+	{
+		Linespacing 9
+	}
+}

@@ -1,0 +1,18 @@
+#include "actors/dec_item/dec_item_combatpack.txt"
+#include "actors/dec_item/dec_item_healthsynthesizer.txt"
+#include "actors/dec_item/dec_item_maxhealthsynthesizer.txt"
+#include "actors/dec_item/dec_item_newhealthbonus.txt"
+#include "actors/dec_item/dec_item_newarmorbonus.txt"
+#include "actors/dec_item/dec_item_pda.txt"
+#include "actors/dec_item/dec_item_heavyclip.txt"
+#include "actors/dec_item/dec_item_newclip.txt"
+#include "actors/dec_item/dec_item_newclipbox.txt"
+#include "actors/dec_item/dec_item_newrocket.txt"
+#include "actors/dec_item/dec_item_newrocketbox.txt"
+#include "actors/dec_item/dec_item_newcell.txt"
+#include "actors/dec_item/dec_item_newcellpack.txt"
+#include "actors/dec_item/dec_item_newshells.txt"
+#include "actors/dec_item/dec_item_newshellbox.txt"
+#include "actors/dec_item/dec_item_ammo_electromagnetic.txt"
+
+

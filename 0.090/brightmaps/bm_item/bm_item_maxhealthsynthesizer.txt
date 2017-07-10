@@ -1,0 +1,37 @@
+// Max health synthesizer
+
+brightmap sprite MHSYA0 { map "brightmaps/bm_item/bm_item_maxhealthsynthesizer/HESBA0.png" disablefullbright }
+brightmap sprite MHSYB0 { map "brightmaps/bm_item/bm_item_maxhealthsynthesizer/HESBB0.png" disablefullbright }
+brightmap sprite MHSYC0 { map "brightmaps/bm_item/bm_item_maxhealthsynthesizer/HESBC0.png" disablefullbright }
+brightmap sprite MHSYD0 { map "brightmaps/bm_item/bm_item_maxhealthsynthesizer/HESBD0.png" disablefullbright }
+brightmap sprite MHSYE0 { map "brightmaps/bm_item/bm_item_maxhealthsynthesizer/HESBE0.png" disablefullbright }
+brightmap sprite MHSYF0 { map "brightmaps/bm_item/bm_item_maxhealthsynthesizer/HESBF0.png" disablefullbright }
+brightmap sprite MHSYG0 { map "brightmaps/bm_item/bm_item_maxhealthsynthesizer/HESBG0.png" disablefullbright }
+brightmap sprite MHSYH0 { map "brightmaps/bm_item/bm_item_maxhealthsynthesizer/HESBH0.png" disablefullbright }
+brightmap sprite MHSYI0 { map "brightmaps/bm_item/bm_item_maxhealthsynthesizer/HESBI0.png" disablefullbright }
+brightmap sprite MHSYJ0 { map "brightmaps/bm_item/bm_item_maxhealthsynthesizer/HESBJ0.png" disablefullbright }
+brightmap sprite MHSYK0 { map "brightmaps/bm_item/bm_item_maxhealthsynthesizer/HESBK0.png" disablefullbright }
+brightmap sprite MHSYL0 { map "brightmaps/bm_item/bm_item_maxhealthsynthesizer/HESBL0.png" disablefullbright }
+brightmap sprite MHSYM0 { map "brightmaps/bm_item/bm_item_maxhealthsynthesizer/HESBM0.png" disablefullbright }
+brightmap sprite MHSYN0 { map "brightmaps/bm_item/bm_item_maxhealthsynthesizer/HESBN0.png" disablefullbright }
+brightmap sprite MHSYO0 { map "brightmaps/bm_item/bm_item_maxhealthsynthesizer/HESBO0.png" disablefullbright }
+brightmap sprite MHSYP0 { map "brightmaps/bm_item/bm_item_maxhealthsynthesizer/HESBP0.png" disablefullbright }
+brightmap sprite MHSYQ0 { map "brightmaps/bm_item/bm_item_maxhealthsynthesizer/HESBQ0.png" disablefullbright }
+brightmap sprite MHSYR0 { map "brightmaps/bm_item/bm_item_maxhealthsynthesizer/HESBR0.png" disablefullbright }
+brightmap sprite MHSYS0 { map "brightmaps/bm_item/bm_item_maxhealthsynthesizer/HESBS0.png" disablefullbright }
+brightmap sprite MHSYT0 { map "brightmaps/bm_item/bm_item_maxhealthsynthesizer/HESBT0.png" disablefullbright }
+brightmap sprite MHSYU0 { map "brightmaps/bm_item/bm_item_maxhealthsynthesizer/HESBU0.png" disablefullbright }
+brightmap sprite MHSYV0 { map "brightmaps/bm_item/bm_item_maxhealthsynthesizer/HESBV0.png" disablefullbright }
+brightmap sprite MHSYW0 { map "brightmaps/bm_item/bm_item_maxhealthsynthesizer/HESBW0.png" disablefullbright }
+brightmap sprite MHSYX0 { map "brightmaps/bm_item/bm_item_maxhealthsynthesizer/HESBX0.png" disablefullbright }
+brightmap sprite MHSYY0 { map "brightmaps/bm_item/bm_item_maxhealthsynthesizer/HESBY0.png" disablefullbright }
+brightmap sprite MHSYZ0 { map "brightmaps/bm_item/bm_item_maxhealthsynthesizer/HESBZ0.png" disablefullbright }
+brightmap sprite MHZYA0 { map "brightmaps/bm_item/bm_item_maxhealthsynthesizer/HEZBA0.png" disablefullbright }
+brightmap sprite MHZYB0 { map "brightmaps/bm_item/bm_item_maxhealthsynthesizer/HEZBB0.png" disablefullbright }
+
+
+
+
+
+
+

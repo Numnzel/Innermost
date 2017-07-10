@@ -1,0 +1,123 @@
+
+///////////////////////////////////////
+// LASER BEAMS for FORCEFIELDS ////////
+// for REALM667 	       ////////
+// by Tormentor667 	       ////////
+///////////////////////////////////////
+
+Actor BaseLaser_H
+{
+ -SOLID
+ +THRUACTORS
+ +MISSILE
+ +NOGRAVITY
+ +FORCEXYBILLBOARD
+ Radius 2
+ Height 2
+ RenderStyle Add
+ Alpha 1.0
+ YScale 0.2
+ XScale 0.6
+ States
+ {
+  Spawn:
+   LBFX A 1 Bright 
+   Loop
+  Death: 
+   LBFX A 1 Bright A_FadeOut(0.2)
+   Loop
+ }
+}
+
+Actor BaseLaser_V : BaseLaser_H
+{
+ YScale 0.6
+ XScale 0.2
+ +FORCEXYBILLBOARD 
+}
+
+actor LaserBeam_Green_Horizontal 291
+{
+    //$Category Decorate/SFX/Laser beams
+	//$Title "Green laser beam (Horizontal)"
+	+NoBlockMap +NoGravity +NoSector +NoInteraction +NoClip -Solid +CLIENTSIDEONLY
+        states
+        {
+        Spawn:
+           Active:
+        	TNT1 A 0 
+        	TNT1 A 1 A_SpawnItemEx ("BaseLaser_H", 0, 0, 0, 4, 0, 0, 0, 129, 0) 
+        	Loop
+           Inactive:
+		TNT1 A 1
+		Loop
+        }     
+        
+}
+
+actor LaserBeam_Blue_Horizontal : LaserBeam_Green_Horizontal 292
+{
+	//$Title "Blue laser beam (Horizontal)"
+	translation "112:127=196:207"
+}
+
+actor LaserBeam_White_Horizontal : LaserBeam_Green_Horizontal 293
+{
+	//$Title "White laser beam (Horizontal)"
+	translation "112:127=80:111"
+}
+
+actor LaserBeam_Red_Horizontal : LaserBeam_Green_Horizontal 294
+{
+	//$Title "Red laser beam (Horizontal)"
+	translation "112:127=176:191"
+}
+
+actor LaserBeam_Orange_Horizontal : LaserBeam_Green_Horizontal 295
+{
+	//$Title "Orange laser beam (Horizontal)"
+	translation "112:127=214:223"
+}
+
+actor LaserBeam_Green_Vertical 281
+{
+    //$Category Decorate/SFX/Laser beams
+	//$Title "Green laser beam (Vertical)"
+	+NoBlockMap +NoGravity +NoSector +NoInteraction +NoClip -Solid +CLIENTSIDEONLY
+        states
+        {
+        Spawn:
+           Active:
+        	TNT1 A 0 
+        	TNT1 A 1 A_SpawnItemEx ("BaseLaser_V", 0, 0, 0, 0, 0, 4, 0, 129, 0) 
+        	Loop
+           Inactive:
+		TNT1 A 1
+		Loop
+        }     
+        
+}
+
+actor LaserBeam_Blue_Vertical : LaserBeam_Green_Vertical 282
+{
+	//$Title "Blue laser beam (Vertical)"
+	translation "112:127=196:207"
+}
+
+actor LaserBeam_White_Vertical : LaserBeam_Green_Vertical 283
+{
+	//$Title "White laser beam (Vertical)"
+	translation "112:127=80:111"
+}
+
+actor LaserBeam_Red_Vertical : LaserBeam_Green_Vertical 284
+{
+	//$Title "Red laser beam (Vertical)"
+	translation "112:127=176:191"
+}
+
+actor LaserBeam_Orange_Vertical : LaserBeam_Green_Vertical 285
+{
+	//$Title "Orange laser beam (Vertical)"
+	translation "112:127=214:223"
+}

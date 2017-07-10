@@ -1,0 +1,25 @@
+Actor HealthSynthesizer : Health 15091 {
+	
+	//$NotAngled
+	//$Category Decorate/Items
+	//$Title "Health synthesizer"
+	
+	Height 28
+	Radius 14
+	
+	Inventory.PickupMessage "Picked up a health synthesizer."
+	Inventory.PickupSound "misc/i_pkup"
+	Inventory.Amount 10000
+	Scale 0.8
+	
+	+COUNTITEM
+	
+	States {
+		
+		Spawn:
+			HESY ABCDEFGHIJKLMNOPQRSTUVWXYZ 2 bright
+			HEZY AB 2 bright
+			Loop
+	}
+}
+

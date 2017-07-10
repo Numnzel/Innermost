@@ -1,0 +1,15 @@
+// DrDoctor textures Brightmaps (Made by Numnzel)
+
+brightmap texture DRSWC03A { map "brightmaps/bm_texture/bm_tex_drdr/DRSWC03A.png" }
+brightmap texture DRSWC03B { map "brightmaps/bm_texture/bm_tex_drdr/DRSWC03B.png" }
+
+brightmap texture DRSILV20 { map "brightmaps/bm_texture/bm_tex_drdr/DRSILV20.png" }
+
+brightmap texture DRSILV01 { map "brightmaps/bm_texture/bm_tex_drdr/DRSILV01.png" } //unused
+brightmap texture DRSILV02 { map "brightmaps/bm_texture/bm_tex_drdr/DRSILV01.png" } //unused
+brightmap texture DRSILV03 { map "brightmaps/bm_texture/bm_tex_drdr/DRSILV01.png" }
+brightmap texture DRSILV04 { map "brightmaps/bm_texture/bm_tex_drdr/DRSILV01.png" } //unused
+
+brightmap texture DRSWC00A { map "brightmaps/bm_texture/bm_tex_drdr/DRSWC00A.png" }
+
+brightmap texture DRSWC00B { map "brightmaps/bm_texture/bm_tex_drdr/DRSWC00B.png" }

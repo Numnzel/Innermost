@@ -1,0 +1,7 @@
+#include "actors/dec_inventory/dec_inventory_bitcoins.txt"
+#include "actors/dec_inventory/dec_inventory_flares.txt"
+#include "actors/dec_inventory/dec_inventory_medipack.txt"
+#include "actors/dec_inventory/dec_inventory_sentrybox.txt"
+#include "actors/dec_inventory/dec_inventory_soulcrybox.txt"
+#include "actors/dec_inventory/dec_inventory_electronicdev.txt"
+#include "actors/dec_inventory/dec_inventory_hearthattack.txt"

@@ -1,0 +1,19 @@
+ACTOR NewShellBox : NewShells 15084 {
+	
+	//$NotAngled
+	//$Category Decorate/Ammo
+	//$Title "Box of Shells"
+	
+	Height 12
+	Radius 16
+	
+	Inventory.PickupMessage "Shells +20" // "Picked up a box of shotgun shells."
+	Inventory.Amount 20
+	
+	States {
+	
+		Spawn:
+			SBOX A -1
+			Stop
+	}
+}

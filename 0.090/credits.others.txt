@@ -1,0 +1,25 @@
+
+
+/* ====== FONTS ======
+
+
+ - Modern LCD 7 (HUD Font)
+	Author: Style-7
+ 
+ - Mecha (Console font)
+	Author: Captain Falcon
+
+*/
+
+/* ====== SPECIAL LUMPS ======
+
+
+ - Doom Game Lights (GL_DOOM lump code) imported from Stronghold : Edge Of Chaos and modified
+
+ - Doom Game Brightmaps (SBrightmaps) made by Z86
+
+*/
+
+
+
+

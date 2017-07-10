@@ -1,0 +1,33 @@
+// Cacodemon
+
+brightmap sprite HEADA1 { map "brightmaps/bm_monster/bm_monster_cacodemon/HEADA1.png" disablefullbright }
+brightmap sprite HEADA2A8 { map "brightmaps/bm_monster/bm_monster_cacodemon/HEADA2A8.png" disablefullbright }
+brightmap sprite HEADA3A7 { map "brightmaps/bm_monster/bm_monster_cacodemon/HEADA3A7.png" disablefullbright }
+
+brightmap sprite HEADB1 { map "brightmaps/bm_monster/bm_monster_cacodemon/HEADB1.png" disablefullbright }
+brightmap sprite HEADB2B8 { map "brightmaps/bm_monster/bm_monster_cacodemon/HEADB2B8.png" disablefullbright }
+brightmap sprite HEADB3B7 { map "brightmaps/bm_monster/bm_monster_cacodemon/HEADB3B7.png" disablefullbright }
+brightmap sprite HEADB4B6 { map "brightmaps/bm_monster/bm_monster_cacodemon/HEADB4B6.png" disablefullbright }
+brightmap sprite HEADB5 { map "brightmaps/bm_monster/bm_monster_cacodemon/HEADB5.png" disablefullbright }
+
+brightmap sprite HEADC1 { map "brightmaps/bm_monster/bm_monster_cacodemon/HEADC1.png" disablefullbright }
+brightmap sprite HEADC2C8 { map "brightmaps/bm_monster/bm_monster_cacodemon/HEADC2C8.png" disablefullbright }
+brightmap sprite HEADC3C7 { map "brightmaps/bm_monster/bm_monster_cacodemon/HEADC3C7.png" disablefullbright }
+brightmap sprite HEADC4C6 { map "brightmaps/bm_monster/bm_monster_cacodemon/HEADC4C6.png" disablefullbright }
+brightmap sprite HEADC5 { map "brightmaps/bm_monster/bm_monster_cacodemon/HEADC5.png" disablefullbright }
+
+brightmap sprite HEADD1 { map "brightmaps/bm_monster/bm_monster_cacodemon/HEADD1.png" disablefullbright }
+brightmap sprite HEADD2D8 { map "brightmaps/bm_monster/bm_monster_cacodemon/HEADD2D8.png" disablefullbright }
+brightmap sprite HEADD3D7 { map "brightmaps/bm_monster/bm_monster_cacodemon/HEADD3D7.png" disablefullbright }
+brightmap sprite HEADD4D6 { map "brightmaps/bm_monster/bm_monster_cacodemon/HEADD4D6.png" disablefullbright }
+brightmap sprite HEADD5 { map "brightmaps/bm_monster/bm_monster_cacodemon/HEADD5.png" disablefullbright }
+
+brightmap sprite HEADE1 { map "brightmaps/bm_monster/bm_monster_cacodemon/HEADE1.png" disablefullbright }
+brightmap sprite HEADE2E8 { map "brightmaps/bm_monster/bm_monster_cacodemon/HEADE2E8.png" disablefullbright }
+brightmap sprite HEADE3E7 { map "brightmaps/bm_monster/bm_monster_cacodemon/HEADE3E7.png" disablefullbright }
+
+brightmap sprite HEADF1 { map "brightmaps/bm_monster/bm_monster_cacodemon/HEADF1.png" disablefullbright }
+brightmap sprite HEADF2F8 { map "brightmaps/bm_monster/bm_monster_cacodemon/HEADF2F8.png" disablefullbright }
+brightmap sprite HEADF3F7 { map "brightmaps/bm_monster/bm_monster_cacodemon/HEADF3F7.png" disablefullbright }
+
+brightmap sprite HEADG0 { map "brightmaps/bm_monster/bm_monster_cacodemon/HEADG0.png" disablefullbright }

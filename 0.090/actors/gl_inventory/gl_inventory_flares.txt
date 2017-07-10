@@ -1,0 +1,25 @@
+FlickerLight FlareMax
+{
+    Color 1.0 0.3 0.3
+    Size 152
+    SecondarySize 150
+    Chance 0.05
+    Offset 0 16 0
+}
+
+FlickerLight Flare
+{
+    Color 1.0 0.3 0.3
+    Size 52
+    SecondarySize 50
+    Chance 0.05
+    Offset 0 16 0
+}
+
+Object ActiveFlare
+{
+    frame FLARA { light FlareMax }
+	frame FLARB { light FlareMax }
+	frame FLARE { light Flare }
+    frame FLARF { light Flare }
+}

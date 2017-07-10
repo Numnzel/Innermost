@@ -1,0 +1,13 @@
+#include "actors/gl_projectile/gl_projectile_arachnotronplasmaball.txt"
+#include "actors/gl_projectile/gl_projectile_baronball.txt"
+#include "actors/gl_projectile/gl_projectile_bfg9000plasmaball.txt"
+#include "actors/gl_projectile/gl_projectile_bulletpuff.txt"
+#include "actors/gl_projectile/gl_projectile_cacodemonball.txt"
+#include "actors/gl_projectile/gl_projectile_cacodemonkingflare.txt"
+#include "actors/gl_projectile/gl_projectile_plasmaball.txt"
+#include "actors/gl_projectile/gl_projectile_revenanttracer.txt"
+#include "actors/gl_projectile/gl_projectile_rocket.txt"
+#include "actors/gl_projectile/gl_projectile_cacolanternball.txt"
+#include "actors/gl_projectile/gl_projectile_doomimpball.txt"
+#include "actors/gl_projectile/gl_projectile_mancubusfireball.txt" //uses doomimpball declarations
+#include "actors/gl_projectile/gl_projectile_archvilefire.txt"

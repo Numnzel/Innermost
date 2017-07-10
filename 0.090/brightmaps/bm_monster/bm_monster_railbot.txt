@@ -1,0 +1,21 @@
+// Railbot
+
+brightmap sprite AGUNA1 { map "brightmaps/bm_monster/bm_monster_railbot/AGUBA1.png" disablefullbright }
+brightmap sprite AGUNA4A6 { map "brightmaps/bm_monster/bm_monster_railbot/AGUBA6A4.png" disablefullbright }
+brightmap sprite AGUNA7A3 { map "brightmaps/bm_monster/bm_monster_railbot/AGUBA7A3.png" disablefullbright }
+brightmap sprite AGUNA8A2 { map "brightmaps/bm_monster/bm_monster_railbot/AGUBA8A2.png" disablefullbright }
+brightmap sprite AGUNA5 { map "brightmaps/bm_monster/bm_monster_railbot/AGUBA5.png" disablefullbright }
+
+brightmap sprite AGUNB1 { map "brightmaps/bm_monster/bm_monster_railbot/AGUBB1.png" disablefullbright }
+brightmap sprite AGUNB6B4 { map "brightmaps/bm_monster/bm_monster_railbot/AGUBB6B4.png" disablefullbright }
+brightmap sprite AGUNB7B3 { map "brightmaps/bm_monster/bm_monster_railbot/AGUBB7B3.png" disablefullbright }
+brightmap sprite AGUNB8B2 { map "brightmaps/bm_monster/bm_monster_railbot/AGUBB8B2.png" disablefullbright }
+brightmap sprite AGUNB5 { map "brightmaps/bm_monster/bm_monster_railbot/AGUBB5.png" disablefullbright }
+
+brightmap sprite AGUNC1 { map "brightmaps/bm_monster/bm_monster_railbot/AGUBC1.png" disablefullbright }
+brightmap sprite AGUNC6C4 { map "brightmaps/bm_monster/bm_monster_railbot/AGUBC6C4.png" disablefullbright }
+brightmap sprite AGUNC7C3 { map "brightmaps/bm_monster/bm_monster_railbot/AGUBC7C3.png" disablefullbright }
+brightmap sprite AGUNC8C2 { map "brightmaps/bm_monster/bm_monster_railbot/AGUBC8C2.png" disablefullbright }
+brightmap sprite AGUNC5 { map "brightmaps/bm_monster/bm_monster_railbot/AGUBC5.png" disablefullbright }
+
+brightmap sprite AGUND0 { map "brightmaps/bm_monster/bm_monster_railbot/AGUBD0.png" disablefullbright }

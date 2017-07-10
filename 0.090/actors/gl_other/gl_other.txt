@@ -1,0 +1,4 @@
+#include "actors/gl_other/gl_other_column.txt"
+#include "actors/gl_other/gl_other_explosivebarrel.txt"
+#include "actors/gl_other/gl_other_keys.txt"
+#include "actors/gl_other/gl_other_teleportfog.txt"

@@ -1,0 +1,9 @@
+// Plasma gun
+
+brightmap sprite PLZMA0 { map "brightmaps/bm_weapon/bm_weapon_plasmagun/PLZMA0.png" disablefullbright }
+brightmap sprite PLZMB0 { map "brightmaps/bm_weapon/bm_weapon_plasmagun/PLZMB0.png" disablefullbright }
+brightmap sprite PLZMC0 { map "brightmaps/bm_weapon/bm_weapon_plasmagun/PLZMC0.png" disablefullbright }
+brightmap sprite PLZMD0 { map "brightmaps/bm_weapon/bm_weapon_plasmagun/PLZMD0.png" disablefullbright }
+brightmap sprite PLZME0 { map "brightmaps/bm_weapon/bm_weapon_plasmagun/PLZME0.png" disablefullbright }
+
+

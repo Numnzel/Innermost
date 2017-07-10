@@ -1,0 +1,13 @@
+pointlight TUNNELLAMPV
+{
+    color 0.4 0.2 1.0 // color 1.0 0.9 0.4
+    size 96
+}
+
+pointlight TUNNELLAMPO
+{
+    color 1.0 0.5 0.0 // color 1.0 0.9 0.4
+    size 112
+}
+
+// This object has the lights applied via decorate!

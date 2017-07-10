@@ -1,0 +1,3 @@
+// Electronic Device
+
+brightmap sprite ELDEA0 { map "brightmaps/bm_inventory/bm_inventory_electronicdev/ELECA0.png" disablefullbright }

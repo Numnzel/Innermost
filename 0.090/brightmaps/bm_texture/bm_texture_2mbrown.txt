@@ -1,0 +1,90 @@
+// Too Much Brown textures Brightmaps (Made by Numnzel)
+
+brightmap texture T2CMP01 { map "brightmaps/bm_texture/bm_tex_2mbrown/T2CMP01.png" }
+brightmap texture T2CMP02 { map "brightmaps/bm_texture/bm_tex_2mbrown/T2CMP02.png" }
+brightmap texture T2CMP04 { map "brightmaps/bm_texture/bm_tex_2mbrown/T2CMP04.png" }
+brightmap texture T2CMP05 { map "brightmaps/bm_texture/bm_tex_2mbrown/T2CMP05.png" }
+brightmap texture T2CMP06 { map "brightmaps/bm_texture/bm_tex_2mbrown/T2CMP06.png" }
+brightmap texture T2CMP07 { map "brightmaps/bm_texture/bm_tex_2mbrown/T2CMP07.png" }
+brightmap texture T2CMP08 { map "brightmaps/bm_texture/bm_tex_2mbrown/T2CMP08.png" }
+brightmap texture T2CMP09 { map "brightmaps/bm_texture/bm_tex_2mbrown/T2CMP09.png" }
+brightmap texture T2CMP10 { map "brightmaps/bm_texture/bm_tex_2mbrown/T2CMP10.png" }
+brightmap texture T2CMP11 { map "brightmaps/bm_texture/bm_tex_2mbrown/T2CMP11.png" }
+brightmap texture T2CMP12 { map "brightmaps/bm_texture/bm_tex_2mbrown/T2CMP12.png" }
+brightmap texture T2CMP13 { map "brightmaps/bm_texture/bm_tex_2mbrown/T2CMP13.png" }
+brightmap texture T2CMP14 { map "brightmaps/bm_texture/bm_tex_2mbrown/T2CMP14.png" }
+brightmap texture T2CMP15 { map "brightmaps/bm_texture/bm_tex_2mbrown/T2CMP15.png" }
+
+brightmap texture TLIGWL1A { map "brightmaps/bm_texture/bm_tex_2mbrown/TLIGWL1A.png" }
+brightmap texture TLIGWL1B { map "brightmaps/bm_texture/bm_tex_2mbrown/TLIGWL1B.png" }
+brightmap texture TLIGWL1C { map "brightmaps/bm_texture/bm_tex_2mbrown/TLIGWL1C.png" }
+brightmap texture TLIGWL1D { map "brightmaps/bm_texture/bm_tex_2mbrown/TLIGWL1D.png" }
+brightmap texture TLIGWL1E { map "brightmaps/bm_texture/bm_tex_2mbrown/TLIGWL1E.png" }
+
+brightmap texture TLITWL67 { map "brightmaps/bm_texture/bm_tex_2mbrown/TLITWL67.png" }
+
+brightmap texture TLITWL10 { map "brightmaps/bm_texture/bm_tex_2mbrown/TLITWL10.png" }
+brightmap texture TLITWL16 { map "brightmaps/bm_texture/bm_tex_2mbrown/TLITWL10.png" }
+brightmap texture TLITWL22 { map "brightmaps/bm_texture/bm_tex_2mbrown/TLITWL10.png" }
+
+brightmap texture TLITWL11 { map "brightmaps/bm_texture/bm_tex_2mbrown/TLITWL11.png" }
+brightmap texture TLITWL17 { map "brightmaps/bm_texture/bm_tex_2mbrown/TLITWL11.png" }
+brightmap texture TLITWL23 { map "brightmaps/bm_texture/bm_tex_2mbrown/TLITWL11.png" }
+
+brightmap texture TLITWL12 { map "brightmaps/bm_texture/bm_tex_2mbrown/TLITWL12.png" }
+brightmap texture TLITWL21 { map "brightmaps/bm_texture/bm_tex_2mbrown/TLITWL12.png" }
+brightmap texture TLITWL27 { map "brightmaps/bm_texture/bm_tex_2mbrown/TLITWL12.png" }
+
+brightmap texture TLITWL13 { map "brightmaps/bm_texture/bm_tex_2mbrown/TLITWL13.png" }
+brightmap texture TLITWL20 { map "brightmaps/bm_texture/bm_tex_2mbrown/TLITWL13.png" }
+brightmap texture TLITWL26 { map "brightmaps/bm_texture/bm_tex_2mbrown/TLITWL13.png" }
+
+brightmap texture TLITWL14 { map "brightmaps/bm_texture/bm_tex_2mbrown/TLITWL14.png" }
+brightmap texture TLITWL18 { map "brightmaps/bm_texture/bm_tex_2mbrown/TLITWL14.png" }
+brightmap texture TLITWL24 { map "brightmaps/bm_texture/bm_tex_2mbrown/TLITWL14.png" }
+
+brightmap texture TLITWL15 { map "brightmaps/bm_texture/bm_tex_2mbrown/TLITWL15.png" }
+brightmap texture TLITWL19 { map "brightmaps/bm_texture/bm_tex_2mbrown/TLITWL15.png" }
+brightmap texture TLITWL25 { map "brightmaps/bm_texture/bm_tex_2mbrown/TLITWL15.png" }
+
+brightmap texture TLITWL88 { map "brightmaps/bm_texture/bm_tex_2mbrown/TLITWL88.png" }
+brightmap texture TLITWL90 { map "brightmaps/bm_texture/bm_tex_2mbrown/TLITWL88.png" }
+brightmap texture TLITWL93 { map "brightmaps/bm_texture/bm_tex_2mbrown/TLITWL88.png" }
+
+brightmap texture TLITWL89 { map "brightmaps/bm_texture/bm_tex_2mbrown/TLITWL89.png" }
+brightmap texture TLITWL91 { map "brightmaps/bm_texture/bm_tex_2mbrown/TLITWL89.png" }
+brightmap texture TLITWL94 { map "brightmaps/bm_texture/bm_tex_2mbrown/TLITWL89.png" }
+
+brightmap texture TLITWL51 { map "brightmaps/bm_texture/bm_tex_2mbrown/TLITWL51.png" }
+
+brightmap texture TLITWL55 { map "brightmaps/bm_texture/bm_tex_2mbrown/TLITWL55.png" }
+
+brightmap texture TLITWL56 { map "brightmaps/bm_texture/bm_tex_2mbrown/TLITWL56.png" }
+
+brightmap texture TLITWL58 { map "brightmaps/bm_texture/bm_tex_2mbrown/TLITWL58.png" }
+
+
+brightmap texture T2LITW01 { map "brightmaps/bm_texture/bm_tex_2mbrown/T2LITW01.png" }
+
+brightmap texture T2LITW02 { map "brightmaps/bm_texture/bm_tex_2mbrown/T2LITW02.png" }
+
+brightmap texture T2LITW03 { map "brightmaps/bm_texture/bm_tex_2mbrown/T2LITW03.png" }
+
+brightmap texture T2LITW04 { map "brightmaps/bm_texture/bm_tex_2mbrown/T2LITW04.png" }
+
+brightmap texture T2LITW05 { map "brightmaps/bm_texture/bm_tex_2mbrown/T2LITW05.png" }
+brightmap texture T2LITW06 { map "brightmaps/bm_texture/bm_tex_2mbrown/T2LITW05.png" }
+brightmap texture T2LITW07 { map "brightmaps/bm_texture/bm_tex_2mbrown/T2LITW05.png" }
+
+brightmap texture T2LITW08 { map "brightmaps/bm_texture/bm_tex_2mbrown/T2LITW08.png" }
+brightmap texture T2LITW09 { map "brightmaps/bm_texture/bm_tex_2mbrown/T2LITW08.png" }
+
+brightmap texture T2LITW10 { map "brightmaps/bm_texture/bm_tex_2mbrown/T2LITW10.png" }
+
+brightmap texture T2LITW11 { map "brightmaps/bm_texture/bm_tex_2mbrown/T2LITW11.png" }
+
+brightmap texture T2LITW12 { map "brightmaps/bm_texture/bm_tex_2mbrown/T2LITW12.png" }
+
+brightmap texture T2LITW13 { map "brightmaps/bm_texture/bm_tex_2mbrown/T2LITW13.png" }
+
+brightmap texture T2LITW14 { map "brightmaps/bm_texture/bm_tex_2mbrown/T2LITW14.png" }

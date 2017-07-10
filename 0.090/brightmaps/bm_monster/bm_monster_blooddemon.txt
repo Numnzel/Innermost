@@ -1,0 +1,39 @@
+// Blooddemon
+
+brightmap sprite SRG2A1C1 { map "brightmaps/bm_monster/bm_monster_blooddemon/BMSRG2A1.png" disablefullbright }
+brightmap sprite SRG2A2C8 { map "brightmaps/bm_monster/bm_monster_blooddemon/BMSRG2A2.png" disablefullbright }
+brightmap sprite SRG2A3C7 { map "brightmaps/bm_monster/bm_monster_blooddemon/BMSRG2A3.png" disablefullbright }
+
+brightmap sprite SRG2B1D1 { map "brightmaps/bm_monster/bm_monster_blooddemon/BMSRG2B1.png" disablefullbright }
+brightmap sprite SRG2B2D8 { map "brightmaps/bm_monster/bm_monster_blooddemon/BMSRG2B2.png" disablefullbright }
+brightmap sprite SRG2B3D7 { map "brightmaps/bm_monster/bm_monster_blooddemon/BMSRG2B3.png" disablefullbright }
+
+brightmap sprite SRG2C2A8 { map "brightmaps/bm_monster/bm_monster_blooddemon/BMSRG2C2.png" disablefullbright }
+brightmap sprite SRG2C3A7 { map "brightmaps/bm_monster/bm_monster_blooddemon/BMSRG2C3.png" disablefullbright }
+
+brightmap sprite SRG2D2B8 { map "brightmaps/bm_monster/bm_monster_blooddemon/BMSRG2D2.png" disablefullbright }
+brightmap sprite SRG2D3B7 { map "brightmaps/bm_monster/bm_monster_blooddemon/BMSRG2D3.png" disablefullbright }
+
+brightmap sprite SRG2E1 { map "brightmaps/bm_monster/bm_monster_blooddemon/BMSRG2E1.png" disablefullbright }
+brightmap sprite SRG2E2 { map "brightmaps/bm_monster/bm_monster_blooddemon/BMSRG2E2.png" disablefullbright }
+brightmap sprite SRG2E3 { map "brightmaps/bm_monster/bm_monster_blooddemon/BMSRG2E3.png" disablefullbright }
+brightmap sprite SRG2E7 { map "brightmaps/bm_monster/bm_monster_blooddemon/BMSRG2E7.png" disablefullbright }
+brightmap sprite SRG2E8 { map "brightmaps/bm_monster/bm_monster_blooddemon/BMSRG2E8.png" disablefullbright }
+
+brightmap sprite SRG2F1 { map "brightmaps/bm_monster/bm_monster_blooddemon/BMSRG2F1.png" disablefullbright }
+brightmap sprite SRG2F2 { map "brightmaps/bm_monster/bm_monster_blooddemon/BMSRG2F2.png" disablefullbright }
+brightmap sprite SRG2F3 { map "brightmaps/bm_monster/bm_monster_blooddemon/BMSRG2F3.png" disablefullbright }
+brightmap sprite SRG2F7 { map "brightmaps/bm_monster/bm_monster_blooddemon/BMSRG2F7.png" disablefullbright }
+brightmap sprite SRG2F8 { map "brightmaps/bm_monster/bm_monster_blooddemon/BMSRG2F8.png" disablefullbright }
+
+brightmap sprite SRG2G1 { map "brightmaps/bm_monster/bm_monster_blooddemon/BMSRG2G1.png" disablefullbright }
+brightmap sprite SRG2G2 { map "brightmaps/bm_monster/bm_monster_blooddemon/BMSRG2G2.png" disablefullbright }
+brightmap sprite SRG2G3 { map "brightmaps/bm_monster/bm_monster_blooddemon/BMSRG2G3.png" disablefullbright }
+brightmap sprite SRG2G7 { map "brightmaps/bm_monster/bm_monster_blooddemon/BMSRG2G7.png" disablefullbright }
+brightmap sprite SRG2G8 { map "brightmaps/bm_monster/bm_monster_blooddemon/BMSRG2G8.png" disablefullbright }
+
+brightmap sprite SRG2H1 { map "brightmaps/bm_monster/bm_monster_blooddemon/BMSRG2H1.png" disablefullbright }
+brightmap sprite SRG2H2 { map "brightmaps/bm_monster/bm_monster_blooddemon/BMSRG2H2.png" disablefullbright }
+brightmap sprite SRG2H3 { map "brightmaps/bm_monster/bm_monster_blooddemon/BMSRG2H3.png" disablefullbright }
+brightmap sprite SRG2H4 { map "brightmaps/bm_monster/bm_monster_blooddemon/BMSRG2H4.png" disablefullbright }
+brightmap sprite SRG2H8 { map "brightmaps/bm_monster/bm_monster_blooddemon/BMSRG2H8.png" disablefullbright }

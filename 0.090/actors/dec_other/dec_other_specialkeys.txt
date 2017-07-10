@@ -1,0 +1,29 @@
+Actor SpecialKey01 : DoomKey 15086
+{
+	//$Category Decorate/Keys
+	//$Title "Special key 01"
+	Inventory.Pickupmessage "Picked up a special key AGV-01."
+	Inventory.Icon "SK01Z0"
+	States
+	{
+	Spawn:
+		SK00 A 10
+		SK01 A 10 bright
+		loop
+	}
+}
+
+Actor SpecialKey02 : DoomKey 15087
+{
+	//$Category Decorate/Keys
+	//$Title "Special key 02"
+	Inventory.Pickupmessage "Picked up a special key AGV-02."
+	Inventory.Icon "SK02Z0"
+	States
+	{
+	Spawn:
+		SK00 A 10
+		SK02 A 10 bright
+		loop
+	}
+}

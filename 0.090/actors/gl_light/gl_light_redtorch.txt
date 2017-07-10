@@ -1,0 +1,15 @@
+// Tall red torch
+
+flickerlight2 BIGREDTORCH
+{
+    color 1.0 0.3 0.0
+    size 64
+    secondarySize 72
+    interval 0.1
+    offset 0 60 0
+}
+
+object FXRedTorch
+{
+    frame TRCH { light BIGREDTORCH }
+}

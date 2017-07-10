@@ -1,0 +1,250 @@
+type = "Doom Builder Map Settings Configuration";
+gameconfig = "GZDoom_DoomUDMF.cfg";
+strictpatches = 0;
+
+maps
+{
+	
+	MAP05
+	{
+		scriptcompiler = "zdoom_acs.cfg";
+		defaultfloortexture = "EU016H00";
+		overrideceilheight = false;
+		
+		resources
+		{
+			
+			resource0
+			{
+				type = 1;
+				location = "C:\\Users\\Invernal\\Desktop\\Doom\\UI New\\0.078";
+				option1 = 0;
+				option2 = 0;
+				notfortesting = 0;
+			}
+		}
+		defaulttoptexture = "NTTKGR03";
+		overridemiddletexture = false;
+		viewpositionx = 3883.175f;
+		viewpositiony = -8961.644f;
+		viewscale = 0.5118565f;
+		overridefloortexture = false;
+		customceilheight = 128;
+		customfloorheight = 0;
+		
+		grid
+		{
+			backoffsety = 0;
+			backoffsetx = 0;
+			backscalex = 100;
+			gridsize = 32f;
+			background = "";
+			backsource = 0;
+			backscaley = 100;
+		}
+		defaultceiltexture = "NFMTPN04";
+		overridebrightness = false;
+		uselongtexturenames = false;
+		overridebottomtexture = false;
+		overridefloorheight = false;
+		overridetoptexture = false;
+		custombrightness = 196;
+		overrideceiltexture = false;
+		defaultwalltexture = "NTTKGR03";
+		defaultbottomtexture = "NTTKGR03";
+		
+		scriptlumps
+		{
+			
+			lump
+			{
+				filename = "SCRIPTS";
+				hash = 3469170009;
+				caretposition = 4089;
+				firstvisibleline = 126;
+				activetab = true;
+				foldlevels = "1024:4,12,17,22,31,84,194,215";
+			}
+		}
+		useresourcesinreadonlymode = false;
+		
+		fieldtypes
+		{
+			
+			linedef
+			{
+				locknumber = 0;
+				arg0str = 2;
+			}
+			
+			sidedef
+			{
+				offsetx_mid = 1;
+				offsety_mid = 1;
+				offsetx_bottom = 1;
+				offsety_bottom = 1;
+				offsetx_top = 1;
+				offsety_top = 1;
+			}
+			
+			sector
+			{
+				rotationfloor = 1;
+				xscalefloor = 1;
+				yscalefloor = 1;
+				xpanningfloor = 1;
+				ypanningfloor = 1;
+				xpanningceiling = 1;
+				ypanningceiling = 1;
+				rotationceiling = 1;
+				xscaleceiling = 1;
+				yscaleceiling = 1;
+			}
+			
+			thing
+			{
+				arg0str = 2;
+			}
+		}
+		
+		scriptdocuments
+		{
+			
+			document0
+			{
+				filename = "DIALOGUE";
+				hash = 3588187714;
+				resource;
+				tabtype = 0;
+				scripttype = 18;
+			}
+			
+			document1
+			{
+				filename = "SCRIPTS";
+				hash = 3469170009;
+				resource;
+				tabtype = 0;
+				scripttype = 1;
+				caretposition = 1856;
+				firstvisibleline = 68;
+				activetab = true;
+				foldlevels = "1024:99,117,209,221,230";
+			}
+		}
+	}
+	
+	LVL05
+	{
+		scriptcompiler = "zdoom_acs.cfg";
+		defaultfloortexture = "EU016H00";
+		overrideceilheight = false;
+		
+		resources
+		{
+			
+			resource0
+			{
+				type = 1;
+				location = "C:\\Users\\Invernal\\Desktop\\Doom\\UI New\\0.082";
+				option1 = 0;
+				option2 = 0;
+				notfortesting = 0;
+			}
+		}
+		defaulttoptexture = "NTTKGR03";
+		overridemiddletexture = false;
+		viewpositionx = 3701.874f;
+		viewpositiony = -8933.297f;
+		viewscale = 0.6654161f;
+		overridefloortexture = false;
+		customceilheight = 128;
+		customfloorheight = 0;
+		
+		grid
+		{
+			background = "";
+			backoffsetx = 0;
+			backoffsety = 0;
+			backscalex = 100;
+			backscaley = 100;
+			backsource = 0;
+			gridsize = 32f;
+		}
+		defaultceiltexture = "NFMTPN04";
+		overridebrightness = false;
+		uselongtexturenames = false;
+		useresourcesinreadonlymode = false;
+		overridebottomtexture = false;
+		overridefloorheight = false;
+		overridetoptexture = false;
+		custombrightness = 196;
+		overrideceiltexture = false;
+		defaultwalltexture = "NTTKGR03";
+		defaultbottomtexture = "NTTKGR03";
+		
+		fieldtypes
+		{
+			
+			linedef
+			{
+				locknumber = 0;
+				arg0str = 2;
+			}
+			
+			sidedef
+			{
+				offsetx_mid = 1;
+				offsety_mid = 1;
+				offsetx_bottom = 1;
+				offsety_bottom = 1;
+				offsetx_top = 1;
+				offsety_top = 1;
+			}
+			
+			sector
+			{
+				rotationfloor = 1;
+				xscalefloor = 1;
+				yscalefloor = 1;
+				xpanningfloor = 1;
+				ypanningfloor = 1;
+				xpanningceiling = 1;
+				ypanningceiling = 1;
+				rotationceiling = 1;
+				xscaleceiling = 1;
+				yscaleceiling = 1;
+			}
+			
+			thing
+			{
+				arg0str = 2;
+			}
+		}
+		
+		scriptdocuments
+		{
+			
+			document0
+			{
+				filename = "DIALOGUE";
+				hash = 3588187714;
+				resource;
+				tabtype = 0;
+				scripttype = 18;
+			}
+			
+			document1
+			{
+				filename = "SCRIPTS";
+				hash = 3469170009;
+				resource;
+				tabtype = 0;
+				scripttype = 1;
+				caretposition = 1891;
+				firstvisibleline = 88;
+				activetab = true;
+			}
+		}
+	}
+}

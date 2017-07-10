@@ -1,0 +1,87 @@
+type = "Doom Builder Map Settings Configuration";
+gameconfig = "GZDoom_DoomUDMF.cfg";
+strictpatches = 0;
+
+maps
+{
+	
+	MAP01
+	{
+		scriptcompiler = "zdoom_acs.cfg";
+		defaultfloortexture = "EU016A00";
+		overrideceilheight = false;
+		
+		resources
+		{
+			
+			resource0
+			{
+				type = 1;
+				location = "C:\\Users\\Invernal\\Desktop\\Doom\\UI New\\0.082";
+				option1 = 0;
+				option2 = 0;
+				notfortesting = 0;
+			}
+		}
+		defaulttoptexture = "EU016A00";
+		overridemiddletexture = false;
+		
+		grid
+		{
+			background = "";
+			backoffsetx = 0;
+			backoffsety = 0;
+			backscalex = 100;
+			backscaley = 100;
+			backsource = 0;
+			gridsize = 32f;
+		}
+		overridefloortexture = false;
+		customceilheight = 128;
+		customfloorheight = 0;
+		defaultceiltexture = "EU016A00";
+		overridebrightness = false;
+		overridebottomtexture = false;
+		overridefloorheight = false;
+		overridetoptexture = false;
+		custombrightness = 196;
+		overrideceiltexture = false;
+		defaultwalltexture = "EU016A00";
+		defaultbottomtexture = "EU016A00";
+		uselongtexturenames = false;
+		viewpositionx = 463.5272f;
+		viewpositiony = 229.2875f;
+		viewscale = 0.6654159f;
+		
+		scriptlumps
+		{
+			
+			lump
+			{
+				filename = "SCRIPTS";
+				hash = 3469170009;
+				caretposition = 183;
+				activetab = true;
+			}
+		}
+		useresourcesinreadonlymode = false;
+		
+		fieldtypes
+		{
+			
+			linedef
+			{
+				arg0str = 2;
+			}
+			
+			sidedef
+			{
+				offsetx_bottom = 1;
+				offsety_bottom = 1;
+				offsetx_top = 1;
+				offsety_top = 1;
+				offsetx_mid = 1;
+			}
+		}
+	}
+}

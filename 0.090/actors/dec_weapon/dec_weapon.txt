@@ -1,0 +1,13 @@
+#include "actors/dec_weapon/dec_weapon_firelance.txt"
+#include "actors/dec_weapon/dec_weapon_heavyrifle.txt"
+#include "actors/dec_weapon/dec_weapon_model1887.txt"
+#include "actors/dec_weapon/dec_weapon_plasmagun.txt"
+#include "actors/dec_weapon/dec_weapon_scatterpistol.txt"
+#include "actors/dec_weapon/dec_weapon_machinegun.txt"
+#include "actors/dec_weapon/dec_weapon_colt45.txt"
+#include "actors/dec_weapon/dec_weapon_missilelauncher.txt"
+#include "actors/dec_weapon/dec_weapon_fists_mod.txt"
+#include "actors/dec_weapon/dec_weapon_electronrifle.txt"
+
+
+

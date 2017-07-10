@@ -1,0 +1,86 @@
+[en default]
+
+// MAP03 Buying system
+
+// MAP03 Buying system - Health (0)
+
+L0T1_MEDIKIT = "\n\
+Description:\n\
+\c[DGR]Common health kit, provides a wide variety of tools and drugs capables of healing advanced injuries with great effectiveness.\n\
+\n\
+\cdEffects:\n\
+\ck+25 \ciHealth \c[DGR](up to \ciMaxHealth\c[DGR])";
+
+L0T2_MAXHPSYNTH = "\n\
+Description:\n\
+\c[DGR]Innovative device made by UAC, this device contains an automative mechanism that will assist and monitor you while is applied.\n\
+\c[DGR]It has a top-secret substance that increases your body health capabilities throught DNA manipulation, allowing it to hold a higher\n\
+\c[DGR]quantity of regenerative cells.\n\
+\n\
+\cdEffects:\n\
+\ck+100 % \ciHealth\n\
+\ck+40 \ciMaxHealth \c[DGR](up to 300)";
+
+// MAP03 Buying system - Inventory (1)
+
+L1T1_SENTBOX1 = "\n\
+Description:\n\
+\c[DGR]This box contains a portable UAC Automated turret III, this machine can inflict and resist considerable amounts of damage.\n\
+\c[DGR]Fires a continuous stream of bullets, but fails to focus distant targets. Keep in mind that once it's set-up you will be\n\
+\c[DGR]unable to reallocate it. Be aware of the friendly fire!\n\
+\n\
+\cdEffects: \c[DGR]Spawns an \ciUAC-AT v. III\n\
+\cdStacks up to: \ck2";
+
+// MAP03 Buying system - Weapons (6)
+
+L6T1_SCATTERP = "\n\
+Description:\n\
+\c[DGR]Light weapon that uses common clips to fire bursts of bullets, those projectiles explode and split in all directions causing\n\
+\c[DGR]some kind of splash damage, works great as a pistol replacement and for using that extra clips you don't need.\n\
+\n\
+\cdSecondary attack: \c[DGR]No\n\
+\cdBinding number: \c[DGR]2";
+
+L6T2_SHOTGUN = "\n\
+Description:\n\
+\c[DGR]Classic shotgun. Press the trigger and it will work as expected. Should I say something more?\n\
+\n\
+\cdSecondary attack: \c[DGR]No\n\
+\cdBinding number: \c[DGR]3";
+
+L6T3_MACHINEG = "\n\
+Description:\n\
+\c[DGR]Conventional weapon, works great in almost all fields, although some marines would consider it <not too fast> for their taste.\n\
+\c[DGR]Anyway, the best thing about this machinegun is that it has a really good precision. Feed it with standard clips.\n\
+\n\
+\cdSecondary attack: \c[DGR]No\n\
+\cdBinding number: \c[DGR]4";
+
+// MAP03 Buying system - Weapons (7)
+
+L7T1_HEAVYRIFLE = "\n\
+Description:\n\
+\c[DGR]A heavy rifle that has an almost perfect precision. Can and will break apart every zombie or lower demon you shoot.\n\
+\c[DGR]The bad thing is that it has a firerate of aproximately one shot per second, making it a poor weapon against\n\
+\c[DGR]complicated situations. Uses customized ammo (heavy clips) for firing. Also, you can't install a scope on it.\n\
+\n\
+\cdSecondary attack: \c[DGR]No\n\
+\cdBinding number: \c[DGR]5";
+
+L7T2_RLAUNCHER = "\n\
+Description:\n\
+\c[DGR]One of the most feared weapons. The rocket launcher is a great weapon if you know how to use it.\n\
+\c[DGR]This beast will break everyone and everything it touches nor stands close. Yep, this includes you.\n\
+\n\
+\cdSecondary attack: \c[DGR]No\n\
+\cdBinding number: \c[DGR]5";
+
+L7T3_PLASMAGUN = "\n\
+Description:\n\
+\c[DGR]One of the most advanced weapons made by the UAC scientists ever. It's just almost impossible to improve, being a perfectly\n\
+\c[DGR]balanced weapon that works well in every imaginable scenario. Thought, it should be said, his ammo is valuable and doesn't\n\
+\c[DGR]seem like it cares about when firing.\n\
+\n\
+\cdSecondary attack: \c[DGR]No\n\
+\cdBinding number: \c[DGR]6";

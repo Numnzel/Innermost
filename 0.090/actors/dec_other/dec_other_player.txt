@@ -1,0 +1,28 @@
+
+Actor DoomPlayer2 : DoomPlayer {
+	
+	Health 100
+	// Player.MaxHealth 1
+	DamageFactor Falling, 10.0
+	DamageFactor Crush, 10.0
+	DamageFactor FriendDamage, 0.0
+	Player.ViewHeight 47
+	Player.AttackZOffset 18
+	Player.FallingScreamSpeed 25.0, 50.0
+	Player.StartItem "fakemaxhp", 100
+	Player.StartItem "Fists"
+	// Player.SideMove 1, 0.5
+}
+
+Actor fakemaxhp : Inventory
+{
+	Inventory.Amount 1
+	Inventory.MaxAmount 300
+	Inventory.InterHubAmount 300
+	+INVENTORY.QUIET
+	+INVENTORY.NOSCREENFLASH
+	+INVENTORY.UNDROPPABLE
+	+INVENTORY.UNTOSSABLE
+	+INVENTORY.HUBPOWER
+	+INVENTORY.PERSISTENTPOWER
+}

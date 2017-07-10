@@ -1,0 +1,164 @@
+decal FreezeBlastMelt
+{
+	pic BSMEAR1
+	x-scale 1.1
+	y-scale 1.1
+	shade "DD DD FF"
+	randomflipx
+	animator BloodSmearer
+}
+
+Generator SteamParticle			FreezeBlastMelt
+Generator FakeSteamParticle		FreezeBlastMelt
+
+// Monster : Drone-------------------------------------------------------------
+/*
+
+decal DroneDecal1
+{
+	pic DRFXA1
+	shade "08 08 08"
+	randomflipx
+	randomflipy
+}
+decal DroneDecal2
+{
+	pic DRFXB1
+	shade "08 08 08"
+	randomflipx
+	randomflipy
+}
+decalgroup DroneDecal
+{
+	DroneDecal1        1
+	DroneDecal2        1
+}
+generator DroneShot        DroneDecal
+*/
+
+//HeavyRifle-------------------------------------------------------------
+
+Decal HeavyScorchLower1
+{
+	pic CBALSCR1
+	shade "00 00 00"
+	x-scale 0.2
+	y-scale 0.2
+	randomflipx
+	randomflipy
+}
+
+Decal HeavyScorchLower2
+{
+	pic CBALSCR2
+	shade "00 00 00"
+	x-scale 0.2
+	y-scale 0.2
+	randomflipx
+	randomflipy
+}
+
+DecalGroup HeavyScorchLower
+{
+	HeavyScorchLower1 1
+	HeavyScorchLower2 1
+}
+
+
+
+Decal HeavyScorch1
+{
+	pic CBALSCR1
+	shade "30 30 30"
+	fullbright
+	x-scale 0.4
+	y-scale 0.4
+	animator GoAway
+	lowerdecal HeavyScorchLower
+}
+
+Decal HeavyScorch2
+{
+	pic CBALSCR2
+	shade "30 30 30"
+	fullbright
+	x-scale 0.4
+	y-scale 0.4
+	animator GoAway
+	lowerdecal HeavyScorchLower
+}
+
+DecalGroup HeavyScorch
+{
+	HeavyScorch1 1
+	HeavyScorch2 1
+}
+
+Generator HeavyBulletPuff                   HeavyScorch
+
+//Model 1887-------------------------------------------------------------
+
+Generator Model1887			BulletChip
+
+
+/***** Plasma Rifle Scorches ***********************************************/
+
+decal PlasmaScorchLower1
+{
+   pic PLASMA1
+   shade "00 00 00"
+   x-scale 0.3
+   y-scale 0.3
+   randomflipx
+   randomflipy
+}
+
+decal PlasmaScorch1
+{
+   pic PLSSA0
+   add 1.0
+   fullbright
+   animator GoAway
+   lowerdecal PlasmaScorchLower1
+}
+
+decal PlasmaScorchLower2
+{
+   pic PLASMA2
+   shade "00 00 00"
+   x-scale 0.3
+   y-scale 0.3
+   randomflipx
+   randomflipy
+}
+
+decal PlasmaScorch2
+{
+   pic PLSSB0
+   add 1.0
+   fullbright
+   animator GoAway
+   lowerdecal PlasmaScorchLower2
+}
+
+decalgroup PlasmaScorch
+{
+   PlasmaScorch1   1
+   PlasmaScorch2   1
+}
+
+generator PlasmaBall         PlasmaScorch
+
+
+//Blood decal with id
+
+decalgroup BloodSplat 4
+{
+	BloodSplat1	2
+	BloodSplat2	1
+	BloodSplat3	5
+	BloodSplat4	5
+	BloodSplat5	5
+	BloodSplat6	5
+	BloodSplat7	6
+}

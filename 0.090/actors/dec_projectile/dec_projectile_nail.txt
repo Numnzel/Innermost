@@ -1,0 +1,55 @@
+Actor NailProj {
+	
+	Height 3
+	Radius 2
+	Speed 44
+	Damage (random(1,2)) // 4
+	Scale 0.25
+	
+	SeeSound ""
+	DeathSound ""
+	
+	Projectile
+	+BLOODSPLATTER
+	
+	Decal Bulletchip
+	
+	States {
+		
+		Spawn:
+			NLPJ A 1 NoDelay A_SpawnItemEx("NailBlur", 0, 0, 0, 0.2, 0, 0, 180, 128)
+			NLPJ A 0 A_PlaySound("Weapons/NailFlight")
+			Loop
+		XDeath:
+			NLPJ B 0 A_PlaySound("Weapons/NailHitBleed")
+			Goto Death+1
+		Crash:
+		Death:
+			NLPJ B 0 A_PlaySound("Weapons/NailHit")
+			NLPJ BCDEFG 2
+			Stop
+	}
+}
+
+Actor NailBlur {
+	
+	Height 3
+	Radius 2
+	Damage 0
+	Speed 0.2
+	
+	RenderStyle Translucent
+	Alpha 0.5
+	Scale 0.25
+	
+	+NOGRAVITY
+	+DROPOFF
+	+NOTELEPORT
+	
+	States {
+		
+		Spawn:
+			NLPJ A 1 A_FadeOut(0.4)
+			Loop
+	}
+}

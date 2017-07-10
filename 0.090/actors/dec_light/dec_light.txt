@@ -1,0 +1,5 @@
+#include "actors/dec_light/dec_light_variouslights.txt"
+#include "actors/dec_light/dec_light_lowlamp.txt"
+#include "actors/dec_light/dec_light_lightceiling.txt"
+#include "actors/dec_light/dec_light_tunnellamp.txt"
+

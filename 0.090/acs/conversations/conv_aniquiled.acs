@@ -1,0 +1,216 @@
+#library "conv_aniquiled"
+#include "zcommon.acs"
+#import "..\convlib.acs"
+
+
+
+
+// Aniquiled conversation lines. (Status count) Change to match the quantity of conversation strings of the npc.
+#define AniquiledS 15
+
+// Aniquiled responses. If you want to define more responses, change it. It defines the size of the response array and some other logic.
+#define AniquiledR 30
+
+//states: [0, 29]
+str AniquiledTalks[AniquiledS] = {
+	
+	"Stop. Or I will fire. Who are you?",
+	"Oh. You had come very fast. The commander is not here. Come, I will raise the stairs.",
+	"I was not expecting you to reach the teleport bay. Sincerely not even exit the labs.",
+	
+	"He went to recuperate the blue keycard with the rest of the group. We are trying to take control of this space station, then\nwe could proceed with the rest of the mision.",
+	"That's irrelevant. I'm guarding this place because it's our operational point. Also, it provides us with uac supplies, though we need\nto find credits when we do an expedition",
+	
+	"Look, I'm not here to talk. You want to know more? Then ask commander.",
+	
+	"What do you want now?",
+	
+	"I suggest you to rest and wait. But if you want to... We need to get the yellow key, the last place where it was detected was the control tower.",
+	"No, we have the just amount. We can't risk the operation. And above all I would need to consult commander. If you want a weapon, search it.\nMaybe in the supply depot you may find some weapons, but don't take it for granted.",
+	"",
+	
+	"",
+	"",
+	"",
+	"",
+	""
+};
+
+//responses: [1, 30]
+str AniquiledResponses[AniquiledR] = {
+	
+	"Nothing, bye.",
+	
+	"A paper said someone was waiting me here. I know nothing more.",
+	"I don't remember. I was frozen in a cell when suddenly power went off.",
+	"I awoke inside a criocell. Then I found a paper about coming here.",
+	
+	"Where is your commander? And what are you doing here?",
+	"Who are you? And what's happening here?",
+	
+	"But what exactly are you trying to do here?",
+	"",
+	
+	"What can I do to help?",
+	"I need a better weapon, can't you give me a gun?",
+	"Understood. I will proceed then.",
+	
+	"Okay.",
+	"",
+	"",
+	"",
+	
+	"",
+	"",
+	"",
+	"",
+	"",
+	
+	"",
+	"",
+	"",
+	"",
+	"",
+	
+	"",
+	"",
+	"",
+	"",
+	""
+};
+
+//states: [0, 29] indexes: [0, 7]
+int AniquiledResponsesIndex[AniquiledS][MaxResponses] = {
+	
+	{ 4, 3, 2, 0, 0, 0, 0, 0 },
+	{ 8, 0, 0, 0, 0, 0, 0, 0 },
+	{ 5, 6, 0, 0, 0, 0, 0, 0 },
+	
+	{ 1, 7, 0, 0, 0, 0, 0, 0 },
+	{ 1, 7, 0, 0, 0, 0, 0, 0 },
+	
+	{ 8, 0, 0, 0, 0, 0, 0, 0 },
+	
+	{ 1, 9, 5, 6, 0, 0, 0, 0 },
+	
+	{ 11, 0, 0, 0, 0, 0, 0, 0 },
+	{ 0, 0, 0, 0, 0, 0, 0, 0 },
+	{ 0, 0, 0, 0, 0, 0, 0, 0 },
+	
+	{ 0, 0, 0, 0, 0, 0, 0, 0 },
+	{ 0, 0, 0, 0, 0, 0, 0, 0 },
+	{ 0, 0, 0, 0, 0, 0, 0, 0 },
+	{ 0, 0, 0, 0, 0, 0, 0, 0 },
+	{ 0, 0, 0, 0, 0, 0, 0, 0 }
+	
+};
+
+//states: [0, 29] indexes: [0, 7]
+int AniquiledResponsesStates[AniquiledS][MaxResponses] = {
+	
+	{ 1, 1, 1, 0, 0, 0, 0, 0 },
+	{ 2, 0, 0, 0, 0, 0, 0, 0 },
+	{ 3, 4, 0, 0, 0, 0, 0, 0 },
+	
+	{ 6, 5, 0, 0, 0, 0, 0, 0 },
+	{ 6, 5, 0, 0, 0, 0, 0, 0 },
+	
+	{ 6, 0, 0, 0, 0, 0, 0, 0 },
+	
+	{ 6, 7, 3, 4, 0, 0, 0, 0 },
+	
+	{ 6, 0, 0, 0, 0, 0, 0, 0 },
+	{ 0, 0, 0, 0, 0, 0, 0, 0 },
+	{ 0, 0, 0, 0, 0, 0, 0, 0 },
+	
+	{ 0, 0, 0, 0, 0, 0, 0, 0 },
+	{ 0, 0, 0, 0, 0, 0, 0, 0 },
+	{ 0, 0, 0, 0, 0, 0, 0, 0 },
+	{ 0, 0, 0, 0, 0, 0, 0, 0 },
+	{ 0, 0, 0, 0, 0, 0, 0, 0 }
+	
+};
+
+/* Had to make a new function because thing specials only let me use 3 parameters...
+Even when the function itself lets me to declare about 5 parameters and use them on ACS. */
+
+Function void EditAniquiledResponse (int value, int state, int index) {
+
+	// To edit a value in a specific place you must specify a value, index and state greater than -1 to take effect.
+	if ( (value > -1 && value < AniquiledR) && (index > -1 && index < MaxResponses) && (state > -1 && state < AniquiledS) )
+		AniquiledResponsesIndex[state][index] = value;
+
+}
+
+Function void ReplaceAniquiledResponse (int value, int newvalue) {
+
+	// To replace a value you must specify a value, and new value greater to -1 to take effect.
+	if ( (value > -1 && value < AniquiledR) && (newvalue > -1 && newvalue < AniquiledR) )
+		for (int y = 0; y < AniquiledS; y++)
+			for (int x = 0; x < MaxResponses; x++)
+				if (AniquiledResponsesIndex[y][x] == value) AniquiledResponsesIndex[y][x] = newvalue;
+	
+}
+
+int AniquiledStatus = 0;
+
+Function int GetAniquiledNewState (int response) {
+	
+	// Search response position in current status.
+	for(int i = 0; i < MaxResponses; i++)
+		if(AniquiledResponsesIndex[AniquiledStatus][i] == response)
+			break;
+			
+	// Return the new state with response position in current status.
+	return AniquiledResponsesStates[AniquiledStatus][i];
+}
+
+Function void AniquiledConversation (int start, int eState) {
+	
+	// If we want to edit the actual conversation state. Use eState -1 to maintain current state.
+	if(eState > -1 && eState < AniquiledS) // Make sure the new state exists.
+		AniquiledStatus = eState;
+	
+	// Use start = 1 to start a conversation. You can use 0 if you only want to change the status nor index.
+	if(start == 1) {
+		
+		// Print the npc message in the actual conversation status.
+		PrintNPCMessage (AniquiledTalks[AniquiledStatus]);
+		
+		// Reset arrow position. (Goes to the first option.)
+		PrintArrowConversation(666);
+		
+		// Count responses. (1 2 0 5 0 0 --> [3])
+		int c = 0;
+		for(int y = 0; y < MaxResponses; y++)
+			if(AniquiledResponsesIndex[AniquiledStatus][y] > 0)
+				c++;
+		
+		// Send responses count.
+		ResponsesBufferCount = c;
+		
+		// Clear memory.
+		for(int i = 0; i < MaxResponses; i++)
+			ResponsesBuffer[i] = 0;
+		
+		// Save the responses in memory in reversed order. (1 2 0 5 0 0 --> 5 2 1)
+		int k = 0;
+		while(y-- > 0)
+			if(AniquiledResponsesIndex[AniquiledStatus][y] > 0)
+				ResponsesBuffer[k++] = AniquiledResponsesIndex[AniquiledStatus][y];
+		
+		// Clear coordinates and ID's so new printed responses could spawn where they belong.
+		ResetOptionsMessagesCoords();
+		
+		// Print up to <MaxResponses> empty strings to delete old responses.
+		for(int z = 0; z < MaxResponses; z++)
+			PrintOptionsMessages("");
+		
+		// Clear coordinates and ID's so new printed responses could spawn where they belong.
+		ResetOptionsMessagesCoords();
+		
+		// Print responses. (1 2 0 5 0 0 --> print 5 2 1)
+		for(int x = 0; x < ResponsesBufferCount; x++)
+			PrintOptionsMessages(AniquiledResponses[ResponsesBuffer[x]-1]);
+	}
+}

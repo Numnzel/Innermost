@@ -1,0 +1,399 @@
+// Too Much Brown Texture Pack
+
+Switch TSW4A on pic TSW4B tics 0
+
+warp flat TWARP01
+warp flat TWARP02
+warp flat TWARP03
+warp flat TWARP04
+
+texture TLIGWL1A
+	allowdecals
+	pic TLIGWL1A tics 5
+	pic TLIGWL1B tics 5
+	pic TLIGWL1C tics 5
+	pic TLIGWL1D tics 5
+	pic TLIGWL1E tics 5
+	pic TLIGWL1D tics 5
+	pic TLIGWL1C tics 5
+	pic TLIGWl1B tics 5
+
+// Elemental Universe Texture Pack
+
+warp texture EU005A00 0.5
+warp texture EU005B00 
+warp2 texture EU005C00
+warp2 texture EU005D00
+warp2 texture EU005E00
+warp2 texture EU005F00
+warp2 texture EU005G00
+warp2 texture EU005H00
+warp2 texture EU005I00
+warp2 texture EU005J00
+warp2 texture EU005K00
+warp2 texture EU005L00
+warp2 texture EU005M00
+warp texture EU005O00
+warp texture EU005P00 0.1
+warp texture EU005Q00 0.1
+warp2 texture EU005R00
+
+texture EU018A10 range EU018A17 tics 4
+texture EU018A01 range EU018A09 tics 3
+
+texture EU018B10 range EU018B17 tics 4
+texture EU018B01 range EU018B09 tics 3
+
+texture EU018C10 range EU018C17 tics 4
+texture EU018C01 range EU018C09 tics 3
+
+texture EU018D10 range EU018D17 tics 4
+texture EU018D01 range EU018D09 tics 3
+
+texture EU018E10 range EU018E17 tics 4
+texture EU018E01 range EU018E09 tics 3
+
+texture EU018F10 range EU018F17 tics 4
+texture EU018F01 range EU018F09 tics 3
+
+texture EU018G10 range EU018G17 tics 4
+texture EU018G01 range EU018G09 tics 3
+
+texture EU018H10 range EU018H17 tics 4
+texture EU018H01 range EU018H09 tics 3
+
+texture EU018I10 range EU018I17 tics 4
+texture EU018I01 range EU018I09 tics 3
+
+texture EU018J10 range EU018J17 tics 4
+texture EU018J01 range EU018J09 tics 3
+
+texture EU018K10 range EU018K17 tics 4
+texture EU018K01 range EU018K09 tics 3
+
+texture EU018L10 range EU018L17 tics 4
+texture EU018L01 range EU018L09 tics 3
+
+texture EU018M10 range EU018M17 tics 4
+texture EU018M01 range EU018M09 tics 3
+
+switch EU023A00 on sound Switch1 pic EU023A01 tics 0
+switch EU023A01 off sound Switch2 pic EU023A00 tics 0
+
+// switch EU024A00 on sound Switch1 pic EU024A01 tics 3 pic EU024A02 tics 3 pic EU024A03 tics 3 pic EU024A04 tics 3
+
+texture EU017A00 range EU017A01 tics 5
+texture EU017A06 range EU017A07 tics 5
+
+texture EU017A02 range EU017A05 tics 5
+texture EU017A08 range EU017A11 tics 5
+
+
+
+// Edited/Modified textures of another packs
+
+
+
+switch E058N00 on sound Switch1 pic E059N00 tics 0
+
+switch E060N00 on sound Switch1 pic E061N00 tics 0
+switch E061N00 off sound Switch2 pic E060N00 tics 0
+
+switch E062N00 on sound Switch1 pic E063N00 tics 0
+
+switch E064N00 on sound Switch1 pic E065N00 tics 0
+switch E065N00 off sound Switch2 pic E064N00 tics 0
+
+texture E080N00 range E080N03 tics 6 oscillate
+
+switch E097N00 on sound Switch1 pic E098N00 tics 0
+
+
+// Cage Texture Pack
+
+
+texture CGCANI00
+	allowdecals
+	pic CGCANI00 tics 1.5
+	pic CGCANI01 tics 1.5
+	pic CGCANI02 tics 1.5
+	pic CGCANI03 tics 1.5
+	pic CGCANI04 tics 1.5
+	pic CGCANI05 tics 1.5
+	pic CGCANI06 tics 1.5
+	pic CGCANI07 tics 1.5
+
+switch CGSWC00A on sound Switch1 pic CGSWC00B tics 0
+switch CGSWC00B off sound Switch2 pic CGSWC00A tics 0
+
+switch CGSWC01A on sound Switch1 pic CGSWC01B tics 0
+switch CGSWC01B off sound Switch2 pic CGSWC01A tics 0
+
+//MLCETEX Texture Pack
+
+texture CGCANI00
+	allowdecals
+	pic CGCANI00 tics 1.5
+	pic CGCANI01 tics 1.5
+	pic CGCANI02 tics 1.5
+	pic CGCANI03 tics 1.5
+	pic CGCANI04 tics 1.5
+	pic CGCANI05 tics 1.5
+	pic CGCANI06 tics 1.5
+	pic CGCANI07 tics 1.5
+
+switch +1RDBUT on sound Switch1 pic +ORDBUT tics 0
+switch +ORDBUT off sound Switch2 pic +1RDBUT tics 0
+
+switch +1SWITCH on sound Switch1 pic +0SWITCH tics 0
+switch +0SWITCH off sound Switch2 pic +1SWITCH tics 0
+
+switch CGSWC02A on sound Switch1 pic CGSWC02B tics 0
+switch CGSWC02B off sound Switch2 pic CGSWC02A tics 0
+
+switch CGSWC03A on sound Switch1 pic CGSWC03B tics 0
+switch CGSWC03B off sound Switch2 pic CGSWC03A tics 0
+
+//DRDTexture Pack
+
+texture DRSPIN05
+range DRSPIN11
+tics 4
+oscillate
+
+texture DRSPIN13
+range DRSPIN20
+tics 4
+oscillate
+
+texture DRSPIN21
+range DRSPIN28
+tics 4
+oscillate
+
+texture DRSPIN29
+range DRSPIN36
+tics 4
+oscillate
+
+texture DRROCK01
+range DRROCK04
+tics 8
+
+switch DRSWC00A on sound Switch1 pic DRSWC00B tics 0
+switch DRSWC00B off sound Switch2 pic DRSWC00A tics 0
+
+switch DRSWC01A on sound Switch1 pic DRSWC01B tics 0
+switch DRSWC01B off sound Switch2 pic DRSWC01A tics 0
+
+switch DRSWC02A on sound Switch1 pic DRSWC02B tics 0
+switch DRSWC02B off sound Switch2 pic DRSWC02A tics 0
+
+switch DRSWC03A on sound Switch1 pic DRSWC03B tics 0
+switch DRSWC03B off sound Switch2 pic DRSWC03A tics 0
+
+switch DRSWC04A on sound Switch1 pic DRSWC04B tics 0
+switch DRSWC04B off sound Switch2 pic DRSWC04A tics 0
+
+switch DRSWC05A on sound Switch1 pic DRSWC05B tics 0
+switch DRSWC05B off sound Switch2 pic DRSWC05A tics 0
+
+switch DRSWC06A on sound Switch1 pic DRSWC06B tics 0
+switch DRSWC06B off sound Switch2 pic DRSWC06A tics 0
+
+switch DRSWC07A on sound Switch1 pic DRSWC07B tics 0
+switch DRSWC07B off sound Switch2 pic DRSWC07A tics 0
+
+switch DRSWC09A on sound Switch1 pic DRSWC09B tics 0
+switch DRSWC09B off sound Switch2 pic DRSWC09A tics 0
+
+switch DRSWC10A on sound Switch1 pic DRSWC10B tics 0
+switch DRSWC10B off sound Switch2 pic DRSWC10A tics 0
+
+switch DRSWC11A on sound Switch1 pic DRSWC11B tics 0
+switch DRSWC11B off sound Switch2 pic DRSWC11A tics 0
+
+switch DRSWC12A on sound Switch1 pic DRSWC12B tics 0
+switch DRSWC12B off sound Switch2 pic DRSWC12A tics 0
+
+switch DRSWC13A on sound Switch1 pic DRSWC13B tics 0
+switch DRSWC13B off sound Switch2 pic DRSWC13A tics 0
+
+switch DRSWC14A on sound Switch1 pic DRSWC14B tics 0
+switch DRSWC14B off sound Switch2 pic DRSWC14A tics 0
+
+switch DRSWC08A 
+on sound Switch1 
+pic DRSWC08B tics 8 
+pic DRSWC08C tics 8 
+pic DRSWC08D tics 8
+
+//Black and Green Texture Pack
+
+texture B_VOID01 range B_VOID02 tics 8
+
+switch SWITCH01 on sound Switch1 pic SWITCH02 tics 0
+switch SWITCH02 off sound Switch2 pic SWITCH01 tics 0
+
+switch SWITCH03 on sound Switch1 pic SWITCH04 tics 0
+switch SWITCH04 off sound Switch2 pic SWITCH03 tics 0
+
+switch SWITCH05 on sound Switch1 pic SWITCH06 tics 0
+switch SWITCH06 off sound Switch2 pic SWITCH05 tics 0
+
+//Cage Tex 2 Texture Pack
+
+switch C2SWC01A on sound Switch1 pic C2SWC01B tics 0
+switch C2SWC01B off sound Switch2 pic C2SWC01A tics 0
+
+switch C2SWC02A on sound Switch1 pic C2SWC02B tics 0
+switch C2SWC02B off sound Switch2 pic C2SWC02A tics 0
+
+switch C2SWC03A on sound Switch1 pic C2SWC03B tics 0
+switch C2SWC03B off sound Switch2 pic C2SWC03A tics 0
+
+switch C2SWC04A on sound Switch1 pic C2SWC04B tics 0
+switch C2SWC04B off sound Switch2 pic C2SWC04A tics 0
+
+switch C2SWC05A on sound Switch1 pic C2SWC05B tics 0
+switch C2SWC05B off sound Switch2 pic C2SWC05A tics 0
+
+//Doom Potpourri Texture Pack
+
+switch SW1MET5 on sound Switch1 pic SW_1_DN tics 0
+switch SW2MET5 off sound Switch2 pic SW_1_UP tics 0
+
+switch SW1SLIM on sound Switch1 pic SW_1_DN tics 0
+switch SW2SLIM off sound Switch2 pic SW_1_UP tics 0
+
+//Recolored Doom Texture Pack
+
+texture N_GFALL1
+pic 1 tics 8
+pic 2 tics 8
+pic 3 tics 8
+pic 4 tics 8
+
+texture N_LFALL1
+pic 1 tics 8
+pic 2 tics 8
+pic 3 tics 8
+pic 4 tics 8
+
+texture N_MFALL1
+pic 1 tics 8
+pic 2 tics 8
+pic 3 tics 8
+pic 4 tics 8
+
+flat NFGSLM01
+pic 1 tics 8
+pic 2 tics 8
+pic 3 tics 8
+pic 4 tics 8
+
+flat NFGSLM05
+pic 1 tics 8
+pic 2 tics 8
+pic 3 tics 8
+pic 4 tics 8
+
+flat NFLAVA05
+pic 1 tics 8
+pic 2 tics 8
+pic 3 tics 8
+pic 4 tics 8
+
+// Anoxtex.wad Texture pack
+
+texture ANCP1_1 range ANCP1_3 rand 5 9
+
+texture ANCP2_1 range ANCP2_3 rand 4 10
+
+texture ANCP3_1 range ANCP3_2 rand 17 25
+
+texture ANCP4_1 range ANCP4_2 rand 17 25
+
+texture ANCP5_1 range ANCP5_3 rand 8 14
+
+texture ANCP6_1 range ANCP6_3 rand 8 14
+
+//texture CNPN1_1 range CNPN1_4 rand 9 15
+
+//texture CNPN2_1 range CNPN2_4 rand 9 15
+
+//texture SWIRL1 range SWIRL3 tics 3
+
+texture LTR1_1 range LTR1_4 tics 4
+
+texture LTR2_1 range LTR2_4 tics 4
+
+texture LTR3_1 range LTR3_8 tics 3
+
+texture LITES_1 range LITES_3 tics 8 oscillate
+
+texture LSEQ_1 range LSEQ_7 tics 8 oscillate
+
+texture LEFT1 range LEFT2 tics 20
+
+texture RIGHT1 range RIGHT2 tics 20
+
+//texture SGN1_1 range SGN1_4 tics 12
+
+//texture SGN2_1 range SGN2_5 tics 6
+
+//texture SGN3_1 range SGN3_8 tics 5 oscillate
+
+//texture SGN4_1 range SGN4_4 tics 10
+
+//texture SGN5_01 range SGN1_19 tics 3
+
+//texture SGN6_01 range SGN6_10 tics 6
+
+//texture SGN7_1 range SGN7_8 tics 5 oscillate
+
+//texture SGN8_1 range SGN8_2 tics 20
+
+//texture NOXNET_1 range NOXNET_2 tics 25
+
+//texture DISP_1 range DISP_2 tics 20
+
+//texture ANEXIT_1 range ANEXIT_2 tics 20
+
+texture WHEEL1 range WHEEL3 tics 3
+
+warp texture AWARP_01
+warp texture AWARP_02
+warp texture AWARP_03
+warp texture AWARP_04
+warp texture AWARP_05
+warp texture AWARP_06
+warp texture AWARP_07
+warp texture AWARP_08
+warp texture AWARP_09
+warp texture AWARP_10
+warp texture AWARP_11
+
+
+
+
+warp2 texture E068N00
+
+// texture E086N00
+// pic 1 tics 2
+// pic 2 tics 2
+// pic 3 tics 2
+// pic 4 tics 2
+// pic 5 tics 2
+// pic 6 tics 2
+// pic 7 tics 2
+// pic 8 tics 35
+
+
+cameratexture cam32_00 512 512
+cameratexture cam32_01 512 512
+cameratexture cam32_02 512 512
+cameratexture cam32_03 512 512
+
+cameratexture cam64_00 512 512
+cameratexture cam64_01 512 512

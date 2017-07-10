@@ -1,0 +1,13 @@
+// Light Ceiling
+
+pointlight LELYLIGHT
+{
+    color 1.0 1.0 0.0
+    size 80
+    offset 0 -20 0
+}
+
+object LightCeiling
+{
+    frame LELYA { light LELYLIGHT }
+}

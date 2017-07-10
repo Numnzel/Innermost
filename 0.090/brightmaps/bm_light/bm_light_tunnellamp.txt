@@ -1,0 +1,4 @@
+// Tunnel lamp
+
+brightmap sprite TLP5B0 { map "brightmaps/bm_light/bm_light_tunnellamp/TLP5A0.png" disablefullbright }
+brightmap sprite TLP5C0 { map "brightmaps/bm_light/bm_light_tunnellamp/TLP5A0.png" disablefullbright }

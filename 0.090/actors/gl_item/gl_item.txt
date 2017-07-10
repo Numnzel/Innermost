@@ -1,0 +1,7 @@
+#include "actors/gl_item/gl_item_armorbonus.txt"
+#include "actors/gl_item/gl_item_bluearmor.txt"
+#include "actors/gl_item/gl_item_blursphere.txt"
+#include "actors/gl_item/gl_item_greenarmor.txt"
+#include "actors/gl_item/gl_item_healthbonus.txt"
+#include "actors/gl_item/gl_item_invulnerabilitysphere.txt"
+#include "actors/gl_item/gl_item_soulsphere.txt"

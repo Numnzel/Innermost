@@ -1,0 +1,7 @@
+
+#include "brightmaps/bm_projectile/bm_projectile_soulcry.txt"
+
+
+
+
+

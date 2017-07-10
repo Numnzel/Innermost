@@ -1,0 +1,14 @@
+#include "brightmaps/bm_texture/bm_modified_tex/bm_modified_texture.txt"
+
+#include "brightmaps/bm_texture/bm_texture_2mbrown.txt"
+#include "brightmaps/bm_texture/bm_texture_anachronox.txt"
+#include "brightmaps/bm_texture/bm_texture_cage.txt"
+#include "brightmaps/bm_texture/bm_texture_doompotpourri.txt"
+#include "brightmaps/bm_texture/bm_texture_drdr.txt"
+#include "brightmaps/bm_texture/bm_texture_euniverse.txt"
+#include "brightmaps/bm_texture/bm_texture_malice.txt"
+#include "brightmaps/bm_texture/bm_texture_mortres.txt"
+#include "brightmaps/bm_texture/bm_texture_recoloured.txt"
+#include "brightmaps/bm_texture/bm_texture_udet.txt"
+
+#include "brightmaps/bm_texture/bm_unknown_texture.txt"

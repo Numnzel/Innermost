@@ -1,0 +1,490 @@
+//Brightmaps - Elemental Universe Texture Pack
+
+//--------
+
+//brightmap texture EU005E00 { map "textures/EU005N00.png" }
+//brightmap texture EU005F00 { map "textures/EU005N00.png" }
+//brightmap texture EU005G00 { map "textures/EU005N00.png" }
+
+//--------
+
+brightmap texture EU006B00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU006Z00.png" }
+brightmap texture EU006C00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU006Z00.png" }
+brightmap texture EU006D00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU006Z00.png" }
+brightmap texture EU006F00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU006Z00.png" }
+brightmap texture EU006G00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU006Z00.png" }
+brightmap texture EU006H00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU006Z00.png" }
+brightmap texture EU006I00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU006Z00.png" }
+brightmap texture EU006J00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU006Z00.png" }
+brightmap texture EU006K00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU006Z00.png" }
+brightmap texture EU006L00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU006Z00.png" }
+brightmap texture EU006M00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU006Z00.png" }
+brightmap texture EU006N00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU006Z00.png" }
+
+//--------
+
+brightmap texture EU007B00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU007Z00.png" }
+brightmap texture EU007C00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU007Z00.png" }
+brightmap texture EU007D00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU007Z00.png" }
+brightmap texture EU007F00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU007Z00.png" }
+brightmap texture EU007G00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU007Z00.png" }
+brightmap texture EU007H00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU007Z00.png" }
+brightmap texture EU007I00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU007Z00.png" }
+brightmap texture EU007J00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU007Z00.png" }
+brightmap texture EU007K00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU007Z00.png" }
+brightmap texture EU007L00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU007Z00.png" }
+brightmap texture EU007M00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU007Z00.png" }
+brightmap texture EU007N00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU007Z00.png" }
+
+//--------
+
+brightmap texture EU008B00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU008Z00.png" }
+brightmap texture EU008C00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU008Z00.png" }
+brightmap texture EU008D00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU008Z00.png" }
+brightmap texture EU008E00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU008Z00.png" }
+brightmap texture EU008F00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU008Z00.png" }
+brightmap texture EU008G00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU008Z00.png" }
+brightmap texture EU008H00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU008Z00.png" }
+brightmap texture EU008I00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU008Z00.png" }
+brightmap texture EU008J00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU008Z00.png" }
+brightmap texture EU008K00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU008Z00.png" }
+brightmap texture EU008L00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU008Z00.png" }
+brightmap texture EU008M00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU008Z00.png" }
+
+//--------
+
+brightmap texture EU011B00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU011Z00.png" }
+brightmap texture EU011C00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU011Z00.png" }
+brightmap texture EU011D00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU011Z00.png" }
+brightmap texture EU011E00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU011Z00.png" }
+brightmap texture EU011F00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU011Z00.png" }
+brightmap texture EU011G00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU011Z00.png" }
+brightmap texture EU011H00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU011Z00.png" }
+brightmap texture EU011I00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU011Z00.png" }
+brightmap texture EU011J00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU011Z00.png" }
+brightmap texture EU011K00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU011Z00.png" }
+brightmap texture EU011L00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU011Z00.png" }
+brightmap texture EU011M00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU011Z00.png" }
+
+//--------
+
+brightmap texture EU012B00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU012N00.png" }
+brightmap texture EU012C00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU012N00.png" }
+brightmap texture EU012D00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU012N00.png" }
+brightmap texture EU012E00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU012N00.png" }
+brightmap texture EU012F00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU012N00.png" }
+brightmap texture EU012G00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU012N00.png" }
+brightmap texture EU012H00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU012N00.png" }
+brightmap texture EU012I00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU012N00.png" }
+brightmap texture EU012J00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU012N00.png" }
+brightmap texture EU012K00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU012N00.png" }
+brightmap texture EU012L00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU012N00.png" }
+brightmap texture EU012M00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU012N00.png" }
+brightmap texture EU012N00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU012N00.png" }
+
+//--------
+
+brightmap texture EU013B00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU013N00.png" }
+brightmap texture EU013C00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU013N00.png" }
+brightmap texture EU013D00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU013N00.png" }
+brightmap texture EU013E00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU013N00.png" }
+brightmap texture EU013F00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU013N00.png" }
+brightmap texture EU013G00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU013N00.png" }
+brightmap texture EU013H00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU013N00.png" }
+brightmap texture EU013I00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU013N00.png" }
+brightmap texture EU013J00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU013N00.png" }
+brightmap texture EU013K00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU013N00.png" }
+brightmap texture EU013L00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU013N00.png" }
+brightmap texture EU013M00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU013N00.png" }
+brightmap texture EU013N00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU013N00.png" }
+
+//--------
+
+brightmap texture EU014B00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU014N00.png" }
+brightmap texture EU014C00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU014N00.png" }
+brightmap texture EU014D00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU014N00.png" }
+brightmap texture EU014E00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU014N00.png" }
+brightmap texture EU014F00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU014N00.png" }
+brightmap texture EU014G00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU014N00.png" }
+brightmap texture EU014H00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU014N00.png" }
+brightmap texture EU014I00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU014N00.png" }
+brightmap texture EU014J00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU014N00.png" }
+brightmap texture EU014K00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU014N00.png" }
+brightmap texture EU014L00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU014N00.png" }
+brightmap texture EU014M00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU014N00.png" }
+brightmap texture EU014N00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU014N00.png" }
+
+//--------
+
+brightmap texture EU015B00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU015N00.png" }
+brightmap texture EU015C00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU015N00.png" }
+brightmap texture EU015D00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU015N00.png" }
+brightmap texture EU015E00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU015N00.png" }
+brightmap texture EU015F00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU015N00.png" }
+brightmap texture EU015G00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU015N00.png" }
+brightmap texture EU015H00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU015N00.png" }
+brightmap texture EU015I00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU015N00.png" }
+brightmap texture EU015J00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU015N00.png" }
+brightmap texture EU015K00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU015N00.png" }
+brightmap texture EU015L00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU015N00.png" }
+brightmap texture EU015M00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU015N00.png" }
+brightmap texture EU015N00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU015N00.png" }
+
+//--------
+
+brightmap texture EU016B00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU016N00.png" }
+brightmap texture EU016C00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU016N00.png" }
+brightmap texture EU016D00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU016N00.png" }
+brightmap texture EU016E00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU016N00.png" }
+brightmap texture EU016F00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU016N00.png" }
+brightmap texture EU016G00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU016N00.png" }
+brightmap texture EU016H00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU016N00.png" }
+brightmap texture EU016I00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU016N00.png" }
+brightmap texture EU016J00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU016N00.png" }
+brightmap texture EU016K00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU016N00.png" }
+brightmap texture EU016L00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU016N00.png" }
+brightmap texture EU016M00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU016N00.png" }
+brightmap texture EU016N00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU016N00.png" }
+brightmap texture EU016O00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU016N00.png" }
+
+//--------
+
+brightmap texture EU017A00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU017Z00.png" }
+brightmap texture EU017A02 { map "brightmaps/bm_texture/bm_tex_euniverse/EU017Z02.png" }
+brightmap texture EU017A03 { map "brightmaps/bm_texture/bm_tex_euniverse/EU017Z03.png" }
+brightmap texture EU017A04 { map "brightmaps/bm_texture/bm_tex_euniverse/EU017Z04.png" }
+brightmap texture EU017A05 { map "brightmaps/bm_texture/bm_tex_euniverse/EU017Z05.png" }
+brightmap texture EU017A06 { map "brightmaps/bm_texture/bm_tex_euniverse/EU017Z06.png" }
+brightmap texture EU017A08 { map "brightmaps/bm_texture/bm_tex_euniverse/EU017Z08.png" }
+brightmap texture EU017A09 { map "brightmaps/bm_texture/bm_tex_euniverse/EU017Z09.png" }
+brightmap texture EU017A10 { map "brightmaps/bm_texture/bm_tex_euniverse/EU017Z10.png" }
+brightmap texture EU017A11 { map "brightmaps/bm_texture/bm_tex_euniverse/EU017Z11.png" }
+
+//--------
+
+brightmap texture EU018A01 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018A02 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018A03 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018A04 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018A05 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018A06 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018A07 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018A08 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018A09 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018A10 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018A11 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018A12 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018A13 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018A14 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018A15 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018A16 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018A17 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+
+brightmap texture EU018B01 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018B02 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018B03 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018B04 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018B05 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018B06 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018B07 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018B08 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018B09 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018B10 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018B11 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018B12 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018B13 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018B14 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018B15 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018B16 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018B17 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+
+brightmap texture EU018C01 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018C02 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018C03 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018C04 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018C05 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018C06 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018C07 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018C08 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018C09 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018C10 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018C11 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018C12 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018C13 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018C14 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018C15 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018C16 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018C17 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+
+brightmap texture EU018D01 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018D02 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018D03 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018D04 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018D05 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018D06 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018D07 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018D08 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018D09 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018D10 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018D11 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018D12 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018D13 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018D14 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018D15 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018D16 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018D17 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+
+brightmap texture EU018E01 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018E02 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018E03 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018E04 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018E05 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018E06 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018E07 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018E08 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018E09 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018E10 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018E11 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018E12 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018E13 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018E14 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018E15 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018E16 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018E17 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+
+brightmap texture EU018F01 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018F02 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018F03 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018F04 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018F05 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018F06 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018F07 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018F08 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018F09 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018F10 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018F11 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018F12 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018F13 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018F14 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018F15 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018F16 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018F17 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+
+brightmap texture EU018G01 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018G02 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018G03 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018G04 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018G05 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018G06 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018G07 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018G08 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018G09 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018G10 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018G11 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018G12 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018G13 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018G14 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018G15 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018G16 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018G17 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+
+brightmap texture EU018H01 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018H02 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018H03 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018H04 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018H05 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018H06 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018H07 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018H08 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018H09 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018H10 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018H11 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018H12 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018H13 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018H14 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018H15 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018H16 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018H17 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+
+brightmap texture EU018I01 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018I02 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018I03 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018I04 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018I05 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018I06 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018I07 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018I08 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018I09 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018I10 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018I11 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018I12 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018I13 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018I14 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018I15 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018I16 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018I17 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+
+brightmap texture EU018J01 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018J02 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018J03 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018J04 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018J05 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018J06 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018J07 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018J08 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018J09 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018J10 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018J11 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018J12 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018J13 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018J14 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018J15 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018J16 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018J17 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+
+brightmap texture EU018K01 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018K02 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018K03 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018K04 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018K05 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018K06 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018K07 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018K08 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018K09 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018K10 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018K11 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018K12 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018K13 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018K14 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018K15 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018K16 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018K17 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+
+brightmap texture EU018L01 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018L02 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018L03 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018L04 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018L05 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018L06 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018L07 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018L08 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018L09 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018L10 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018L11 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018L12 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018L13 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018L14 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018L15 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018L16 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018L17 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+
+brightmap texture EU018M01 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018M02 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018M03 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018M04 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018M05 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018M06 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018M07 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018M08 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018M09 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018M10 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018M11 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018M12 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018M13 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018M14 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018M15 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018M16 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+brightmap texture EU018M17 { map "brightmaps/bm_texture/bm_tex_euniverse/EU018Z00.png" }
+
+//--------
+
+brightmap texture EU019A00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU019Z00.png" }
+brightmap texture EU019B00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU019Z00.png" }
+brightmap texture EU019C00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU019Z00.png" }
+brightmap texture EU019D00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU019Z00.png" }
+brightmap texture EU019F00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU019Z00.png" }
+brightmap texture EU019G00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU019Z00.png" }
+brightmap texture EU019H00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU019Z00.png" }
+brightmap texture EU019I00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU019Z00.png" }
+brightmap texture EU019J00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU019Z00.png" }
+brightmap texture EU019K00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU019Z00.png" }
+brightmap texture EU019L00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU019Z00.png" }
+brightmap texture EU019M00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU019Z00.png" }
+
+//--------
+
+brightmap texture EU020A00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU020Z00.png" }
+brightmap texture EU020B00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU020Z00.png" }
+brightmap texture EU020C00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU020Z00.png" }
+brightmap texture EU020D00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU020Z00.png" }
+brightmap texture EU020F00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU020Z00.png" }
+brightmap texture EU020G00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU020Z00.png" }
+brightmap texture EU020H00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU020Z00.png" }
+brightmap texture EU020I00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU020Z00.png" }
+brightmap texture EU020J00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU020Z00.png" }
+brightmap texture EU020K00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU020Z00.png" }
+brightmap texture EU020L00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU020Z00.png" }
+brightmap texture EU020M00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU020Z00.png" }
+
+//--------
+
+brightmap texture EU021A00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU021Z00.png" }
+brightmap texture EU021B00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU021Z00.png" }
+brightmap texture EU021C00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU021Z00.png" }
+brightmap texture EU021D00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU021Z00.png" }
+brightmap texture EU021F00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU021Z00.png" }
+brightmap texture EU021G00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU021Z00.png" }
+brightmap texture EU021H00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU021Z00.png" }
+brightmap texture EU021I00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU021Z00.png" }
+brightmap texture EU021J00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU021Z00.png" }
+brightmap texture EU021K00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU021Z00.png" }
+brightmap texture EU021L00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU021Z00.png" }
+brightmap texture EU021M00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU021Z00.png" }
+
+//--------
+
+brightmap texture EU022A00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU022Z00.png" }
+brightmap texture EU022B00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU022Z00.png" }
+brightmap texture EU022C00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU022Z00.png" }
+brightmap texture EU022D00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU022Z00.png" }
+brightmap texture EU022F00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU022Z00.png" }
+brightmap texture EU022G00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU022Z00.png" }
+brightmap texture EU022H00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU022Z00.png" }
+brightmap texture EU022I00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU022Z00.png" }
+brightmap texture EU022J00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU022Z00.png" }
+brightmap texture EU022K00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU022Z00.png" }
+brightmap texture EU022L00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU022Z00.png" }
+brightmap texture EU022M00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU022Z00.png" }
+brightmap texture EU022O00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU022Z00.png" }
+brightmap texture EU022P00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU022Z00.png" }
+brightmap texture EU022Q00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU022Z00.png" }
+brightmap texture EU022R00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU022Z00.png" }
+
+//--------
+
+brightmap texture EU023A01 { map "brightmaps/bm_texture/bm_tex_euniverse/EU023Z01.png" }
+
+//--------
+
+brightmap texture EU024A00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU024Z00.png" }
+brightmap texture EU024A01 { map "brightmaps/bm_texture/bm_tex_euniverse/EU024Z00.png" }
+brightmap texture EU024A02 { map "brightmaps/bm_texture/bm_tex_euniverse/EU024Z00.png" }
+brightmap texture EU024A03 { map "brightmaps/bm_texture/bm_tex_euniverse/EU024Z00.png" }
+brightmap texture EU024A04 { map "brightmaps/bm_texture/bm_tex_euniverse/EU024Z04.png" }
+brightmap texture EU024A10 { map "brightmaps/bm_texture/bm_tex_euniverse/EU024Z10.png" }
+
+//--------
+
+brightmap texture EU025B00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU025Z00.png" }
+brightmap texture EU025F00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU025Z00.png" }
+
+//--------
+
+brightmap texture SPACE { map "brightmaps/bm_texture/bm_tex_euniverse/SPACEBM.png" }
+
+
+brightmap texture puzzleA0 { map "brightmaps/bm_texture/bm_tex_euniverse/puzzlbA0.png" }
+//brightmap texture puzzleA1 { map "brightmaps/bm_texture/bm_tex_euniverse/puzzlbA1.png" }
+//brightmap texture puzzleA2 { map "brightmaps/bm_texture/bm_tex_euniverse/puzzlbA2.png" }
+//brightmap texture puzzleA3 { map "brightmaps/bm_texture/bm_tex_euniverse/puzzlbA3.png" }
+

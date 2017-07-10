@@ -1,0 +1,24 @@
+Actor HeavyClip : Ammo 15065 {
+	
+	//$NotAngled
+	//$Category Decorate/Ammo
+	//$Title "Heavy clip"
+	
+	Height 12
+	Radius 9
+	
+	Inventory.PickupMessage "Heavy clip +10"
+	Inventory.Amount 10
+	Inventory.MaxAmount 100
+	Inventory.Icon "HVRCA0"
+	
+	Ammo.BackpackAmount 10
+	Ammo.BackpackMaxAmount 200
+	
+	States {
+		
+		Spawn:
+			HVRC A -1
+			Stop
+	}
+}

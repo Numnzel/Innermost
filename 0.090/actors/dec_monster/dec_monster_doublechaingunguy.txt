@@ -1,0 +1,65 @@
+//Double chaingunguy
+
+actor ChaingunGuy2 15006
+{
+  //$Category Decorate/Monsters
+  //$Title "Double chaingunner"
+  obituary "%o was ripped to bloody ribbons by a double-chaingunner."
+  health 100
+  radius 20
+  height 56
+  mass 100
+  speed 8
+  painchance 150
+  seesound "chainguy/sight"
+  attacksound "chainguy/attack"
+  painsound "chainguy/pain"
+  deathsound "chainguy/death"
+  activesound "chainguy/active"
+  Dropitem "NewClip"
+  Dropitem "NewClip"
+  Dropitem "NewClip"
+  Dropitem "NewClip"
+  DropItem "BitCoinWhiteDataCard"
+  DropItem "BitCoinWhiteDataCard"
+  MONSTER
+  +FLOORCLIP
+  states
+  {
+  Spawn:
+    DPOS AB 10 A_Look
+    loop
+  See:
+    DPOS AABBCCDD 3 A_Chase
+    loop
+  Missile:
+    DPOS E 10 A_FaceTarget
+    DPOS F 0 bright A_CPosAttack
+    DPOS F 4 bright A_CPosAttack
+    DPOS E 0 bright A_CPosAttack
+    DPOS E 4 bright A_CPosAttack
+    DPOS F 1 A_CPosRefire
+    goto Missile+1
+  Pain:
+    DPOS G 3
+    DPOS G 3 A_Pain
+    goto See
+  Death:
+    DPOS H 5
+    DPOS I 5 A_Scream
+    DPOS J 5 A_NoBlocking
+    DPOS KLM 5
+    DPOS N -1
+    stop
+  XDeath:
+    DPOS O 5
+    DPOS P 5 A_XScream
+    DPOS Q 5 A_NoBlocking
+    DPOS RS 5
+    DPOS T -1
+    stop
+  Raise:
+    DPOS NMLKJIH 5
+    goto See
+  }
+}

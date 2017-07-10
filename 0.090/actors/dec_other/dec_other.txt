@@ -1,0 +1,5 @@
+#include "actors/dec_other/dec_other_variouskeys.txt"
+#include "actors/dec_other/dec_other_player.txt"
+#include "actors/dec_other/dec_other_specialkeys.txt"
+#include "actors/dec_other/dec_other_test.txt"
+

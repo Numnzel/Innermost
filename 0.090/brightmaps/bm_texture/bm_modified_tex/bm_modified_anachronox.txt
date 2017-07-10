@@ -1,0 +1,30 @@
+
+
+
+brightmap texture E053N00 { map "brightmaps/bm_texture/bm_modified_tex/bm_mod_anachronox/E053Z00.png" }
+brightmap texture E053N01 { map "brightmaps/bm_texture/bm_modified_tex/bm_mod_anachronox/E053Z01.png" }
+brightmap texture E053N02 { map "brightmaps/bm_texture/bm_modified_tex/bm_mod_anachronox/E053Z02.png" }
+brightmap texture E053N03 { map "brightmaps/bm_texture/bm_modified_tex/bm_mod_anachronox/E053Z03.png" }
+brightmap texture E053N04 { map "brightmaps/bm_texture/bm_modified_tex/bm_mod_anachronox/E053Z04.png" }
+brightmap texture E053N05 { map "brightmaps/bm_texture/bm_modified_tex/bm_mod_anachronox/E053Z05.png" }
+brightmap texture E053N06 { map "brightmaps/bm_texture/bm_modified_tex/bm_mod_anachronox/E053Z06.png" }
+brightmap texture E053N07 { map "brightmaps/bm_texture/bm_modified_tex/bm_mod_anachronox/E053Z07.png" }
+brightmap texture E053N08 { map "brightmaps/bm_texture/bm_modified_tex/bm_mod_anachronox/E053Z08.png" }
+
+
+
+
+brightmap texture E080N00 { map "brightmaps/bm_texture/bm_modified_tex/bm_mod_anachronox/E080N00.png" }
+brightmap texture E080N01 { map "brightmaps/bm_texture/bm_modified_tex/bm_mod_anachronox/E080N01.png" }
+brightmap texture E080N02 { map "brightmaps/bm_texture/bm_modified_tex/bm_mod_anachronox/E080N02.png" }
+brightmap texture E080N03 { map "brightmaps/bm_texture/bm_modified_tex/bm_mod_anachronox/E080N03.png" }
+
+brightmap texture E086N00 { map "brightmaps/bm_texture/bm_modified_tex/bm_mod_anachronox/E086N00.png" }
+brightmap texture E086N01 { map "brightmaps/bm_texture/bm_modified_tex/bm_mod_anachronox/E086N00.png" }
+brightmap texture E086N02 { map "brightmaps/bm_texture/bm_modified_tex/bm_mod_anachronox/E086N00.png" }
+brightmap texture E086N03 { map "brightmaps/bm_texture/bm_modified_tex/bm_mod_anachronox/E086N00.png" }
+brightmap texture E086N04 { map "brightmaps/bm_texture/bm_modified_tex/bm_mod_anachronox/E086N00.png" }
+brightmap texture E086N05 { map "brightmaps/bm_texture/bm_modified_tex/bm_mod_anachronox/E086N00.png" }
+brightmap texture E086N06 { map "brightmaps/bm_texture/bm_modified_tex/bm_mod_anachronox/E086N00.png" }
+brightmap texture E086N07 { map "brightmaps/bm_texture/bm_modified_tex/bm_mod_anachronox/E086N00.png" }
+brightmap texture E086N08 { map "brightmaps/bm_texture/bm_modified_tex/bm_mod_anachronox/E086N00.png" }

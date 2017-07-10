@@ -1,0 +1,16 @@
+
+
+/* ====== MUSIC ======
+
+
+ - APPRETTY.flac (Aphelion, Pretty Patterns)
+	Author: Extremus
+
+ - APGALENA.flac (Aphelion, Galena)
+	Author: Extremus
+
+ - APGHOSTD.flac (Aphelion, It Feels Like Another Ghostly Day)
+	Author: Extremus
+
+
+*/

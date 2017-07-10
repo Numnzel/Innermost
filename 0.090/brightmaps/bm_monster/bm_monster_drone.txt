@@ -1,0 +1,89 @@
+// Drone
+
+brightmap sprite DRONA1 { map "brightmaps/bm_monster/bm_monster_drone/DROBA1.png" disablefullbright }
+brightmap sprite DRONA2A8 { map "brightmaps/bm_monster/bm_monster_drone/DROBA2A8.png" disablefullbright }
+brightmap sprite DRONA3A7 { map "brightmaps/bm_monster/bm_monster_drone/DROBA3A7.png" disablefullbright }
+brightmap sprite DRONA4A6 { map "brightmaps/bm_monster/bm_monster_drone/DROBA4A6.png" disablefullbright }
+brightmap sprite DRONA5 { map "brightmaps/bm_monster/bm_monster_drone/DROBA5.png" disablefullbright }
+
+brightmap sprite DRONB1 { map "brightmaps/bm_monster/bm_monster_drone/DROBB1.png" disablefullbright }
+brightmap sprite DRONB2B8 { map "brightmaps/bm_monster/bm_monster_drone/DROBB2B8.png" disablefullbright }
+brightmap sprite DRONB3B7 { map "brightmaps/bm_monster/bm_monster_drone/DROBB3B7.png" disablefullbright }
+brightmap sprite DRONB4B6 { map "brightmaps/bm_monster/bm_monster_drone/DROBB4B6.png" disablefullbright }
+brightmap sprite DRONB5 { map "brightmaps/bm_monster/bm_monster_drone/DROBB5.png" disablefullbright }
+
+brightmap sprite DRONC1 { map "brightmaps/bm_monster/bm_monster_drone/DROBC1.png" disablefullbright }
+brightmap sprite DRONC2C8 { map "brightmaps/bm_monster/bm_monster_drone/DROBC2C8.png" disablefullbright }
+brightmap sprite DRONC3C7 { map "brightmaps/bm_monster/bm_monster_drone/DROBC3C7.png" disablefullbright }
+brightmap sprite DRONC4C6 { map "brightmaps/bm_monster/bm_monster_drone/DROBC4C6.png" disablefullbright }
+brightmap sprite DRONC5 { map "brightmaps/bm_monster/bm_monster_drone/DROBC5.png" disablefullbright }
+
+brightmap sprite DROND1 { map "brightmaps/bm_monster/bm_monster_drone/DROBD1.png" disablefullbright }
+brightmap sprite DROND2D8 { map "brightmaps/bm_monster/bm_monster_drone/DROBD2D8.png" disablefullbright }
+brightmap sprite DROND3D7 { map "brightmaps/bm_monster/bm_monster_drone/DROBD3D7.png" disablefullbright }
+brightmap sprite DROND4D6 { map "brightmaps/bm_monster/bm_monster_drone/DROBD4D6.png" disablefullbright }
+brightmap sprite DROND5 { map "brightmaps/bm_monster/bm_monster_drone/DROBD5.png" disablefullbright }
+
+brightmap sprite DRONE0 { map "brightmaps/bm_monster/bm_monster_drone/DROBE0.png" disablefullbright }
+brightmap sprite DRONF0 { map "brightmaps/bm_monster/bm_monster_drone/DROBF0.png" disablefullbright }
+brightmap sprite DRONG0 { map "brightmaps/bm_monster/bm_monster_drone/DROBG0.png" disablefullbright }
+
+//-----------------
+
+brightmap sprite DR2NA1 { map "brightmaps/bm_monster/bm_monster_drone/DROBA1.png" disablefullbright }
+brightmap sprite DR2NA2A8 { map "brightmaps/bm_monster/bm_monster_drone/DROBA2A8.png" disablefullbright }
+brightmap sprite DR2NA3A7 { map "brightmaps/bm_monster/bm_monster_drone/DROBA3A7.png" disablefullbright }
+brightmap sprite DR2NA4A6 { map "brightmaps/bm_monster/bm_monster_drone/DROBA4A6.png" disablefullbright }
+brightmap sprite DR2NA5 { map "brightmaps/bm_monster/bm_monster_drone/DROBA5.png" disablefullbright }
+
+brightmap sprite DR2NB1 { map "brightmaps/bm_monster/bm_monster_drone/DROBB1.png" disablefullbright }
+brightmap sprite DR2NB2B8 { map "brightmaps/bm_monster/bm_monster_drone/DROBB2B8.png" disablefullbright }
+brightmap sprite DR2NB3B7 { map "brightmaps/bm_monster/bm_monster_drone/DROBB3B7.png" disablefullbright }
+brightmap sprite DR2NB4B6 { map "brightmaps/bm_monster/bm_monster_drone/DROBB4B6.png" disablefullbright }
+brightmap sprite DR2NB5 { map "brightmaps/bm_monster/bm_monster_drone/DROBB5.png" disablefullbright }
+
+brightmap sprite DR2NC1 { map "brightmaps/bm_monster/bm_monster_drone/DROBC1.png" disablefullbright }
+brightmap sprite DR2NC2C8 { map "brightmaps/bm_monster/bm_monster_drone/DROBC2C8.png" disablefullbright }
+brightmap sprite DR2NC3C7 { map "brightmaps/bm_monster/bm_monster_drone/DROBC3C7.png" disablefullbright }
+brightmap sprite DR2NC4C6 { map "brightmaps/bm_monster/bm_monster_drone/DROBC4C6.png" disablefullbright }
+brightmap sprite DR2NC5 { map "brightmaps/bm_monster/bm_monster_drone/DROBC5.png" disablefullbright }
+
+brightmap sprite DR2ND1 { map "brightmaps/bm_monster/bm_monster_drone/DROBD1.png" disablefullbright }
+brightmap sprite DR2ND2D8 { map "brightmaps/bm_monster/bm_monster_drone/DROBD2D8.png" disablefullbright }
+brightmap sprite DR2ND3D7 { map "brightmaps/bm_monster/bm_monster_drone/DROBD3D7.png" disablefullbright }
+brightmap sprite DR2ND4D6 { map "brightmaps/bm_monster/bm_monster_drone/DROBD4D6.png" disablefullbright }
+brightmap sprite DR2ND5 { map "brightmaps/bm_monster/bm_monster_drone/DROBD5.png" disablefullbright }
+
+brightmap sprite DR2NE0 { map "brightmaps/bm_monster/bm_monster_drone/DROBE0.png" disablefullbright }
+brightmap sprite DR2NF0 { map "brightmaps/bm_monster/bm_monster_drone/DROBF0.png" disablefullbright }
+brightmap sprite DR2NG0 { map "brightmaps/bm_monster/bm_monster_drone/DROBG0.png" disablefullbright }
+
+//-----------------
+
+brightmap sprite DR4NA1 { map "brightmaps/bm_monster/bm_monster_drone/DROBA1.png" disablefullbright }
+brightmap sprite DR4NA2A8 { map "brightmaps/bm_monster/bm_monster_drone/DROBA2A8.png" disablefullbright }
+brightmap sprite DR4NA3A7 { map "brightmaps/bm_monster/bm_monster_drone/DROBA3A7.png" disablefullbright }
+brightmap sprite DR4NA4A6 { map "brightmaps/bm_monster/bm_monster_drone/DROBA4A6.png" disablefullbright }
+brightmap sprite DR4NA5 { map "brightmaps/bm_monster/bm_monster_drone/DROBA5.png" disablefullbright }
+
+brightmap sprite DR4NB1 { map "brightmaps/bm_monster/bm_monster_drone/DROBB1.png" disablefullbright }
+brightmap sprite DR4NB2B8 { map "brightmaps/bm_monster/bm_monster_drone/DROBB2B8.png" disablefullbright }
+brightmap sprite DR4NB3B7 { map "brightmaps/bm_monster/bm_monster_drone/DROBB3B7.png" disablefullbright }
+brightmap sprite DR4NB4B6 { map "brightmaps/bm_monster/bm_monster_drone/DROBB4B6.png" disablefullbright }
+brightmap sprite DR4NB5 { map "brightmaps/bm_monster/bm_monster_drone/DROBB5.png" disablefullbright }
+
+brightmap sprite DR4NC1 { map "brightmaps/bm_monster/bm_monster_drone/DROBC1.png" disablefullbright }
+brightmap sprite DR4NC2C8 { map "brightmaps/bm_monster/bm_monster_drone/DROBC2C8.png" disablefullbright }
+brightmap sprite DR4NC3C7 { map "brightmaps/bm_monster/bm_monster_drone/DROBC3C7.png" disablefullbright }
+brightmap sprite DR4NC4C6 { map "brightmaps/bm_monster/bm_monster_drone/DROBC4C6.png" disablefullbright }
+brightmap sprite DR4NC5 { map "brightmaps/bm_monster/bm_monster_drone/DROBC5.png" disablefullbright }
+
+brightmap sprite DR4ND1 { map "brightmaps/bm_monster/bm_monster_drone/DROBD1.png" disablefullbright }
+brightmap sprite DR4ND2D8 { map "brightmaps/bm_monster/bm_monster_drone/DROBD2D8.png" disablefullbright }
+brightmap sprite DR4ND3D7 { map "brightmaps/bm_monster/bm_monster_drone/DROBD3D7.png" disablefullbright }
+brightmap sprite DR4ND4D6 { map "brightmaps/bm_monster/bm_monster_drone/DROBD4D6.png" disablefullbright }
+brightmap sprite DR4ND5 { map "brightmaps/bm_monster/bm_monster_drone/DROBD5.png" disablefullbright }
+
+brightmap sprite DR4NE0 { map "brightmaps/bm_monster/bm_monster_drone/DROBE0.png" disablefullbright }
+brightmap sprite DR4NF0 { map "brightmaps/bm_monster/bm_monster_drone/DROBF0.png" disablefullbright }
+brightmap sprite DR4NG0 { map "brightmaps/bm_monster/bm_monster_drone/DROBG0.png" disablefullbright }

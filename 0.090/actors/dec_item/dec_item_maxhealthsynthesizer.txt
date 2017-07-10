@@ -1,0 +1,45 @@
+Actor MaxHealthSynthesizer : CustomInventory 15064 {
+	
+	//$NotAngled
+	//$Category Decorate/Items
+	//$Title "Max health synthesizer"
+	
+	Height 28
+	Radius 14
+	
+	Inventory.PickupMessage "Picked up a max health synthesizer."
+	Inventory.PickupSound "misc/i_pkup"
+	Scale 0.8
+	
+	+COUNTITEM
+	+INVENTORY.ALWAYSPICKUP
+	
+	States {
+		
+		Spawn:
+			MHSY ABCDEFGHIJKLMNOPQRSTUVWXYZ 2 bright
+			MHZY AB 2 bright
+			Loop
+		Pickup:
+			TNT1 A 0 A_GiveInventory("MaxHealthBonusEffect", 40)
+			TNT1 A 0 A_GiveInventory("fakemaxhp", 40) // Update UI
+			Stop
+	}
+}
+
+Actor MaxHealthBonusEffect : UpgradeStamina {
+	
+	Inventory.Amount 1
+	Inventory.MaxAmount 200
+	
+	// +COUNTITEM
+	// +INVENTORY.ALWAYSPICKUP
+	
+	States {
+	
+		Spawn:
+			TNT1 A -1
+			Loop
+	}
+}
+

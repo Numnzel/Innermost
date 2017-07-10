@@ -1,0 +1,62 @@
+Actor Insignificant 15033
+{
+  //$Category Decorate/Monsters
+  //$Title "Insignificant"
+  HitObituary "%o was nipped by an Insignificant."
+  Health 10
+  Radius 10
+  Height 12
+  Mass 10
+  Speed 8
+  Scale 0.3
+  PainChance 256
+  BloodColor DarkGreen
+  PainSound "Insignificant/Pain"
+  SeeSound "Insignificant/Sight"
+  DeathSound "Insignificant/Death"
+  ActiveSound "Insignificant/Active"
+  MeleeSound "Insignificant/MeleeHit"
+  MeleeDamage 1
+  Species "Insignificant"
+  Monster
+  +DONTHARMCLASS
+  +JUMPDOWN
+  +NEVERRESPAWN
+  +DONTGIB
+  +RANDOMIZE
+  -CANUSEWALLS
+  -FloorClip
+  -TELESTOMP
+  States
+  {
+  Spawn:
+    INSI A 8 A_Look
+    Loop
+  See:
+    INSI AA 2 A_Chase
+    INSI A 0 A_PlaySoundEx("Insignificant/Step", "SoundSlot7", 0)
+    INSI BB 2 A_Chase
+    INSI B 0 A_PlaySoundEx("Insignificant/Step", "SoundSlot7", 0)
+    INSI CC 2 A_Chase
+    INSI C 0 A_PlaySoundEx("Insignificant/Step", "SoundSlot7", 0)
+    INSI DD 2 A_Chase
+    INSI D 0 A_PlaySoundEx("Insignificant/Step", "SoundSlot7", 0)
+    Loop
+  Melee:
+    INSI A 6 A_FaceTarget
+    INSI A 0 A_Jump(192, 2)
+    INSI A 0 A_PlaySound("Insignificant/Attack")
+    INSI E 8 A_MeleeAttack
+    Goto See
+  Pain:
+    INSI E 3
+    INSI E 3 A_Pain
+    Goto See
+  Death:
+    INSI G 5 A_Scream
+    INSI H 0 A_PlaySoundEx("Insignificant/Splat", "SoundSlot7", 0)
+    INSI H 5 A_NoBlocking
+    INSI IJK 5    
+    Stop
+  }
+}

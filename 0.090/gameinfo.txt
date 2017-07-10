@@ -1,0 +1,4 @@
+iwad = "DOOM2.WAD"
+startuptitle = "< T H E - I N N E R M O S T >"
+startupcolors = "000000", "4444FF"
+//startupcolors = "AA0000","D1C2B4"

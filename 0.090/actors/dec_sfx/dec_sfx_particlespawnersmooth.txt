@@ -1,0 +1,496 @@
+Actor ParticleSpawner2 : SwitchableDecoration 15074 {
+
+	//Height 40
+	//Radius 30
+	
+	//Param. 1 = Frequency1
+	//Param. 2 = Frequency2
+	//Param. 3 = Max speed
+	//Param. 4 = Color/Direction/Speed/Shape
+	//Param. 5 = Radius
+	
+	//$Category Decorate/SFX
+	//$Title "Smooth particle spawner"
+	
+	//$Arg0 "Period (lowest)"
+	//$Arg0ToolTip "The lowest period possibly in tics.\nFinal value range of period: [LowestP, 1+HighestP]"
+	//$Arg0Type 0
+	
+	//$Arg1 "Period (highest)"
+	//$Arg1ToolTip "The highest period possibly in tics.\nFinal value range of period: [LowestP, 1+HighestP]"
+	//$Arg1Type 0
+	
+	//$Arg2 "Max speed"
+	//$Arg2ToolTip "Highest velocity that a particle will have.\nDefault value: 4"
+	//$Arg2Type 0
+	//$Arg2Default 4
+	
+	//$Arg3 "Color/Direction/Speed/Shape"
+	//$Arg3ToolTip "Values from 0 to 11 change the particle color\nAdd +12 to spawn particles downwards\nAdd +24 to spawn particles with random direction (upwards/downwards)\nAdd +100 to spawn particles with a fixed speed instead of being randomized\nAdd +200 to spawn particles inside a circle shaped form\nColors range is: Default, Red, Yellow, Yellow/Green, Green, Green/Cyan, Cyan, Blue, Deep blue, Purple, Pink, Pink/Red"
+	//$Arg3Type 0
+	
+	//$Arg4 "Area"
+	//$Arg4ToolTip "How further of the actor particles will spawn\nSquare: Radius of the square as a circumscribed polygon\nCircle: Radius of the circle\nDefault value: 32"
+	//$Arg4Type 0
+	//$Arg4Default 32
+	
+	+CLIENTSIDEONLY
+	+NOCLIP
+	+NOBLOCKMAP
+	+NOGRAVITY
+	+NOSECTOR
+	+NOINTERACTION
+	
+	States {
+	
+	Spawn:
+	Active:
+		TNT1 A 8 NoDelay A_SetTics (random(Args[0], 1+Args[1]))
+	Option:
+		TNT1 A 0 A_JumpIf (Args[3] == 0, "rs_UP_Default")
+		TNT1 A 0 A_JumpIf (Args[3] == 1, "rs_UP_Red")
+		TNT1 A 0 A_JumpIf (Args[3] == 2, "rs_UP_Yellow")
+		TNT1 A 0 A_JumpIf (Args[3] == 3, "rs_UP_YellowGreen")
+		TNT1 A 0 A_JumpIf (Args[3] == 4, "rs_UP_Green")
+		TNT1 A 0 A_JumpIf (Args[3] == 5, "rs_UP_GreenCyan")
+		TNT1 A 0 A_JumpIf (Args[3] == 6, "rs_UP_Cyan")
+		TNT1 A 0 A_JumpIf (Args[3] == 7, "rs_UP_Blue")
+		TNT1 A 0 A_JumpIf (Args[3] == 8, "rs_UP_DeepBlue")
+		TNT1 A 0 A_JumpIf (Args[3] == 9, "rs_UP_Purple")
+		TNT1 A 0 A_JumpIf (Args[3] == 10, "rs_UP_Pink")
+		TNT1 A 0 A_JumpIf (Args[3] == 11, "rs_UP_PinkRed")
+		TNT1 A 0 A_JumpIf (Args[3] == 12, "rs_DOWN_Default")
+		TNT1 A 0 A_JumpIf (Args[3] == 13, "rs_DOWN_Red")
+		TNT1 A 0 A_JumpIf (Args[3] == 14, "rs_DOWN_Yellow")
+		TNT1 A 0 A_JumpIf (Args[3] == 15, "rs_DOWN_YellowGreen")
+		TNT1 A 0 A_JumpIf (Args[3] == 16, "rs_DOWN_Green")
+		TNT1 A 0 A_JumpIf (Args[3] == 17, "rs_DOWN_GreenCyan")
+		TNT1 A 0 A_JumpIf (Args[3] == 18, "rs_DOWN_Cyan")
+		TNT1 A 0 A_JumpIf (Args[3] == 19, "rs_DOWN_Blue")
+		TNT1 A 0 A_JumpIf (Args[3] == 20, "rs_DOWN_DeepBlue")
+		TNT1 A 0 A_JumpIf (Args[3] == 21, "rs_DOWN_Purple")
+		TNT1 A 0 A_JumpIf (Args[3] == 22, "rs_DOWN_Pink")
+		TNT1 A 0 A_JumpIf (Args[3] == 23, "rs_DOWN_PinkRed")
+		TNT1 A 0 A_JumpIf (Args[3] == 24, "rs_UPDOWN_Default")
+		TNT1 A 0 A_JumpIf (Args[3] == 25, "rs_UPDOWN_Red")
+		TNT1 A 0 A_JumpIf (Args[3] == 26, "rs_UPDOWN_Yellow")
+		TNT1 A 0 A_JumpIf (Args[3] == 27, "rs_UPDOWN_YellowGreen")
+		TNT1 A 0 A_JumpIf (Args[3] == 28, "rs_UPDOWN_Green")
+		TNT1 A 0 A_JumpIf (Args[3] == 29, "rs_UPDOWN_GreenCyan")
+		TNT1 A 0 A_JumpIf (Args[3] == 30, "rs_UPDOWN_Cyan")
+		TNT1 A 0 A_JumpIf (Args[3] == 31, "rs_UPDOWN_Blue")
+		TNT1 A 0 A_JumpIf (Args[3] == 32, "rs_UPDOWN_DeepBlue")
+		TNT1 A 0 A_JumpIf (Args[3] == 33, "rs_UPDOWN_Purple")
+		TNT1 A 0 A_JumpIf (Args[3] == 34, "rs_UPDOWN_Pink")
+		TNT1 A 0 A_JumpIf (Args[3] == 35, "rs_UPDOWN_PinkRed")
+		TNT1 A 0 A_JumpIf (Args[3] == 100, "UP_Default")
+		TNT1 A 0 A_JumpIf (Args[3] == 101, "UP_Red")
+		TNT1 A 0 A_JumpIf (Args[3] == 102, "UP_Yellow")
+		TNT1 A 0 A_JumpIf (Args[3] == 103, "UP_YellowGreen")
+		TNT1 A 0 A_JumpIf (Args[3] == 104, "UP_Green")
+		TNT1 A 0 A_JumpIf (Args[3] == 105, "UP_GreenCyan")
+		TNT1 A 0 A_JumpIf (Args[3] == 106, "UP_Cyan")
+		TNT1 A 0 A_JumpIf (Args[3] == 107, "UP_Blue")
+		TNT1 A 0 A_JumpIf (Args[3] == 108, "UP_DeepBlue")
+		TNT1 A 0 A_JumpIf (Args[3] == 109, "UP_Purple")
+		TNT1 A 0 A_JumpIf (Args[3] == 110, "UP_Pink")
+		TNT1 A 0 A_JumpIf (Args[3] == 111, "UP_PinkRed")
+		TNT1 A 0 A_JumpIf (Args[3] == 112, "DOWN_Default")
+		TNT1 A 0 A_JumpIf (Args[3] == 113, "DOWN_Red")
+		TNT1 A 0 A_JumpIf (Args[3] == 114, "DOWN_Yellow")
+		TNT1 A 0 A_JumpIf (Args[3] == 115, "DOWN_YellowGreen")
+		TNT1 A 0 A_JumpIf (Args[3] == 116, "DOWN_Green")
+		TNT1 A 0 A_JumpIf (Args[3] == 117, "DOWN_GreenCyan")
+		TNT1 A 0 A_JumpIf (Args[3] == 118, "DOWN_Cyan")
+		TNT1 A 0 A_JumpIf (Args[3] == 119, "DOWN_Blue")
+		TNT1 A 0 A_JumpIf (Args[3] == 120, "DOWN_DeepBlue")
+		TNT1 A 0 A_JumpIf (Args[3] == 121, "DOWN_Purple")
+		TNT1 A 0 A_JumpIf (Args[3] == 122, "DOWN_Pink")
+		TNT1 A 0 A_JumpIf (Args[3] == 123, "DOWN_PinkRed")
+		TNT1 A 0 A_JumpIf (Args[3] == 124, "UPDOWN_Default")
+		TNT1 A 0 A_JumpIf (Args[3] == 125, "UPDOWN_Red")
+		TNT1 A 0 A_JumpIf (Args[3] == 126, "UPDOWN_Yellow")
+		TNT1 A 0 A_JumpIf (Args[3] == 127, "UPDOWN_YellowGreen")
+		TNT1 A 0 A_JumpIf (Args[3] == 128, "UPDOWN_Green")
+		TNT1 A 0 A_JumpIf (Args[3] == 129, "UPDOWN_GreenCyan")
+		TNT1 A 0 A_JumpIf (Args[3] == 130, "UPDOWN_Cyan")
+		TNT1 A 0 A_JumpIf (Args[3] == 131, "UPDOWN_Blue")
+		TNT1 A 0 A_JumpIf (Args[3] == 132, "UPDOWN_DeepBlue")
+		TNT1 A 0 A_JumpIf (Args[3] == 133, "UPDOWN_Purple")
+		TNT1 A 0 A_JumpIf (Args[3] == 134, "UPDOWN_Pink")
+		TNT1 A 0 A_JumpIf (Args[3] == 135, "UPDOWN_PinkRed")
+		TNT1 A 0 A_JumpIf (Args[3] == 200, "C_rs_UP_Default")
+		TNT1 A 0 A_JumpIf (Args[3] == 201, "C_rs_UP_Red")
+		TNT1 A 0 A_JumpIf (Args[3] == 202, "C_rs_UP_Yellow")
+		TNT1 A 0 A_JumpIf (Args[3] == 203, "C_rs_UP_YellowGreen")
+		TNT1 A 0 A_JumpIf (Args[3] == 204, "C_rs_UP_Green")
+		TNT1 A 0 A_JumpIf (Args[3] == 205, "C_rs_UP_GreenCyan")
+		TNT1 A 0 A_JumpIf (Args[3] == 206, "C_rs_UP_Cyan")
+		TNT1 A 0 A_JumpIf (Args[3] == 207, "C_rs_UP_Blue")
+		TNT1 A 0 A_JumpIf (Args[3] == 208, "C_rs_UP_DeepBlue")
+		TNT1 A 0 A_JumpIf (Args[3] == 209, "C_rs_UP_Purple")
+		TNT1 A 0 A_JumpIf (Args[3] == 210, "C_rs_UP_Pink")
+		TNT1 A 0 A_JumpIf (Args[3] == 211, "C_rs_UP_PinkRed")
+		TNT1 A 0 A_JumpIf (Args[3] == 212, "C_rs_DOWN_Default")
+		TNT1 A 0 A_JumpIf (Args[3] == 213, "C_rs_DOWN_Red")
+		TNT1 A 0 A_JumpIf (Args[3] == 214, "C_rs_DOWN_Yellow")
+		TNT1 A 0 A_JumpIf (Args[3] == 215, "C_rs_DOWN_YellowGreen")
+		TNT1 A 0 A_JumpIf (Args[3] == 216, "C_rs_DOWN_Green")
+		TNT1 A 0 A_JumpIf (Args[3] == 217, "C_rs_DOWN_GreenCyan")
+		TNT1 A 0 A_JumpIf (Args[3] == 218, "C_rs_DOWN_Cyan")
+		TNT1 A 0 A_JumpIf (Args[3] == 219, "C_rs_DOWN_Blue")
+		TNT1 A 0 A_JumpIf (Args[3] == 220, "C_rs_DOWN_DeepBlue")
+		TNT1 A 0 A_JumpIf (Args[3] == 221, "C_rs_DOWN_Purple")
+		TNT1 A 0 A_JumpIf (Args[3] == 222, "C_rs_DOWN_Pink")
+		TNT1 A 0 A_JumpIf (Args[3] == 223, "C_rs_DOWN_PinkRed")
+		TNT1 A 0 A_JumpIf (Args[3] == 224, "C_rs_UPDOWN_Default")
+		TNT1 A 0 A_JumpIf (Args[3] == 225, "C_rs_UPDOWN_Red")
+		TNT1 A 0 A_JumpIf (Args[3] == 226, "C_rs_UPDOWN_Yellow")
+		TNT1 A 0 A_JumpIf (Args[3] == 227, "C_rs_UPDOWN_YellowGreen")
+		TNT1 A 0 A_JumpIf (Args[3] == 228, "C_rs_UPDOWN_Green")
+		TNT1 A 0 A_JumpIf (Args[3] == 229, "C_rs_UPDOWN_GreenCyan")
+		TNT1 A 0 A_JumpIf (Args[3] == 230, "C_rs_UPDOWN_Cyan")
+		TNT1 A 0 A_JumpIf (Args[3] == 231, "C_rs_UPDOWN_Blue")
+		TNT1 A 0 A_JumpIf (Args[3] == 232, "C_rs_UPDOWN_DeepBlue")
+		TNT1 A 0 A_JumpIf (Args[3] == 233, "C_rs_UPDOWN_Purple")
+		TNT1 A 0 A_JumpIf (Args[3] == 234, "C_rs_UPDOWN_Pink")
+		TNT1 A 0 A_JumpIf (Args[3] == 235, "C_rs_UPDOWN_PinkRed")
+		TNT1 A 0 A_JumpIf (Args[3] == 300, "C_UP_Default")
+		TNT1 A 0 A_JumpIf (Args[3] == 301, "C_UP_Red")
+		TNT1 A 0 A_JumpIf (Args[3] == 302, "C_UP_Yellow")
+		TNT1 A 0 A_JumpIf (Args[3] == 303, "C_UP_YellowGreen")
+		TNT1 A 0 A_JumpIf (Args[3] == 304, "C_UP_Green")
+		TNT1 A 0 A_JumpIf (Args[3] == 305, "C_UP_GreenCyan")
+		TNT1 A 0 A_JumpIf (Args[3] == 306, "C_UP_Cyan")
+		TNT1 A 0 A_JumpIf (Args[3] == 307, "C_UP_Blue")
+		TNT1 A 0 A_JumpIf (Args[3] == 308, "C_UP_DeepBlue")
+		TNT1 A 0 A_JumpIf (Args[3] == 309, "C_UP_Purple")
+		TNT1 A 0 A_JumpIf (Args[3] == 310, "C_UP_Pink")
+		TNT1 A 0 A_JumpIf (Args[3] == 311, "C_UP_PinkRed")
+		TNT1 A 0 A_JumpIf (Args[3] == 312, "C_DOWN_Default")
+		TNT1 A 0 A_JumpIf (Args[3] == 313, "C_DOWN_Red")
+		TNT1 A 0 A_JumpIf (Args[3] == 314, "C_DOWN_Yellow")
+		TNT1 A 0 A_JumpIf (Args[3] == 315, "C_DOWN_YellowGreen")
+		TNT1 A 0 A_JumpIf (Args[3] == 316, "C_DOWN_Green")
+		TNT1 A 0 A_JumpIf (Args[3] == 317, "C_DOWN_GreenCyan")
+		TNT1 A 0 A_JumpIf (Args[3] == 318, "C_DOWN_Cyan")
+		TNT1 A 0 A_JumpIf (Args[3] == 319, "C_DOWN_Blue")
+		TNT1 A 0 A_JumpIf (Args[3] == 320, "C_DOWN_DeepBlue")
+		TNT1 A 0 A_JumpIf (Args[3] == 321, "C_DOWN_Purple")
+		TNT1 A 0 A_JumpIf (Args[3] == 322, "C_DOWN_Pink")
+		TNT1 A 0 A_JumpIf (Args[3] == 323, "C_DOWN_PinkRed")
+		TNT1 A 0 A_JumpIf (Args[3] == 324, "C_UPDOWN_Default")
+		TNT1 A 0 A_JumpIf (Args[3] == 325, "C_UPDOWN_Red")
+		TNT1 A 0 A_JumpIf (Args[3] == 326, "C_UPDOWN_Yellow")
+		TNT1 A 0 A_JumpIf (Args[3] == 327, "C_UPDOWN_YellowGreen")
+		TNT1 A 0 A_JumpIf (Args[3] == 328, "C_UPDOWN_Green")
+		TNT1 A 0 A_JumpIf (Args[3] == 329, "C_UPDOWN_GreenCyan")
+		TNT1 A 0 A_JumpIf (Args[3] == 330, "C_UPDOWN_Cyan")
+		TNT1 A 0 A_JumpIf (Args[3] == 331, "C_UPDOWN_Blue")
+		TNT1 A 0 A_JumpIf (Args[3] == 332, "C_UPDOWN_DeepBlue")
+		TNT1 A 0 A_JumpIf (Args[3] == 333, "C_UPDOWN_Purple")
+		TNT1 A 0 A_JumpIf (Args[3] == 334, "C_UPDOWN_Pink")
+		TNT1 A 0 A_JumpIf (Args[3] == 335, "C_UPDOWN_PinkRed")
+		
+	rs_UP_Default: 			TNT1 A 0 A_SpawnItemEx ("SFXParticleDefault2", 		random(-Args[4], Args[4]), random(-Args[4], Args[4]), 1, 0, 0, random(1.0, Args[2]), 0) goto Active
+	rs_UP_Red: 				TNT1 A 0 A_SpawnItemEx ("SFXParticleRed2", 			random(-Args[4], Args[4]), random(-Args[4], Args[4]), 1, 0, 0, random(1.0, Args[2]), 0) goto Active
+	rs_UP_Yellow: 			TNT1 A 0 A_SpawnItemEx ("SFXParticleYellow2", 		random(-Args[4], Args[4]), random(-Args[4], Args[4]), 1, 0, 0, random(1.0, Args[2]), 0) goto Active
+	rs_UP_YellowGreen: 		TNT1 A 0 A_SpawnItemEx ("SFXParticleYellowGreen2", 	random(-Args[4], Args[4]), random(-Args[4], Args[4]), 1, 0, 0, random(1.0, Args[2]), 0) goto Active
+	rs_UP_Green: 			TNT1 A 0 A_SpawnItemEx ("SFXParticleGreen2", 		random(-Args[4], Args[4]), random(-Args[4], Args[4]), 1, 0, 0, random(1.0, Args[2]), 0) goto Active
+	rs_UP_GreenCyan: 		TNT1 A 0 A_SpawnItemEx ("SFXParticleGreenCyan2", 	random(-Args[4], Args[4]), random(-Args[4], Args[4]), 1, 0, 0, random(1.0, Args[2]), 0) goto Active
+	rs_UP_Cyan: 			TNT1 A 0 A_SpawnItemEx ("SFXParticleCyan2", 		random(-Args[4], Args[4]), random(-Args[4], Args[4]), 1, 0, 0, random(1.0, Args[2]), 0) goto Active
+	rs_UP_Blue: 			TNT1 A 0 A_SpawnItemEx ("SFXParticleBlue2", 		random(-Args[4], Args[4]), random(-Args[4], Args[4]), 1, 0, 0, random(1.0, Args[2]), 0) goto Active
+	rs_UP_DeepBlue: 		TNT1 A 0 A_SpawnItemEx ("SFXParticleDeepBlue2", 	random(-Args[4], Args[4]), random(-Args[4], Args[4]), 1, 0, 0, random(1.0, Args[2]), 0) goto Active
+	rs_UP_Purple: 			TNT1 A 0 A_SpawnItemEx ("SFXParticlePurple2", 		random(-Args[4], Args[4]), random(-Args[4], Args[4]), 1, 0, 0, random(1.0, Args[2]), 0) goto Active
+	rs_UP_Pink: 			TNT1 A 0 A_SpawnItemEx ("SFXParticlePink2", 		random(-Args[4], Args[4]), random(-Args[4], Args[4]), 1, 0, 0, random(1.0, Args[2]), 0) goto Active
+	rs_UP_PinkRed: 			TNT1 A 0 A_SpawnItemEx ("SFXParticlePinkRed2", 		random(-Args[4], Args[4]), random(-Args[4], Args[4]), 1, 0, 0, random(1.0, Args[2]), 0) goto Active
+	
+	rs_DOWN_Default: 		TNT1 A 0 A_SpawnItemEx ("SFXParticleDefault2", 		random(-Args[4], Args[4]), random(-Args[4], Args[4]), 1, 0, 0, -random(1.0, Args[2]), 0) goto Active
+	rs_DOWN_Red: 			TNT1 A 0 A_SpawnItemEx ("SFXParticleRed2", 			random(-Args[4], Args[4]), random(-Args[4], Args[4]), 1, 0, 0, -random(1.0, Args[2]), 0) goto Active
+	rs_DOWN_Yellow: 		TNT1 A 0 A_SpawnItemEx ("SFXParticleYellow2", 		random(-Args[4], Args[4]), random(-Args[4], Args[4]), 1, 0, 0, -random(1.0, Args[2]), 0) goto Active
+	rs_DOWN_YellowGreen: 	TNT1 A 0 A_SpawnItemEx ("SFXParticleYellowGreen2", 	random(-Args[4], Args[4]), random(-Args[4], Args[4]), 1, 0, 0, -random(1.0, Args[2]), 0) goto Active
+	rs_DOWN_Green: 			TNT1 A 0 A_SpawnItemEx ("SFXParticleGreen2", 		random(-Args[4], Args[4]), random(-Args[4], Args[4]), 1, 0, 0, -random(1.0, Args[2]), 0) goto Active
+	rs_DOWN_GreenCyan: 		TNT1 A 0 A_SpawnItemEx ("SFXParticleGreenCyan2", 	random(-Args[4], Args[4]), random(-Args[4], Args[4]), 1, 0, 0, -random(1.0, Args[2]), 0) goto Active
+	rs_DOWN_Cyan: 			TNT1 A 0 A_SpawnItemEx ("SFXParticleCyan2", 		random(-Args[4], Args[4]), random(-Args[4], Args[4]), 1, 0, 0, -random(1.0, Args[2]), 0) goto Active
+	rs_DOWN_Blue: 			TNT1 A 0 A_SpawnItemEx ("SFXParticleBlue2", 		random(-Args[4], Args[4]), random(-Args[4], Args[4]), 1, 0, 0, -random(1.0, Args[2]), 0) goto Active
+	rs_DOWN_DeepBlue: 		TNT1 A 0 A_SpawnItemEx ("SFXParticleDeepBlue2", 	random(-Args[4], Args[4]), random(-Args[4], Args[4]), 1, 0, 0, -random(1.0, Args[2]), 0) goto Active
+	rs_DOWN_Purple: 		TNT1 A 0 A_SpawnItemEx ("SFXParticlePurple2", 		random(-Args[4], Args[4]), random(-Args[4], Args[4]), 1, 0, 0, -random(1.0, Args[2]), 0) goto Active
+	rs_DOWN_Pink: 			TNT1 A 0 A_SpawnItemEx ("SFXParticlePink2", 		random(-Args[4], Args[4]), random(-Args[4], Args[4]), 1, 0, 0, -random(1.0, Args[2]), 0) goto Active
+	rs_DOWN_PinkRed: 		TNT1 A 0 A_SpawnItemEx ("SFXParticlePinkRed2", 		random(-Args[4], Args[4]), random(-Args[4], Args[4]), 1, 0, 0, -random(1.0, Args[2]), 0) goto Active
+	
+	rs_UPDOWN_Default: 		TNT1 A 0 A_SpawnItemEx ("SFXParticleDefault2", 		random(-Args[4], Args[4]), random(-Args[4], Args[4]), 1, 0, 0, random(-random(1.0, Args[2]), random(1.0, Args[2])), 0) goto Active
+	rs_UPDOWN_Red: 			TNT1 A 0 A_SpawnItemEx ("SFXParticleRed2", 			random(-Args[4], Args[4]), random(-Args[4], Args[4]), 1, 0, 0, random(-random(1.0, Args[2]), random(1.0, Args[2])), 0) goto Active
+	rs_UPDOWN_Yellow: 		TNT1 A 0 A_SpawnItemEx ("SFXParticleYellow2", 		random(-Args[4], Args[4]), random(-Args[4], Args[4]), 1, 0, 0, random(-random(1.0, Args[2]), random(1.0, Args[2])), 0) goto Active
+	rs_UPDOWN_YellowGreen: 	TNT1 A 0 A_SpawnItemEx ("SFXParticleYellowGreen2", 	random(-Args[4], Args[4]), random(-Args[4], Args[4]), 1, 0, 0, random(-random(1.0, Args[2]), random(1.0, Args[2])), 0) goto Active
+	rs_UPDOWN_Green: 		TNT1 A 0 A_SpawnItemEx ("SFXParticleGreen2", 		random(-Args[4], Args[4]), random(-Args[4], Args[4]), 1, 0, 0, random(-random(1.0, Args[2]), random(1.0, Args[2])), 0) goto Active
+	rs_UPDOWN_GreenCyan: 	TNT1 A 0 A_SpawnItemEx ("SFXParticleGreenCyan2", 	random(-Args[4], Args[4]), random(-Args[4], Args[4]), 1, 0, 0, random(-random(1.0, Args[2]), random(1.0, Args[2])), 0) goto Active
+	rs_UPDOWN_Cyan: 		TNT1 A 0 A_SpawnItemEx ("SFXParticleCyan2", 		random(-Args[4], Args[4]), random(-Args[4], Args[4]), 1, 0, 0, random(-random(1.0, Args[2]), random(1.0, Args[2])), 0) goto Active
+	rs_UPDOWN_Blue: 		TNT1 A 0 A_SpawnItemEx ("SFXParticleBlue2", 		random(-Args[4], Args[4]), random(-Args[4], Args[4]), 1, 0, 0, random(-random(1.0, Args[2]), random(1.0, Args[2])), 0) goto Active
+	rs_UPDOWN_DeepBlue: 	TNT1 A 0 A_SpawnItemEx ("SFXParticleDeepBlue2", 	random(-Args[4], Args[4]), random(-Args[4], Args[4]), 1, 0, 0, random(-random(1.0, Args[2]), random(1.0, Args[2])), 0) goto Active
+	rs_UPDOWN_Purple: 		TNT1 A 0 A_SpawnItemEx ("SFXParticlePurple2", 		random(-Args[4], Args[4]), random(-Args[4], Args[4]), 1, 0, 0, random(-random(1.0, Args[2]), random(1.0, Args[2])), 0) goto Active
+	rs_UPDOWN_Pink: 		TNT1 A 0 A_SpawnItemEx ("SFXParticlePink2", 		random(-Args[4], Args[4]), random(-Args[4], Args[4]), 1, 0, 0, random(-random(1.0, Args[2]), random(1.0, Args[2])), 0) goto Active
+	rs_UPDOWN_PinkRed: 		TNT1 A 0 A_SpawnItemEx ("SFXParticlePinkRed2", 		random(-Args[4], Args[4]), random(-Args[4], Args[4]), 1, 0, 0, random(-random(1.0, Args[2]), random(1.0, Args[2])), 0) goto Active
+	
+	UP_Default: 			TNT1 A 0 A_SpawnItemEx ("SFXParticleDefault2", 		random(-Args[4], Args[4]), random(-Args[4], Args[4]), 1, 0, 0, Args[2], 0) goto Active
+	UP_Red: 				TNT1 A 0 A_SpawnItemEx ("SFXParticleRed2", 			random(-Args[4], Args[4]), random(-Args[4], Args[4]), 1, 0, 0, Args[2], 0) goto Active
+	UP_Yellow: 				TNT1 A 0 A_SpawnItemEx ("SFXParticleYellow2", 		random(-Args[4], Args[4]), random(-Args[4], Args[4]), 1, 0, 0, Args[2], 0) goto Active
+	UP_YellowGreen: 		TNT1 A 0 A_SpawnItemEx ("SFXParticleYellowGreen2", 	random(-Args[4], Args[4]), random(-Args[4], Args[4]), 1, 0, 0, Args[2], 0) goto Active
+	UP_Green: 				TNT1 A 0 A_SpawnItemEx ("SFXParticleGreen2", 		random(-Args[4], Args[4]), random(-Args[4], Args[4]), 1, 0, 0, Args[2], 0) goto Active
+	UP_GreenCyan: 			TNT1 A 0 A_SpawnItemEx ("SFXParticleGreenCyan2", 	random(-Args[4], Args[4]), random(-Args[4], Args[4]), 1, 0, 0, Args[2], 0) goto Active
+	UP_Cyan: 				TNT1 A 0 A_SpawnItemEx ("SFXParticleCyan2", 		random(-Args[4], Args[4]), random(-Args[4], Args[4]), 1, 0, 0, Args[2], 0) goto Active
+	UP_Blue: 				TNT1 A 0 A_SpawnItemEx ("SFXParticleBlue2", 		random(-Args[4], Args[4]), random(-Args[4], Args[4]), 1, 0, 0, Args[2], 0) goto Active
+	UP_DeepBlue: 			TNT1 A 0 A_SpawnItemEx ("SFXParticleDeepBlue2", 	random(-Args[4], Args[4]), random(-Args[4], Args[4]), 1, 0, 0, Args[2], 0) goto Active
+	UP_Purple: 				TNT1 A 0 A_SpawnItemEx ("SFXParticlePurple2", 		random(-Args[4], Args[4]), random(-Args[4], Args[4]), 1, 0, 0, Args[2], 0) goto Active
+	UP_Pink: 				TNT1 A 0 A_SpawnItemEx ("SFXParticlePink2", 		random(-Args[4], Args[4]), random(-Args[4], Args[4]), 1, 0, 0, Args[2], 0) goto Active
+	UP_PinkRed: 			TNT1 A 0 A_SpawnItemEx ("SFXParticlePinkRed2", 		random(-Args[4], Args[4]), random(-Args[4], Args[4]), 1, 0, 0, Args[2], 0) goto Active
+	
+	DOWN_Default: 			TNT1 A 0 A_SpawnItemEx ("SFXParticleDefault2", 		random(-Args[4], Args[4]), random(-Args[4], Args[4]), 1, 0, 0, -Args[2], 0) goto Active
+	DOWN_Red: 				TNT1 A 0 A_SpawnItemEx ("SFXParticleRed2", 			random(-Args[4], Args[4]), random(-Args[4], Args[4]), 1, 0, 0, -Args[2], 0) goto Active
+	DOWN_Yellow: 			TNT1 A 0 A_SpawnItemEx ("SFXParticleYellow2", 		random(-Args[4], Args[4]), random(-Args[4], Args[4]), 1, 0, 0, -Args[2], 0) goto Active
+	DOWN_YellowGreen: 		TNT1 A 0 A_SpawnItemEx ("SFXParticleYellowGreen2", 	random(-Args[4], Args[4]), random(-Args[4], Args[4]), 1, 0, 0, -Args[2], 0) goto Active
+	DOWN_Green: 			TNT1 A 0 A_SpawnItemEx ("SFXParticleGreen2", 		random(-Args[4], Args[4]), random(-Args[4], Args[4]), 1, 0, 0, -Args[2], 0) goto Active
+	DOWN_GreenCyan: 		TNT1 A 0 A_SpawnItemEx ("SFXParticleGreenCyan2", 	random(-Args[4], Args[4]), random(-Args[4], Args[4]), 1, 0, 0, -Args[2], 0) goto Active
+	DOWN_Cyan: 				TNT1 A 0 A_SpawnItemEx ("SFXParticleCyan2", 		random(-Args[4], Args[4]), random(-Args[4], Args[4]), 1, 0, 0, -Args[2], 0) goto Active
+	DOWN_Blue: 				TNT1 A 0 A_SpawnItemEx ("SFXParticleBlue2", 		random(-Args[4], Args[4]), random(-Args[4], Args[4]), 1, 0, 0, -Args[2], 0) goto Active
+	DOWN_DeepBlue: 			TNT1 A 0 A_SpawnItemEx ("SFXParticleDeepBlue2", 	random(-Args[4], Args[4]), random(-Args[4], Args[4]), 1, 0, 0, -Args[2], 0) goto Active
+	DOWN_Purple: 			TNT1 A 0 A_SpawnItemEx ("SFXParticlePurple2", 		random(-Args[4], Args[4]), random(-Args[4], Args[4]), 1, 0, 0, -Args[2], 0) goto Active
+	DOWN_Pink: 				TNT1 A 0 A_SpawnItemEx ("SFXParticlePink2", 		random(-Args[4], Args[4]), random(-Args[4], Args[4]), 1, 0, 0, -Args[2], 0) goto Active
+	DOWN_PinkRed: 			TNT1 A 0 A_SpawnItemEx ("SFXParticlePinkRed2", 		random(-Args[4], Args[4]), random(-Args[4], Args[4]), 1, 0, 0, -Args[2], 0) goto Active
+	
+	UPDOWN_Default: 		TNT1 A 0 A_SpawnItemEx ("SFXParticleDefault2", 		random(-Args[4], Args[4]), random(-Args[4], Args[4]), 1, 0, 0, random(-Args[2], Args[2]), 0) goto Active
+	UPDOWN_Red: 			TNT1 A 0 A_SpawnItemEx ("SFXParticleRed2", 			random(-Args[4], Args[4]), random(-Args[4], Args[4]), 1, 0, 0, random(-Args[2], Args[2]), 0) goto Active
+	UPDOWN_Yellow: 			TNT1 A 0 A_SpawnItemEx ("SFXParticleYellow2", 		random(-Args[4], Args[4]), random(-Args[4], Args[4]), 1, 0, 0, random(-Args[2], Args[2]), 0) goto Active
+	UPDOWN_YellowGreen: 	TNT1 A 0 A_SpawnItemEx ("SFXParticleYellowGreen2", 	random(-Args[4], Args[4]), random(-Args[4], Args[4]), 1, 0, 0, random(-Args[2], Args[2]), 0) goto Active
+	UPDOWN_Green: 			TNT1 A 0 A_SpawnItemEx ("SFXParticleGreen2", 		random(-Args[4], Args[4]), random(-Args[4], Args[4]), 1, 0, 0, random(-Args[2], Args[2]), 0) goto Active
+	UPDOWN_GreenCyan: 		TNT1 A 0 A_SpawnItemEx ("SFXParticleGreenCyan2", 	random(-Args[4], Args[4]), random(-Args[4], Args[4]), 1, 0, 0, random(-Args[2], Args[2]), 0) goto Active
+	UPDOWN_Cyan: 			TNT1 A 0 A_SpawnItemEx ("SFXParticleCyan2", 		random(-Args[4], Args[4]), random(-Args[4], Args[4]), 1, 0, 0, random(-Args[2], Args[2]), 0) goto Active
+	UPDOWN_Blue: 			TNT1 A 0 A_SpawnItemEx ("SFXParticleBlue2", 		random(-Args[4], Args[4]), random(-Args[4], Args[4]), 1, 0, 0, random(-Args[2], Args[2]), 0) goto Active
+	UPDOWN_DeepBlue: 		TNT1 A 0 A_SpawnItemEx ("SFXParticleDeepBlue2", 	random(-Args[4], Args[4]), random(-Args[4], Args[4]), 1, 0, 0, random(-Args[2], Args[2]), 0) goto Active
+	UPDOWN_Purple: 			TNT1 A 0 A_SpawnItemEx ("SFXParticlePurple2", 		random(-Args[4], Args[4]), random(-Args[4], Args[4]), 1, 0, 0, random(-Args[2], Args[2]), 0) goto Active
+	UPDOWN_Pink: 			TNT1 A 0 A_SpawnItemEx ("SFXParticlePink2", 		random(-Args[4], Args[4]), random(-Args[4], Args[4]), 1, 0, 0, random(-Args[2], Args[2]), 0) goto Active
+	UPDOWN_PinkRed: 		TNT1 A 0 A_SpawnItemEx ("SFXParticlePinkRed2", 		random(-Args[4], Args[4]), random(-Args[4], Args[4]), 1, 0, 0, random(-Args[2], Args[2]), 0) goto Active
+	
+	C_rs_UP_Default: 		TNT1 A 0 A_SpawnItemEx ("SFXParticleDefault2", 		random(-Args[4], Args[4]), 0, 1, 0, 0, random(1.0, Args[2]), random(0, 359)) goto Active
+	C_rs_UP_Red: 			TNT1 A 0 A_SpawnItemEx ("SFXParticleRed2", 			random(-Args[4], Args[4]), 0, 1, 0, 0, random(1.0, Args[2]), random(0, 359)) goto Active
+	C_rs_UP_Yellow: 		TNT1 A 0 A_SpawnItemEx ("SFXParticleYellow2", 		random(-Args[4], Args[4]), 0, 1, 0, 0, random(1.0, Args[2]), random(0, 359)) goto Active
+	C_rs_UP_YellowGreen: 	TNT1 A 0 A_SpawnItemEx ("SFXParticleYellowGreen2", 	random(-Args[4], Args[4]), 0, 1, 0, 0, random(1.0, Args[2]), random(0, 359)) goto Active
+	C_rs_UP_Green: 			TNT1 A 0 A_SpawnItemEx ("SFXParticleGreen2", 		random(-Args[4], Args[4]), 0, 1, 0, 0, random(1.0, Args[2]), random(0, 359)) goto Active
+	C_rs_UP_GreenCyan: 		TNT1 A 0 A_SpawnItemEx ("SFXParticleGreenCyan2", 	random(-Args[4], Args[4]), 0, 1, 0, 0, random(1.0, Args[2]), random(0, 359)) goto Active
+	C_rs_UP_Cyan: 			TNT1 A 0 A_SpawnItemEx ("SFXParticleCyan2", 		random(-Args[4], Args[4]), 0, 1, 0, 0, random(1.0, Args[2]), random(0, 359)) goto Active
+	C_rs_UP_Blue: 			TNT1 A 0 A_SpawnItemEx ("SFXParticleBlue2", 		random(-Args[4], Args[4]), 0, 1, 0, 0, random(1.0, Args[2]), random(0, 359)) goto Active
+	C_rs_UP_DeepBlue: 		TNT1 A 0 A_SpawnItemEx ("SFXParticleDeepBlue2", 	random(-Args[4], Args[4]), 0, 1, 0, 0, random(1.0, Args[2]), random(0, 359)) goto Active
+	C_rs_UP_Purple: 		TNT1 A 0 A_SpawnItemEx ("SFXParticlePurple2", 		random(-Args[4], Args[4]), 0, 1, 0, 0, random(1.0, Args[2]), random(0, 359)) goto Active
+	C_rs_UP_Pink: 			TNT1 A 0 A_SpawnItemEx ("SFXParticlePink2", 		random(-Args[4], Args[4]), 0, 1, 0, 0, random(1.0, Args[2]), random(0, 359)) goto Active
+	C_rs_UP_PinkRed: 		TNT1 A 0 A_SpawnItemEx ("SFXParticlePinkRed2", 		random(-Args[4], Args[4]), 0, 1, 0, 0, random(1.0, Args[2]), random(0, 359)) goto Active
+	
+	C_rs_DOWN_Default: 		TNT1 A 0 A_SpawnItemEx ("SFXParticleDefault2", 		random(-Args[4], Args[4]), 0, 1, 0, 0, -random(1.0, Args[2]), random(0, 359)) goto Active
+	C_rs_DOWN_Red: 			TNT1 A 0 A_SpawnItemEx ("SFXParticleRed2", 			random(-Args[4], Args[4]), 0, 1, 0, 0, -random(1.0, Args[2]), random(0, 359)) goto Active
+	C_rs_DOWN_Yellow: 		TNT1 A 0 A_SpawnItemEx ("SFXParticleYellow2", 		random(-Args[4], Args[4]), 0, 1, 0, 0, -random(1.0, Args[2]), random(0, 359)) goto Active
+	C_rs_DOWN_YellowGreen: 	TNT1 A 0 A_SpawnItemEx ("SFXParticleYellowGreen2", 	random(-Args[4], Args[4]), 0, 1, 0, 0, -random(1.0, Args[2]), random(0, 359)) goto Active
+	C_rs_DOWN_Green: 		TNT1 A 0 A_SpawnItemEx ("SFXParticleGreen2", 		random(-Args[4], Args[4]), 0, 1, 0, 0, -random(1.0, Args[2]), random(0, 359)) goto Active
+	C_rs_DOWN_GreenCyan: 	TNT1 A 0 A_SpawnItemEx ("SFXParticleGreenCyan2", 	random(-Args[4], Args[4]), 0, 1, 0, 0, -random(1.0, Args[2]), random(0, 359)) goto Active
+	C_rs_DOWN_Cyan: 		TNT1 A 0 A_SpawnItemEx ("SFXParticleCyan2", 		random(-Args[4], Args[4]), 0, 1, 0, 0, -random(1.0, Args[2]), random(0, 359)) goto Active
+	C_rs_DOWN_Blue: 		TNT1 A 0 A_SpawnItemEx ("SFXParticleBlue2", 		random(-Args[4], Args[4]), 0, 1, 0, 0, -random(1.0, Args[2]), random(0, 359)) goto Active
+	C_rs_DOWN_DeepBlue: 	TNT1 A 0 A_SpawnItemEx ("SFXParticleDeepBlue2", 	random(-Args[4], Args[4]), 0, 1, 0, 0, -random(1.0, Args[2]), random(0, 359)) goto Active
+	C_rs_DOWN_Purple: 		TNT1 A 0 A_SpawnItemEx ("SFXParticlePurple2", 		random(-Args[4], Args[4]), 0, 1, 0, 0, -random(1.0, Args[2]), random(0, 359)) goto Active
+	C_rs_DOWN_Pink: 		TNT1 A 0 A_SpawnItemEx ("SFXParticlePink2", 		random(-Args[4], Args[4]), 0, 1, 0, 0, -random(1.0, Args[2]), random(0, 359)) goto Active
+	C_rs_DOWN_PinkRed: 		TNT1 A 0 A_SpawnItemEx ("SFXParticlePinkRed2", 		random(-Args[4], Args[4]), 0, 1, 0, 0, -random(1.0, Args[2]), random(0, 359)) goto Active
+	
+	C_rs_UPDOWN_Default: 	TNT1 A 0 A_SpawnItemEx ("SFXParticleDefault2", 		random(-Args[4], Args[4]), 0, 1, 0, 0, random(-random(1.0, Args[2]), random(1.0, Args[2])), random(0, 359)) goto Active
+	C_rs_UPDOWN_Red: 		TNT1 A 0 A_SpawnItemEx ("SFXParticleRed2", 			random(-Args[4], Args[4]), 0, 1, 0, 0, random(-random(1.0, Args[2]), random(1.0, Args[2])), random(0, 359)) goto Active
+	C_rs_UPDOWN_Yellow: 	TNT1 A 0 A_SpawnItemEx ("SFXParticleYellow2", 		random(-Args[4], Args[4]), 0, 1, 0, 0, random(-random(1.0, Args[2]), random(1.0, Args[2])), random(0, 359)) goto Active
+	C_rs_UPDOWN_YellowGreen:TNT1 A 0 A_SpawnItemEx ("SFXParticleYellowGreen2", 	random(-Args[4], Args[4]), 0, 1, 0, 0, random(-random(1.0, Args[2]), random(1.0, Args[2])), random(0, 359)) goto Active
+	C_rs_UPDOWN_Green: 		TNT1 A 0 A_SpawnItemEx ("SFXParticleGreen2", 		random(-Args[4], Args[4]), 0, 1, 0, 0, random(-random(1.0, Args[2]), random(1.0, Args[2])), random(0, 359)) goto Active
+	C_rs_UPDOWN_GreenCyan: 	TNT1 A 0 A_SpawnItemEx ("SFXParticleGreenCyan2", 	random(-Args[4], Args[4]), 0, 1, 0, 0, random(-random(1.0, Args[2]), random(1.0, Args[2])), random(0, 359)) goto Active
+	C_rs_UPDOWN_Cyan: 		TNT1 A 0 A_SpawnItemEx ("SFXParticleCyan2", 		random(-Args[4], Args[4]), 0, 1, 0, 0, random(-random(1.0, Args[2]), random(1.0, Args[2])), random(0, 359)) goto Active
+	C_rs_UPDOWN_Blue: 		TNT1 A 0 A_SpawnItemEx ("SFXParticleBlue2", 		random(-Args[4], Args[4]), 0, 1, 0, 0, random(-random(1.0, Args[2]), random(1.0, Args[2])), random(0, 359)) goto Active
+	C_rs_UPDOWN_DeepBlue: 	TNT1 A 0 A_SpawnItemEx ("SFXParticleDeepBlue2", 	random(-Args[4], Args[4]), 0, 1, 0, 0, random(-random(1.0, Args[2]), random(1.0, Args[2])), random(0, 359)) goto Active
+	C_rs_UPDOWN_Purple: 	TNT1 A 0 A_SpawnItemEx ("SFXParticlePurple2", 		random(-Args[4], Args[4]), 0, 1, 0, 0, random(-random(1.0, Args[2]), random(1.0, Args[2])), random(0, 359)) goto Active
+	C_rs_UPDOWN_Pink: 		TNT1 A 0 A_SpawnItemEx ("SFXParticlePink2", 		random(-Args[4], Args[4]), 0, 1, 0, 0, random(-random(1.0, Args[2]), random(1.0, Args[2])), random(0, 359)) goto Active
+	C_rs_UPDOWN_PinkRed: 	TNT1 A 0 A_SpawnItemEx ("SFXParticlePinkRed2", 		random(-Args[4], Args[4]), 0, 1, 0, 0, random(-random(1.0, Args[2]), random(1.0, Args[2])), random(0, 359)) goto Active
+	
+	C_UP_Default: 			TNT1 A 0 A_SpawnItemEx ("SFXParticleDefault2", 		random(-Args[4], Args[4]), 0, 1, 0, 0, Args[2], random(0, 359)) goto Active
+	C_UP_Red: 				TNT1 A 0 A_SpawnItemEx ("SFXParticleRed2", 			random(-Args[4], Args[4]), 0, 1, 0, 0, Args[2], random(0, 359)) goto Active
+	C_UP_Yellow: 			TNT1 A 0 A_SpawnItemEx ("SFXParticleYellow2", 		random(-Args[4], Args[4]), 0, 1, 0, 0, Args[2], random(0, 359)) goto Active
+	C_UP_YellowGreen: 		TNT1 A 0 A_SpawnItemEx ("SFXParticleYellowGreen2", 	random(-Args[4], Args[4]), 0, 1, 0, 0, Args[2], random(0, 359)) goto Active
+	C_UP_Green: 			TNT1 A 0 A_SpawnItemEx ("SFXParticleGreen2", 		random(-Args[4], Args[4]), 0, 1, 0, 0, Args[2], random(0, 359)) goto Active
+	C_UP_GreenCyan: 		TNT1 A 0 A_SpawnItemEx ("SFXParticleGreenCyan2", 	random(-Args[4], Args[4]), 0, 1, 0, 0, Args[2], random(0, 359)) goto Active
+	C_UP_Cyan: 				TNT1 A 0 A_SpawnItemEx ("SFXParticleCyan2", 		random(-Args[4], Args[4]), 0, 1, 0, 0, Args[2], random(0, 359)) goto Active
+	C_UP_Blue: 				TNT1 A 0 A_SpawnItemEx ("SFXParticleBlue2", 		random(-Args[4], Args[4]), 0, 1, 0, 0, Args[2], random(0, 359)) goto Active
+	C_UP_DeepBlue: 			TNT1 A 0 A_SpawnItemEx ("SFXParticleDeepBlue2", 	random(-Args[4], Args[4]), 0, 1, 0, 0, Args[2], random(0, 359)) goto Active
+	C_UP_Purple: 			TNT1 A 0 A_SpawnItemEx ("SFXParticlePurple2", 		random(-Args[4], Args[4]), 0, 1, 0, 0, Args[2], random(0, 359)) goto Active
+	C_UP_Pink: 				TNT1 A 0 A_SpawnItemEx ("SFXParticlePink2", 		random(-Args[4], Args[4]), 0, 1, 0, 0, Args[2], random(0, 359)) goto Active
+	C_UP_PinkRed: 			TNT1 A 0 A_SpawnItemEx ("SFXParticlePinkRed2", 		random(-Args[4], Args[4]), 0, 1, 0, 0, Args[2], random(0, 359)) goto Active
+	
+	C_DOWN_Default: 		TNT1 A 0 A_SpawnItemEx ("SFXParticleDefault2", 		random(-Args[4], Args[4]), 0, 1, 0, 0, -Args[2], random(0, 359)) goto Active
+	C_DOWN_Red: 			TNT1 A 0 A_SpawnItemEx ("SFXParticleRed2", 			random(-Args[4], Args[4]), 0, 1, 0, 0, -Args[2], random(0, 359)) goto Active
+	C_DOWN_Yellow: 			TNT1 A 0 A_SpawnItemEx ("SFXParticleYellow2", 		random(-Args[4], Args[4]), 0, 1, 0, 0, -Args[2], random(0, 359)) goto Active
+	C_DOWN_YellowGreen: 	TNT1 A 0 A_SpawnItemEx ("SFXParticleYellowGreen2", 	random(-Args[4], Args[4]), 0, 1, 0, 0, -Args[2], random(0, 359)) goto Active
+	C_DOWN_Green: 			TNT1 A 0 A_SpawnItemEx ("SFXParticleGreen2", 		random(-Args[4], Args[4]), 0, 1, 0, 0, -Args[2], random(0, 359)) goto Active
+	C_DOWN_GreenCyan: 		TNT1 A 0 A_SpawnItemEx ("SFXParticleGreenCyan2", 	random(-Args[4], Args[4]), 0, 1, 0, 0, -Args[2], random(0, 359)) goto Active
+	C_DOWN_Cyan: 			TNT1 A 0 A_SpawnItemEx ("SFXParticleCyan2", 		random(-Args[4], Args[4]), 0, 1, 0, 0, -Args[2], random(0, 359)) goto Active
+	C_DOWN_Blue: 			TNT1 A 0 A_SpawnItemEx ("SFXParticleBlue2", 		random(-Args[4], Args[4]), 0, 1, 0, 0, -Args[2], random(0, 359)) goto Active
+	C_DOWN_DeepBlue: 		TNT1 A 0 A_SpawnItemEx ("SFXParticleDeepBlue2", 	random(-Args[4], Args[4]), 0, 1, 0, 0, -Args[2], random(0, 359)) goto Active
+	C_DOWN_Purple: 			TNT1 A 0 A_SpawnItemEx ("SFXParticlePurple2", 		random(-Args[4], Args[4]), 0, 1, 0, 0, -Args[2], random(0, 359)) goto Active
+	C_DOWN_Pink: 			TNT1 A 0 A_SpawnItemEx ("SFXParticlePink2", 		random(-Args[4], Args[4]), 0, 1, 0, 0, -Args[2], random(0, 359)) goto Active
+	C_DOWN_PinkRed: 		TNT1 A 0 A_SpawnItemEx ("SFXParticlePinkRed2", 		random(-Args[4], Args[4]), 0, 1, 0, 0, -Args[2], random(0, 359)) goto Active
+	
+	C_UPDOWN_Default: 		TNT1 A 0 A_SpawnItemEx ("SFXParticleDefault2", 		random(-Args[4], Args[4]), 0, 1, 0, 0, random(-Args[2], Args[2]), random(0, 359)) goto Active
+	C_UPDOWN_Red: 			TNT1 A 0 A_SpawnItemEx ("SFXParticleRed2", 			random(-Args[4], Args[4]), 0, 1, 0, 0, random(-Args[2], Args[2]), random(0, 359)) goto Active
+	C_UPDOWN_Yellow: 		TNT1 A 0 A_SpawnItemEx ("SFXParticleYellow2", 		random(-Args[4], Args[4]), 0, 1, 0, 0, random(-Args[2], Args[2]), random(0, 359)) goto Active
+	C_UPDOWN_YellowGreen: 	TNT1 A 0 A_SpawnItemEx ("SFXParticleYellowGreen2", 	random(-Args[4], Args[4]), 0, 1, 0, 0, random(-Args[2], Args[2]), random(0, 359)) goto Active
+	C_UPDOWN_Green: 		TNT1 A 0 A_SpawnItemEx ("SFXParticleGreen2", 		random(-Args[4], Args[4]), 0, 1, 0, 0, random(-Args[2], Args[2]), random(0, 359)) goto Active
+	C_UPDOWN_GreenCyan: 	TNT1 A 0 A_SpawnItemEx ("SFXParticleGreenCyan2", 	random(-Args[4], Args[4]), 0, 1, 0, 0, random(-Args[2], Args[2]), random(0, 359)) goto Active
+	C_UPDOWN_Cyan: 			TNT1 A 0 A_SpawnItemEx ("SFXParticleCyan2", 		random(-Args[4], Args[4]), 0, 1, 0, 0, random(-Args[2], Args[2]), random(0, 359)) goto Active
+	C_UPDOWN_Blue: 			TNT1 A 0 A_SpawnItemEx ("SFXParticleBlue2", 		random(-Args[4], Args[4]), 0, 1, 0, 0, random(-Args[2], Args[2]), random(0, 359)) goto Active
+	C_UPDOWN_DeepBlue: 		TNT1 A 0 A_SpawnItemEx ("SFXParticleDeepBlue2", 	random(-Args[4], Args[4]), 0, 1, 0, 0, random(-Args[2], Args[2]), random(0, 359)) goto Active
+	C_UPDOWN_Purple: 		TNT1 A 0 A_SpawnItemEx ("SFXParticlePurple2", 		random(-Args[4], Args[4]), 0, 1, 0, 0, random(-Args[2], Args[2]), random(0, 359)) goto Active
+	C_UPDOWN_Pink: 			TNT1 A 0 A_SpawnItemEx ("SFXParticlePink2", 		random(-Args[4], Args[4]), 0, 1, 0, 0, random(-Args[2], Args[2]), random(0, 359)) goto Active
+	C_UPDOWN_PinkRed: 		TNT1 A 0 A_SpawnItemEx ("SFXParticlePinkRed2", 		random(-Args[4], Args[4]), 0, 1, 0, 0, random(-Args[2], Args[2]), random(0, 359)) goto Active
+	
+	Inactive:
+		TNT1 A 1
+		Loop
+	}
+}
+
+Actor SFXParticleDefault2 {
+
+	Radius 2
+	Height 2
+	Speed 0
+	Damage 0
+	Scale 0.015
+	RenderStyle Add
+	
+	+CLIENTSIDEONLY
+	+MISSILE
+	+NOBLOCKMAP
+	+NOTELEPORT
+	+DONTSPLASH
+	+NOTONAUTOMAP
+	+NOGRAVITY
+	+FORCEXYBILLBOARD
+	-BLOODSPLATTER
+	
+	States {
+	
+	Spawn:
+		PS00 A 0 Bright
+	Death:
+		"####" "#" 0 Bright A_FadeOut(0.03)
+		"####" "#" 1 Bright A_ChangeVelocity(0.0, 0.0, velz*0.9, CVF_RELATIVE | CVF_REPLACE)
+		Loop
+	}
+}
+
+Actor SFXParticleRed2 : SFXParticleDefault2 {
+
+	States {
+	
+	Spawn:
+		PS01 A 0 Bright
+		goto Super::Death
+	}
+}
+
+Actor SFXParticleYellow2 : SFXParticleDefault2 {
+
+	States {
+	
+	Spawn:
+		PS02 A 0 Bright
+		goto Super::Death
+	}
+}
+
+Actor SFXParticleYellowGreen2 : SFXParticleDefault2 {
+
+	States {
+	
+	Spawn:
+		PS03 A 0 Bright
+		goto Super::Death
+	}
+}
+
+Actor SFXParticleGreen2 : SFXParticleDefault2 {
+
+	States {
+	
+	Spawn:
+		PS04 A 0 Bright
+		goto Super::Death
+	}
+}
+
+Actor SFXParticleGreenCyan2 : SFXParticleDefault2 {
+
+	States {
+	
+	Spawn:
+		PS05 A 1 Bright
+		goto Super::Death
+	}
+}
+
+Actor SFXParticleCyan2 : SFXParticleDefault2 {
+
+	States {
+	
+	Spawn:
+		PS06 A 1 Bright
+		goto Super::Death
+	}
+}
+
+Actor SFXParticleBlue2 : SFXParticleDefault2 {
+
+	States {
+	
+	Spawn:
+		PS07 A 1 Bright
+		goto Super::Death
+	}
+}
+
+Actor SFXParticleDeepBlue2 : SFXParticleDefault2 {
+
+	States {
+	
+	Spawn:
+		PS08 A 1 Bright
+		goto Super::Death
+	}
+}
+
+Actor SFXParticlePurple2 : SFXParticleDefault2 {
+
+	States {
+	
+	Spawn:
+		PS09 A 1 Bright
+		goto Super::Death
+	}
+}
+
+Actor SFXParticlePink2 : SFXParticleDefault2 {
+
+	States {
+	
+	Spawn:
+		PS10 A 1 Bright
+		goto Super::Death
+	}
+}
+
+Actor SFXParticlePinkRed2 : SFXParticleDefault2 {
+
+	States {
+	
+	Spawn:
+		PS11 A 1 Bright
+		goto Super::Death
+	}
+}
+

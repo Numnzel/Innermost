@@ -1,0 +1,1 @@
+#include "actors/gl_inventory/gl_inventory_flares.txt"

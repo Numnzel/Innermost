@@ -1,0 +1,943 @@
+// Walls
+
+brightmap texture BFALL1
+{
+	map "brightmaps/sbrightmaps/BFALL1.png"
+	//iwad
+}
+brightmap texture BFALL2
+{
+	map "brightmaps/sbrightmaps/BFALL2.png"
+	//iwad
+}
+brightmap texture BFALL3
+{
+	map "brightmaps/sbrightmaps/BFALL3.png"
+	//iwad
+}
+brightmap texture BFALL4
+{
+	map "brightmaps/sbrightmaps/BFALL4.png"
+	//iwad
+}
+
+brightmap texture WFALL1
+{
+	map "brightmaps/sbrightmaps/BFALL1.png"
+	//iwad
+}
+brightmap texture WFALL2
+{
+	map "brightmaps/sbrightmaps/BFALL2.png"
+	//iwad
+}
+brightmap texture WFALL3
+{
+	map "brightmaps/sbrightmaps/BFALL3.png"
+	//iwad
+}
+brightmap texture WFALL4
+{
+	map "brightmaps/sbrightmaps/BFALL4.png"
+	//iwad
+}
+
+brightmap texture BLODGR1
+{
+	map "brightmaps/sbrightmaps/BLODRIP1.png"
+	//iwad
+}
+brightmap texture BLODGR2
+{
+	map "brightmaps/sbrightmaps/BLODRIP2.png"
+	//iwad
+}
+brightmap texture BLODGR3
+{
+	map "brightmaps/sbrightmaps/BLODRIP3.png"
+	//iwad
+}
+brightmap texture BLODGR4
+{
+	map "brightmaps/sbrightmaps/BLODRIP4.png"
+	//iwad
+}
+
+brightmap texture BRICKLIT
+{
+	map "brightmaps/sbrightmaps/BRICKLIT.png"
+	//iwad
+}
+
+brightmap texture BRONZE4
+{
+	map "brightmaps/sbrightmaps/BRONZE4.png"
+	//iwad
+}
+
+brightmap texture BIGBRIK3
+{
+	map "brightmaps/sbrightmaps/BRONZE4.png"
+	//iwad
+}
+
+brightmap texture BRWINDOW
+{
+	map "brightmaps/sbrightmaps/BRWINDOW.png"
+	//iwad
+}
+
+brightmap texture BSTONE3
+{
+	map "brightmaps/sbrightmaps/BSTONE3.png"
+	//iwad
+}
+
+brightmap texture COMP2
+{
+	map "brightmaps/sbrightmaps/COMP2.png"
+	//iwad
+}
+
+brightmap texture COMPBLUE
+{
+	map "brightmaps/sbrightmaps/66.png"
+	//iwad
+}
+
+brightmap texture COMPOHSO
+{
+	map "brightmaps/sbrightmaps/COMPOHSO.png"
+	//iwad
+}
+
+brightmap texture COMPSTA1
+{
+	map "brightmaps/sbrightmaps/COMPSTA1.png"
+	//iwad
+}
+
+brightmap texture COMPSTA2
+{
+	map "brightmaps/sbrightmaps/COMPSTA2.png"
+	//iwad
+}
+
+brightmap texture COMPTALL
+{
+	map "brightmaps/sbrightmaps/COMPTALL.png"
+	//iwad
+}
+
+brightmap texture COMPTILE
+{
+	map "brightmaps/sbrightmaps/COMPTILE.png"
+	//iwad
+}
+
+brightmap texture COMPUTE1
+{
+	map "brightmaps/sbrightmaps/COMPUTE1.png"
+	//iwad
+}
+
+brightmap texture COMPUTE2
+{
+	map "brightmaps/sbrightmaps/COMPUTE2.png"
+	//iwad
+}
+
+brightmap texture COMPUTE3
+{
+	map "brightmaps/sbrightmaps/COMPUTE3.png"
+	//iwad
+}
+
+brightmap texture CRACKLE4
+{
+	map "brightmaps/sbrightmaps/CRACKLE4.png"
+	//iwad
+}
+
+brightmap texture CRACKLE2
+{
+	map "brightmaps/sbrightmaps/CRACKLE4.png"
+	//iwad
+}
+
+brightmap texture DOORBLU
+{
+	map "brightmaps/sbrightmaps/DOORBLU.png"
+	//iwad
+}
+
+brightmap texture DOORRED
+{
+	map "brightmaps/sbrightmaps/DOORBLU.png"
+	//iwad
+}
+
+brightmap texture DOORYEL
+{
+	map "brightmaps/sbrightmaps/DOORBLU.png"
+	//iwad
+}
+
+brightmap texture DOORBLU2
+{
+	map "brightmaps/sbrightmaps/DOORBLU2.png"
+	//iwad
+}
+
+brightmap texture DOORRED2
+{
+	map "brightmaps/sbrightmaps/DOORBLU2.png"
+	//iwad
+}
+
+brightmap texture DOORYEL2
+{
+	map "brightmaps/sbrightmaps/DOORBLU2.png"
+	//iwad
+}
+
+brightmap texture DBRAIN1
+{
+	map "brightmaps/sbrightmaps/100.png"
+	//iwad
+}
+brightmap texture DBRAIN2
+{
+	map "brightmaps/sbrightmaps/100.png"
+	//iwad
+}
+brightmap texture DBRAIN3
+{
+	map "brightmaps/sbrightmaps/100.png"
+	//iwad
+}
+brightmap texture DBRAIN4
+{
+	map "brightmaps/sbrightmaps/100.png"
+	//iwad
+}
+
+brightmap texture EXITDOOR
+{
+	map "brightmaps/sbrightmaps/EXITDOOR.png"
+	//iwad
+}
+
+brightmap texture EXITSIGN
+{
+	map "brightmaps/sbrightmaps/EXITSIGN.png"
+	//iwad
+}
+
+brightmap texture EXITSTON
+{
+	map "brightmaps/sbrightmaps/EXITSTON.png"
+	//iwad
+}
+
+brightmap texture FIREBLU1
+{
+	map "brightmaps/sbrightmaps/FIREBLU1.png"
+	//iwad
+}
+brightmap texture FIREBLU2
+{
+	map "brightmaps/sbrightmaps/FIREBLU2.png"
+	//iwad
+}
+
+brightmap texture FIREMAG1
+{
+	map "brightmaps/sbrightmaps/FIREMAG1.png"
+	//iwad
+}
+brightmap texture FIREMAG2
+{
+	map "brightmaps/sbrightmaps/FIREMAG2.png"
+	//iwad
+}
+brightmap texture FIREMAG3
+{
+	map "brightmaps/sbrightmaps/FIREMAG3.png"
+	//iwad
+}
+
+brightmap texture FIRELAV3
+{
+	map "brightmaps/sbrightmaps/100.png"
+	//iwad
+}
+brightmap texture FIRELAVA
+{
+	map "brightmaps/sbrightmaps/100.png"
+	//iwad
+}
+
+brightmap texture FIREWALA
+{
+	map "brightmaps/sbrightmaps/FIREWALA.png"
+	//iwad
+}
+brightmap texture FIREWALB
+{
+	map "brightmaps/sbrightmaps/FIREWALB.png"
+	//iwad
+}
+brightmap texture FIREWALL
+{
+	map "brightmaps/sbrightmaps/FIREWALL.png"
+	//iwad
+}
+
+brightmap texture LITE2
+{
+	map "brightmaps/sbrightmaps/LITE2.png"
+	//iwad
+}
+
+brightmap texture LITE3
+{
+	map "brightmaps/sbrightmaps/LITE3.png"
+	//iwad
+}
+
+brightmap texture LITE4
+{
+	map "brightmaps/sbrightmaps/LITE4.png"
+	//iwad
+}
+
+brightmap texture LITE5
+{
+	map "brightmaps/sbrightmaps/LITE5.png"
+	//iwad
+}
+
+brightmap texture LITE96
+{
+	map "brightmaps/sbrightmaps/LITE96.png"
+	//iwad
+}
+
+brightmap texture LITEBLU1
+{
+	map "brightmaps/sbrightmaps/LITEBLU1.png"
+	//iwad
+}
+
+brightmap texture LITEBLU2
+{
+	map "brightmaps/sbrightmaps/LITEBLU2.png"
+	//iwad
+}
+
+brightmap texture LITEBLU3
+{
+	map "brightmaps/sbrightmaps/LITEBLU3.png"
+	//iwad
+}
+
+brightmap texture LITEBLU4
+{
+	map "brightmaps/sbrightmaps/LITEBLU4.png"
+	//iwad
+}
+
+brightmap texture LITEMET
+{
+	map "brightmaps/sbrightmaps/LITEMET.png"
+	//iwad
+}
+
+brightmap texture LITERED
+{
+	map "brightmaps/sbrightmaps/LITERED.png"
+	//iwad
+}
+
+brightmap texture LITESTON
+{
+	map "brightmaps/sbrightmaps/LITESTON.png"
+	//iwad
+}
+
+brightmap texture MARBFAC2
+{
+	map "brightmaps/sbrightmaps/MARBFAC2.png"
+	//iwad
+}
+
+brightmap texture MARBFACE
+{
+	map "brightmaps/sbrightmaps/MARBFACE.png"
+	//iwad
+}
+
+brightmap texture METAL3
+{
+	map "brightmaps/sbrightmaps/METAL3.png"
+	//iwad
+}
+
+brightmap texture METAL6
+{
+	map "brightmaps/sbrightmaps/METAL6.png"
+	//iwad
+}
+
+brightmap texture METAL7
+{
+	map "brightmaps/sbrightmaps/METAL7.png"
+	//iwad
+}
+
+brightmap texture NUKE24
+{
+	map "brightmaps/sbrightmaps/NUKE24.png"
+	//iwad
+}
+
+brightmap texture NUKEDGE1
+{
+	map "brightmaps/sbrightmaps/NUKEDGE1.png"
+	//iwad
+}
+
+brightmap texture NUKEPOIS
+{
+	map "brightmaps/sbrightmaps/NUKEPOIS.png"
+	//iwad
+}
+
+brightmap texture NUKESLAD
+{
+	map "brightmaps/sbrightmaps/NUKESLAD.png"
+	//iwad
+}
+
+brightmap texture PANBOOK
+{
+	map "brightmaps/sbrightmaps/PANBOOK.png"
+	//iwad
+}
+
+brightmap texture PIPE6
+{
+	map "brightmaps/sbrightmaps/PIPE6.png"
+	//iwad
+}
+
+brightmap texture PIPEWAL1
+{
+	map "brightmaps/sbrightmaps/PIPEWAL1.png"
+	//iwad
+}
+
+brightmap texture PLANET1
+{
+	map "brightmaps/sbrightmaps/PLANET1.png"
+	//iwad
+}
+
+brightmap texture ROCKRED1
+{
+	map "brightmaps/sbrightmaps/ROCKRED1.png"
+	//iwad
+}
+
+brightmap texture ROCKRED2
+{
+	map "brightmaps/sbrightmaps/ROCKRED2.png"
+	//iwad
+}
+
+brightmap texture ROCKRED3
+{
+	map "brightmaps/sbrightmaps/ROCKRED3.png"
+	//iwad
+}
+
+brightmap texture SFALL1
+{
+	map "brightmaps/sbrightmaps/SFALL1.png"
+	//iwad
+}
+brightmap texture SFALL2
+{
+	map "brightmaps/sbrightmaps/SFALL2.png"
+	//iwad
+}
+brightmap texture SFALL3
+{
+	map "brightmaps/sbrightmaps/SFALL3.png"
+	//iwad
+}
+brightmap texture SFALL4
+{
+	map "brightmaps/sbrightmaps/SFALL4.png"
+	//iwad
+}
+
+brightmap texture SILVER2
+{
+	map "brightmaps/sbrightmaps/SILVER2.png"
+	//iwad
+}
+
+brightmap texture SILVER3
+{
+	map "brightmaps/sbrightmaps/SILVER3.png"
+	//iwad
+}
+
+brightmap texture SLADRIP1
+{
+	map "brightmaps/sbrightmaps/SLADRIP1.png"
+	//iwad
+}
+brightmap texture SLADRIP2
+{
+	map "brightmaps/sbrightmaps/SLADRIP2.png"
+	//iwad
+}
+brightmap texture SLADRIP3
+{
+	map "brightmaps/sbrightmaps/SLADRIP3.png"
+	//iwad
+}
+
+brightmap texture SLADSKUL
+{
+	map "brightmaps/sbrightmaps/SLADSKUL.png"
+	//iwad
+}
+
+brightmap texture SPACEW3
+{
+	map "brightmaps/sbrightmaps/SPACEW3.png"
+	//iwad
+}
+
+brightmap texture SPCDOOR1
+{
+	map "brightmaps/sbrightmaps/SPCDOOR1.png"
+	//iwad
+}
+
+brightmap texture SPCDOOR2
+{
+	map "brightmaps/sbrightmaps/SPCDOOR1.png"
+	//iwad
+}
+
+brightmap texture SPCDOOR3
+{
+	map "brightmaps/sbrightmaps/SPCDOOR3.png"
+	//iwad
+}
+
+brightmap texture SPCDOOR4
+{
+	map "brightmaps/sbrightmaps/SPCDOOR4.png"
+	//iwad
+}
+
+brightmap texture STARG2
+{
+	map "brightmaps/sbrightmaps/STARG2.png"
+	//iwad
+}
+
+brightmap texture STARBR2
+{
+	map "brightmaps/sbrightmaps/STARG2.png"
+	//iwad
+}
+
+brightmap texture STEP1
+{
+	map "brightmaps/sbrightmaps/STEP1.png"
+	//iwad
+}
+
+brightmap texture STEP1.png
+{
+	map "brightmaps/sbrightmaps/STEP1.png"
+	//iwad
+}
+
+brightmap texture STEP5
+{
+	map "brightmaps/sbrightmaps/STEP5.png"
+	//iwad
+}
+
+brightmap texture TEKBRON2
+{
+	map "brightmaps/sbrightmaps/TEKBRON2.png"
+	//iwad
+}
+
+brightmap texture TEKGREN1
+{
+	map "brightmaps/sbrightmaps/TEKGREN1.png"
+	//iwad
+}
+
+brightmap texture TEKGREN3
+{
+	map "brightmaps/sbrightmaps/TEKGREN3.png"
+	//iwad
+}
+
+brightmap texture TEKGREN5
+{
+	map "brightmaps/sbrightmaps/TEKGREN5.png"
+	//iwad
+}
+
+brightmap texture TEKLITE
+{
+	map "brightmaps/sbrightmaps/TEKLITE.png"
+	//iwad
+}
+
+brightmap texture TEKLITE2
+{
+	map "brightmaps/sbrightmaps/TEKLITE2.png"
+	//iwad
+}
+
+brightmap texture TEKWALL1
+{
+	map "brightmaps/sbrightmaps/TEKWALL1.png"
+	//iwad
+}
+
+brightmap texture TEKWALL2
+{
+	map "brightmaps/sbrightmaps/TEKWALL2.png"
+	//iwad
+}
+
+brightmap texture TEKWALL5
+{
+	map "brightmaps/sbrightmaps/TEKWALL5.png"
+	//iwad
+}
+
+brightmap texture TEKWALL6
+{
+	map "brightmaps/sbrightmaps/TEKWALL6.png"
+	//iwad
+}
+
+brightmap texture WOOD4
+{
+	map "brightmaps/sbrightmaps/WOOD4.png"
+	//iwad
+}
+
+brightmap texture WOODGARG
+{
+	map "brightmaps/sbrightmaps/WOODGARG.png"
+	//iwad
+}
+
+brightmap texture WOODSKUL
+{
+	map "brightmaps/sbrightmaps/WOODSKUL.png"
+	//iwad
+}
+
+brightmap texture ZZZFACE4
+{
+	map "brightmaps/sbrightmaps/ZZZFACE4.png"
+	//iwad
+}
+
+// Off Switches
+
+brightmap texture SW1BLUE
+{
+	map "brightmaps/sbrightmaps/SW1BLUE.png"
+	//iwad
+}
+
+brightmap texture SW1BRCOM
+{
+	map "brightmaps/sbrightmaps/SW1BRCOM.png"
+	//iwad
+}
+
+brightmap texture SW1STARG
+{
+	map "brightmaps/sbrightmaps/SW1BRCOM.png"
+	//iwad
+}
+
+brightmap texture SW1COMM
+{
+	map "brightmaps/sbrightmaps/SW1COMM.png"
+	//iwad
+}
+
+brightmap texture SW1DIRT
+{
+	map "brightmaps/sbrightmaps/SW1DIRT.png"
+	//iwad
+}
+
+brightmap texture SW1MET2
+{
+	map "brightmaps/sbrightmaps/SW1DIRT.png"
+	//iwad
+}
+
+brightmap texture SW1STON1
+{
+	map "brightmaps/sbrightmaps/SW1STON1.png"
+	//iwad
+}
+
+brightmap texture SW1STRTN
+{
+	map "brightmaps/sbrightmaps/SW1STRTN.png"
+	//iwad
+}
+
+brightmap texture SW1STONE
+{
+	map "brightmaps/sbrightmaps/SW1STRTN.png"
+	//iwad
+}
+
+brightmap texture SW1BRIK
+{
+	map "brightmaps/sbrightmaps/SW1STRTN.png"
+	//iwad
+}
+
+brightmap texture SW1WDMET
+{
+	map "brightmaps/sbrightmaps/SW1WDMET.png"
+	//iwad
+}
+
+// On Switches
+
+brightmap texture SW2BLUE
+{
+	map "brightmaps/sbrightmaps/SW2BLUE.png"
+	//iwad
+}
+
+brightmap texture SW2BRCOM
+{
+	map "brightmaps/sbrightmaps/SW2BRCOM.png"
+	//iwad
+}
+
+brightmap texture SW2STARG
+{
+	map "brightmaps/sbrightmaps/SW2BRCOM.png"
+	//iwad
+}
+
+brightmap texture SW2BRN2
+{
+	map "brightmaps/sbrightmaps/SW2BRN2.png"
+	//iwad
+}
+
+brightmap texture SW2TEK
+{
+	map "brightmaps/sbrightmaps/SW2BRN2.png"
+	//iwad
+}
+
+
+brightmap texture SW2BRNGN
+{
+	map "brightmaps/sbrightmaps/SW2BRNGN.png"
+	//iwad
+}
+
+brightmap texture SW2MOD1
+{
+	map "brightmaps/sbrightmaps/SW2BRNGN.png"
+	//iwad
+}
+
+brightmap texture SW2COMM
+{
+	map "brightmaps/sbrightmaps/SW2COMM.png"
+	//iwad
+}
+
+brightmap texture SW2COMP
+{
+	map "brightmaps/sbrightmaps/SW2COMP.png"
+	//iwad
+}
+
+brightmap texture SW2STON6
+{
+	map "brightmaps/sbrightmaps/SW2COMP.png"
+	//iwad
+}
+
+brightmap texture SW2DIRT
+{
+	map "brightmaps/sbrightmaps/SW2DIRT.png"
+	//iwad
+}
+
+brightmap texture SW2MET2
+{
+	map "brightmaps/sbrightmaps/SW2DIRT.png"
+	//iwad
+}
+
+brightmap texture SW2EXIT
+{
+	map "brightmaps/sbrightmaps/SW2EXIT.png"
+	//iwad
+}
+
+brightmap texture SW2GRAY
+{
+	map "brightmaps/sbrightmaps/SW2GRAY.png"
+	//iwad
+}
+
+brightmap texture SW2GRAY1
+{
+	map "brightmaps/sbrightmaps/SW2GRAY1.png"
+	//iwad
+}
+
+brightmap texture SW2METAL
+{
+	map "brightmaps/sbrightmaps/SW2METAL.png"
+	//iwad
+}
+
+brightmap texture SW2STON1
+{
+	map "brightmaps/sbrightmaps/SW2STON1.png"
+	//iwad
+}
+
+brightmap texture SW2STON2
+{
+	map "brightmaps/sbrightmaps/SW2STON2.png"
+	//iwad
+}
+
+brightmap texture SW2SLAD
+{
+	map "brightmaps/sbrightmaps/SW2STON2.png"
+	//iwad
+}
+
+brightmap texture SW2STRTN
+{
+	map "brightmaps/sbrightmaps/SW2STRTN.png"
+	//iwad
+}
+
+brightmap texture SW2BRIK
+{
+	map "brightmaps/sbrightmaps/SW2STRTN.png"
+	//iwad
+}
+
+brightmap texture SW2STONE
+{
+	map "brightmaps/sbrightmaps/SW2STRTN.png"
+	//iwad
+}
+
+brightmap texture SW2GARG
+{
+	map "brightmaps/sbrightmaps/SW2GARG.png"
+	//iwad
+}
+
+brightmap texture SW2GSTON
+{
+	map "brightmaps/sbrightmaps/SW2GSTON.png"
+	//iwad
+}
+
+brightmap texture SW2HOT
+{
+	map "brightmaps/sbrightmaps/SW2HOT.png"
+	//iwad
+}
+
+brightmap texture SW2LION
+{
+	map "brightmaps/sbrightmaps/SW2LION.png"
+	//iwad
+}
+
+brightmap texture SW2SATYR
+{
+	map "brightmaps/sbrightmaps/SW2SATYR.png"
+	//iwad
+}
+
+brightmap texture SW2VINE
+{
+	map "brightmaps/sbrightmaps/SW2VINE.png"
+	//iwad
+}
+
+brightmap texture SW2WOOD
+{
+	map "brightmaps/sbrightmaps/SW2WOOD.png"
+	//iwad
+}
+
+brightmap texture SW2ROCK
+{
+	map "brightmaps/sbrightmaps/SW2WOOD.png"
+	//iwad
+}
+
+brightmap texture SW2PANEL
+{
+	map "brightmaps/sbrightmaps/SW2PANEL.png"
+	//iwad
+}
+
+brightmap texture SW2MARB
+{
+	map "brightmaps/sbrightmaps/SW2MARB.png"
+	//iwad
+}
+
+brightmap texture SW2SKULL
+{
+	map "brightmaps/sbrightmaps/SW2SKULL.png"
+	//iwad
+}
+
+brightmap texture SW2WDMET
+{
+	map "brightmaps/sbrightmaps/SW2WDMET.png"
+	//iwad
+}
+
+brightmap texture SW2ZIM
+{
+	map "brightmaps/sbrightmaps/SW2ZIM.png"
+	//iwad
+}

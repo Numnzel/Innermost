@@ -1,0 +1,15 @@
+// Short tech lamp
+
+pulselight SMALLLAMP3
+{
+    color 0.8 0.8 1.0
+    size 56
+    secondarySize 58
+    interval 0.4
+    offset 0 27 0
+}
+
+object TechLamp3
+{
+    frame TLP3 { light SMALLLAMP3 }
+}

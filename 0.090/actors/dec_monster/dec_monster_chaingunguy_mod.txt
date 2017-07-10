@@ -1,0 +1,7 @@
+ACTOR NewChaingunGuy : Chaingunguy replaces Chaingunguy
+{
+  Dropitem "NewClip"
+  Dropitem "NewClip"
+  DropItem "BitCoinWhiteDataCard"
+  DropItem "BitCoinWhiteDataCard"
+}

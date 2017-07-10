@@ -1,0 +1,47 @@
+Actor FreezedImp : IceImp 15023
+{
+//$Category Decorate/Decoration
+//$Title "Freezed imp"
+  Health 10
+  States
+  {
+  Spawn:
+	TNT1 A 0 NoDelay A_Jump(256,"F1","F2","F3","F4","F5","F6","F7","F8","F9","F10")
+  F1:
+	TROO A -1
+	Stop
+  F2:
+	TROO B -1
+	Stop
+  F3:
+	TROO C -1
+	Stop
+  F4:
+	TROO D -1
+	Stop
+  F5:
+	TROO E -1
+	Stop
+  F6:
+	TROO F -1
+	Stop
+  F7:
+	TROO G -1
+	Stop
+  F8:
+	TROO H -1
+	Stop
+  F9:
+	TROO I -1
+	Stop
+  F10:
+    TROO J -1
+	Stop
+  Death:
+  XDeath:
+  Death.Fire:
+	"####" "#" 0 A_IceGuyDie
+	Wait
+  }
+}
+

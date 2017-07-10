@@ -1,0 +1,8 @@
+#include "brightmaps/bm_monster/bm_monster_blooddemon.txt"
+#include "brightmaps/bm_monster/bm_monster_cacodemon.txt"
+#include "brightmaps/bm_monster/bm_monster_cacodemonking.txt"
+#include "brightmaps/bm_monster/bm_monster_drone.txt"
+#include "brightmaps/bm_monster/bm_monster_insignificant.txt"
+#include "brightmaps/bm_monster/bm_monster_primalcacodemon.txt"
+#include "brightmaps/bm_monster/bm_monster_railbot.txt"
+#include "brightmaps/bm_monster/bm_monster_sentry.txt"

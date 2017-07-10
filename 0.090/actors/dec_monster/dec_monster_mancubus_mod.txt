@@ -1,0 +1,30 @@
+Actor NewFatso : Fatso replaces Fatso
+{
+   States
+   {
+   Death:
+      TNT1 A 0 A_Jump(256,"DeathDefault","DeathAlt","DeathAlt2")
+   DeathDefault:
+      FATT K 6
+      FATT L 6 A_Scream
+      FATT M 6 A_NoBlocking
+      FATT NOPQRS 6
+      FATT T -1 A_BossDeath
+      Stop
+   DeathAlt:
+      FAT2 A 7
+      FAT2 B 7 A_Scream
+      FAT2 C 7 A_NoBlocking
+      FAT2 DEFGHI 5
+      FAT2 J -1 A_BossDeath
+      Stop
+   DeathAlt2:
+      FAT2 K 10
+      FAT2 L 6 A_Scream
+      FAT2 M 6 A_NoBlocking
+      FAT2 NOP 6
+      FAT2 Q 8
+      FAT2 R -1 A_BossDeath
+      Stop
+   }
+}

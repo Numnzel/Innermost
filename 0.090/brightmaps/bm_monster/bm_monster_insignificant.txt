@@ -1,0 +1,20 @@
+// Insignificant
+
+brightmap sprite INSIA1 { map "brightmaps/bm_monster/bm_monster_insignificant/INSBA1.png" disablefullbright }
+brightmap sprite INSIA7A3 { map "brightmaps/bm_monster/bm_monster_insignificant/INSBA7A3.png" disablefullbright }
+brightmap sprite INSIA8A2 { map "brightmaps/bm_monster/bm_monster_insignificant/INSBA8A2.png" disablefullbright }
+
+brightmap sprite INSIB1 { map "brightmaps/bm_monster/bm_monster_insignificant/INSBB1.png" disablefullbright }
+brightmap sprite INSIB8B2 { map "brightmaps/bm_monster/bm_monster_insignificant/INSBB8B2.png" disablefullbright }
+
+brightmap sprite INSIC1 { map "brightmaps/bm_monster/bm_monster_insignificant/INSBC1.png" disablefullbright }
+brightmap sprite INSIC7C3 { map "brightmaps/bm_monster/bm_monster_insignificant/INSBC7C3.png" disablefullbright }
+brightmap sprite INSIC8C2 { map "brightmaps/bm_monster/bm_monster_insignificant/INSBC8C2.png" disablefullbright }
+
+brightmap sprite INSID1 { map "brightmaps/bm_monster/bm_monster_insignificant/INSBD1.png" disablefullbright }
+brightmap sprite INSID7D3 { map "brightmaps/bm_monster/bm_monster_insignificant/INSBD7D3.png" disablefullbright }
+brightmap sprite INSID8D2 { map "brightmaps/bm_monster/bm_monster_insignificant/INSBD8D2.png" disablefullbright }
+
+brightmap sprite INSIE1 { map "brightmaps/bm_monster/bm_monster_insignificant/INSBE1.png" disablefullbright }
+brightmap sprite INSIE7E3 { map "brightmaps/bm_monster/bm_monster_insignificant/INSBE7E3.png" disablefullbright }
+brightmap sprite INSIE8E2 { map "brightmaps/bm_monster/bm_monster_insignificant/INSBE8E2.png" disablefullbright }

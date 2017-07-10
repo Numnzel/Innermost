@@ -1,0 +1,5 @@
+
+
+
+
+// brightmap texture E099N00 { map "brightmaps/bm_texture/bm_modified_tex/bm_mod_2mbrown/E099Z00.png" }

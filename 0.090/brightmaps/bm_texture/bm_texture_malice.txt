@@ -1,0 +1,5 @@
+//Brightmaps - Malice Texture Pack
+
+
+
+brightmap texture +ORDBUT { map "brightmaps/bm_texture/bm_tex_malice/+ORDBUT.png" }

@@ -1,0 +1,71 @@
+[esp]
+
+// MAP03 Buying system
+
+// MAP03 Buying system - Health I (0)
+
+L0T1_MEDIKIT = "\n\
+\c[DGR]Kit de curacion estandar, proviene de una gran variedad de herramientas y drogas capaces de curar graves heridas con efectividad.\n\
+\cdEfectos: \ck+25 \ciHealth \c[DGR](hasta \ciMaxHealth\c[DGR])";
+
+L0T2_MAXHPSYNTH = "\n\
+\c[DGR]Innovador dispositivo hecho por la UAC, contiene un mecanismo de asistencia y monitorizacion de uso en campo.\n\
+\c[DGR]Emplea una substancia que incrementa la capacidad de curacion de tu cuerpo mediante modificacion genetica, permitiendole mantener\n\
+\c[DGR]una mayor cantidad de celulas regenerativas.\n\
+\cdEfectos: \ck+300 \ciHealth \c[DGR]| \ck+40 \ciMaxHealth \c[DGR](hasta \cd300\c[DGR])";
+
+// MAP03 Buying system - Inventory I (1)
+
+L1T1_SENTBOX1 = "\n\
+\c[DGR]Esta caja contiene una torreta automatica mk. III de la UAC, esta maquina inflige y resiste dano de forma efectiva.\n\
+\c[DGR]Dispara un continuo haz de balas, pero tiene problemas en largas distancias. No podras reubicarla una vez la coloques.\n\
+\c[DGR]Cuidado con el fuego amigo!\n\
+\cdEfectos: \c[DGR]Invoca una \ciUAC-AT mk. III\n\
+\cdPila maxima: \ck2";
+
+// MAP03 Buying system - Weapons I (6)
+
+L6T1_SCATTERP = "\n\
+\c[DGR]Arma ligera que usa municion estandar para disparar rafagas cortas, estos proyectiles explotan y se dividen en todas direcciones\n\
+\c[DGR]causando dano, funciona bien como sustituto de la pistola reglamentaria y para gastar municion que no necesitas.\n\
+\cdA. Secundario: \cgNo\n\
+\cdRanura: \ck2";
+
+L6T2_SHOTGUN = "\n\
+\c[DGR]Escopeta clasica, presiona el gatillo y funcionara tal como lo esperas. Hay que decir algo mas?\n\
+\cdA. Secundario: \cgNo\n\
+\cdRanura: \ck3";
+
+L6T3_MACHINEG = "\n\
+\c[DGR]Arma convencional, funciona bien en casi todas las situaciones, aunque algunos marines la consideran <lenta> para su gusto.\n\
+\c[DGR]De todas formas, lo mejor es que tiene una buena precision. Alimentala con municion estandar.\n\
+\cdA. Secundario: \cgNo\n\
+\cdRanura: \ck4";
+
+// MAP03 Buying system - Weapons II (7)
+
+L7T1_HEAVYRIFLE = "\n\
+\c[DGR]Un rifle pesado que tiene una precision practicamente perfecta. Puede y despedazara cada demonio inferior que dispares.\n\
+\c[DGR]Lo malo es que tiene una cadencia de aproximadamente un disparo por segundo, haciendola un arma pobre en situaciones\n\
+\c[DGR]complicadas. Utiliza municion personalizada para disparar. Ademas, no permite la instalacion de miras.\n\
+\cdA. Secundario: \cgNo\n\
+\cdRanura: \ck5";
+
+L7T2_RLAUNCHER = "\n\
+\c[DGR]Arma temida por su potencial aniquilador, insuperable si es empleado en el momento y lugar adecuados.\n\
+\c[DGR]Esta bestia destruira todo lo que este o se acerque en el punto objetivo, incluyendote a ti.\n\
+\c[DGR]Su carga automatica permite una gran velocidad de disparo.\n\
+\cdA. Secundario: \cgNo\n\
+\cdRanura: \ck5";
+
+L7T3_PLASMAGUN = "\n\
+\c[DGR]Uno de los rifles mas avanzados hechos por los cientificos de la UAC. Es practicamente imposible de mejorar, siendo un arma\n\
+\c[DGR]perfectamente balanceada que funciona bien en practicamente cualquier escenario imaginable. Eso si, hay que decirlo, su municion\n\
+\c[DGR]es costosa y fugaz.\n\
+\cdA. Secundario: \cgNo\n\
+\cdRanura: \ck6";
+
+
+
+
+

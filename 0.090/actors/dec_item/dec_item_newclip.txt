@@ -1,0 +1,24 @@
+ACTOR NewClip : Ammo 15078 {
+	
+	//$NotAngled
+	//$Category Decorate/Ammo
+	//$Title "Bullet clip"
+	
+	Height 11
+	Radius 5
+	
+	Inventory.PickupMessage "Bullets +10" // "Picked up a clip."
+	Inventory.Amount 10
+	Inventory.MaxAmount 350
+	Inventory.Icon "CLIPA0"
+	
+	Ammo.BackpackAmount 10
+	Ammo.BackpackMaxAmount 700
+	
+	States {
+	
+		Spawn:
+			CLIP A -1
+			Stop
+	}
+}

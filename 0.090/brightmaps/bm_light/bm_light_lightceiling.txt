@@ -1,0 +1,3 @@
+// LightCeiling
+
+brightmap sprite LELYA0 { map "brightmaps/bm_light/bm_light_lightceiling/LELBA0.png" disablefullbright }

@@ -1,0 +1,38 @@
+Actor NewArachnotronPlasma : ArachnotronPlasma replaces ArachnotronPlasma
+{
+  Radius 9
+  Height 6
+  Scale 0.75
+  RenderStyle Add 
+  Alpha 0.8
+  
+  States
+  {
+  Spawn:
+    APLS AAAAAABBBBBB 1 Bright A_SpawnItemEx("PBTrail2", 0, 0, 0, 0, 0, 0, 0, 0)
+    Loop
+  Death:
+    APBX ABCDE 4 Bright
+    Stop
+  }
+}
+
+Actor PBTrail2
+{
+   Radius 9
+   Height 6
+   Scale 0.75
+   RenderStyle Add
+   Alpha 0.8
+   
+   +NOGRAVITY
+   +NOBLOCKMAP
+   +NOCLIP
+   
+   States
+   {
+   Spawn:
+     APLS AAAAAABBBBBB 1 Bright A_FadeOut
+     Loop
+   }
+}

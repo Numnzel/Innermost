@@ -1,0 +1,8 @@
+Actor Fists : Fist replaces Fist {
+	
+	Weapon.SlotNumber 1
+	Weapon.SlotPriority 0.9
+	
+	+WEAPON.NOALERT
+	+WEAPON.AMMO_OPTIONAL
+}

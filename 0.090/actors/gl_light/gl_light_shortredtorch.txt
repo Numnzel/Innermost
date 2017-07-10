@@ -1,0 +1,15 @@
+// Small red torch
+
+flickerlight2 SMALLREDTORCH
+{
+    color 1.0 0.3 0.0
+    size 48
+    secondarySize 54
+    interval 0.1
+    offset 0 35 0
+}
+
+object FXShortRedTorch
+{
+    frame STCB { light SMALLREDTORCH }
+}

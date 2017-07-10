@@ -1,0 +1,16 @@
+// Recoloured textures Brightmaps (Made by Numnzel)
+
+brightmap texture N_TLGR02 { map "brightmaps/bm_texture/bm_tex_recoloured/TEKLITE2.png" }
+brightmap texture N_TLGN02 { map "brightmaps/bm_texture/bm_tex_recoloured/TEKLITE2.png" } //unused
+brightmap texture N_TLRD02 { map "brightmaps/bm_texture/bm_tex_recoloured/TEKLITE2.png" } //unused
+
+brightmap texture N_TLGR01 { map "brightmaps/bm_texture/bm_tex_recoloured/TEKLITE.png" }
+brightmap texture N_TLGN01 { map "brightmaps/bm_texture/bm_tex_recoloured/TEKLITE.png" } //unused
+brightmap texture N_TLRD01 { map "brightmaps/bm_texture/bm_tex_recoloured/TEKLITE.png" } //unused
+
+brightmap texture N_TKGR05 { map "brightmaps/bm_texture/bm_tex_recoloured/TEKGREN5.png" }
+brightmap texture N_TKRD05 { map "brightmaps/bm_texture/bm_tex_recoloured/TEKGREN5.png" } //unused
+
+brightmap texture N_TKGR17 { map "brightmaps/bm_texture/bm_tex_recoloured/TEKBRON2.png" } //unused
+brightmap texture N_TKGN17 { map "brightmaps/bm_texture/bm_tex_recoloured/TEKBRON2.png" } //unused
+brightmap texture N_TKRD17 { map "brightmaps/bm_texture/bm_tex_recoloured/TEKBRON2.png" } //unused

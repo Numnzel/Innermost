@@ -1,0 +1,79 @@
+Logical view of PK3 File directory organization aproach:
+
+	acs						// ACS Libraries and global scripts
+	actors					// Decorate and GLDefs files
+	brightmaps				// Brightmaps and related GLDefs files
+	flats					// Flats
+	graphics				// Graphics
+	hires					// High-Resolution textures
+	maps					// Maps
+	music					// Music files
+	patches					// Patches for special textures
+	sounds					// Sounds
+	sprites					// Sprites (including BM)
+	textures				// Textures
+
+Full description of subdirectories:
+
+	acs:
+	actors:
+		dec_decoration
+		dec_inventory
+		dec_item
+		dec_light
+		dec_monster
+		dec_other
+		dec_projectile
+		dec_sfx
+		dec_weapon
+		gl_decoration
+		gl_inventory
+		gl_item
+		gl_light
+		gl_monster
+		gl_other
+		gl_projectile
+		gl_sfx
+		gl_weapon
+	brightmaps:
+		bm_decoration
+		bm_flat
+		bm_inventory
+		bm_item
+		bm_light
+		bm_monster
+		bm_other
+		bm_projectile
+		bm_sfx
+		bm_texture
+			bm_tex_*				// BM of textures from texture pack *
+			bm_modified_tex			// BM of textures derived from other texture packs
+				bm_mod_*			// BM of textures derived from texture pack *
+				bm_unknown_mod		// BM of textures derived from unknown sources
+			bm_unknown_tex			// BM of textures that are of unknown source
+		bm_weapon
+		sbrightmaps					// Temporal, must dissolve
+	flats:
+	graphics:
+	hires:							// High-Resolution textures, usually skies
+	maps:
+	music:
+	patches:						// High-Resolution textures in need of the texture lump logic
+	sounds:
+		snd_ambient
+		snd_decoration
+		snd_inventory
+		snd_monster
+		snd_other
+		snd_sfx
+		snd_weapon
+	sprites:
+	textures:
+		camera:						// Camera textures
+		modified_tex:				// Textures derived from other texture packs
+			mod_*					// Textures derived from texture pack *
+			unknown_mod				// Textures derived from unknown sources
+		tex_*						// Textures from texture pack *
+		unknown_tex:				// Textures that are of unknown source
+
+

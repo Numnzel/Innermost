@@ -1,0 +1,85 @@
+//Flares----------------------------------------------------------
+
+/*
+Actor Flare : CustomInventory
+{
+  Radius 4
+  Height 18
+  +INVENTORY.INVBAR
+  Inventory.MaxAmount 30
+  Inventory.Icon "FLARG0"
+  Inventory.PickupMessage "You picked up a flare."
+  States
+  {
+  Spawn:
+    FLAR D -1
+    Stop
+  Use:
+    TNT1 A 1 A_SpawnItemEx ("ActiveFlare", 56, 0, 28, 10, 0, 0, 0, 1)
+    Stop
+  }
+}*/
+
+Actor ActiveFlare 15018
+{
+//$NotAngled
+//$Category Decorate/Light source
+//$Title "Active flare"
+  Radius 22
+  Height 11
+  States
+  {
+  Spawn:
+    FLAR A 0 Bright
+    FLAR A 0 Bright A_PlaySound("Flare/Light")
+    FLAR A 0 Bright A_PlaySoundEx("Flare/Loop", "SoundSlot7", 1, -1)
+  Repeat:
+    FLAR AB 1
+    Loop
+  }
+}
+/*
+Actor FlareBox : PowerupGiver 15013
+{
+//$Category Decorate_Items
+  Radius 28
+  Height 16
+  Inventory.PickupMessage "You picked up a box of flares. Those will light up your way for a while."
+  Inventory.MaxAmount 0
+  powerup.duration -180
+  //powerup.type "RedFlareLight"
+  powerup.colormap 
+  +COUNTITEM
+  +INVENTORY.AUTOACTIVATE
+  +INVENTORY.ALWAYSPICKUP
+  States
+  {
+  Spawn:
+    FLAR C -1
+    Stop
+  }
+}
+
+Actor RedFlareLight : PowerMorph
+{
+	PowerMorph.PlayerClass "LargeBlackCat"
+	PowerMorph.MorphStyle (MRF_FULLHEALTH|MRF_ADDSTAMINA)
+}
+
+/*
+Actor FlareBox : CustomInventory 15013
+{
+//$Category Decorate_Items
+  Radius 28
+  Height 16
+  Inventory.PickupMessage "You picked up a box of flares."
+  States
+  {
+  Spawn:
+    FLAR C -1
+    Stop
+  Pickup:
+    TNT1 A 1 A_GiveInventory ("Flare", 5)
+    Stop
+  }
+}*/

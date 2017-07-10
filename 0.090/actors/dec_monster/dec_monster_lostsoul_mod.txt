@@ -1,0 +1,5 @@
+Actor NewLostSoul : LostSoul replaces LostSoul
+{
+   +NOBLOOD
+   +DONTGIB
+}

@@ -1,0 +1,16 @@
+actor LightCeiling : TechLamp 15075 {
+	//$NotAngled
+	//$Category Decorate/Light source
+	//$Title "Ceiling tech lamp"
+	height 36
+	+SPAWNCEILING
+	
+	States {
+	Spawn:
+		LELY B 4 NoDelay A_Jump(64, "LampOn")
+		Loop
+	LampOn:
+		LELY A 4 Bright A_Jump(16, "Spawn")
+		Loop
+	}
+}

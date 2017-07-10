@@ -1,0 +1,80 @@
+/*
+ACTOR PlasmaGun : Weapon 15089
+{
+  Weapon.SelectionOrder 100
+  Weapon.AmmoUse 1
+  Weapon.AmmoGive 40
+  Weapon.AmmoType "NewCells"
+  Weapon.SlotNumber 6
+  Inventory.PickupMessage "$GOTPLASMA"
+  
+  +WEAPON.NOAUTOAIM
+  
+  States
+  {
+  Ready:
+    PLSG A 1 A_WeaponReady
+    Loop
+  Deselect:
+    PLSG A 1 A_Lower
+    Loop
+  Select:
+    PLSG A 1 A_Raise
+    Loop
+  Fire:
+    PLSG A 0 A_GunFlash
+    PLSG A 3 A_FireCustomMissile ("PlasmaBall", 0, 1, 0, 0, 0, 0)
+    PLSG B 20 A_ReFire
+    Goto Ready
+  Flash:
+    TNT1 A 0 A_Jump(128, 2)
+    PLSF A 4 Bright
+    Goto LightDone
+    PLSF B 4 Bright
+    Goto LightDone
+  Spawn:
+    PLAS A -1
+    Stop
+  }
+}
+*/
+
+actor UACPlasmaticRifle : Weapon 15089 // Replaces PlasmaRifle
+{
+  //$NotAngled
+  //$Category Decorate/Weapons
+  //$Title "Plasmatic rifle"
+  //$Sprite PLZME0
+  Weapon.SelectionOrder 100
+  Weapon.AmmoUse 1
+  Weapon.AmmoGive 40
+  Weapon.AmmoType "NewCells"
+  Weapon.SlotNumber 6
+  //Weapon.BobStyle Alpha
+  Inventory.PickupMessage "$GOTPLASMA"
+  States
+  {
+  Ready:
+    PLZM A 1 A_WeaponReady
+    Loop
+  Deselect:
+    PLZM A 1 A_Lower
+	//TNT1 AA 0 A_Lower
+    Loop
+  Select:
+    PLZM A 1 A_Raise
+	//TNT1 AA 0 A_Raise
+    Loop
+  Fire:
+    PLZM A 0
+	PLZM A 0 A_FireCustomMissile("PlasmaBall",0,1,0,0)
+	PLZM A 0 A_PlaySound("weapons/plasmaf")
+	PLZM B 2 BRIGHT
+	PLZM C 2
+	PLZM D 16 A_ReFire
+    Goto Ready
+  Spawn:
+    PLZM E -1
+    Stop
+  }
+}

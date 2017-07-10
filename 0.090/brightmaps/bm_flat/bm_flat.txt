@@ -1,0 +1,1 @@
+#include "brightmaps/bm_flat/bm_flat_other.txt"

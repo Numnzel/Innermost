@@ -1,0 +1,2 @@
+#include "brightmaps/bm_light/bm_light_lightceiling.txt"
+#include "brightmaps/bm_light/bm_light_tunnellamp.txt"

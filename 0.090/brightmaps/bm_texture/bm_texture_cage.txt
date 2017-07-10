@@ -1,0 +1,34 @@
+// Cage textures Brightmaps (Made by Numnzel)
+
+brightmap texture CGCANI00 { map "brightmaps/bm_texture/bm_tex_cage/CGCANI00.png" }
+brightmap texture CGCANI01 { map "brightmaps/bm_texture/bm_tex_cage/CGCANI01.png" }
+brightmap texture CGCANI02 { map "brightmaps/bm_texture/bm_tex_cage/CGCANI02.png" }
+brightmap texture CGCANI03 { map "brightmaps/bm_texture/bm_tex_cage/CGCANI03.png" }
+brightmap texture CGCANI04 { map "brightmaps/bm_texture/bm_tex_cage/CGCANI04.png" }
+brightmap texture CGCANI05 { map "brightmaps/bm_texture/bm_tex_cage/CGCANI05.png" }
+brightmap texture CGCANI06 { map "brightmaps/bm_texture/bm_tex_cage/CGCANI06.png" }
+brightmap texture CGCANI07 { map "brightmaps/bm_texture/bm_tex_cage/CGCANI07.png" }
+
+brightmap texture CGCOMP00 { map "brightmaps/bm_texture/bm_tex_cage/CGCOMP00.png" }
+brightmap texture CGCOMP01 { map "brightmaps/bm_texture/bm_tex_cage/CGCOMP01.png" }
+brightmap texture CGCOMP02 { map "brightmaps/bm_texture/bm_tex_cage/CGCOMP02.png" }
+
+brightmap texture CGDOOR03 { map "brightmaps/bm_texture/bm_tex_cage/CGDOOR03.png" }
+
+brightmap texture CGSWC00A { map "brightmaps/bm_texture/bm_tex_cage/CGSWC00A.png" }
+brightmap texture CGSWC00B { map "brightmaps/bm_texture/bm_tex_cage/CGSWC00B.png" }
+brightmap texture CGSWC01A { map "brightmaps/bm_texture/bm_tex_cage/CGSWC01A.png" }
+brightmap texture CGSWC01B { map "brightmaps/bm_texture/bm_tex_cage/CGSWC01B.png" }
+brightmap texture CGSWC02A { map "brightmaps/bm_texture/bm_tex_cage/CGSWC02A.png" }
+brightmap texture CGSWC02B { map "brightmaps/bm_texture/bm_tex_cage/CGSWC02B.png" }
+brightmap texture CGSWC03A { map "brightmaps/bm_texture/bm_tex_cage/CGSWC03A.png" }
+brightmap texture CGSWC03B { map "brightmaps/bm_texture/bm_tex_cage/CGSWC03B.png" }
+
+
+
+
+
+
+
+
+

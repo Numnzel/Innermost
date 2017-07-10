@@ -1,0 +1,1 @@
+#include "actors/gl_weapon/gl_weapon_firelance.txt"

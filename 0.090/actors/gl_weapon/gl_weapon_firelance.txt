@@ -1,0 +1,172 @@
+// ProtonicBall-----------------------------------------
+
+
+pointlight ProtonicBallLight
+{
+    color 1.0 0.3 0.0
+    size 80
+}
+
+flickerlight ProtonicBall_X1
+{
+    Color 1.0 0.3 0.0
+    size 80
+    secondarySize 88
+    chance 0.3
+}
+
+flickerlight ProtonicBall_X2
+{
+    Color 0.8 0.15 0.0
+    size 104
+    secondarySize 112
+    chance 0.3
+}
+
+flickerlight ProtonicBall_X3
+{
+    color 0.5 0.1 0.0
+    size 120
+    secondarySize 128
+    chance 0.3
+}
+
+flickerlight ProtonicBall_X4
+{
+    color 0.5 0.0 0.0
+    size 56
+    secondarySize 64
+    chance 0.3
+}
+
+flickerlight ProtonicBall_X5
+{
+    color 0.3 0.0 0.0
+    size 48
+    secondarySize 56
+    chance 0.3
+}
+
+object ProtonicBall
+{
+    frame BFS1A { light ProtonicBallLight }
+    frame BFS1B { light ProtonicBallLight }
+
+    frame BFE1A { light ProtonicBall_X1 }
+    frame BFE1B { light ProtonicBall_X2 }
+    frame BFE1C { light ProtonicBall_X3 }
+    frame BFE1D { light ProtonicBall_X1 }
+    frame BFE1E { light ProtonicBall_X4 }
+    frame BFE1F { light ProtonicBall_X5 }
+
+    frame BFE2A { light ProtonicBallLight }
+    frame BFE2B { light ProtonicBall_X1 }
+    frame BFE2C { light ProtonicBall_X4 }
+    frame BFE2D { light ProtonicBall_X5 }
+}
+
+
+// VerticalFire-----------------------------------------
+
+PointLight VerticalFireLight
+{
+Color 1.0 0.3 0.0
+Size 56
+}
+
+FlickerLight VerticalFireLight_X1
+{
+Color 1.0 0.3 0.0
+Size 56
+SecondarySize 64
+Chance 0.4
+}
+
+FlickerLight VerticalFireLight_X2
+{
+Color 0.8 0.15 0.0
+Size 64
+SecondarySize 72
+Chance 0.4
+}
+
+FlickerLight VerticalFireLight_X3
+{
+Color 0.5 0.1 0.0
+Size 56
+SecondarySize 64
+Chance 0.4
+}
+
+FlickerLight VerticalFireLight_X4
+{
+Color 0.5 0.0 0.0
+Size 32
+SecondarySize 48
+Chance 0.4
+}
+
+FlickerLight VerticalFireLight_X5
+{
+Color 0.3 0.0 0.0
+Size 8
+SecondarySize 16
+Chance 0.4
+}
+
+Object VerticalFireC
+{
+Frame KWBB { Light VerticalFireLight }
+Frame KWBDA { Light VerticalFireLight_X1 }
+Frame KWBDB { Light VerticalFireLight_X2 }
+Frame KWBDC { Light VerticalFireLight_X3 }
+Frame KWBDD { Light VerticalFireLight_X3 }
+Frame KWBDE { Light VerticalFireLight_X4 }
+Frame KWBDF { Light VerticalFireLight_X5 }
+}
+
+Object VerticalFireF
+{
+Frame KWBB { Light VerticalFireLight }
+Frame KWBDA { Light VerticalFireLight_X1 }
+Frame KWBDB { Light VerticalFireLight_X2 }
+Frame KWBDC { Light VerticalFireLight_X3 }
+Frame KWBDD { Light VerticalFireLight_X3 }
+Frame KWBDE { Light VerticalFireLight_X4 }
+Frame KWBDF { Light VerticalFireLight_X5 }
+}
+
+// VerticalFireBlur-----------------------------------------
+
+PointLight VerticalFireBlurLight
+{
+Color 1.0 0.5 0.0
+Size 24
+}
+
+Object VerticalFireBlur
+{
+Frame KWBR { Light VerticalFireBlurLight }
+}
+
+// ProtonEnergyCellAmmo-----------------------------------
+
+PointLight ProtonEnergyCell_X1 { Color 1.0 0.5 0.0 Size 20 }
+PointLight ProtonEnergyCell_X2 { Color 1.0 0.5 0.0 Size 12 }
+PointLight ProtonEnergyCell_X3 { Color 1.0 0.5 0.0 Size 8 }
+
+Object ProtonEnergyCellPack
+{
+Frame KWALA { Light ProtonEnergyCell_X1 }
+Frame KWALB { Light ProtonEnergyCell_X2 }
+Frame KWALC { Light ProtonEnergyCell_X1 }
+Frame KWALD { Light ProtonEnergyCell_X2 }
+}
+
+Object ProtonEnergyCell
+{
+Frame KWASA { Light ProtonEnergyCell_X3 }
+Frame KWASB { Light ProtonEnergyCell_X2 }
+Frame KWASC { Light ProtonEnergyCell_X1 }
+Frame KWASD { Light ProtonEnergyCell_X2 }
+}

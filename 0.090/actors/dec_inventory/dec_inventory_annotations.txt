@@ -1,0 +1,19 @@
+
+/*
+Actor DataCard : CustomInventory 15012
+{
+//$Category Decorate_Items
+  +COUNTITEM
+  +Inventory.alwayspickup
+  Inventory.pickupmessage "Picked up a data keycard." // "Picked up a data keycard."
+  States
+  {
+  Spawn:
+    NKEY A 10
+    NKEY B 10 bright
+    loop
+  Pickup:
+    stop
+  }
+}
+*/

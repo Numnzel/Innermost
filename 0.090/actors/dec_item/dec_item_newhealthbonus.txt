@@ -1,0 +1,4 @@
+Actor NewHealthBonus : HealthBonus replaces HealthBonus {
+	
+	Inventory.MaxAmount 300
+}

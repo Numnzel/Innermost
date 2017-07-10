@@ -1,0 +1,31 @@
+// Zombies
+
+flickerlight2 ZOMBIEATK
+{
+    color 1.0 0.8 0.2
+    size 48
+    secondarySize 56
+    interval 1
+    offset 0 40 0
+}
+
+object NewZombieMan
+{
+    frame POSSF { light ZOMBIEATK }
+}
+
+object NewShotgunGuy
+{
+    frame SPOSF { light ZOMBIEATK }
+}
+
+object NewChaingunGuy
+{
+    frame CPOSE { light ZOMBIEATK }
+    frame CPOSF { light ZOMBIEATK }
+}
+
+object DoomPlayer2
+{
+    frame PLAYF { light ZOMBIEATK }
+}

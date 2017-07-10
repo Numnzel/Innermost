@@ -1,0 +1,19 @@
+ACTOR NewRocketBox : NewRocketAmmo 15082 {
+	
+	//$NotAngled
+	//$Category Decorate/Ammo
+	//$Title "Box of Rockets"
+	
+	Height 21
+	Radius 27
+	
+	Inventory.PickupMessage "Rockets +5" // "Picked up a box of rockets."
+	Inventory.Amount 5
+	
+	States {
+	
+		Spawn:
+			BROK A -1
+			Stop
+	}
+}

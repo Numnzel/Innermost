@@ -1,0 +1,18 @@
+texture LABNOTE, 984, 759 {
+	
+	XScale 2.0
+	YScale 2.0
+	Patch PAPRNOTE, 0, 0
+}
+
+// texture HUD_BITC, 11, 11 { Patch BITCA0, 0, 0 } // XScale 1.0 YScale 1.0 Patch BITCA0, 0, 0 }
+// texture HUD_EDEV, 11, 11 { Patch ELDEH0, 0, 0 } // XScale 1.0 YScale 1.0 Patch ELDEH0, 0, 0 }
+
+
+
+
+
+// texture SPACE, 1920, 1080 {
+	
+	// Patch SPACESKY, 0, 0
+// }

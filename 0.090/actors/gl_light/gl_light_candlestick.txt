@@ -1,0 +1,13 @@
+// Candle
+
+pointlight CANDLE
+{
+    color 1.0 1.0 0.0
+    size 16
+    offset 0 16 0
+}
+
+object Candlestick
+{
+    frame CAND { light CANDLE }
+}

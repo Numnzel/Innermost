@@ -1,0 +1,211 @@
+
+
+/* ****** TEXTURE PACKS ******
+
+
+ - Too Much Brown Texture Pack by Tormentor667
+
+ - Elemental Universe Texture Pack
+
+	Author: Numnzel (Full credit list at the end of the file)
+
+ - UDET Texture Pack ZZZZZZZZZ
+
+	Author: Enjay, Nightmare, Malinku, Earthquake
+
+ - Cage Texture Pack ZZZZZZZZZZ
+
+	Author: Cage
+
+ - DrDr Texture Pack ZZZZZZZZZZZZZZZ
+
+	Author: DrDoctor (Texture naming by Nightfall/Dusk)
+
+ - Black and Green Texture Pack ZZZZZZZZZZZZZZ
+
+	Author: Agaures (aka Krumzy)
+
+ - Cage 2 Texture Pack ZZZZZZZZZZZZZZZZZZZ
+
+	Author: Cage, Fox666, NeuralStunner (the latter two for the enhanced cacodemon marble texture)
+	Conversion: Zero X. Diamond
+
+ - DoomPotpourri Texture Pack ZZZZZZZZZZZ
+
+	Description: Various textures collected from various authors
+
+ - Mortiser Texture Pack ZZZZZZZZZZZZZZZZ
+
+	Author: Nick "Nightmare" Baker, WAD compilation by S. 'Metabolist' Woodman
+
+ - Gray Texture Pack ZZZZZZZZZZZZZZZZ ????? NWARN07 y 08 quiza son de otro pack?
+
+	Author: Nick "Nightmare" Baker
+
+ - Silver Texture Pack ZZZZZZZZZZ???????? N_SUPP2B es diferente
+
+	Author: Nick "Nightmare" Baker
+
+ - Useful flats Texture Pack
+
+	Author: Nick "Nightmare" Baker
+
+ - Recolored Doom Texture Pack ZZZZZZZZZZZZZZZZ
+
+	Author: Nick "Nightmare" Baker
+	Conversion: Nick "Nightmare" Baker
+
+ - Nightmare Texture Pack ZZZZZZZZ???? un text es diferente
+
+	Author: Nick "Nightmare" Baker
+
+ - 5th Episode Texture Pack ZZZZZZZZZZZZZ
+
+	Author: Nick "Nightmare" Baker
+
+ - (Some other textures imported from Stronghold : Edge Of Chaos wad)
+
+ - Anachronox Texture Pack ZZZZZZZZZZZ
+
+	Conversion: Ceeb, Gez (for figuring out the format)
+	Author: Ion Storm
+	// Numnzel: Added brightmaps to some textures. Not part of the texture pack.
+
+ - Malice Texture Pack ZZZZZZZZZZZ
+
+	Conversion: Nightmare
+	Author: The Malice Team
+
+*/
+
+/* ****** ELEMENTAL UNIVERSE TEXTURES CREDITS ******
+
+
+Original sources:
+
+EU001___ ----> 
+EU002___ ----> 
+EU003___ ----> 
+EU004___ ----> ID Software
+EU005___ ----> ID Software
+EU006___ ----> ID Software
+EU007___ ----> ID Software
+EU008___ ----> ID Software
+EU009___ ----> ID Software
+EU010___ ----> Made by me (Numnzel)
+EU011___ ----> ID Software
+EU012___ ----> 
+EU013___ ----> 
+EU014___ ----> 
+EU015___ ----> 
+EU016___ ----> Made by me (Numnzel)
+EU017___ ----> 
+EU018___ ----> 
+EU019___ ----> 
+EU020___ ----> 
+EU021___ ----> 
+EU022___ ----> 
+EU023___ ----> Made by me (Numnzel)
+EU024___ ----> Made by me (Numnzel)
+EU025___ ----> Made by me (Numnzel)
+
+*/
+
+/* ****** ENTANGLEMENT CREDITS ******
+
+Original sources:
+
+E001___ ----> 
+E002___ ----> 
+E003___ ----> 
+E004___ ----> 
+E005___ ----> 
+E006___ ----> 
+E007___ ----> 
+E008___ ----> 
+E009___ ----> 
+E010___ ----> 
+E011___ ----> 
+E012___ ----> 
+E013___ ----> 
+E014___ ----> 
+E015___ ----> 
+E016___ ----> 
+E017___ ----> 
+E018___ ----> 
+E019___ ----> 
+E020___ ----> 
+E021___ ----> 
+E022___ ----> 
+E023___ ----> 
+E024___ ----> 
+E025___ ----> 
+E026___ ----> 
+E027___ ----> 
+E028___ ----> 
+E029___ ----> 
+E030___ ----> 
+E031___ ----> 
+E032___ ----> 
+E033___ ----> 
+E034___ ----> 
+E035___ ----> 
+E036___ ----> 
+E037___ ----> 
+E038___ ----> 
+E039___ ----> 
+E040___ ----> 
+E041___ ----> 
+E042___ ----> 
+E043___ ----> 
+E044___ ----> 
+E045___ ----> 
+E046___ ----> 
+E047___ ----> 
+E048___ ----> 
+E049___ ----> 
+E050___ ----> 
+E051___ ----> 
+E052___ ----> 
+E053___ ----> ANOX Texture Pack
+E054___ ----> 
+E055___ ----> 
+E056___ ----> 
+E057___ ----> ANOX?, (And a couple of more texture packs, modified by me)
+E058___ ----> CAGE Texture Pack
+E059___ ----> CAGE Texture Pack
+E060___ ----> CAGE Texture Pack
+E061___ ----> CAGE Texture Pack
+E062___ ----> CAGE Texture Pack
+E063___ ----> CAGE Texture Pack
+E064___ ----> CAGE Texture Pack
+E065___ ----> CAGE Texture Pack
+E066___ ----> 
+E067___ ----> 
+E068___ ----> 
+E069___ ----> 
+E070___ ---->
+E080___ ----> ANOX Texture Pack
+E081___ ----> ANOX Texture Pack
+E082___ ----> ANOX Texture Pack
+E083___ ----> ANOX Texture Pack
+E084___ ---->
+E085___ ---->
+E086___ ---->
+E087___ ----> Cage Texture Pack, CGSUPP00
+E088___ ----> Cage Texture Pack, CGSUPP01
+E089___ ----> Cage Texture Pack, CGSUPP02
+E090___ ----> Cage Texture Pack, CGSUPP03
+E091___ ----> Cage Texture Pack, CGSUPP04
+E092___ ----> Cage Texture Pack, CGSUPP05
+E093___ ----> Cage Texture Pack, CGSUPP06
+E094___ ----> Cage Texture Pack, CGSUPP07
+E095___ ----> Cage Texture Pack, CGSUPP08
+E096___ ----> Cage Texture Pack, CGSUPP09
+
+
+*/
+
+
+
+

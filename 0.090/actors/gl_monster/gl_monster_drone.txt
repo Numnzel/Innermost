@@ -1,0 +1,51 @@
+// Plasma
+
+pointlight CPLASMABALL
+{
+    color 0.0 0.9 1.0
+    size 56
+}
+
+flickerlight CPLASMA_X1
+{
+    color 0.2 0.8 1.0
+    size 64
+    secondarySize 72
+    chance 0.4
+}
+
+flickerlight CPLASMA_X2
+{
+    color 0.2 0.7 0.8
+    size 80
+    secondarySize 88
+    chance 0.4
+}
+
+flickerlight CPLASMA_X3
+{
+    color 0.1 0.4 0.5
+    size 64
+    secondarySize 72
+    chance 0.4
+}
+
+flickerlight CPLASMA_X4
+{
+    color 0.0 0.2 0.2
+    size 8
+    secondarySize 16
+    chance 0.4
+}
+
+object ColdPlasmaBall
+{
+    frame PLCPA { light CPLASMABALL }
+    frame PLCPB { light CPLASMABALL }
+
+    frame PLCXA { light CPLASMA_X1 }
+    frame PLCXB { light CPLASMA_X2 }
+    frame PLCXC { light CPLASMA_X2 }
+    frame PLCXD { light CPLASMA_X3 }
+    frame PLCXE { light CPLASMA_X4 }
+}

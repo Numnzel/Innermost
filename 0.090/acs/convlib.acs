@@ -1,0 +1,105 @@
+#library "convlib"
+#include "zcommon.acs"
+
+
+// ------------- Start-End conversation functions, set and reset the NPC potrait and some generalized effects.
+
+
+#define Infinite 32000.0
+#define IDStart 20
+#define XCoord 0.15
+#define YCoord 0.4
+#define TextSpace 0.025
+
+
+Function void ConversationStart (int imstr, int name) {
+	
+	// Fade in.
+	CancelFade();
+	FadeTo (0, 0, 0, 0.5, 3.0);
+	
+	// Print potrait.
+	SetFont(imstr);
+	HudMessage(s:"A"; HUDMSG_FADEINOUT, IDStart-3, 0, 0.8, 0.5, Infinite, 0.4);
+	
+	// Print name.
+	SetFont("SMALLFONT");
+	HudMessage (s:name; HUDMSG_PLAIN, IDStart-2, CR_GOLD, -XCoord, YCoord-TextSpace, 0);
+	
+	// PlaySound(0, "interaction/paper");
+}
+
+Function void ConversationEnd (void) {
+	
+	// HudMessage(s:""; HUDMSG_PLAIN, IDStart-3, 0, 0.8, 0.5, 1);
+	
+	// Clear all text.
+	for(int i = -3; i <= 8; i++)
+		HudMessage (s:""; HUDMSG_PLAIN, IDStart+i, 0, 0.0, 0.0, 1);
+	
+	CancelFade();
+	FadeTo (0, 0, 0, 0.0, 0.4);
+	SetFont("SMALLFONT");
+}
+
+Function void PrintNPCMessage (int text) {
+
+	SetFont("SMALLFONT");
+	HudMessage (s:text; HUDMSG_TYPEON, IDStart-1, CR_WHITE, -XCoord, YCoord, Infinite, 0.025, 0.4); //0.05
+}
+
+
+// ------------- Conversation behavioral functions, define how the text will display and the logical.
+
+
+#libdefine MaxResponses 8
+
+
+int IDCounter = 1;
+int YCoordResponse = YCoord + 0.2;
+int ResponsesBuffer[MaxResponses];
+
+Function void PrintOptionsMessages (int text) {
+
+	SetFont("SMALLFONT");
+	
+	HudMessage (s:text; HUDMSG_PLAIN, IDStart+IDCounter++, CR_WHITE, -XCoord, YCoordResponse, 0);
+	YCoordResponse += TextSpace;
+}
+
+Function void ResetOptionsMessagesCoords (void) {
+	
+	YCoordResponse = YCoord + 0.2;
+	IDCounter = 1;
+}
+
+
+int ArrowIndex = 1;
+int ResponsesBufferCount;
+int YCoordArrow;
+
+Function void PrintArrowConversation (int direction) {
+	
+	if(direction == 1)
+		if(ArrowIndex < ResponsesBufferCount) // If there's a next option to select go on
+			ArrowIndex++;
+	
+	if(direction == 2)
+		if(ArrowIndex > 1) // If there's a next option to select go on
+			ArrowIndex--;
+	
+	if(direction == 666) // Defined value for reseting the position of the arrow
+		ArrowIndex = 1;
+	
+	YCoordArrow = YCoord + 0.2 + (TextSpace * (ArrowIndex-1));
+	//Log(d:direction);
+	
+	SetFont("SMALLFONT");
+	HudMessage (s:">"; HUDMSG_PLAIN, IDStart, CR_WHITE, -XCoord+0.01, YCoordArrow, 0);
+}
+
+Function int GetResponse (void) {
+	
+	return ResponsesBuffer[ArrowIndex-1]; // Return the actually selected response.
+}
+

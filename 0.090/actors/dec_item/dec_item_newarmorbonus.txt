@@ -1,0 +1,4 @@
+Actor NewArmorBonus : ArmorBonus replaces ArmorBonus {
+	
+	Armor.MaxSaveAmount 300
+}

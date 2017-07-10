@@ -1,0 +1,11 @@
+// BitCoinDataCards
+
+brightmap sprite BBLUA0 { map "brightmaps/bm_inventory/bm_inventory_bitcoins/bmapa0.png" disablefullbright }
+brightmap sprite BCYAA0 { map "brightmaps/bm_inventory/bm_inventory_bitcoins/bmapa0.png" disablefullbright }
+brightmap sprite BGREA0 { map "brightmaps/bm_inventory/bm_inventory_bitcoins/bmapa0.png" disablefullbright }
+brightmap sprite BORAA0 { map "brightmaps/bm_inventory/bm_inventory_bitcoins/bmapa0.png" disablefullbright }
+brightmap sprite BPBLA0 { map "brightmaps/bm_inventory/bm_inventory_bitcoins/bmapa0.png" disablefullbright }
+brightmap sprite BPINA0 { map "brightmaps/bm_inventory/bm_inventory_bitcoins/bmapa0.png" disablefullbright }
+brightmap sprite BREDA0 { map "brightmaps/bm_inventory/bm_inventory_bitcoins/bmapa0.png" disablefullbright }
+brightmap sprite BWHIA0 { map "brightmaps/bm_inventory/bm_inventory_bitcoins/bmapa0.png" disablefullbright }
+brightmap sprite BYELA0 { map "brightmaps/bm_inventory/bm_inventory_bitcoins/bmapa0.png" disablefullbright }

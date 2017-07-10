@@ -1,0 +1,4 @@
+Object SentryGun
+{
+    frame SENTD { light ZOMBIEATK }
+}

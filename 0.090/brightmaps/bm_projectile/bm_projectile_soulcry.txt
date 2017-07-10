@@ -1,0 +1,16 @@
+// Soul Cry
+
+brightmap sprite SCRYA5 { map "brightmaps/bm_projectile/bm_projectile_soulcry/SCRBA5.png" disablefullbright }
+brightmap sprite SCRYA6A4 { map "brightmaps/bm_projectile/bm_projectile_soulcry/SCRBA6A4.png" disablefullbright }
+brightmap sprite SCRYA7A3 { map "brightmaps/bm_projectile/bm_projectile_soulcry/SCRBA7A3.png" disablefullbright }
+brightmap sprite SCRYA8A2 { map "brightmaps/bm_projectile/bm_projectile_soulcry/SCRBA8A2.png" disablefullbright }
+
+brightmap sprite SCRYB0 { map "brightmaps/bm_projectile/bm_projectile_soulcry/SCRBB0.png" disablefullbright }
+brightmap sprite SCRYC0 { map "brightmaps/bm_projectile/bm_projectile_soulcry/SCRBC0.png" disablefullbright }
+brightmap sprite SCRYD0 { map "brightmaps/bm_projectile/bm_projectile_soulcry/SCRBD0.png" disablefullbright }
+
+
+
+
+
+

@@ -1,0 +1,18 @@
+Actor HangingImp 15009
+{
+//$NotAngled
+//$Category Decorate/Decoration/Corpses
+//$Title "Hanging Imp"
+  +Solid
+  +NOGRAVITY
+  +SHOOTABLE
+  +DONTTHRUST
+  Height 40
+  Radius 15
+  States
+  {
+  Spawn:
+    HIMP A -1
+    Stop
+  }
+}

@@ -1,0 +1,20 @@
+//Flats
+
+
+brightmap flat LITEF5 { map "brightmaps/bm_flat/bm_flat_other/TLITE5_1.png" }
+brightmap flat LITEF6 { map "brightmaps/bm_flat/bm_flat_other/TLITE5_1.png" }
+brightmap flat LITEF7 { map "brightmaps/bm_flat/bm_flat_other/TLITE5_1.png" }
+brightmap flat LITEW3 { map "brightmaps/bm_flat/bm_flat_other/TLITE5_1.png" }
+brightmap flat LITEW4 { map "brightmaps/bm_flat/bm_flat_other/TLITE5_1.png" }
+
+brightmap flat LITEF1 { map "brightmaps/bm_flat/bm_flat_other/TLITE5_2.png" }
+brightmap flat LITEF2 { map "brightmaps/bm_flat/bm_flat_other/TLITE5_2.png" }
+brightmap flat LITEF3 { map "brightmaps/bm_flat/bm_flat_other/TLITE5_2.png" }
+brightmap flat LITEF4 { map "brightmaps/bm_flat/bm_flat_other/TLITE5_2.png" }
+brightmap flat LITEW1 { map "brightmaps/bm_flat/bm_flat_other/TLITE5_2.png" }
+brightmap flat LITEW2 { map "brightmaps/bm_flat/bm_flat_other/TLITE5_2.png" }
+
+brightmap flat TLITFL1 { map "brightmaps/bm_flat/bm_flat_other/TLITFL1.png" }
+
+brightmap flat NFMETA05 { map "brightmaps/bm_flat/bm_flat_other/NFMETA05.png" }
+brightmap flat NFMETA06 { map "brightmaps/bm_flat/bm_flat_other/NFMETA05.png" }

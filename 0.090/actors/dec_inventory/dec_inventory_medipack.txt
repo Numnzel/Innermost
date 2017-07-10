@@ -1,0 +1,38 @@
+/*
+Actor Medipack : Health 15019
+{
+	Game Doom
+	Inventory.Amount 50
+	Inventory.PickupMessage "Picked up a medipack."
+	Health.LowMessage 20, "Picked up a medipack that you REALLY need!"
+	States
+	{
+		Spawn:
+		MEDP A -1
+		Stop
+	}
+}
+*/
+
+Actor MediPackObject : CustomInventory 15019
+{
+  //$NotAngled
+  //$Category Decorate/Inventory
+  //$Title "Medipack"
+  
+  //SpawnId 250
+  +INVENTORY.INVBAR
+  Inventory.MaxAmount 3
+  Inventory.Icon "HEALB0"
+  Inventory.PickupMessage "Picked up a medipack."
+  //Health.LowMessage 20, "Picked up a medipack that you REALLY need!"
+  States
+  {
+  Spawn:
+    HEAL A -1
+    Stop
+  Use:
+    TNT1 A 1 A_GiveInventory("Health", 100)
+    Stop
+  }
+}

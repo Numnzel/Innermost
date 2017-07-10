@@ -1,0 +1,4 @@
+#include "actors/dec_decoration/dec_decoration_chair.txt"
+#include "actors/dec_decoration/dec_decoration_glasspack.txt"
+#include "actors/dec_decoration/dec_decoration_hangingimp.txt"
+#include "actors/dec_decoration/dec_decoration_shootablecorpses.txt"

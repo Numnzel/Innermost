@@ -1,0 +1,211 @@
+Actor HearthAttackArti : CustomInventory 15093 {
+	
+	//$NotAngled
+	//$Category Decorate/Inventory
+	//$Title "Hearth attack artifact"
+	+COUNTITEM
+	+INVENTORY.INVBAR
+	Inventory.MaxAmount 3
+	Inventory.Icon "SCRYX0"
+	Inventory.PickupMessage "You picked up a hearth artifact."
+	
+	States {
+	
+		Spawn:
+			SCRY Z -1
+			Stop
+		Use:
+			TNT1 A 0 //A_GiveInventory("HearthDrain")
+			TNT1 A 0 A_RailAttack (500, 0, 0, "none", FF0000, RGF_NOPIERCING|RGF_FULLBRIGHT|RGF_NORANDOMPUFFZ, 1, "HearthAttackPuff", 0, 0, 0, 35, 1.0, 0.1, "HearthMissileSmoke")
+			TNT1 A 0 //A_TakeInventory("HearthDrain")
+			TNT1 A 0 A_JumpIfInventory("PowerHearthIllness3", 1, "Plus3")
+			TNT1 A 0 A_JumpIfInventory("PowerHearthIllness2", 1, "Plus2")
+			TNT1 A 0 A_JumpIfInventory("PowerHearthIllness", 1, "Plus")
+			TNT1 A 0 A_GiveInventory("HearthIllness")
+			Stop
+		Plus:
+			TNT1 A 0 A_TakeInventory("PowerHearthIllness")
+			TNT1 A 0 A_GiveInventory("HearthIllness")
+			TNT1 A 0 A_GiveInventory("HearthIllness2")
+			Stop
+		Plus2:
+			TNT1 A 0 A_TakeInventory("PowerHearthIllness")
+			TNT1 A 0 A_TakeInventory("PowerHearthIllness2")
+			TNT1 A 0 A_GiveInventory("HearthIllness")
+			TNT1 A 0 A_GiveInventory("HearthIllness2")
+			TNT1 A 0 A_GiveInventory("HearthIllness3")
+			Stop
+		Plus3:
+			TNT1 A 0 A_Die
+			Stop
+	}
+}
+
+// No absorbe vida, se cura el daño inflingido.
+
+/*
+ACTOR HearthMissile : FastProjectile
+{
+  Speed 500
+  Radius 1
+  Height 1
+  Damage 700
+  +CANNOTPUSH
+  +NODAMAGETHRUST
+  +SPAWNSOUNDSOURCE
+  MissileType "HearthMissileSmoke"
+  Scale 0.025
+  // SeeSound "MageWandFire"
+  // Obituary "$OB_MPMWEAPWAND"
+  
+  States
+  {
+  Spawn:
+    PS01 A 1 Bright
+    Loop
+  Death:
+    Stop
+  }
+}
+*/
+
+ACTOR HearthMissileSmoke
+{
+	+NOBLOCKMAP
+	+NOGRAVITY
+	+SHADOW
+	+NOTELEPORT
+	+CANNOTPUSH
+	+NODAMAGETHRUST
+
+	Radius 1
+	Height 1
+	Scale 0.035
+
+	RenderStyle Add
+	Alpha 0.4
+
+	States {
+		
+		Spawn:
+			PS01 A 1 A_FadeOut(0.015)
+			Loop
+	}
+}
+
+ACTOR PowerHearthIllness : PowerProtection {
+	
+	DamageFactor "Normal", 1.2
+	// Inventory.Icon "MEGAA0"
+}
+
+ACTOR PowerHearthIllness2 : PowerProtection {
+	
+	DamageFactor "Normal", 1.2
+	// Inventory.Icon "MEGAA0"
+}
+
+ACTOR PowerHearthIllness3 : PowerProtection {
+	
+	DamageFactor "Normal", 1.2
+	// Inventory.Icon "MEGAA0"
+}
+
+ACTOR HearthIllness : PowerupGiver {
+	
+	Inventory.MaxAmount 0
+	Powerup.Type "HearthIllness"
+	Powerup.Duration -60
+	Powerup.Color DarkKhaki, 0.07
+	
+	+INVENTORY.AUTOACTIVATE
+	
+	States {
+		
+		Spawn:
+			TNT1 A 1
+			Loop
+	}
+}
+
+ACTOR HearthIllness2 : PowerupGiver {
+	
+	Inventory.MaxAmount 0
+	Powerup.Type "HearthIllness2"
+	Powerup.Duration -60
+	Powerup.Color DarkKhaki, 0.07
+	
+	+INVENTORY.AUTOACTIVATE
+	
+	States {
+		
+		Spawn:
+			TNT1 A 1
+			Loop
+	}
+}
+
+ACTOR HearthIllness3 : PowerupGiver {
+	
+	Inventory.MaxAmount 0
+	Powerup.Type "HearthIllness3"
+	Powerup.Duration -60
+	Powerup.Color DarkRed, 0.09
+	
+	+INVENTORY.AUTOACTIVATE
+	
+	States {
+		
+		Spawn:
+			TNT1 A 1
+			Loop
+	}
+}
+
+ACTOR HearthDrain : PowerupGiver {
+	
+	// Inventory.PickupMessage ""
+	// Inventory.Icon "TNT1A0"
+	// Powerup.Color Red 0.0
+	Inventory.MaxAmount 0
+	// Inventory.UseSound ""
+	Powerup.Type "Drain"
+	Powerup.Duration 1
+	// Translation "128:143=176:191"
+	+INVENTORY.AUTOACTIVATE
+	// +INVENTORY.FANCYPICKUPSOUND
+	
+	States {
+	
+		Spawn:
+			TNT1 A 1
+			Loop
+	}
+}
+
+ACTOR HearthAttackPuff {
+	
+	DamageType Bio
+	VSpeed 0
+	Mass 5
+	
+	RenderStyle Translucent
+	Alpha 0.2
+	
+	+NOBLOCKMAP
+	+NOGRAVITY
+	+RANDOMIZE
+	
+	States {
+		
+		Spawn:
+		Melee:
+			Stop
+	}
+}
+
+DamageType Bio {
+	
+	Factor 1.0
+}
+

@@ -1,0 +1,38 @@
+/*
+
+====== SOUNDS : AMBIENT ======
+
+
+ - DSAMB.wav (Dark ambient)
+	Author: Extremus
+
+
+====== SOUNDS : DECORATION ======
+
+
+====== SOUNDS : MONSTER ======
+
+
+	// They're listed on the corresponding monster credits.
+
+
+====== SOUNDS : OTHER ======
+
+
+ - XTYL33_P.wav (Paper)
+	Author: Xtyl33
+
+ - FALLHIT.wav
+	Author: Raven Software (HeXen)
+
+ - MGFALL.wav
+	Author: Raven Software (HeXen)
+
+
+====== SOUNDS : WEAPON ======
+
+
+	// They're listed on the corresponding weapon credits.
+
+
+*/

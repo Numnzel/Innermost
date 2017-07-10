@@ -1,0 +1,6 @@
+
+// Unknown source texture
+
+brightmap texture N_CMON02 { map "brightmaps/bm_texture/bm_unknown_tex/N_CMON02.png" }
+brightmap texture N_CMON03 { map "brightmaps/bm_texture/bm_unknown_tex/N_CMON02.png" }
+

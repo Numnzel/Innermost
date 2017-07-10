@@ -1,0 +1,142 @@
+
+
+/* ****** INFORMATION FILE ******
+
+
+ - Credits are listed in alphabetical order.
+ - It is recommended to read those files with an advanced text editor.
+
+*/
+
+/* ****** PROJECT INFORMATION ******
+
+
+ - Name:						The innermost
+ - File name:					-
+ - File format:					pk3
+ - Disc weight:					~380 MB
+
+ - Version:						0.090 [Alpha]
+ - Status:						In development
+ - Date:						2014 (Started) - XXXX (Unfinished)
+ - Webpage:						-
+
+*/
+
+/* ****** GAMEPLAY INFORMATION ******
+
+
+ - Maps:						4
+ - Game modes:					Singleplayer (designed for)
+ - Game time:					2 - 3 hours
+
+ - Compatible source ports:		GZDoom 3.0 pre-6-gb68741b or greater
+ - Known bugs:					None
+ - Additional info:				Uncompatible with other gameplay-enhancing mods.
+
+*/
+
+/* ****** MAIN AUTHORS ******
+
+
+ - Numnzel (Contact: ionikshockwave@gmail.com)
+
+*/
+
+/* ****** MAP AUTHORS ******
+
+
+ - Numnzel (Every map is done by me from scratch.)
+
+*/
+
+/* ****** MAP TESTERS ******
+
+
+ - Belsel
+ - Extremus
+ - Montpart
+ - Palanqueta
+ - Randorx
+ - Rodavlas
+
+*/
+
+/* ****** THANKS FOR THEIR HELP ******
+
+
+ - Blue Shadow
+ - Cocka
+ - Enjay
+ - Gez
+ - Kappes Buur
+ - Revilution
+ - TheMightyHeracross
+
+*/
+
+/* ****** SPECIAL THANKS ******
+
+
+ - Extremus
+ 
+*/
+
+/* ****** RESOURCES ******
+
+
+ - To see all of the resources read the corresponding credits file.
+
+ - Some of the resources listed are modified by me for adaptation purposes.
+	If I miss credit for someone you known please contact me!
+
+*/
+
+/* ****** USED SOFTWARE ******
+
+
+- GZDoom Builder
+- Slade 3
+- Photoshop CC 2015
+- GIMP 2
+- 3DS Max 2016
+- Misfit Model 3D
+- 7Zip
+- Spidey's ZDoom Font Generator
+- Notepad++
+- Metamorphose 2
+
+
+And a huge amount of flesh & blood.
+
+*/
+
+/* ****** COPYRIGHT INFO ******
+
+
+You may use resources from this project for your own
+projects as long as you credit the respective creators.
+
+This mod is uploaded 'as is'. Further modifications are 
+not allowed in any way. Not even renaming.
+You may upload it elsewhere though.
+
+You are encouraged to base projects on this resources, 
+setting and scripts.
+
+Take in consideration this is an alpha version:
+It doesn't represent the final product in any way.
+
+Please make sure you know what you're doing when redistributing
+this project.
+
+See also the file license.txt for more precise information.
+
+Thank you for your time.
+
+*/
+
+
+
+
+

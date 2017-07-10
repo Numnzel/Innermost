@@ -1,0 +1,181 @@
+
+/*splash WaterSplash
+{
+	smallclass		Water_Small_Splash
+	smallclip		1
+	smallsound		world/drip
+
+	baseclass		Water_Splash
+	//chunkclass		WaterSplash
+	//chunkxvelshift	8
+	//chunkyvelshift	8
+	//chunkzvelshift	8
+	//chunkbasezvel	2
+	//sound			world/watersplash
+}*/
+
+splash Water
+{
+	smallclass		WaterSplash
+	smallclip		1
+	smallsound		world/watersplashsmall
+
+	baseclass		WaterSplash
+	chunkclass		WaterSplash
+	chunkxvelshift	8
+	chunkyvelshift	8
+	chunkzvelshift	8
+	chunkbasezvel	2
+	sound			world/watersplash
+	NoAlert
+}
+
+splash Blood
+{
+	smallclass		BloodSplash
+	smallclip		10
+	smallsound		world/sludgegloopsmall
+
+	baseclass		BloodSplash
+	chunkclass		BloodSplash
+	chunkxvelshift	0
+	chunkyvelshift	0
+	chunkzvelshift	0
+	chunkbasezvel	0
+	sound			world/sludgegloop
+	NoAlert
+}
+
+splash Nuke
+{
+	smallclass		SludgeSplash
+	smallclip		6
+	smallsound		world/lavasizzlesmall
+
+	baseclass		SludgeSplash
+	chunkclass		LavaSmoke
+	chunkxvelshift	-1
+	chunkyvelshift	-1
+	chunkzvelshift	7
+	chunkbasezvel	1
+	sound			world/lavasizzle
+	NoAlert
+}
+
+splash Lava
+{
+	smallclass		LavaSplash
+	smallclip		12
+	smallsound		world/lavasizzlesmall
+
+	baseclass		LavaSplash
+	chunkclass		LavaSmoke
+	chunkxvelshift	-1
+	chunkyvelshift	-1
+	chunkzvelshift	7
+	chunkbasezvel	1
+	sound			world/lavasizzle
+	NoAlert
+}
+
+
+splash Lav2
+{
+	smallclass		BloodSplash
+	smallclip		12
+	smallsound		world/lavasizzlesmall
+
+	baseclass		BloodSplash
+	chunkclass		LavaSmoke
+	chunkxvelshift	-1
+	chunkyvelshift	-1
+	chunkzvelshift	7
+	chunkbasezvel	1
+	sound			world/lavasizzle
+	NoAlert
+}
+
+splash Lav3
+{
+	smallclass		LavaSmoke
+	smallclip		12
+	smallsound		world/lavsiz2
+
+	baseclass		LavaSmoke
+	chunkclass		LavaSmoke
+	chunkxvelshift	-1
+	chunkyvelshift	-1
+	chunkzvelshift	7
+	chunkbasezvel	1
+	sound			world/lavsiz2
+	NoAlert
+}
+
+splash Slime
+{
+	smallclass		SlimeSplash
+	smallclip		6
+	smallsound		world/sludgegloopsmall
+
+	baseclass		SlimeSplash
+	chunkclass		SlimeChunk
+	chunkxvelshift	8
+	chunkyvelshift	8
+	chunkzvelshift	8
+	chunkbasezvel	1
+	sound			world/sludgegloop
+	NoAlert
+}
+
+splash Grey
+{
+	smallclass		BloodSplashBase
+	smallclip		12
+	smallsound		world/watersplashsmall
+	
+	baseclass		BloodSplashBase
+	chunkclass		SludgeChunk
+	chunkxvelshift	8
+	chunkyvelshift	8
+	chunkzvelshift	8
+	chunkbasezvel	2
+	sound			world/watersplash
+	NoAlert
+}
+
+
+splash Sludge
+{
+	smallclass		SludgeSplash
+	smallclip		8
+	smallsound		world/sludgegloopsmall
+
+	baseclass		SludgeSplash
+	chunkclass		SlimeChunk
+	chunkxvelshift	6
+	chunkyvelshift	6
+	chunkzvelshift	6
+	chunkbasezvel	1
+	sound			world/sludgegloop
+	NoAlert
+}
+
+//Which flat does what
+
+//Floor EU005A00 Grey
+//Floor EU005B00 Blood
+Floor EU005C00 Water
+Floor EU005D00 Water
+Floor EU005E00 Sludge
+Floor EU005F00 Sludge
+Floor EU005G00 Sludge
+Floor EU005H00 Water
+Floor EU005I00 Water
+Floor EU005J00 Water
+Floor EU005K00 Water
+Floor EU005L00 Water
+Floor EU005M00 Water
+Floor EU005O00 Sludge
+//Floor EU005P00 Lav3
+//Floor EU005Q00 Lav3
+Floor EU005R00 Water

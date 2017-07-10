@@ -1,0 +1,16 @@
+// Cacodemon king flare
+flickerlight CACOKBALL
+{
+    color 1.0 0.4 0.8
+    size 96
+    secondarySize 112
+    chance 0.5
+}
+
+flickerlight CACOKBALL_X
+{
+    color 1.0 0.6 0.9
+    size 256
+    secondarySize 272
+    chance 0.25
+}

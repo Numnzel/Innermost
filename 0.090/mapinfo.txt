@@ -1,0 +1,345 @@
+gameinfo {
+
+	// Essential definitions
+	playerclasses = "DoomPlayer2"
+	
+	// Gameplay-esque properties
+	defaultdropstyle = "1"
+	defkickback = 90
+	
+	// Gameplay decorative properties
+	advisorytime = 0
+	intermissioncounter = false
+	intermissionmusic = ""
+	pickupcolor = "00 00 00"
+	
+	// Menu decorative properties
+	drawreadthis = true
+	infopage = "HELPINF1"
+	addinfopage = "HELPINF2" // put some control key bindings recomendations
+	//titlepage = ""
+	titlemusic = "music/APPRETTY.flac"
+	dimcolor = "00 00 00"
+	dimamount = 0.3
+	menufontcolor_title     = "InnerTurquoise" //UNTRANSLATED
+	menufontcolor_label     = "PureBlue" //Purple-cyan
+	menufontcolor_value     = "Blue"
+	menufontcolor_action    = "Purple"
+	menufontcolor_header    = "Pink"
+	menufontcolor_highlight = "Orange"
+	menufontcolor_selection = "Gold"
+	//pausesign = "lump"
+	//cursorpic = "lump"
+	
+	
+	
+	quitmessages =
+		"Why you want to quit? Doom 4 is not yet released dude. (Notice how old is this message...)",
+		"I'm sure you will return. Yes. Sure. S-U-R-E.",
+		"You should not take a break, maybe you die in the next hour, so come here and finish this!",
+		"I hope you are leaving for playing some vanilla Doom!",
+		"Only true doomguys show no fear against the demonic forces, so don't run away!",
+		"Sadly, there is no way to scape from our own infernos, even if you press the Y key.",
+		"Those who say 'go ahead and do not look back' are now stabbed dead corpses, watch your back when you exit!",
+		"In the worst moments we find the inspiration and creativity that helps us to reach our objectives.",
+		"Who in the hell you think you are? You think you can just exit this without punishment foolish mortal?",
+		"Zankoku na tenshi no you ni... Shounen yo shinwa ni nare!... What?"
+}
+
+
+
+clearskills
+
+skill sk1 { // For those that doesn't usually play games +NEWENEMIES
+
+	ACSReturn = 10
+	spawnfilter = 1
+	
+	autousehealth
+	
+	damagefactor = 0.4
+	aggressiveness = 0.2
+	monsterhealth = 1.0
+	friendlyhealth = 1.0
+	ammofactor = 1.0
+	dropammofactor = 1.0
+	
+	textcolor = "Hexen"
+	name = "Sleeping alone"
+	key = "a"
+}
+
+skill sk2 { // For those that doesn't played doom before +NEWENEMIES
+
+	acsreturn = 20
+	spawnfilter = 3
+	
+	autousehealth
+	//disablecheats
+	
+	damagefactor = 0.7
+	aggressiveness = 0.4
+	monsterhealth = 1.0
+	friendlyhealth = 1.0
+	ammofactor = 1.0
+	dropammofactor = 1.0
+	
+	textcolor = "Hexen"
+	name = "Fading in darkness"
+	key = "d"
+}
+
+skill sk3 { // For those that known the basics of doom
+
+	acsreturn = 30
+	spawnfilter = 3
+	
+	autousehealth
+	//disablecheats
+	defaultskill
+	
+	damagefactor = 1.0
+	aggressiveness = 0.6
+	monsterhealth = 1.0
+	friendlyhealth = 1.0
+	ammofactor = 1.0
+	dropammofactor = 1.0
+	
+	textcolor = "Hexen"
+	name = "Pain envisioned"
+	key = "e"
+}
+
+skill sk4 { // For those who play doom regularly +NEWENEMIES
+
+	acsreturn = 40
+	spawnfilter = 4
+	
+	autousehealth
+	//disablecheats
+	
+	damagefactor = 1.2
+	aggressiveness = 0.8
+	monsterhealth = 1.0
+	friendlyhealth = 1.0
+	ammofactor = 1.0
+	dropammofactor = 1.0
+	
+	textcolor = "Hexen"
+	name = "Nightmare utopia"
+	key = "u"
+}
+
+skill sk5 { // For good doom players that play casually
+
+	acsreturn = 50
+	spawnfilter = 4
+	
+	autousehealth
+	//disablecheats
+	
+	damagefactor = 1.4
+	aggressiveness = 1.0
+	monsterhealth = 1.0
+	friendlyhealth = 1.0
+	ammofactor = 1.0
+	dropammofactor = 1.0
+	
+	textcolor = "Hexen"
+	name = "Shines in the mist"
+	key = "m"
+}
+
+skill sk6 { // For good doom players that play regularly +NEWENEMIES
+
+	acsreturn = 60
+	spawnfilter = 5
+	
+	autousehealth
+	//disablecheats
+	
+	damagefactor = 1.6
+	aggressiveness = 1.0
+	monsterhealth = 1.0
+	friendlyhealth = 1.0
+	ammofactor = 1.0
+	dropammofactor = 1.0
+	
+	textcolor = "Hexen"
+	name = "Fading hopelessly"
+	key = "h"
+	mustconfirm = "Are you sure?"
+}
+
+skill sk7 { // For suicidal players +NEWENEMIES
+
+	acsreturn = 70
+	spawnfilter = 6
+	
+	autousehealth
+	//disablecheats
+	
+	damagefactor = 2.0
+	aggressiveness = 1.0
+	monsterhealth = 1.0
+	friendlyhealth = 1.0
+	ammofactor = 1.0
+	dropammofactor = 1.0
+	
+	textcolor = "Hexen"
+	name = "Pouring suffering"
+	key = "s"
+	mustconfirm = "Are you sure?"
+}
+/*
+skill sk8 { // coop
+	
+	acsreturn = 50
+	spawnfilter = 4
+	
+	autousehealth
+	disablecheats
+	
+	damagefactor = 1.3
+	aggressiveness = 1.0
+	monsterhealth = 1.0
+	friendlyhealth = 1.0
+	ammofactor = 1.0
+	dropammofactor = 1.0
+	
+	textcolor = "Hexen"
+	name = "Cooperative"
+	key = "c"
+	replaceactor = "BitCoinWhiteDataCard", "BitCoinWhiteDataCard2"
+	replaceactor = "BitCoinYellowDataCard", "BitCoinYellowDataCard2"
+	replaceactor = "BitCoinCyanDataCard", "BitCoinCyanDataCard2"
+}*/
+
+
+
+
+/*
+cluster 2 {
+
+	//music =
+	//flat =
+	//pic =
+	//entertext = "Prueba entrada"
+	//exittext = "Prueba salida"
+}*/
+
+cluster 1 {
+
+	//entertext = "Your eyes open and your fingers start to move.", "You had a bad day. Or week. Maybe a bad year. But clearly it's only the beggining.", "You have been freezed for a long time, forgot in a cryocell and it's like no one will come to help you.", "Look, i think it's time to get out of here."
+	//exittext = "Prueba salida 2"
+	hub
+}
+
+defaultmap {
+	
+	// Gameplay
+	nocrouch
+	keepfullinventory
+	fallingdamage
+	monsterfallingdamage
+	checkswitchrange
+	gravity = 900 // default gravity = 800
+	
+	// Gameplay decoration
+	sky1 = "SPACE", 0
+	forcenoskystretch
+	lightmode = 0
+	evenlighting
+	//nointermission
+	
+	
+	// Secondary decoration
+	bordertexture = "EU010J00"
+	//titlepatch = "EU010J00"
+	//mapbackground = "" // automap background image lump
+	
+	
+	// Compatibility options
+	compat_shorttex = 0
+	compat_stairs = 0
+	compat_light = 0
+	compat_limitpain = 0
+	compat_nopassover = 0
+	compat_notossdrops = 0
+	compat_useblocking = 0
+	compat_nodoorlight = 0
+	compat_soundtarget = 0
+	compat_dehhealth = 0
+	compat_trace = 0
+	compat_dropoff = 0
+	compat_crossdropoff = 0
+	compat_invisibility = 0
+	compat_boomscroll = 0
+	compat_silent_instant_floors = 0
+	compat_sectorsounds = 0
+	compat_missileclip = 0
+	compat_anybossdeath = 0
+	compat_mbfmonstermove = 0
+	compat_corpsegibs = 0
+	compat_noblockfriends = 0
+	compat_spritesort = 0
+	compat_polyobj = 0
+	compat_maskedmidtex = 0
+	compat_badangles = 0
+	compat_floormove = 0
+}
+
+map MAP01 "Configuration" {
+
+	next = "LVL01"
+	nointermission
+	noinventorybar
+	//music = ""
+}
+
+map LVL01 "Hidden labs" {
+
+	levelnum = 1
+	cluster = 1
+	next = "endgame1"
+	secretnext = "endgame1"
+		
+	music = "music/APGHOSTD.flac"
+	
+	nocheckswitchrange
+	
+	//music = "$MUSIC_E1M8"
+	//lightning
+}
+
+map LVL02 "UAC Installations" { //complex
+
+	levelnum = 2
+	cluster = 1
+	next = "endgame1"
+	secretnext = "endgame1"
+	
+	nocheckswitchrange
+		
+	music = "music/APGALENA.flac"
+}
+
+map LVL05 "Planet surface" {
+
+	levelnum = 5
+	cluster = 1
+	next = "endgame1"
+	secretnext = "endgame1"
+	
+	music = "music/APPORUST.flac"
+}
+
+map LVL06 "Space station" {
+
+	levelnum = 6
+	cluster = 1
+	next = "endgame1"
+	secretnext = "endgame1"
+	
+	music = "music/03PRCENT.flac"
+}

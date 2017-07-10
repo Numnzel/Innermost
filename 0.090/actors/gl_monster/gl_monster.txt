@@ -1,0 +1,14 @@
+#include "actors/gl_monster/gl_monster_archvile.txt"
+#include "actors/gl_monster/gl_monster_doomzombies.txt"
+#include "actors/gl_monster/gl_monster_doublechaingunguy.txt"
+#include "actors/gl_monster/gl_monster_guardiancube.txt"
+#include "actors/gl_monster/gl_monster_lostsoul.txt"
+//#include "actors/gl_monster/gl_monster_missilezombie.txt"
+#include "actors/gl_monster/gl_monster_plasmazombie.txt"
+#include "actors/gl_monster/gl_monster_sentrygun.txt"
+#include "actors/gl_monster/gl_monster_spectre.txt"
+#include "actors/gl_monster/gl_monster_railbot.txt"
+#include "actors/gl_monster/gl_monster_drone.txt"
+
+
+

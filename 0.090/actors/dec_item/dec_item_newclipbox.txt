@@ -1,0 +1,19 @@
+ACTOR NewClipBox : NewClip 15077 {
+	
+	//$NotAngled
+	//$Category Decorate/Ammo
+	//$Title "Box of Bullets"
+	
+	Height 16
+	Radius 14
+	
+	Inventory.PickupMessage "Bullets +50" // "Picked up a box of bullets."
+	Inventory.Amount 50
+	
+	States {
+	
+		Spawn:
+			AMMO A -1
+			Stop
+	}
+}

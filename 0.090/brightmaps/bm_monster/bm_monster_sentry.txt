@@ -1,0 +1,37 @@
+// Sentrygun
+
+brightmap sprite SENTA1 { map "brightmaps/bm_monster/bm_monster_sentry/SENBA0.png" disablefullbright }
+brightmap sprite SENTA2 { map "brightmaps/bm_monster/bm_monster_sentry/SENBA0.png" disablefullbright }
+brightmap sprite SENTA3 { map "brightmaps/bm_monster/bm_monster_sentry/SENBA0.png" disablefullbright }
+brightmap sprite SENTA4 { map "brightmaps/bm_monster/bm_monster_sentry/SENBA0.png" disablefullbright }
+brightmap sprite SENTA5 { map "brightmaps/bm_monster/bm_monster_sentry/SENBA0.png" disablefullbright }
+brightmap sprite SENTA6 { map "brightmaps/bm_monster/bm_monster_sentry/SENBA0.png" disablefullbright }
+brightmap sprite SENTA7 { map "brightmaps/bm_monster/bm_monster_sentry/SENBA0.png" disablefullbright }
+brightmap sprite SENTA8 { map "brightmaps/bm_monster/bm_monster_sentry/SENBA0.png" disablefullbright }
+
+brightmap sprite SENTB1 { map "brightmaps/bm_monster/bm_monster_sentry/SENBA0.png" disablefullbright }
+brightmap sprite SENTB2 { map "brightmaps/bm_monster/bm_monster_sentry/SENBA0.png" disablefullbright }
+brightmap sprite SENTB3 { map "brightmaps/bm_monster/bm_monster_sentry/SENBA0.png" disablefullbright }
+brightmap sprite SENTB4 { map "brightmaps/bm_monster/bm_monster_sentry/SENBA0.png" disablefullbright }
+brightmap sprite SENTB5 { map "brightmaps/bm_monster/bm_monster_sentry/SENBA0.png" disablefullbright }
+brightmap sprite SENTB6 { map "brightmaps/bm_monster/bm_monster_sentry/SENBA0.png" disablefullbright }
+brightmap sprite SENTB7 { map "brightmaps/bm_monster/bm_monster_sentry/SENBA0.png" disablefullbright }
+brightmap sprite SENTB8 { map "brightmaps/bm_monster/bm_monster_sentry/SENBA0.png" disablefullbright }
+
+brightmap sprite SENTC1 { map "brightmaps/bm_monster/bm_monster_sentry/SENBA0.png" disablefullbright }
+brightmap sprite SENTC2 { map "brightmaps/bm_monster/bm_monster_sentry/SENBA0.png" disablefullbright }
+brightmap sprite SENTC3 { map "brightmaps/bm_monster/bm_monster_sentry/SENBA0.png" disablefullbright }
+brightmap sprite SENTC4 { map "brightmaps/bm_monster/bm_monster_sentry/SENBA0.png" disablefullbright }
+brightmap sprite SENTC5 { map "brightmaps/bm_monster/bm_monster_sentry/SENBA0.png" disablefullbright }
+brightmap sprite SENTC6 { map "brightmaps/bm_monster/bm_monster_sentry/SENBA0.png" disablefullbright }
+brightmap sprite SENTC7 { map "brightmaps/bm_monster/bm_monster_sentry/SENBA0.png" disablefullbright }
+brightmap sprite SENTC8 { map "brightmaps/bm_monster/bm_monster_sentry/SENBA0.png" disablefullbright }
+
+brightmap sprite SENTD1 { map "brightmaps/bm_monster/bm_monster_sentry/SENBD1.png" disablefullbright }
+brightmap sprite SENTD2 { map "brightmaps/bm_monster/bm_monster_sentry/SENBD2.png" disablefullbright }
+brightmap sprite SENTD3 { map "brightmaps/bm_monster/bm_monster_sentry/SENBD3.png" disablefullbright }
+brightmap sprite SENTD4 { map "brightmaps/bm_monster/bm_monster_sentry/SENBD4.png" disablefullbright }
+brightmap sprite SENTD5 { map "brightmaps/bm_monster/bm_monster_sentry/SENBA0.png" disablefullbright }
+brightmap sprite SENTD6 { map "brightmaps/bm_monster/bm_monster_sentry/SENBD6.png" disablefullbright }
+brightmap sprite SENTD7 { map "brightmaps/bm_monster/bm_monster_sentry/SENBD7.png" disablefullbright }
+brightmap sprite SENTD8 { map "brightmaps/bm_monster/bm_monster_sentry/SENBD8.png" disablefullbright }

@@ -1,0 +1,167 @@
+
+Purple PPL {
+		#8000ff		#a000ff		0	255
+	console:
+		#8000ff		#a000ff		0	255
+	flat:
+		#a000ff
+}
+
+Pink PNK {
+		#dd00dd		#ff00ff		0	255
+	console:
+		#dd00dd		#ff00ff		0	255
+	flat:
+		#ff00ff
+}
+
+Cyan CYN {
+		#00dddd		#00ffff		0	255
+	console:
+		#00dddd		#00ffff		0	255
+	flat:
+		#00ffff
+}
+
+Blue BLU {
+		#0080dd		#00a0ff		0	255
+	console:
+		#0080dd		#00a0ff		0	255
+	flat:
+		#00a0ff
+}
+
+PureBlue PBL {
+		#0000dd		#0000ff		0	255
+	console:
+		#0000dd		#0000ff		0	255
+	flat:
+		#0000ff
+}
+
+Green GRN {
+		#00dd00		#00ff00		0	255
+	console:
+		#00dd00		#00ff00		0	255
+	flat:
+		#00ff00
+}
+
+Yellow YEL {
+		#dddd00		#ffff00		0	255
+	console:
+		#dddd00		#ffff00		0	255
+	flat:
+		#ffff00
+}
+
+Orange ORG {
+		#dd6000		#ff8000		0	255
+	console:
+		#dd6000		#ff8000		0	255
+	flat:
+		#ff8000
+}
+
+Red RED {
+		#dd0000		#ff0000		0	255
+	console:
+		#dd0000		#ff0000		0	255
+	flat:
+		#ff0000
+}
+
+Gold GOL {
+		#ddb700		#ffd700		0	255
+	console:
+		#ddb700		#ffd700		0	255
+	flat:
+		#ffd700
+}
+
+White WHI {
+		#dddddd		#ffffff		0	255
+	console:
+		#dddddd		#ffffff		0	255
+	flat:
+		#ffffff
+}
+/*
+Grey {
+		#808080		#a0a0a0		0	255
+	console:
+		#808080		#a0a0a0		0	255
+	flat:
+		#a0a0a0
+}
+
+DarkGrey {
+		#404040		#606060		0	255
+	console:
+		#404040		#606060		0	255
+	flat:
+		#606060
+}*/
+
+Hexen {
+		#272727		#515151		0	64
+		#784918		#f3a718		65	207
+		#f3a82a		#fcd043		208	256
+	console:
+		#000000		#7f7f00		0	127
+		#ffff00		#ffffff		128	256
+	flat:
+		#eeee33
+}
+
+InnerTurquoise ITQ {
+		#272727		#515151		0	64
+		#187855		#18f3c4		65	207
+		#2af3c2		#43fce8		208	256
+	console:
+		#000000		#006e7f		0	127
+		#00dcff		#ffffff		128	256
+	flat:
+		#33d4ee
+}
+
+Gray Grey GRY { // <---
+		#aaaaaa  #cbcbcb
+	console:
+		#aaaaaa  #cbcbcb    0 256
+	flat:
+		#cbcbcb
+}
+
+DarkGray DarkGrey DGR "Dark Gray" "Dark Grey" { // <---
+		#232323  #8B8B8B
+	console:
+		#000000  #646464    0 127
+		#404040  #B4B4B4  128 256
+	flat:
+		#808080
+}
+
+DarkRed DRD {
+		#800000		#a00000		0	255
+	console:
+		#800000		#a00000		0	255
+	flat:
+		#a00000
+}
+
+DarkGreen DGR {
+		#008000		#00a000		0	255
+	console:
+		#008000		#00a000		0	255
+	flat:
+		#00a000
+}
+
+DarkBlue DBL {
+		#00508a		#00508a		0	255
+	console:
+		#00508a		#00508a		0	255
+	flat:
+		#00508a
+}

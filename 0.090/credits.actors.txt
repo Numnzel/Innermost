@@ -1,0 +1,426 @@
+
+/* ====== ACTORS : DECORATIONS ======
+
+ - Chair
+	Decorate: Ghastly_dragon
+	Sprites: Id Software
+
+ - GlassPack
+	Decorate: DavidRaven
+	GLDefs: N/A
+	Sounds: Raven Software, DavidRaven
+	Sprites: Raven Software, Tormentor667, DavidRaven
+	Sprite Edit: DavidRaven
+	Idea Base: DavidRaven
+
+ - HangingImp
+	Decorate: Numnzel
+	Sprites: Id Software
+	Sprite Edit: Numnzel
+
+ - ShootableCorpses
+	Decorate: Numnzel
+
+*/
+
+/* ====== ACTORS : INVENTORY ======
+
+
+ - BitcoinDataCards
+	Decorate: Numnzel
+	Sprites: Blue Shadow (D3KeyCards)
+	Sprite Edit: Infirnex (Brown and Violet cards) (D3KeyCards) (Sprites adapted/modified)
+	Brightmaps: Numnzel
+
+ - ElectronicDevices
+	Decorate: Numnzel
+	Sprites: Numnzel
+	Brightmaps: Numnzel
+
+ - Flares // Partially used
+	Decorate: scalliano
+	Sprites: id Software, scalliano
+	Sprite Edit: scalliano
+	Sounds: Raven Software
+
+ - Medipack // Not used
+	Decorate: Dreadopp
+	Sounds: ID Software
+	Sprites: ID Software
+	Sprite Edit: Dreadopp
+
+ - SentryBox
+	Decorate: Captain Toenail (Decorate adapted/modified)
+	GLDefs: Captain Toenail
+	Sounds: Valve, ID Software
+	Sprites: ID Software, 3D Realms, Raven (Sprites adapted/modified)
+	Sprite Edit: Captain Toenail
+
+*/
+
+/* ====== ACTORS : ITEMS ======
+
+
+ - CombatPack
+	Decorate: Ghastly_dragon (Decorate adapted/modified)
+	Sprites: ID Software
+	Sprite Edit: Ghastly_dragon (Sprites adapted/modified)
+
+ - MaxHealthBonus
+	Decorate: Numnzel
+	Sprites: ID Software
+	Sprite edit: Numnzel
+
+ - PDA
+	Decorate: scalliano
+	Sprites: scalliano
+
+*/
+
+/* ====== ACTORS : LIGHTS ======
+
+
+ - Ceiling Tech Lamp
+	Decorate: Numnzel
+	Sprites: ID Software
+	Sprite edit: Numnzel
+	Brightmaps: Numnzel
+	GLDEFS: Numnzel
+
+ - Short Tech Lamp
+	Decorate: Numnzel
+	Sprites: ID Software
+	Sprite edit: Numnzel
+	GLDEFS: Numnzel
+	//??? Sounds: Id Software, Looking Glass Studios, Ion Storm Inc.
+	//??? Sprites: SolarSnowFall
+
+ - Tunnel Lamp
+	Decorate: Id Software (Original), Numnzel
+	Sprites: Id Software (Original)
+	Sprite edit: Numnzel
+	Brightmaps: Numnzel
+	GLDEFS: Numnzel
+
+ - VariousLights //Check this
+	Main author: Keksdose
+	Adjustments: Ghastly_Dragon
+
+*/
+
+/* ====== ACTORS : MONSTERS ======
+
+
+ - Blood Demon
+	Decorate: Carnevil
+	GLDefs: Sandypaper (Brightmaps)
+	Sounds: Id Software
+	Sprites: Id Software
+	Sprite Edit: Neoworm, Vader
+	Idea Base: Skulltag's Blood Demon by Cyb
+
+ - Cacodemon King
+    Decorate: Numnzel
+	GLDEFs: Numnzel
+	Sounds: Id Software, Mike Koenig (DEEPCHSH.mp3)
+	Sound edit: Numnzel
+	Sprites: Id Software
+	Sprite Edit: Numnzel
+
+ - Cacolantern
+	Decorate: Lexus Alyus
+	GLDEFs: Ghastly Dragon
+	Sounds: Id Software
+	Sprites: Id Software 
+	Sprite Edit: Lexus Alyus
+
+ - Double Chaingunner
+	Decorate: Eriance
+	GLDEFs: Ghastly Dragon, Sandypaper (Brightmaps)
+	Sounds: Midway
+	Sprites: Id Software, Eriance
+	Sprite Edit: Eriance
+
+ - Drone
+    Decorate: Numnzel
+	GLDEFs: Numnzel
+	Sounds: -
+	Sound edit: Numnzel
+	Sprites: ??? // Find it in zdoom forums!!!
+	Sprite Edit: Numnzel
+
+ - Guardian Cube
+	Decorate: Eriance
+	GLDEFs: Ghastly Dragon, Sandypaper (Brightmaps)
+	Sounds: Raven Software
+	Sprites: Id Software 
+	Sprite Edit: Eriance
+
+ - IceImp
+	Decorate: Numnzel
+	Sounds: Id Software
+	Sprites: Id Software (Doom), Raven software (Hexen)
+	Sprite Edit: Numnzel
+
+ - Insignificant
+	Decorate: Numnzel, Ghastly_dragon (Trite)
+	Sprites: Monolith, Id Software
+	Sprite Edit: Numnzel, Captain Toenail (Trite)
+	Sounds: Id Software
+
+ - Kriobus
+	Decorate: Numnzel, (from Steam SFX) Solarsnowfall, Tormentor667, Ghastly_dragon 
+	Sounds: (from Hectebus) Blizzard Entertainment, Vader, Id Software 
+	Sprites: Id Software
+	Sprite Edit: Numnzel
+
+ - Rocket Zombie
+	Decorate: Xim (Decorate adapted/modified)
+	GLDEFs: Dreadopp
+	Sounds: Id Software
+	Sprites: Id Software
+	Sprite Edit: Xim (weapon), Chain Mail (body)
+
+ - Plasma Zombie
+	Decorate: Bouncy
+	GLDEFs: Dreadopp
+	Sounds: Id Software
+	Sprites: Id Software
+	Sprite Edit: Tormentor667, Captain Toenail, Ghastly Dragon
+
+ - Primal Cacodemon
+    Decorate: Numnzel
+	GLDEFs: Numnzel
+	Sounds: Id Software
+	Sprites: Id Software
+	Sprite Edit: Numnzel
+
+ - Railbot
+	Decorate: Captain Toenail (Decorate adapted/modified)
+	GLDEFs: Dreadopp
+	Sounds: Rogue Entertainment
+	Sprites: Free Radical, Rogue Entertainment (Sprites adapted/modified)
+	Sprite Edit: Captain Toenail
+
+ - SentryGun
+	Decorate: Captain Toenail (Decorate adapted/modified)
+	GLDefs: Captain Toenail
+	Sounds: Valve, ID Software
+	Sprites: ID Software, 3D Realms, Raven (Sprites adapted/modified)
+	Sprite Edit: Captain Toenail
+
+*/
+
+/* ====== ACTORS : OTHERS ======
+
+
+ - DoomPlayer2
+	Decorate: Numnzel
+	Sprites: ID Software
+	Sounds: ID Software (Original), Raven Software [HeXen] (Additions)
+
+ - SpecialKeys
+	Decorate: Numnzel
+	Sprites: Numnzel
+	Brightmaps: Numnzel
+
+ - Test
+	//Testing purposes, should dissolve.
+
+ - VariusKeys
+	Decorate: Disguise, MagicWazard
+	GLDEFS: Disguise, MagicWazard
+	Sprites: Id Software
+	Sprite Edit: Disguise, Blue Shadow, MagicWazard
+
+*/
+
+/* ====== ACTORS : PROJECTILES ======
+
+ - NewArachnotronPlasma
+	Decorate: Numnzel
+	GLDEFS: Numnzel
+
+ - NewBulletPuff
+	Decorate: Numnzel
+	GLDEFS: Numnzel
+
+ - HeavyBulletPuff
+	Decorate: Numnzel
+	GLDEFS: -
+
+ - NewPlasmaBall
+	Decorate: Numnzel
+	GLDEFS: Numnzel
+
+ - NewRocket
+	Decorate: Numnzel
+	GLDEFS: Numnzel
+
+ - MGNails
+	Decorate: TheShooter7, Mechadon
+	Sprites: Lazureus, Mechadon (edited nails), Idgames (base sprite)
+	Sounds: Raven Software, Id Software
+	Idea Base: Quake Nailgun, Doom 64 Nail traps
+
+ - SGNails
+	Decorate: Mechadon, TheShooter7
+	Sprites: Id Software, RoTT, Midway
+	Sprite Edit: Mechadon, TheShooter7
+	Sounds: Id Software
+	Idea Base: Quake 3 Team Arena Nailgun
+
+*/
+
+/* ====== ACTORS : SFX ======
+
+
+ - Fire spawner
+	Decorate: Solarsnowfall, Tormentor667, Ghastly_dragon
+	GLDefs: Ghastly_dragon
+	Sounds: Id Software, Looking Glass Studios, Ion Storm Inc.
+	Sprites: SolarSnowFall
+
+ - Glass Fragments
+	Decorate: Numnzel
+	Sprites: Numnzel
+
+ - Gore
+	// Extracted from Stronghold : Edge of Chaos and modified
+
+ - Forcefield laserbeams
+	Decorate: Tormentor667, Blue Shadow (edit)
+	Sprites: Tormentor667
+
+ - Particle spawners (Missing information!)
+	Decorate: (Decorate adapted/modified)
+
+ - Particle spawners smooth
+	Decorate: Numnzel
+	Sprites: ???
+
+ - Power pads
+	Author: Tormentor667
+
+ - Steam spawner
+	Decorate: Solarsnowfall, Tormentor667, Ghastly_dragon
+	Sounds: Raven Software, Id Software
+	Sprites: Solarsnowfall
+
+*/
+
+/* ====== ACTORS : WEAPONS ======
+
+
+ - Colt45
+	Decorate: JoeyTD, SuperSonix07 (Decorate adapted/modified)
+	Sprites: 3D realm's rise of the triad: Dark war
+	Sounds: Wolfenstein
+	Sprite edit: JoeyTD
+
+ - FireLance
+	Decorate: Numnzel, Mechadon (Karasawa Wad), Tormentor667 (Stronghold Power Pads SFX Wad), Daniel (Nuclear missile launcher Wad)
+	GLDEFs: Numnzel, ?? (Karasawa Wad), Tormentor667 (Stronghold The Edge Of Chaos Wad)
+	Sounds: [Unknown, Mechadon] (Karasawa Wad)
+	Sprites: [Eriance, Mechadon] (Pickup sprite base)(Karasawa Wad), Tormentor667 (Stronghold Power Pads SFX Wad), [Daniel, 3D Realms] (Nuclear missile launcher Wad)
+	Sprite Edit: Numnzel
+
+ - HeavyRifle
+	Decorate: ZChronos (Decorate adapted/modified)
+	Sounds: [Unknown], Id Software
+	Sprites: Id Software
+
+ - Machinegun
+	Decorate: HellCattX (Decorate adapted/modified)
+	Sprites: ID Software
+	Sounds: Firearms 3.0 PKM (Sounds adapted/modified)
+	Sprite edit: HellCattX
+
+ - Model1887
+	Decorate: JoeyTD (Model1887 base), Numnzel (Adapted/modified)
+	Sprites: Id software, JoeyTD
+	Sounds: Extremus
+
+ - ScatterPistol
+	Decorate: Mor'ladim (Decorate adapted/modified)
+	Sounds: Painkiller, Bulletstorm, Omega Boost
+	Sprites: Mor'ladim, id Software, Legend of the Monster Hunter
+
+ - PlasmaGun
+    Decorate: Fuzzyblaze, Infirnex (UACPlasmaticRifle base), Numnzel (Adapted/modified)
+	GLDefs: 
+	Sprites: Fuzzyblaze, id Software, FreeDoom Team
+	Sprite Edit: Infirnex
+*/
+
+/* ====== ACTORS : REPLACEMENTS ======
+
+
+ - BluePlasmaBall (and derivated)
+	Decorate: Numnzel
+	Sprites: After Effects - Energy Ball Test render by w4stedspace
+	Sprites edit: Numnzel
+
+ - Blood and Torches/GFX Decorate (some of DEC_GORE and DEC_DOOM Lump code) and sprites extracted from Stronghold : Edge Of Chaos and modified
+
+ - Alternative deaths:
+
+	ArachnotronAltDeath.wad
+	Sprites: Blox
+
+	BaronOfHellAltDeath.wad
+	Sprites: Vader (Lord of Heresy death)
+
+	BaronOfHellAltDeath2.wad
+	Sprites: Vader (Hell Warrior death), ItsNatureToDie
+
+	BaronOfHellGib.wad
+	Sprites: Eriance
+
+	DemonAltDeath.wad
+	Sprites: Neoworm (Blood Demon death)
+
+	DemonGib.wad
+	Sprites: Eriance
+
+	HellKnightAltDeath.wad
+	Sprites: Vader (Lord of Heresy death), Blox (better color matching)
+
+	HellKnightAltDeath2.wad
+	Sprites: Vader (Hell Warrior death), ItsNatureToDie
+
+	HellKnightGib.wad
+	Sprites: Eriance
+
+	ImpAltDeath.wad
+	Sprites: Vader (Dark Imp [Void] death), ItsNatureToDie (editing)
+
+	ImpAltDeath2.wad
+	Sprites: Vader (Dark Imp [Skulltag] death), Kinsie (recolor), ItsNatureToDie (improvements)
+
+	ImpAltDeath3.wad
+	Sprites: osjclatchford (main work), Blox (editing and cleaning up)
+
+	MancubusAltDeath.wad
+	Sprites: Eriance (Corupulent death), Blox (Edited for Mancubus)
+
+	MancubusAltDeath2.wad
+	Sprites: Minigunner
+
+	RevenantGib.wad
+	Sprites: Eriance
+
+	ShotgunnerAltDeath.wad
+	Sprites: Kinsie (animation), Phi108 (improvements), Minigunner (improvements)
+
+	ShotgunnerAltDeath2.wad
+	Sprites: osjclatchford, Rogue Entertainment (Strife player death), Vader (elements from the Chaingun Corporal Death)
+
+	ZombiemanAltDeath.wad
+	Sprites: ItsNatureToDie, Minigunner (improvements)
+
+*/
+
+
+
+

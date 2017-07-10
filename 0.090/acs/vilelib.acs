@@ -1,0 +1,262 @@
+#library "vilelib" // Numnzel: I spent too much time thinking about this name.
+#include "zcommon.acs"
+
+
+#libdefine POLY_NORTH			64
+#libdefine POLY_SOUTH			192
+#libdefine POLY_WEST			128
+#libdefine POLY_EAST			0
+
+#libdefine ACTOR_FACE_NORTH		0.25
+#libdefine ACTOR_FACE_WEST		0.5
+#libdefine ACTOR_FACE_EAST		1.0
+#libdefine ACTOR_FACE_SOUTH		0.75
+
+#libdefine MAXSECTORTID			900
+#libdefine STARTINGPLAYERTID	1000
+
+#libdefine MIN					35*60
+#libdefine DSEC					35*2
+#libdefine SEC					35
+#libdefine HSEC					35/2
+#libdefine QSEC					35/4
+#libdefine OSEC					35/8
+#libdefine DTIC					2
+#libdefine TIC					1
+
+
+str MapTitle[10] = { "Research Lab", "Hidden Installations", "Planet Surface", "map04", "Planet Surface", "Orbital Station Bridge", "Orbital Station", "map8", "map9", "map10" };
+
+str DoomMessage[30] = {
+
+	"Seems blockened, I can't open it.",
+	"The device can't be powered, possibly due to a lack of energy.",
+	"This switch controls the energy in this area, but I can't turn it on.",
+	"It doesn't work. And I don't even know.",
+	"This door seems mechanically blocked.",
+	"Whoa. This seems to be the space station. I can feel the gravity difference.",
+	"This switch should control those doors, but seems there isn't enough energy.",
+	"This vehicle will not work because it's off. And requires a key for turning it on.",
+	"The vehicle is working.",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	""
+};
+
+str CPUMessage[30] = {
+
+	"ERROR: Value overflows positively.",
+	"ERROR: Value overflows negatively.",
+	"LOG: Energy restored, opening doors, please wait...",
+	"LOG: This door is remotely controlled.",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	""
+};
+
+//Numnzel: Case 1. When the player try to open a closed door.
+//Numnzel: Case 2. When the player try to turn on the machinery in the biolab.
+
+
+
+Function void PrintMapTitle (void) {
+
+	int MapNum = GetLevelInfo (LEVELINFO_LEVELNUM);
+
+	SetFont ("HUDFONT_HIDDEN");
+	HudMessage (s:MapTitle[--MapNum]; HUDMSG_FADEINOUT, 5, CR_BLUE, 0.5, 0.1, 1.0, 1.0, 1.0, 0.8);
+}
+
+Function void PrintDoomMessage (int textid) {
+
+	HudMessage (s:DoomMessage[--textid]; HUDMSG_TYPEON, 1, CR_RED, 0.2, 0.7, 1.0, 0.05, 1.0);
+}
+
+#define cpu_fX 0.0		// fixed X
+#define cpu_fY 0.7		// fixed Y
+#define cpu_hT 2.0		// fixed HoldTime
+#define cpu_tT 0.05		// fixed TypeTime
+#define cpu_fT 0.5		// fixed FadeTime
+
+Function void PrintCPUMessage (str text, bool typeon) {
+
+	if (typeon)
+		HudMessage (s:text; HUDMSG_TYPEON, 2, CR_GREEN, cpu_fX, cpu_fY, cpu_hT, cpu_tT, cpu_fT);
+	else
+		HudMessage (s:text; HUDMSG_FADEOUT, 2, CR_GREEN, cpu_fX, cpu_fY, cpu_hT, cpu_fT);
+}
+
+/*
+Function void PrintCPUMessage (int textid, bool typeon) {
+
+	if (typeon)
+		HudMessage (s:CPUMessage[--textid]; HUDMSG_TYPEON, 2, CR_GREEN, cpu_fX, cpu_fY, cpu_hT, cpu_tT, cpu_fT);
+	else
+		HudMessage (s:CPUMessage[--textid]; HUDMSG_FADEOUT, 2, CR_GREEN, cpu_fX, cpu_fY, cpu_hT, cpu_fT);
+}
+*/
+
+#define bs_fX 0.0		// fixed X
+#define bs_fY 0.7		// fixed Y
+#define bs_hT 2.0		// fixed HoldTime
+#define bs_iT 0.5		// fixed InTime
+#define bs_oT 0.5		// fixed OutTime
+
+Function void PrintBSMessage (str txta, int value, str txtb, bool valuestr, bool reg) {
+
+	if(reg)
+		if(value == -1)
+			HudMessage (s:txta, s:txtb; HUDMSG_FADEINOUT|HUDMSG_LOG, 1, CR_GREEN, bs_fX, bs_fY, bs_hT, bs_iT, bs_oT);
+		else
+			if(valuestr)
+				HudMessage (s:txta, s:value, s:txtb; HUDMSG_FADEINOUT|HUDMSG_LOG, 1, CR_GREEN, bs_fX, bs_fY, bs_hT, bs_iT, bs_oT);
+			else
+				HudMessage (s:txta, d:value, s:txtb; HUDMSG_FADEINOUT|HUDMSG_LOG, 1, CR_GREEN, bs_fX, bs_fY, bs_hT, bs_iT, bs_oT);
+
+	else
+		if(value == -1)
+			HudMessage (s:txta,	s:txtb; HUDMSG_FADEINOUT, 1, CR_GREEN, bs_fX, bs_fY, bs_hT, bs_iT, bs_oT);
+		else
+			if(valuestr)
+				HudMessage (s:txta, s:value, s:txtb; HUDMSG_FADEINOUT, 1, CR_GREEN, bs_fX, bs_fY, bs_hT, bs_iT, bs_oT);
+			else
+				HudMessage (s:txta, d:value, s:txtb; HUDMSG_FADEINOUT, 1, CR_GREEN, bs_fX, bs_fY, bs_hT, bs_iT, bs_oT);
+}
+
+Function void PrintImageInteractionStart (int imstr, str sound) {
+
+	CancelFade();
+	FadeTo (0, 0, 0, 0.5, 3.0);
+
+	if (imstr != 0) {
+		
+		SetFont(imstr);
+		HudMessage(s:"A"; HUDMSG_FADEINOUT, 9, 0, 0.5, 0.5, 9999.0, 0.4);
+
+		if (sound != 0)
+			PlaySound(0, sound);
+	}
+}
+
+Function void PrintImageInteractionEnd (void) {
+
+	HudMessage(s:""; HUDMSG_PLAIN, 9, 0, 0.5, 0.5, 1);
+
+	CancelFade();
+	FadeTo (0, 0, 0, 0.0, 0.4);
+	SetFont("SMALLFONT");
+}
+
+Function void CheckPoint (Int killtag) {
+
+	// Numnzel: Optional parameter enters tid for thing deletion, usually the script trigger.
+
+	if (killtag > 0) Thing_Remove (killtag);
+	Autosave ();
+}
+
+Function bool SpawnRandomRadius (str type, int spotid, int radius, int newtid, bool fog) {
+
+	int patata = random(0.0, 360.0);
+	int puchero = random(0.0, radius);
+
+	int x = GetActorX (spotid) + FixedMul(cos(patata), puchero);
+	int y = GetActorY (spotid) + FixedMul(sin(patata), puchero);
+
+	int test = Spawn (type, x, y, GetActorZ(spotid), newtid, 0);
+
+	if (test && fog)
+		Spawn ("TeleportFog", x, y, GetActorZ(spotid), 0, 0);
+
+	if (test)
+		return TRUE;
+
+	return FALSE;
+}
+
+Function bool SpawnRandomOffsetY (str type, int spotid, int maxoffset) {
+
+	int y = GetActorY (spotid) + (Random(-maxoffset, maxoffset) << 16);
+
+	int test = Spawn (type, GetActorX(spotid), y, GetActorZ(spotid), 0, 0);
+
+	if (test)
+		return TRUE;
+
+	return FALSE;
+}
+
+Function void LineSpawnShards (int id1, int id2, int shardCount, int operationTid) {
+
+	str GlassType[10] = { "SGShard0New", "SGShard1New", "SGShard2New", "SGShard3New", "SGShard4New", "SGShard5New", "SGShard6New", "SGShard7New", "SGShard8New", "SGShard9New" };
+
+	int i = 0;
+	while(i < 0 + shardCount) {
+
+		Spawn ("DoomImpBall", random(GetActorX(id1), GetActorX(id2)), random(GetActorY(id1), GetActorY(id2)), random(GetActorZ(id1), GetActorZ(id2)), operationTid, GetActorAngle(id1) >> 8);
+		SpawnProjectile (operationTid, GlassType[random(0, 10)], GetActorAngle(id1) >> 8, random(1, 40), 0, 1, 0);
+		Thing_Remove(operationTid);
+		i++;
+	}
+}
+
+
+
+//http://forum.zdoom.org/viewtopic.php?f=3&t=52809
+
+Function void FaceActor(int m1, int m2) {
+	int xdiff = GetActorX(m2) - GetActorX(m1);
+	int ydiff = GetActorY(m2) - GetActorY(m1);
+	SetActorAngle(m1, VectorAngle(xdiff, ydiff));
+}
+
+/*
+world int 0:HmWrite;
+world int 1:HmFadeO;
+world int 2:HmHold;
+world int 3:HmXPos;
+world int 4:HmYPos;
+*/
+
+

@@ -1,0 +1,15 @@
+// Anochronox textures Brightmaps (Made by Numnzel)
+
+brightmap texture ANOX2155 { map "brightmaps/bm_texture/bm_tex_anachronox/ANOX2155.png" }
+
+brightmap texture ANOX0330 { map "brightmaps/bm_texture/bm_tex_anachronox/ANOX0330.png" }
+
+brightmap texture ANOX2155 { map "brightmaps/bm_texture/bm_tex_anachronox/ANOX2155.png" } //?
+
+brightmap texture ANOX1998 { map "brightmaps/bm_texture/bm_tex_anachronox/ANOX1998.png" }
+brightmap texture ANOX2154 { map "brightmaps/bm_texture/bm_tex_anachronox/ANOX1998.png" }
+
+brightmap texture ANOX2500 { map "brightmaps/bm_texture/bm_tex_anachronox/ANOX2500.png" }
+
+brightmap texture ANOX2538 { map "brightmaps/bm_texture/bm_tex_anachronox/ANOX2538.png" }
+brightmap texture ANOX2539 { map "brightmaps/bm_texture/bm_tex_anachronox/ANOX2538.png" }

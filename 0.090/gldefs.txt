@@ -1,0 +1,34 @@
+#include "actors/gl_inventory/gl_inventory.txt"
+#include "actors/gl_item/gl_item.txt"
+#include "actors/gl_light/gl_light.txt"
+#include "actors/gl_monster/gl_monster.txt"
+#include "actors/gl_other/gl_other.txt"
+#include "actors/gl_projectile/gl_projectile.txt"
+#include "actors/gl_sfx/gl_sfx.txt"
+#include "actors/gl_weapon/gl_weapon.txt"
+
+// Brightmaps
+
+// #include "brightmaps/bm_decoration/bm_decoration.txt"
+#include "brightmaps/bm_flat/bm_flat.txt"	
+#include "brightmaps/bm_inventory/bm_inventory.txt"
+#include "brightmaps/bm_item/bm_item.txt"
+#include "brightmaps/bm_light/bm_light.txt"
+#include "brightmaps/bm_monster/bm_monster.txt"
+#include "brightmaps/bm_other/bm_other.txt"
+#include "brightmaps/bm_projectile/bm_projectile.txt"
+// #include "brightmaps/bm_sfx/bm_sfx.txt"
+#include "brightmaps/bm_texture/bm_texture.txt"
+#include "brightmaps/bm_weapon/bm_weapon.txt"
+
+
+
+
+
+
+// TO BE REPLACED:
+#include "brightmaps/doomdefs.bm"
+#include "brightmaps/pickups.bm"
+#include "brightmaps/deco.bm"
+#include "brightmaps/flats.bm"
+#include "brightmaps/walls.bm"

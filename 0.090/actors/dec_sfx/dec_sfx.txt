@@ -1,0 +1,8 @@
+#include "actors/dec_sfx/dec_sfx_fire.txt"
+#include "actors/dec_sfx/dec_sfx_gore.txt"
+#include "actors/dec_sfx/dec_sfx_laserbeams.txt"
+#include "actors/dec_sfx/dec_sfx_steam.txt"
+#include "actors/dec_sfx/dec_sfx_particlespawner.txt"
+#include "actors/dec_sfx/dec_sfx_particlespawnersmooth.txt"
+#include "actors/dec_sfx/dec_sfx_powerpads.txt"
+#include "actors/dec_sfx/dec_sfx_glassfragments.txt"

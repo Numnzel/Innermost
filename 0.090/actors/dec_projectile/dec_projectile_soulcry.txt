@@ -1,0 +1,62 @@
+Actor SoulCry {
+	
+	Decal Scorch
+	Scale 0.8
+	Radius 3
+	Height 6
+	Speed 20
+	
+	// MaxStepHeight 24
+	
+	PROJECTILE
+	-NOGRAVITY
+	+NOEXPLODEFLOOR
+	// +FLOORHUGGER
+	+THRUACTORS
+	
+	SeeSound "weapons/rocklf"
+	DeathSound "weapons/rocklx"
+	
+	Obituary "%o couldn't withstand the soul cry damage."
+	
+	States {
+		
+		Spawn:
+			SCRY A 8 BRIGHT
+		Explosion:
+			SCRY A 1 A_JumpIf (z - floorz == 0, 1)
+			Loop
+			TNT1 A 0 A_SpawnItemEx ("SoulCryExplosion")//, 0, 0, 0, 0, 0, 0, SXF_NOCHECKPOSITION)
+			Goto Spawn
+		Death:
+			TNT1 A 0 A_SpawnItemEx ("SoulCryExplosion")//, 0, 0, 0, 0, 0, 0, SXF_NOCHECKPOSITION)
+			Stop
+	}
+}
+
+Actor SoulCryExplosion {
+	
+	Radius 3
+	Height 6
+	Scale 1.25
+	
+	// ProjectileKickBack 120
+	RenderStyle "Add"
+	Alpha 0.60
+	
+	PROJECTILE
+	+FORCERADIUSDMG
+	
+	DeathSound "weapons/rocklx"
+	
+	States {
+		
+		Spawn:
+		Death:
+			TNT1 A 0 NoDelay A_PlaySound("weapons/rocklx")
+			SCRY B 8 Bright A_Explode(384, 160)
+			SCRY C 6 Bright
+			SCRY D 4 Bright
+			Stop
+	}
+}

@@ -1,0 +1,8 @@
+// Doom Potpourri textures Brightmaps (Made by Numnzel)
+
+
+
+brightmap texture COMPCT02 { map "brightmaps/bm_texture/bm_tex_doompotpourri/COMPCT02.png" }
+
+brightmap texture COMPCT07 { map "brightmaps/bm_texture/bm_tex_doompotpourri/COMPCT07.png" }
+brightmap texture COMPCT08 { map "brightmaps/bm_texture/bm_tex_doompotpourri/COMPCT08.png" }

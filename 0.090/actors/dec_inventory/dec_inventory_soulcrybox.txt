@@ -1,0 +1,21 @@
+Actor SoulCryBox : CustomInventory 15092 {
+	
+	//$NotAngled
+	//$Category Decorate/Inventory
+	//$Title "SoulCry box"
+	+COUNTITEM
+	+INVENTORY.INVBAR
+	Inventory.MaxAmount 2
+	Inventory.Icon "SCRYX0"
+	Inventory.PickupMessage "You picked up a soul cry."
+	
+	States
+	{
+	Spawn:
+		SCRY Z -1
+		Stop
+	Use:
+		TNT1 A 1 A_SpawnItemEx ("SoulCry", 8, 0, 40, 20, 0, 0, 0, 0)
+		Stop
+	}
+}

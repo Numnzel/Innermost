@@ -1,0 +1,24 @@
+ACTOR NewShells : Ammo 15083 {
+	
+	//$NotAngled
+	//$Category Decorate/Ammo
+	//$Title "Shells"
+	
+	Height 7
+	Radius 8
+	
+	Inventory.PickupMessage "Shells +4" // "Picked up 4 shotgun shells."
+	Inventory.Amount 4
+	Inventory.MaxAmount 50
+	Inventory.Icon "SHELA0"
+	
+	Ammo.BackpackAmount 4
+	Ammo.BackpackMaxAmount 100
+	
+	States {
+	
+		Spawn:
+			SHEL A -1
+			Stop
+	}
+}
