@@ -1,6 +1,7 @@
 
 # Excluded file extensions from commits.
 
+*.tmp
 *.ini
 *.lnk
 *.zip
@@ -18,4 +19,8 @@
 *.backup1
 *.backup2
 *.backup3
+*.wad.bak
+*.wad.backup1
+*.wad.backup2
+*.wad.backup3
 *.dbprefab
