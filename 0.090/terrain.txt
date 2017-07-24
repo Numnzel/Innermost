@@ -14,8 +14,8 @@
 	//sound			world/watersplash
 }*/
 
-splash Water
-{
+splash Water {
+	
 	smallclass		WaterSplash
 	smallclip		1
 	smallsound		world/watersplashsmall
@@ -30,8 +30,8 @@ splash Water
 	NoAlert
 }
 
-splash Blood
-{
+splash Blood {
+	
 	smallclass		BloodSplash
 	smallclip		10
 	smallsound		world/sludgegloopsmall
@@ -46,8 +46,8 @@ splash Blood
 	NoAlert
 }
 
-splash Nuke
-{
+splash Nuke {
+
 	smallclass		SludgeSplash
 	smallclip		6
 	smallsound		world/lavasizzlesmall
@@ -62,8 +62,8 @@ splash Nuke
 	NoAlert
 }
 
-splash Lava
-{
+splash Lava {
+
 	smallclass		LavaSplash
 	smallclip		12
 	smallsound		world/lavasizzlesmall
@@ -79,8 +79,8 @@ splash Lava
 }
 
 
-splash Lav2
-{
+splash Lav2 {
+
 	smallclass		BloodSplash
 	smallclip		12
 	smallsound		world/lavasizzlesmall
@@ -95,8 +95,8 @@ splash Lav2
 	NoAlert
 }
 
-splash Lav3
-{
+splash Lav3 {
+
 	smallclass		LavaSmoke
 	smallclip		12
 	smallsound		world/lavsiz2
@@ -111,8 +111,8 @@ splash Lav3
 	NoAlert
 }
 
-splash Slime
-{
+splash Slime {
+	
 	smallclass		SlimeSplash
 	smallclip		6
 	smallsound		world/sludgegloopsmall
@@ -127,8 +127,8 @@ splash Slime
 	NoAlert
 }
 
-splash Grey
-{
+splash Grey {
+	
 	smallclass		BloodSplashBase
 	smallclip		12
 	smallsound		world/watersplashsmall
@@ -144,8 +144,8 @@ splash Grey
 }
 
 
-splash Sludge
-{
+splash Sludge {
+	
 	smallclass		SludgeSplash
 	smallclip		8
 	smallsound		world/sludgegloopsmall
@@ -160,22 +160,98 @@ splash Sludge
 	NoAlert
 }
 
-//Which flat does what
+terrain oil {
+	
+	splash Grey
+	liquid
+}
 
-//Floor EU005A00 Grey
-//Floor EU005B00 Blood
-Floor EU005C00 Water
-Floor EU005D00 Water
-Floor EU005E00 Sludge
-Floor EU005F00 Sludge
-Floor EU005G00 Sludge
-Floor EU005H00 Water
-Floor EU005I00 Water
-Floor EU005J00 Water
-Floor EU005K00 Water
-Floor EU005L00 Water
-Floor EU005M00 Water
-Floor EU005O00 Sludge
-//Floor EU005P00 Lav3
-//Floor EU005Q00 Lav3
-Floor EU005R00 Water
+terrain bloodbath {
+	
+	splash Blood
+	liquid
+}
+
+terrain aqua {
+	
+	splash Water
+	liquid
+}
+
+terrain poison {
+	
+	splash Slime
+	liquid
+	
+	damagetype Slime
+	damageamount 2
+	damagetimemask 31
+	allowprotection
+}
+
+terrain mud {
+	
+	splash Sludge
+	liquid
+}
+
+terrain lava {
+	
+	splash Lav2
+	liquid
+	
+	damagetype Fire
+	damageamount 3
+	damagetimemask 1
+	allowprotection
+}
+
+terrain magma {
+	
+	splash Lav3
+	liquid
+	
+	damagetype Magma
+	damageamount 7
+	damagetimemask 1
+}
+
+terrain electro {
+	
+	damagetype Electric
+	damageamount 1
+	damagetimemask 1
+}
+
+Floor EU005A00 oil
+Floor EU005B00 bloodbath
+Floor EU005C00 aqua
+Floor EU005D00 aqua
+Floor EU005E00 poison
+Floor EU005F00 poison
+Floor EU005G00 poison
+Floor EU005H00 aqua
+Floor EU005I00 aqua
+Floor EU005J00 aqua
+Floor EU005K00 aqua
+Floor EU005L00 aqua
+Floor EU005M00 aqua
+Floor EU005O00 mud
+Floor EU005P00 lava
+Floor EU005Q00 magma
+Floor EU005R00 aqua
+
+Floor EU028A00 electro
+Floor EU028B00 electro
+Floor EU028C00 electro
+Floor EU028D00 electro
+Floor EU028E00 electro
+Floor EU028F00 electro
+Floor EU028G00 electro
+Floor EU028H00 electro
+Floor EU028I00 electro
+Floor EU028J00 electro
+Floor EU028K00 electro
+Floor EU028L00 electro
+Floor EU028M00 electro
+

@@ -12,6 +12,7 @@ Actor ElectronRifle : Weapon 15068 {
 	Weapon.AmmoType2 "ElectronCharge"
 	Inventory.PickupMessage "You picked up an electron rifle."
 	
+	+WEAPON.NOAUTOAIM
 	+WEAPON.ALT_AMMO_OPTIONAL
 	
 	States {

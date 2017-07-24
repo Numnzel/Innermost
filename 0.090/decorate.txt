@@ -1,13 +1,14 @@
-#include "actors/dec_inventory/dec_inventory.txt"
+#include "actors/dec_sfx/dec_sfx.txt"
+#include "actors/dec_projectile/dec_projectile.txt"
 #include "actors/dec_item/dec_item.txt"
+#include "actors/dec_inventory/dec_inventory.txt"
 #include "actors/dec_light/dec_light.txt"
 #include "actors/dec_monster/dec_monster.txt"
 #include "actors/dec_npc/dec_npc.txt"
 #include "actors/dec_other/dec_other.txt"
-#include "actors/dec_sfx/dec_sfx.txt"
 #include "actors/dec_weapon/dec_weapon.txt"
 #include "actors/dec_decoration/dec_decoration.txt"
 
-#include "actors/dec_projectile/dec_projectile.txt"
+
 //$GZDB_SKIP
 //15095 - next

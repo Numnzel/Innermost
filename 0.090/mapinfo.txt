@@ -50,7 +50,7 @@ gameinfo {
 
 clearskills
 
-skill sk1 { // For those that doesn't usually play games +NEWENEMIES
+skill sk1 { // For those that doesn't usually play games +LESSENEMIES
 
 	ACSReturn = 10
 	spawnfilter = 1
@@ -69,7 +69,7 @@ skill sk1 { // For those that doesn't usually play games +NEWENEMIES
 	key = "a"
 }
 
-skill sk2 { // For those that doesn't played doom before +NEWENEMIES
+skill sk2 { // For those that doesn't played doom before
 
 	acsreturn = 20
 	spawnfilter = 3

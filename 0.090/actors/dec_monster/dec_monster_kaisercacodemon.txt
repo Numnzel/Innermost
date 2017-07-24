@@ -1,0 +1,147 @@
+ACTOR KaiserCacodemon 15022 {
+	
+	//$Category Decorate/Monsters
+	//$Title "Kaiser cacodemon"
+	
+	Health 2600
+	Radius 46
+	Height 84
+	Mass 2700
+	Speed 10
+	PainChance 8
+	Scale 1.5
+	BloodColor 00 00 32
+	Species "Cacodemon"
+	
+	MONSTER
+	+FLOAT
+	+NOGRAVITY
+	+MISSILEMORE
+	+MISSILEEVENMORE
+	+BOSS
+	+DONTTHRUST
+	+DONTHARMSPECIES
+	+DONTHARMCLASS
+	
+	var int user_hardmode;
+	var int user_ammo;
+	
+	SeeSound "cacok/sight"
+	PainSound "caco/pain"
+	DeathSound "caco/death"
+	ActiveSound "caco/active"
+	
+	Obituary "%o was disintegrated by a kaiser cacodemon flare."
+	HitObituary "A kaiser cacodemon eated %o in one bite."
+	
+	States {
+		
+		Spawn:
+			CACK A 10 A_Look
+			Loop
+		See:
+			CACK AAAAA 4 A_Chase("", "Missile") //, CHF_FASTCHASE)
+			CACK A 0 A_Jump(64 * (0 + user_hardmode), "SDodge")
+			Loop
+		SDodge:
+			CACK AAAAA 4 A_Chase("", "Missile") //, CHF_FASTCHASE)
+			CACK A 0 A_JumpIfInTargetLOS("Dodge", 80, JLOSF_DEADNOJUMP|JLOSF_CLOSENOFOV, 0, 0)
+			Loop
+		Dodge:
+			CACK A 1 A_FaceTarget
+			CACK A 0
+			{
+				ThrustThing(angle*256/360, random(4,6), 0, 0); // Thrust forward
+				
+				if (random(0,1) == 1) { ThrustThing(angle*256/360+192, random(8,18), 0, 0); } // 50% Thrust left
+				else { ThrustThing(angle*256/360+64, random(8,18), 0, 0); } // 50% Thrust right
+			}
+			CACK A 8
+			CACK A 0 A_ChangeVelocity(0, 0, 0, CVF_REPLACE) // Stop
+			CACK A 0 A_Jump(128, "Counter") // Fast counterattack
+			Goto See
+		Counter:
+			CACK A 0 A_SetUserVar ("user_ammo", 0)
+			Goto MissileRep
+		Missile:
+			CACK B 0 A_SetUserVar ("user_ammo", 3)
+		MissileRep:
+			CACK B 0 A_FaceTarget
+			CACK B 1 A_SetTics ( 9 + user_ammo - (4 * user_hardmode) )
+			CACK C 0 A_FaceTarget
+			CACK C 1 A_SetTics ( 9 + user_ammo - (4 * user_hardmode) )
+			CACK D 0 A_FaceTarget
+			CACK D 1 Bright A_SetTics ( 8 + user_ammo - (4 * user_hardmode) )
+			CACK D 0 A_CustomComboAttack ("KaiserCacodemonFlare", 32, 70)
+			CACK D 0 A_SetUserVar ("user_ammo", user_ammo-1)
+			CACK D 0 A_JumpIf (user_ammo <= 0, "See")
+			CACK D 0 A_Jump (24, "MissileRep")
+			Goto See
+		Pain:
+			CACK E 3
+			CACK E 3 A_Pain
+			CACK F 6
+			CACK F 0 A_Jump(64 * (0 + user_hardmode), "Counter") // Fast counterattack
+			Goto See
+		Death:
+			CACK G 8
+			CACK H 8 A_Scream
+			CACK IJ 8
+			CACK K 8 A_NoBlocking
+			CACK L -1 A_SetFloorClip
+			Stop
+		Raise:
+			Stop
+	}
+}
+
+ACTOR KaiserCacodemonFlare {
+	
+	Radius 18
+	Height 24
+	Speed 27
+	FastSpeed 27
+	Damage 20
+	Projectile
+	RenderStyle Add
+	Alpha 0.9
+	Scale 0.15
+	
+	SeeSound "cacok/comet"
+	DeathSound "cacok/cometex"
+	
+	+RANDOMIZE
+	
+	States {
+		
+		Spawn:
+			CAKB ABCDE 1 Bright Light("CACOKBALL") A_SpawnItemEx("CacodemonKingFlareTail", 0, 0, 0, 0, 0, 0, 0, 0)
+			Loop
+		Death:
+			TNT1 A 0 A_SetScale(0.8)
+			TNT1 A 0 A_Explode(20, 192, 0, 0, 96)
+		Death2:
+			CAKB ABCDE 1 Bright Light("CACOKBALL_X") A_FadeOut
+			Loop
+	}
+}
+
+ACTOR CacodemonKingFlareTail {
+	
+	Radius 18
+	Height 24
+	RenderStyle Add
+	Alpha 0.9
+	Scale 0.15
+	
+	+RANDOMIZE
+	+NOGRAVITY
+	+NOBLOCKMAP
+	
+	States {
+		
+		Spawn:
+			CAKB ABCDE 1 Bright A_FadeOut
+			Loop
+	}
+}

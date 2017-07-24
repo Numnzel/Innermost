@@ -1,3 +1,11 @@
+// Pickups
+
+	$limit misc/i_pkup      0
+	$limit misc/k_pkup      0
+	$limit misc/w_pkup      0
+	$limit misc/p_pkup      0
+
+
 //SPLASHES --------------------------------
 
 	world/drip						dsempty
@@ -12,13 +20,13 @@
 	//water/splash					dssplash
 
 	$limit world/drip				1
-	$limit world/watersplash		1
-	$limit world/watersplashsmall	2
-	$limit world/sludgegloop		1
-	$limit world/sludgegloopsmall	2
-	$limit world/lavasizzle			1
-	$limit world/lavsiz2			1
-	$limit world/lavasizzlesmall	2
+	$limit world/watersplash		3
+	$limit world/watersplashsmall	3
+	$limit world/sludgegloop		3
+	$limit world/sludgegloopsmall	3
+	$limit world/lavasizzle			3
+	$limit world/lavsiz2			3
+	$limit world/lavasizzlesmall	3
 
 
 //------------------------------------------
@@ -116,6 +124,9 @@
 
 	Steam/Loop						STEMLOOP
 	Steam/Fire						STEMFIRE
+	
+	$Volume Steam/Loop				0.5
+	$Volume Steam/Fire				0.5
 
 // Weapon: FireLance
 

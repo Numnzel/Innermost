@@ -12,6 +12,9 @@ ACTOR Machinegun : Weapon 15063
 	Weapon.SlotNumber 4
 	Weapon.SlotPriority 0.0
 	Weapon.SelectionOrder 1
+	
+	+WEAPON.NOAUTOAIM
+	
 	Inventory.PickupSound "misc/w_pkup" 
 	Inventory.PickupMessage "Picked up a machinegun!"
 	Obituary "%o was lit up by %k's Machinegun."

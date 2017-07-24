@@ -9,7 +9,10 @@ ACTOR MissileLauncher : RocketLauncher 15090
   Weapon.AmmoGive 2
   Weapon.AmmoType "NewRocketAmmo"
   Weapon.SlotNumber 5
+  
   +WEAPON.NOAUTOFIRE
+  +WEAPON.NOAUTOAIM
+  
   Inventory.PickupMessage "Picked up a missile launcher!"
   
   States

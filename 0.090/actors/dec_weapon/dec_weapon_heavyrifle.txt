@@ -18,6 +18,7 @@ ACTOR HeavyRifle : Weapon 15060 {
 	Decal BulletChip
 	
 	+WEAPON.NOAUTOFIRE
+	+WEAPON.NOAUTOAIM
 	
 	States {
 		

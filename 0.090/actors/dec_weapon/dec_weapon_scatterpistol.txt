@@ -12,6 +12,8 @@ ACTOR ScatterPistol : Weapon 15062 {
 	Weapon.SlotNumber 2
 	Weapon.SlotPriority 0.9
 	Decal PlasmaScorch
+	
+	+WEAPON.NOAUTOAIM
 
 	States {
 

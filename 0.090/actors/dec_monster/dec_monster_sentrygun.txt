@@ -1,86 +1,125 @@
 //Sentrygun-------------------------------------------------
 
-Actor SentryGun 15035
-{
+Actor SentryGun 15035 {
+	
 //$Category Decorate/Monsters
 //$Title "Sentry gun"
-  obituary "%o was ventilated by a uac-sentry."
-  health 180
-  radius 20
-  height 56
-  mass 180
-  speed 0
-  MaxTargetRange 512
-  attacksound "sentry/attack"
-  
-  Dropitem "NewClip"
-  Dropitem "NewClip"
-  
-  MONSTER
-  +QUICKTORETALIATE
-  +FLOORCLIP
-  +NOBLOOD
-  +NOSPLASHALERT
-  +NOTELEPORT
-  +DONTHARMCLASS
-  +DONTDRAIN
-  +DONTTHRUST
-  +NOTRIGGER
-  +LOOKALLAROUND
-  +MISSILEMORE
-  +MISSILEEVENMORE
-  +STANDSTILL
-  +NEVERRESPAWN
-  -CANPUSHWALLS
-  -CANUSEWALLS
-  -ACTIVATEMCROSS
-  
-  states
-  {
-  Spawn:
-    SENT AAAAAAAAAAAAAAAA 4 A_Look
-    SENT A 0 A_PlaySound ("Sentry/Active")
-    loop
-  See:
-    SENT AAAAAAAAAAAAAAAA 4 A_Chase(0, "Missile", CHF_DONTMOVE)
-    SENT A 0 A_PlaySound ("Sentry/Active")
-    goto Spawn
-  Missile:
-    SENT B 35 A_FaceTarget
-	SENT C 0 A_PlaySound("chainguy/attack", CHAN_WEAPON)
-    SENT D 1 Bright A_CustomBulletAttack(2, 2, 1, 3, "BulletPuff", 0, CBAF_NORANDOM)
-    SENT C 4 A_CposRefire
-    goto Missile+1
-  Death:
-    SENT E 0 A_PlaySoundEx ("Sentry/Death", "SoundSlot5")
-    SENT E 0 A_PlaySoundEx ("weapons/rocklx", "SoundSlot6")
-    SENT E 70 A_SpawnItem ("SentryBoom", 0, 48)
-  FadeOut:
-    SENT E 1 A_FadeOut (0.01)
-    loop
-  }
+	obituary "%o was ventilated by a uac-sentry."
+	health 180
+	radius 20
+	height 56
+	mass 180
+	speed 0
+	MaxTargetRange 512
+	attacksound "sentry/attack"
+	
+	Species "Turret"
+	
+	//PainChance "Turret", 0
+	DamageFactor "Turret", 0
+	
+	Dropitem "NewClip"
+	Dropitem "NewClip"
+	
+	MONSTER
+	+QUICKTORETALIATE
+	+NOBLOOD
+	+NOSPLASHALERT
+	+DONTHARMCLASS
+	+DONTHARMSPECIES
+	+DONTDRAIN
+	+DONTTHRUST
+	+NOTRIGGER
+	+LOOKALLAROUND
+	+MISSILEMORE
+	+MISSILEEVENMORE
+	+STANDSTILL
+	+NEVERRESPAWN
+	+NOINFIGHTING
+	+NOFEAR
+	+SEEINVISIBLE
+	-CANPUSHWALLS
+	-CANUSEWALLS
+	-ACTIVATEMCROSS
+	
+	States {
+		
+		Spawn:
+			SENT AAAAAAAAAAAAAAAA 4 A_Look
+			SENT A 0 A_PlaySound ("Sentry/Active")
+			loop
+		See:
+			SENT AAAAAAAAAAAAAAAA 4 A_Chase(0, "Missile", CHF_DONTMOVE)
+			SENT A 0 A_PlaySound ("Sentry/Active")
+			loop
+		Missile:
+			SENT B 35 A_FaceTarget
+			SENT D 1 Bright A_CustomBulletAttack(2, 2, 1, 3, "BulletPuffTurret", 0, CBAF_NORANDOM)
+			SENT C 4 A_MonsterRefire(0, "See")
+			goto Missile+1
+		Death:
+			SENT E 0 A_PlaySoundEx ("Sentry/Death", "SoundSlot5")
+			SENT E 0 A_PlaySoundEx ("weapons/rocklx", "SoundSlot6")
+			SENT E 70 A_SpawnItem ("SentryBoom", 0, 48)
+		FadeOut:
+			SENT E 1 A_FadeOut (0.01)
+			loop
+	}
 }
+
+/*
+		Missile:
+			SENT B 34 A_FaceTarget
+			SENT B 1 A_FaceTarget
+			SENT B 0 A_CheckLOF("Shot", CLOFF_JUMPFRIEND)
+			goto Missile+1
+		Shot:
+			SENT D 1 Bright A_CustomBulletAttack(2, 2, 1, 3, "BulletPuffTurret", 0, CBAF_NORANDOM)
+			SENT C 4 A_MonsterRefire(0, "See")
+			goto Missile+1
+*/
 
 Actor SentryGunF : SentryGun {
-
-  DamageFactor 0.5
-  DamageType "FriendDamage"
-  MaxTargetRange 1024
-  
-  +FRIENDLY
+	
+	DamageFactor 0.5
+	DamageFactor "FriendPuff", 0
+	MaxTargetRange 1024
+	
+	+FRIENDLY
+	
+	States {
+		
+		Missile:
+			SENT B 35 A_FaceTarget
+			SENT D 1 Bright A_CustomBulletAttack(5, 5, 1, 3, "BulletPuffFriendly", 0, CBAF_NORANDOM)
+			SENT C 4 A_MonsterRefire(0, "See")
+			goto Missile+1
+	}
 }
 
-Actor SentryBoom
-{
-  radius 2
-  height 2
-  renderstyle Add
-  +NOINTERACTION
-  +CLIENTSIDEONLY
-  states
-  {
-  Spawn:
-    XPL1 ABCDEF 3 bright
-    stop
-  }
+Actor BulletPuffTurret : NewPuff {
+	
+	DamageType "Turret"
+}
+
+Actor BulletPuffFriendly : NewPuff {
+	
+	DamageType "FriendPuff"
+}
+
+Actor SentryBoom {
+	
+	radius 2
+	height 2
+	renderstyle Add
+	
+	+NOINTERACTION
+	+CLIENTSIDEONLY
+	
+	States {
+		
+		Spawn:
+			XPL1 ABCDEF 3 bright
+			stop
+	}
 }

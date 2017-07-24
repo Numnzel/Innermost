@@ -11,6 +11,9 @@ actor model1887 : Weapon 15061
   Weapon.AmmoType "NewShells"
   AttackSound "Weapons/MSSFIR"
   Inventory.PickupMessage "You got the model 1887 shotgun!"
+  
+  +WEAPON.NOAUTOAIM
+  
   States
   {
   Ready:

@@ -11,4 +11,5 @@
 #include "brightmaps/bm_texture/bm_texture_recoloured.txt"
 #include "brightmaps/bm_texture/bm_texture_udet.txt"
 
+#include "brightmaps/bm_texture/bm_custom_texture.txt"
 #include "brightmaps/bm_texture/bm_unknown_texture.txt"

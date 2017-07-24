@@ -24,8 +24,8 @@ brightmap texture CGSWC02B { map "brightmaps/bm_texture/bm_tex_cage/CGSWC02B.png
 brightmap texture CGSWC03A { map "brightmaps/bm_texture/bm_tex_cage/CGSWC03A.png" }
 brightmap texture CGSWC03B { map "brightmaps/bm_texture/bm_tex_cage/CGSWC03B.png" }
 
-
-
+brightmap texture CGSILV06 { map "brightmaps/bm_texture/bm_tex_cage/CGSILV06.png" }
+brightmap texture CGSILV07 { map "brightmaps/bm_texture/bm_tex_cage/CGSILV07.png" }
 
 
 

@@ -8,30 +8,22 @@ statusbar fullscreen, fullscreenoffsets {
 	
 	ifwaterlevel 3 {
 		
-		drawbar "air_bar", "hudbot2", airtime, Horizontal, 170, -117;
-		drawnumber 2, HUDFONT_HIDDEN, White, airtime, drawshadow(1, 1), 160, -120; // Alignment(Center), 80, -15;
+		drawbar "air_bar", "hudbrdr", airtime, Horizontal, 160, -117;
+		drawnumber 2, HUDFONT_HIDDEN, Grey, airtime, drawshadow(1, 1), 150, -120; // Alignment(Center), 80, -15;
 		
 		//DrawNumber 2, SMALLFONT, White, airtime, drawshadow(1, 1), 95, -150, 0;
 	}
 	
 	// Inventory
 	
-	inventorybarnotvisible { drawselectedinventory centerbottom, alwaysshowcounter, drawshadow(1, 1), HUDFONT_HIDDEN, 430, -20, 490, -40, White; }
+	inventorybarnotvisible { drawselectedinventory centerbottom, alwaysshowcounter, drawshadow(1, 1), HUDFONT_HIDDEN, 70, -140, 85, -120, White; }
 	
 	// Armor
 	
-	drawbar "armor_bl", "hudbot2", armor(200), Horizontal, 170, -77;
+	drawbar "armor_bl", "hudbot2", armor(400), Horizontal, 160, -77;
 	
-	ininventory bluearmor, 1 {
-		
-		drawnumber 4, HUDFONT_HIDDEN, Blue, armor, drawshadow(1, 1), whennotzero, 160, -80; // Alignment(Center), 80, -15;
-		drawnumber 4, HUDFONT_HIDDEN, DarkBlue, savepercent, drawshadow(1, 1), whennotzero, 95, -80;
-	}
-	ininventory armor, 101 {
-		
-		drawnumber 4, HUDFONT_HIDDEN, Green, armor, drawshadow(1, 1), whennotzero, 160, -80; // Alignment(Center), 80, -15;
-		drawnumber 4, HUDFONT_HIDDEN, DarkGreen, savepercent, drawshadow(1, 1), whennotzero, 95, -80;
-	}
+	drawnumber 4, HUDFONT_HIDDEN, Blue, armor, drawshadow(1, 1), whennotzero, 150, -80; // Alignment(Center), 80, -15;
+	drawnumber 4, HUDFONT_HIDDEN, DarkBlue, savepercent, drawshadow(1, 1), whennotzero, 85, -80;
 	
 	
 	// drawimage armoricon, 20, -50, centerbottom;
@@ -39,12 +31,11 @@ statusbar fullscreen, fullscreenoffsets {
 	
 	// Health
 	
-	ifinvulnerable     { drawbar "hp_god", "hudbot", health(fakemaxhp), Horizontal, 170, -37; }
-	ifinvulnerable not { drawbar "hp_top", "hudbot", health(fakemaxhp), Horizontal, 170, -37; }
+	drawbar "hp_top", "hudbot", health(400), Horizontal, 160, -37;
 	
-	drawnumber 4, HUDFONT_HIDDEN, Red, health, drawshadow(1, 1), 160, -40; // Alignment(Center), 80, -15;
-	drawnumber 4, HUDFONT_HIDDEN, DarkRed, fakemaxhp, drawshadow(1, 1), 95, -40;
-	drawimage "hpcross", 350, -12, centerbottom, 32, 32;
+	drawnumber 4, HUDFONT_HIDDEN, Red, health, drawshadow(1, 1), 150, -40; // Alignment(Center), 80, -15;
+	drawnumber 4, HUDFONT_HIDDEN, DarkRed, fakemaxhp, drawshadow(1, 1), 85, -40;
+	//drawimage "hpcross", 350, -12, centerbottom, 32, 32;
 	
 	// drawimage "MEDIA0", 20, -10, centerbottom;
 	// drawnumber 4, HUDFONT_HIDDEN, DarkGreen, fakemaxhp, drawshadow(1, 1), 135, -40;

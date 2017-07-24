@@ -146,7 +146,7 @@ maps
 			resource0
 			{
 				type = 1;
-				location = "C:\\Users\\Invernal\\Desktop\\Doom\\UI New\\0.082";
+				location = "C:\\Users\\Invernal\\Desktop\\Doom\\UI New\\Innermost\\Innermost\\0.090";
 				option1 = 0;
 				option2 = 0;
 				notfortesting = 0;
@@ -154,9 +154,9 @@ maps
 		}
 		defaulttoptexture = "NTTKGR03";
 		overridemiddletexture = false;
-		viewpositionx = 3701.874f;
-		viewpositiony = -8933.297f;
-		viewscale = 0.6654161f;
+		viewpositionx = 3575.989f;
+		viewpositiony = -8866.342f;
+		viewscale = 0.5118585f;
 		overridefloortexture = false;
 		customceilheight = 128;
 		customfloorheight = 0;
@@ -241,8 +241,8 @@ maps
 				resource;
 				tabtype = 0;
 				scripttype = 1;
-				caretposition = 1891;
-				firstvisibleline = 88;
+				caretposition = 2737;
+				firstvisibleline = 91;
 				activetab = true;
 			}
 		}

@@ -14,6 +14,9 @@ Actor FireLance : Weapon 15008
   Weapon.AmmoUse 1
   Weapon.KickBack 1000
   Weapon.SlotNumber 8
+  
+  +WEAPON.NOAUTOAIM
+  
   States
   {
   Spawn:
