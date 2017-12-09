@@ -16,7 +16,7 @@ Actor SentryGun 15035 {
 	Species "Turret"
 	
 	//PainChance "Turret", 0
-	DamageFactor "Turret", 0
+	//DamageFactor "Turret", 0
 	
 	Dropitem "NewClip"
 	Dropitem "NewClip"
@@ -54,7 +54,7 @@ Actor SentryGun 15035 {
 			loop
 		Missile:
 			SENT B 35 A_FaceTarget
-			SENT D 1 Bright A_CustomBulletAttack(2, 2, 1, 3, "BulletPuffTurret", 0, CBAF_NORANDOM)
+			SENT D 1 Bright A_CustomBulletAttack(3, 3, 1, 3, "BulletPuffTurret", 0, CBAF_NORANDOM)
 			SENT C 4 A_MonsterRefire(0, "See")
 			goto Missile+1
 		Death:
@@ -112,6 +112,7 @@ Actor SentryBoom {
 	radius 2
 	height 2
 	renderstyle Add
+	Scale 0.7
 	
 	+NOINTERACTION
 	+CLIENTSIDEONLY
@@ -120,6 +121,6 @@ Actor SentryBoom {
 		
 		Spawn:
 			XPL1 ABCDEF 3 bright
-			stop
+			Stop
 	}
 }

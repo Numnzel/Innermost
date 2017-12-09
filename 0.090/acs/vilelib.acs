@@ -102,7 +102,7 @@ str CPUMessage[30] = {
 
 Function void PrintMapTitle (void) {
 
-	int MapNum = GetLevelInfo (LEVELINFO_LEVELNUM);
+	int MapNum = GetLevelInfo(LEVELINFO_LEVELNUM);
 
 	SetFont ("HUDFONT_HIDDEN");
 	HudMessage (s:MapTitle[--MapNum]; HUDMSG_FADEINOUT, 5, CR_BLUE, 0.5, 0.1, 1.0, 1.0, 1.0, 0.8);

@@ -53,8 +53,8 @@ ACTOR KaiserCacodemon 15022 {
 			{
 				ThrustThing(angle*256/360, random(4,6), 0, 0); // Thrust forward
 				
-				if (random(0,1) == 1) { ThrustThing(angle*256/360+192, random(8,18), 0, 0); } // 50% Thrust left
-				else { ThrustThing(angle*256/360+64, random(8,18), 0, 0); } // 50% Thrust right
+				if (random(0,1) == 1) {		ThrustThing(angle*256/360+192, random(8,18), 0, 0); } // 50% Thrust left
+				else {						ThrustThing(angle*256/360+64, random(8,18), 0, 0); } // 50% Thrust right
 			}
 			CACK A 8
 			CACK A 0 A_ChangeVelocity(0, 0, 0, CVF_REPLACE) // Stop
@@ -115,7 +115,7 @@ ACTOR KaiserCacodemonFlare {
 	States {
 		
 		Spawn:
-			CAKB ABCDE 1 Bright Light("CACOKBALL") A_SpawnItemEx("CacodemonKingFlareTail", 0, 0, 0, 0, 0, 0, 0, 0)
+			CAKB ABCDE 1 Bright Light("CACOKBALL") A_SpawnItemEx("KaiserCacodemonFlareTail", 0, 0, 0, 0, 0, 0, 0, 0)
 			Loop
 		Death:
 			TNT1 A 0 A_SetScale(0.8)
@@ -126,7 +126,7 @@ ACTOR KaiserCacodemonFlare {
 	}
 }
 
-ACTOR CacodemonKingFlareTail {
+ACTOR KaiserCacodemonFlareTail {
 	
 	Radius 18
 	Height 24

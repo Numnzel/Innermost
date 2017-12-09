@@ -1,6 +1,7 @@
 Actor NewDoomImp : DoomImp replaces DoomImp
 {
 //$Sprite TROOA1
+
 	States
 	{
 	Death:

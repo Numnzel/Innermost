@@ -291,6 +291,7 @@ defaultmap {
 
 map MAP01 "Configuration" {
 
+	levelnum = 99
 	next = "LVL01"
 	nointermission
 	noinventorybar
