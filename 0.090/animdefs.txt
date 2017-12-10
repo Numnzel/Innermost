@@ -209,6 +209,8 @@ texture E080N00 range E080N03 tics 6 oscillate
 
 switch E097N00 on sound Switch1 pic E098N00 tics 0
 
+texture E100N00 range E100N04 tics 12
+texture E101N00 range E101N04 tics 12
 
 // Cage Texture Pack
 

@@ -215,3 +215,14 @@ brightmap texture PZ018B05 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_
 
 //--------
 
+brightmap texture E100N00 { map "brightmaps/bm_texture/bm_custom_tex/E100Z00.png" }
+brightmap texture E100N01 { map "brightmaps/bm_texture/bm_custom_tex/E100Z01.png" }
+brightmap texture E100N02 { map "brightmaps/bm_texture/bm_custom_tex/E100Z02.png" }
+brightmap texture E100N03 { map "brightmaps/bm_texture/bm_custom_tex/E100Z03.png" }
+brightmap texture E100N04 { map "brightmaps/bm_texture/bm_custom_tex/E100Z04.png" }
+
+brightmap texture E101N00 { map "brightmaps/bm_texture/bm_custom_tex/E101Z00.png" }
+brightmap texture E101N01 { map "brightmaps/bm_texture/bm_custom_tex/E101Z01.png" }
+brightmap texture E101N02 { map "brightmaps/bm_texture/bm_custom_tex/E101Z02.png" }
+brightmap texture E101N03 { map "brightmaps/bm_texture/bm_custom_tex/E101Z03.png" }
+brightmap texture E101N04 { map "brightmaps/bm_texture/bm_custom_tex/E101Z04.png" }

@@ -63,9 +63,9 @@ str DoomMessage[30] = {
 
 str CPUMessage[30] = {
 
-	"ERROR: Value overflows positively.",
-	"ERROR: Value overflows negatively.",
-	"LOG: Energy restored, opening doors, please wait...",
+	"Energy at 75%.",
+	"Energy at 100%.",
+	"Powering systems, opening nanowalls, please wait.........",
 	"LOG: This door is remotely controlled.",
 	"",
 	"",
@@ -119,12 +119,12 @@ Function void PrintDoomMessage (int textid) {
 #define cpu_tT 0.05		// fixed TypeTime
 #define cpu_fT 0.5		// fixed FadeTime
 
-Function void PrintCPUMessage (str text, bool typeon) {
+Function void PrintCPUMessage (int textid, bool typeon) {
 
 	if (typeon)
-		HudMessage (s:text; HUDMSG_TYPEON, 2, CR_GREEN, cpu_fX, cpu_fY, cpu_hT, cpu_tT, cpu_fT);
+		HudMessage (s:CPUMessage[--textid]; HUDMSG_TYPEON, 2, CR_GREEN, cpu_fX, cpu_fY, cpu_hT, cpu_tT, cpu_fT);
 	else
-		HudMessage (s:text; HUDMSG_FADEOUT, 2, CR_GREEN, cpu_fX, cpu_fY, cpu_hT, cpu_fT);
+		HudMessage (s:CPUMessage[--textid]; HUDMSG_FADEOUT, 2, CR_GREEN, cpu_fX, cpu_fY, cpu_hT, cpu_fT);
 }
 
 /*
