@@ -46,7 +46,133 @@ gameinfo {
 		"Zankoku na tenshi no you ni... Shounen yo shinwa ni nare!... What?"
 }
 
+doomednums {
+	
+	281 = LaserBeam_Green_Vertical
+	282 = Laserbeam_Blue_Vertical
+	283 = Laserbeam_White_Vertical
+	284 = Laserbeam_Red_Vertical
+	285 = Laserbeam_Orange_Vertical
+	291 = LaserBeam_Green_Horizontal
+	292 = Laserbeam_Blue_Horizontal
+	293 = Laserbeam_White_Horizontal
+	294 = Laserbeam_Red_Horizontal
+	295 = Laserbeam_Orange_Horizontal
+	
+	3110 = BloodDemonClone
+	
+	10000 = GreenCard
+	10001 = OrangeCard
+	10002 = SilverCard
+	10003 = PinkCard
+	10004 = Greenskull
+	10005 = Orangeskull
+	10006 = Silverskull
+	10007 = Pinkskull
+	10008 = BrownCard
+	10009 = BlackCard
+	10010 = Brownskull
+	10011 = Blackskull
+	
+	15000 = PlasmaZombie
+	15001 = CacolanternClone
+	15002 = Guardian
+	15003 = Kriobus
+	15004 = IceImp
+	
+	15006 = ChaingunGuy2
+	15007 = PrimalCacodemon
+	15008 = FireLance
+	15009 = HangingImp
+	
+	15011 = SupplyPack
+	//15012 = DataCard
+	15013 = Chair
+	15014 = ProtonEnergyCellPack
+	15015 = ProtonEnergyCell
+	15016 = SteamSpawner
+	15017 = FireSpawner
+	15018 = ActiveFlare
+	15019 = AutoStimpack
+	15020 = SentryBox
+	15021 = XimRocketGuy
+	15022 = KaiserCacodemon
+	15023 = FreezedImp
+	15024 = BitCoinCyanDataCard
+	
+	15031 = BitCoinWhiteDataCard
+	15032 = BitCoinYellowDataCard
+	15033 = Insignificant
+	15034 = RailBot
+	15035 = SentryGun
+	15036 = SparkSpawner
+	15037 = flaskblueA
+	15038 = flaskblueB
+	15039 = flaskpurpleA
+	15040 = flaskpurpleB
+	15041 = flaskredA
+	15042 = flaskredB
+	15043 = flaskgreenA
+	15044 = flaskgreenB
+	15045 = flaskyellowA
+	15046 = flaskyellowB
+	15047 = flaskgreyA
+	15048 = flaskgreyB
+	15049 = glassblue
+	15050 = glasspurple
+	15051 = glassred
+	15052 = glassgreen
+	15053 = glassyellow
+	15054 = glassgrey
+	15055 = WhitePowerPad
+	15056 = BluePowerPad
+	15057 = GreenPowerPad
+	15058 = RedPowerPad
+	15059 = OrangePowerPad
+	15060 = HeavyRifle
+	15061 = model1887
+	15062 = ScatterPistol
+	15063 = Machinegun
+	15064 = MaxHealthSynthesizer
+	15065 = HeavyClip
+	15066 = Colt45
+	
+	15067 = Drone
+	15068 = ElectronRifle
+	15069 = PDA
+	15070 = TechLamp3 //lowlamp
+	15071 = HangTNoBrainNew
+	15072 = HangTLookingUpNew
+	
+	15074 = ParticleSpawner2
+	15075 = LightCeiling
+	15076 = ElectronicDevice
+	15077 = NewClipBox
+	15078 = NewClip
+	15079 = NewCells
+	15080 = NewCellPack
+	15081 = NewRocketAmmo
+	15082 = NewRocketBox
+	15083 = NewShells
+	15084 = NewShellBox
+	15085 = TunnelLamp
+	15086 = SpecialKey01
+	15087 = SpecialKey02
+	15088 = Aniquiled
+	15089 = UACPlasmaticRifle
+	15090 = MissileLauncher
+	15091 = HealthSynthesizer
+	15092 = SoulCryBox
+	15093 = HearthAttackArti
+	15094 = Wishmaster
+	
+	32401 = ElectronCell
+}
 
+DamageType Bio {
+	
+	Factor 1.0
+}
 
 clearskills
 

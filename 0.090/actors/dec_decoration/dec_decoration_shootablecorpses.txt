@@ -1,18 +1,24 @@
-Actor HangTNoBrainNew : HangTNoBrain 15071 {
-//$NotAngled
-//$Category Decorate/Decoration/Corpses
-//$Title "Hanging half-torso without brain (2)"
+Actor HangTNoBrainNew : HangTNoBrain {
+	
+	//$NotAngled
+	//$Category Decorate/Decoration/Corpses
+	//$Title "Hanging half-torso without brain (2)"
+
 	Height 40
+	
 	+SHOOTABLE
 	+DONTTHRUST
 	-SPAWNCEILING //+NOINTERACTION +NOCLIP
 }
 
-Actor HangTLookingUpNew : HangTLookingUp 15072 {
-//$NotAngled
-//$Category Decorate/Decoration/Corpses
-//$Title "Hanging half-torso with head looking up (2)"
+Actor HangTLookingUpNew : HangTLookingUp {
+	
+	//$NotAngled
+	//$Category Decorate/Decoration/Corpses
+	//$Title "Hanging half-torso with head looking up (2)"
+	
 	Height 50
+	
 	+SHOOTABLE
 	+DONTTHRUST
 	-SPAWNCEILING //+NOINTERACTION +NOCLIP

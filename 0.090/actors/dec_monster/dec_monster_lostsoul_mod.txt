@@ -1,5 +1,5 @@
-Actor NewLostSoul : LostSoul replaces LostSoul
-{
-   +NOBLOOD
-   +DONTGIB
+Actor NewLostSoul : LostSoul replaces LostSoul {
+	
+	+NOBLOOD
+	+DONTGIB
 }

@@ -1,7 +1,8 @@
-ACTOR BloodDemonClone 3110
-{
+ACTOR BloodDemonClone {
+	
 	//$Category Decorate/Monsters
 	//$Title "Blood demon"
+	
 	Health 300
 	Speed 12
 	Height 56
@@ -19,9 +20,10 @@ ACTOR BloodDemonClone 3110
 	DeathSound "blooddemon/death"
 	ActiveSound "blooddemon/active"
 	//MeleeSound "blooddemon/melee"
-	HitObituary "%o Was chewed up and spat out by a Mech-demon."
+	HitObituary "%o was chewed up and spat out by a Mech-demon."
 	
 	States {
+		
 		Spawn:
 			SRG2 AB 10 A_Look
 			Loop
@@ -56,17 +58,18 @@ ACTOR BloodDemonClone 3110
 	}
 }
 
-ACTOR BloodDemonArm
-{
+ACTOR BloodDemonArm {
+	
 	Radius 8
 	Height 8
 	Speed 8
 	
 	+DOOMBOUNCE
 	+DROPOFF
-	+Missile
+	+MISSILE
 	
 	States {
+		
 		Spawn:
 			SG2A ABCDEFGH 2
 			Loop

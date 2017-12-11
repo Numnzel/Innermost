@@ -1,4 +1,4 @@
-ACTOR NewCellPack : NewCells 15080 {
+ACTOR NewCellPack : NewCells {
 	
 	//$NotAngled
 	//$Category Decorate/Ammo

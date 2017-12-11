@@ -1,9 +1,10 @@
-ACTOR ScatterPistol : Weapon 15062 {
+ACTOR ScatterPistol : Weapon {
 	
 	//$NotAngled
 	//$Category Decorate/Weapons
 	//$Title "Scatter pistol"
 	//$Sprite SPPPA0
+	
 	Inventory.PickupSound "misc/w_pkup"
 	Inventory.PickupMessage "You got a scatter pistol!"
 	Weapon.AmmoType "NewClip"

@@ -131,14 +131,11 @@ ACTOR WishmasterFireSpark {
 	}
 }
 
-
-
-
-
 Actor Regenerator : CustomInventory {
 	
 	Inventory.Amount 1
 	Inventory.MaxAmount 0
+	
 	+INVENTORY.AUTOACTIVATE
 	
 	States {

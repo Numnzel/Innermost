@@ -153,7 +153,7 @@ ACTOR Drone 15067 {
 */
 
 
-ACTOR Drone 15067 {
+ACTOR Drone {
 
 	//$Category Decorate/Monsters
 	//$Title "Security drone"
@@ -167,6 +167,7 @@ ACTOR Drone 15067 {
 	Mass 150
 	Scale 1.0
 	Species "drone"
+	DamageFactor "Bio", 0.0
 	
 	MONSTER
 	+NOGRAVITY

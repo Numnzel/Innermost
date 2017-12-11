@@ -9,6 +9,7 @@ Actor NewArachnotronPlasma : ArachnotronPlasma replaces ArachnotronPlasma {
 	Alpha 0.8
 	
 	States {
+		
 		Spawn:
 			APLS AAAAAABBBBBB 1 Bright A_SpawnItemEx("PBTrail2", 0, 0, 0, 0, 0, 0, 0, 0)
 			Loop
@@ -31,6 +32,7 @@ Actor PBTrail2 {
 	+NOCLIP
 	
 	States {
+		
 		Spawn:
 			APLS AAAAAABBBBBB 1 Bright A_FadeOut
 			Loop

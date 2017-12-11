@@ -1,40 +1,40 @@
-Actor NewDoomImp : DoomImp replaces DoomImp
-{
-//$Sprite TROOA1
+Actor NewDoomImp : DoomImp replaces DoomImp {
+	
+	//$Sprite TROOA1
 
-	States
-	{
-	Death:
-		TNT1 A 0 A_Jump(256,"DeathDefault","DeathAlt","DeathAlt2","DeathAlt3")
-	DeathDefault:
-		TROO I 8
-		TROO J 8 A_Scream
-		TROO K 6
-		TROO L 6 A_NoBlocking
-		TROO M -1
-		Stop
-	DeathAlt:
-		TROO V 8
-		TROO W 8 A_Scream
-		TROO X 5
-		TROO Y 5 A_Fall
-		TROO Z -1
-		Stop
-	DeathAlt2:
-		TRO2 A 6
-		TRO2 B 6 A_Scream
-		TRO2 CD 5
-		TRO2 E 5 A_Fall
-		TRO2 F -1
-		Stop
-	DeathAlt3:
-		TRO2 G 8
-		TRO2 H 8 A_Scream
-		TRO2 IJ 8
-		TRO2 K 5 A_Fall
-		TRO2 L 10
-		TRO2 M -1
-		Stop
+	States {
+		
+		Death:
+			TNT1 A 0 A_Jump(256,"DeathDefault","DeathAlt","DeathAlt2","DeathAlt3")
+		DeathDefault:
+			TROO I 8
+			TROO J 8 A_Scream
+			TROO K 6
+			TROO L 6 A_NoBlocking
+			TROO M -1
+			Stop
+		DeathAlt:
+			TROO V 8
+			TROO W 8 A_Scream
+			TROO X 5
+			TROO Y 5 A_Fall
+			TROO Z -1
+			Stop
+		DeathAlt2:
+			TRO2 A 6
+			TRO2 B 6 A_Scream
+			TRO2 CD 5
+			TRO2 E 5 A_Fall
+			TRO2 F -1
+			Stop
+		DeathAlt3:
+			TRO2 G 8
+			TRO2 H 8 A_Scream
+			TRO2 IJ 8
+			TRO2 K 5 A_Fall
+			TRO2 L 10
+			TRO2 M -1
+			Stop
 	}
 }
 

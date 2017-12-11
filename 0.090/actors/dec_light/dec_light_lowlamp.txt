@@ -1,13 +1,15 @@
-ACTOR TechLamp3 : TechLamp2 15070
-{
-//$NotAngled
-//$Category Decorate/Light source
-//$Title "Short tech lamp"
-  Height 43
-  States
-  {
-  Spawn:
-    TLP3 ABCD 4 Bright
-    Loop
-  }
+ACTOR TechLamp3 : TechLamp2 {
+	
+	//$NotAngled
+	//$Category Decorate/Light source
+	//$Title "Short tech lamp"
+	
+	Height 43
+	
+	States {
+		
+		Spawn:
+			TLP3 ABCD 4 Bright
+			Loop
+	}
 }

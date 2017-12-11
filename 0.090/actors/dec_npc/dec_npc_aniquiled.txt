@@ -1,8 +1,8 @@
-Actor Aniquiled 15088 {
+Actor Aniquiled {
 
-//$Category Decorate/NPCs
-//$Title "Aniquiled"
-
+	//$Category Decorate/NPCs
+	//$Title "Aniquiled"
+	
 	Health 500
 	Speed 7
 	Radius 16
@@ -30,35 +30,35 @@ Actor Aniquiled 15088 {
 	
 	States {
 	
-	Spawn:
-		PLAY A 4 A_Look
-		Loop
-	See:
-		PLAY ABCD 6 A_Chase
-		Loop
-	Missile:
-		PLAY EEE 3 A_CustomBulletAttack(0.8, 0.8, 1, 8, "BulletPuff")
-		Goto Spawn
-//	Melee:
-//		PLAY F 6 BRIGHT
-//		Goto Missile
-	Pain:
-		PLAY G 4 
-		PLAY G 4 A_Pain
-		Goto Spawn
-	Death:
-		PLAY H 10
-		PLAY I 10 A_PlayerScream
-		PLAY J 10 A_NoBlocking
-		PLAY KLM 10
-		PLAY N -1
-		Stop
-	XDeath:
-		PLAY O 5
-		PLAY P 5 A_XScream
-		PLAY Q 5 A_NoBlocking
-		PLAY RSTUV 5
-		PLAY W -1
-		Stop
+		Spawn:
+			PLAY A 4 A_Look
+			Loop
+		See:
+			PLAY ABCD 6 A_Chase
+			Loop
+		Missile:
+			PLAY EEE 3 A_CustomBulletAttack(0.8, 0.8, 1, 8, "BulletPuff")
+			Goto Spawn
+	//	Melee:
+	//		PLAY F 6 BRIGHT
+	//		Goto Missile
+		Pain:
+			PLAY G 4 
+			PLAY G 4 A_Pain
+			Goto Spawn
+		Death:
+			PLAY H 10
+			PLAY I 10 A_PlayerScream
+			PLAY J 10 A_NoBlocking
+			PLAY KLM 10
+			PLAY N -1
+			Stop
+		XDeath:
+			PLAY O 5
+			PLAY P 5 A_XScream
+			PLAY Q 5 A_NoBlocking
+			PLAY RSTUV 5
+			PLAY W -1
+			Stop
 	}
 }

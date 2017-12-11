@@ -1,47 +1,48 @@
-actor model1887 : Weapon 15061
-{
-  //$NotAngled
-  //$Category Decorate/Weapons
-  //$Title "Model 1887"
-  //$Sprite MSSIA0
-  Weapon.SelectionOrder 1300
-  Weapon.AmmoUse 1
-  Weapon.AmmoGive 8
-  Weapon.SlotNumber 3
-  Weapon.AmmoType "NewShells"
-  AttackSound "Weapons/MSSFIR"
-  Inventory.PickupMessage "You got the model 1887 shotgun!"
-  
-  +WEAPON.NOAUTOAIM
-  
-  States
-  {
-  Ready:
-    MSSG A 1 A_WeaponReady
-    Loop
-  Deselect:
-    MSSG A 1 A_Lower
-    Loop
-  Select:
-    MSSG A 1 A_Raise
-    Loop
-  Fire:
-    MSSG A 3
-    MSSG A 0 A_FireBullets (6, 4, 7, 5, "BulletPuff")
-    MSSF AB 2
-    MSSG BC 7
-    MSSG D 5
-    MSSG E 3
-    MSSG CB 4
-    MSSG A 3
-    MSSG A 0 A_ReFire
-    Goto Ready
-  Flash:
-    TNT1 A 3 Bright A_Light1
-    TNT1 A 3 Bright A_Light2
-    Goto LightDone
-  Spawn:
-    MSSI A -1
-    Stop
-  }
+Actor model1887 : Weapon {
+	
+	//$NotAngled
+	//$Category Decorate/Weapons
+	//$Title "Model 1887"
+	//$Sprite MSSIA0
+	
+	Weapon.SelectionOrder 1300
+	Weapon.AmmoUse 1
+	Weapon.AmmoGive 8
+	Weapon.SlotNumber 3
+	Weapon.AmmoType "NewShells"
+	AttackSound "Weapons/MSSFIR"
+	Inventory.PickupMessage "You got the model 1887 shotgun!"
+	
+	+WEAPON.NOAUTOAIM
+	
+	States {
+		
+		Ready:
+			MSSG A 1 A_WeaponReady
+			Loop
+		Deselect:
+			MSSG A 1 A_Lower
+			Loop
+		Select:
+			MSSG A 1 A_Raise
+			Loop
+		Fire:
+			MSSG A 3
+			MSSG A 0 A_FireBullets (6, 4, 7, 5, "BulletPuff")
+			MSSF AB 2
+			MSSG BC 7
+			MSSG D 5
+			MSSG E 3
+			MSSG CB 4
+			MSSG A 3
+			MSSG A 0 A_ReFire
+			Goto Ready
+		Flash:
+			TNT1 A 3 Bright A_Light1
+			TNT1 A 3 Bright A_Light2
+			Goto LightDone
+		Spawn:
+			MSSI A -1
+			Stop
+	}
 }

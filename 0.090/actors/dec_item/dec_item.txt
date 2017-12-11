@@ -14,5 +14,6 @@
 #include "actors/dec_item/dec_item_newshells.txt"
 #include "actors/dec_item/dec_item_newshellbox.txt"
 #include "actors/dec_item/dec_item_ammo_electromagnetic.txt"
+#include "actors/dec_item/dec_item_ammo_protoncell.txt"
 
 

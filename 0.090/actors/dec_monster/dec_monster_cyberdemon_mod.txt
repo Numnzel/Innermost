@@ -1,5 +1,5 @@
-Actor NewCyberdemon : Cyberdemon replaces Cyberdemon
-{
+Actor NewCyberdemon : Cyberdemon replaces Cyberdemon {
+	
 	DamageFactor "Bio", 0.5
 	DontHurtShooter
 	

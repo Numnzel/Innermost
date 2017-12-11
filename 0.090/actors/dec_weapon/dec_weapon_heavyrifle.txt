@@ -1,4 +1,4 @@
-ACTOR HeavyRifle : Weapon 15060 {
+ACTOR HeavyRifle : Weapon {
 	
 	//$NotAngled
 	//$Category Decorate/Weapons

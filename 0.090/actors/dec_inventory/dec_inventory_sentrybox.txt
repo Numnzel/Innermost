@@ -1,4 +1,4 @@
-Actor SentryBox : CustomInventory 15020 {
+Actor SentryBox : CustomInventory {
 	
 	//$NotAngled
 	//$Category Decorate/Inventory
@@ -11,7 +11,7 @@ Actor SentryBox : CustomInventory 15020 {
 	Inventory.Icon "SENTX0"
 	Inventory.PickupMessage "You picked up a sentry gun."
 	
-	+COUNTITEM
+	//+COUNTITEM
 	+INVENTORY.INVBAR
 	
 	States {

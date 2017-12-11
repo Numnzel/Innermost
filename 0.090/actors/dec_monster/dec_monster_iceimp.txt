@@ -1,93 +1,98 @@
-// IceImp
-
-ACTOR IceImp : DoomImp 15004
-{
-    //$Category Decorate/Monsters
+ACTOR IceImp : DoomImp {
+	
+	//$Category Decorate/Monsters
 	//$Title "Ice imp"
-    Health 90
-    GibHealth 60
-    //Mass 150
-    Translation Ice
-    Obituary "%o was frost by a ice imp."
-    HitObituary "%o was slashed by a ice imp."
-    Painchance 16
-    DamageFactor Fire, 2.0
-    DamageFactor Ice, 0.0
-    Meleedamage 15
-    +NOBLOOD
-    States
-    {
-    Spawn:
-        IIMP AB 10 A_Look
-        loop
-    See:
-        IIMP AABBCCDD 3 A_Chase
-        loop
-    Melee:
-        IIMP EF 8 A_FaceTarget
-        IIMP G 6 A_MeleeAttack
-        goto see
-    Missile:
-        IIMP EF 8 A_FaceTarget
-        IIMP G 0 A_PlaySound("imp/attack")
-        IIMP G 6 A_CustomMissile("IceImpBall", 24, 0, 0, 0, 0)
-        goto See
-    Pain:
-        IIMP H 3
-        IIMP H 3 A_Pain
-        goto See
-    Death:
-        IIMD A 4
-        IIMD BCDEF 4
-        IIMD GH 4
-        IIMD I 4 A_NoBlocking
-        IIMD JKLM 4
-        IIMD N -1
-        stop
-    XDeath:
-    Death.Fire:
-        IIMF A 0 A_SpawnItem("DefrostWater", 0, 0, 0, 0)
-        IIMF A 5 A_NoBlocking
-        IIMF BBBCCC 1 A_FadeOut(0.2)
-        IIMF DDEEFFGGHH 1 A_FadeOut(0.03)
-        Stop
-    }
+	
+	Health 90
+	GibHealth 60
+	//Mass 150
+	Painchance 16
+	DamageFactor Fire, 2.0
+	DamageFactor Ice, 0.0
+	Meleedamage 15
+	Translation Ice
+	
+	Obituary "%o was frost by a ice imp."
+	HitObituary "%o was slashed by a ice imp."
+	
+	+NOBLOOD
+	
+	States {
+		
+		Spawn:
+			IIMP AB 10 A_Look
+			loop
+		See:
+			IIMP AABBCCDD 3 A_Chase
+			loop
+		Melee:
+			IIMP EF 8 A_FaceTarget
+			IIMP G 6 A_MeleeAttack
+			goto see
+		Missile:
+			IIMP EF 8 A_FaceTarget
+			IIMP G 0 A_PlaySound("imp/attack")
+			IIMP G 6 A_CustomMissile("IceImpBall", 24, 0, 0, 0, 0)
+			goto See
+		Pain:
+			IIMP H 3
+			IIMP H 3 A_Pain
+			goto See
+		Death:
+			IIMD A 4
+			IIMD BCDEF 4
+			IIMD GH 4
+			IIMD I 4 A_NoBlocking
+			IIMD JKLM 4
+			IIMD N -1
+			stop
+		XDeath:
+		Death.Fire:
+			IIMF A 0 A_SpawnItem("DefrostWater", 0, 0, 0, 0)
+			IIMF A 5 A_NoBlocking
+			IIMF BBBCCC 1 A_FadeOut(0.2)
+			IIMF DDEEFFGGHH 1 A_FadeOut(0.03)
+			Stop
+	}
 }
 
-ACTOR IceImpBall
-{
-    Radius 5
-    Height 11
-    Speed 16
-    FastSpeed 26
-    DamageType Ice
-    Damage 4
-    DeathSound "imp/shotx"
-    PROJECTILE
-    //+BLOODLESSIMPACT
-    //+PIERCEARMOR
-    +NOEXTREMEDEATH
-    +RANDOMIZE
-    States
-    {
-    Spawn:
-        IIBS AB 3
-        Loop
-    Death:
-        IIBX ABCDEF 3
-        Stop
-    }
+ACTOR IceImpBall {
+	
+	Radius 5
+	Height 11
+	Speed 16
+	FastSpeed 26
+	DamageType Ice
+	Damage 4
+	
+	DeathSound "imp/shotx"
+	
+	PROJECTILE
+	//+BLOODLESSIMPACT
+	//+PIERCEARMOR
+	+NOEXTREMEDEATH
+	+RANDOMIZE
+	
+	States {
+		
+		Spawn:
+			IIBS AB 3
+			Loop
+		Death:
+			IIBX ABCDEF 3
+			Stop
+	}
 }
 
-ACTOR DefrostWater
-{
+ACTOR DefrostWater {
 
-    +FLOORCLIP
-    -SOLID
-    States
-    {
-    Spawn:
-        IIMW A -1
-        Stop
-    }
+	+FLOORCLIP
+	-SOLID
+	
+	States {
+		
+		Spawn:
+			IIMW A -1
+			Stop
+	}
 }

@@ -7,14 +7,14 @@ Actor NewRocket : Rocket replaces Rocket {
 	
 	//-ROCKETTRAIL
 	
-	States
-	{
-	Death:
-		MISL B 0 bright A_SetTranslucent (0.67,1)
-		MISL B 0 bright A_SetScale (1.0)
-		MISL B 8 bright A_Explode
-		MISL C 6 bright
-		MISL D 4 bright
-		stop
+	States {
+		
+		Death:
+			MISL B 0 bright A_SetTranslucent (0.67,1)
+			MISL B 0 bright A_SetScale (1.0)
+			MISL B 8 bright A_Explode
+			MISL C 6 bright
+			MISL D 4 bright
+			Stop
 	}
 }

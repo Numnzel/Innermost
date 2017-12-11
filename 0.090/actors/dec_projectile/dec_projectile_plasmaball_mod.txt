@@ -10,6 +10,7 @@ Actor NewPlasmaBall : PlasmaBall replaces PlasmaBall {
 	Decal "PlasmaScorch"
 	
 	States {
+		
 		Spawn:
 			PLSS AAAAAABBBBBB 1 Bright A_SpawnItemEx("PBTrail", 0, 0, 0, 0, 0, 0, 0, 0)
 			Loop
@@ -29,6 +30,7 @@ Actor PBTrail {
 	+NOCLIP
 	
 	States {
+		
 		Spawn:
 			PLSS AAAAAABBBBBB 1 Bright A_FadeOut
 			Loop

@@ -1,4 +1,4 @@
-Actor NewCacodemon : Cacodemon replaces Cacodemon
-{
-   BloodColor Blue
+Actor NewCacodemon : Cacodemon replaces Cacodemon {
+	
+	BloodColor Blue
 }

@@ -15,13 +15,14 @@ ACTOR Bitcoins : Inventory {
 	+INVENTORY.UNTOSSABLE
 }
 
-ACTOR BitCoinCyanDataCard : CustomInventory 15024 {
+ACTOR BitCoinCyanDataCard : CustomInventory {
 	
 	//$NotAngled
 	//$Category Decorate/Inventory/Bitcoins
 	//$Title "Cyan bitcoin datacard (+20)"
+	
 	Scale 0.7 //0.4
-	Radius 6
+	Radius 12
 	Height 12
 	Inventory.Pickupmessage "Picked up 20 credits."
 	Inventory.PickupSound "misc/i_pkup"
@@ -33,149 +34,40 @@ ACTOR BitCoinCyanDataCard : CustomInventory 15024 {
 	
 	States {
 	
-	Spawn:
-		BCYA A -1
-	Pickup:
-		TNT1 A 0 A_GiveInventory ("Bitcoins", 20)
-		Stop
+		Spawn:
+			BCYA A -1
+		Pickup:
+			TNT1 A 0 A_GiveInventory ("Bitcoins", 20)
+			Stop
 	}
 }
 
-Actor BitCoinCyanDataCard2 : BitCoinCyanDataCard {
-	
-	States {
-	
-	Pickup:
-		TNT1 A 0 A_GiveInventory ("Bitcoins", 40)
-		Stop
-	}
-}
-
-/*
-ACTOR BitCoinBlueDataCard : BitCoinCyanDataCard 15025 {
-
-	Inventory.Pickupmessage "Picked up 10 credits."
-	
-	States {
-	
-	Spawn:
-		BBLU A -1
-	Pickup:
-		TNT1 A 0 A_GiveInventory ("Bitcoins", 20)
-		Stop
-	}
-}
-
-ACTOR BitCoinGreenDataCard : BitCoinCyanDataCard 15026 {
-
-	States {
-	
-	Spawn:
-		BGRE A -1
-	Pickup:
-		TNT1 A 0 A_GiveInventory ("Bitcoins", 100)
-		Stop
-	}
-}
-
-ACTOR BitCoinOrangeDataCard : BitCoinCyanDataCard 15027 {
-
-	States {
-	
-	Spawn:
-		BORA A -1
-	Pickup:
-		TNT1 A 0 A_GiveInventory ("Bitcoins", 100)
-		Stop
-	}
-}
-
-ACTOR BitCoinPaleblueDataCard : BitCoinCyanDataCard 15028 {
-
-	Inventory.Pickupmessage "Picked up 300 credits."
-	
-	States {
-	
-	Spawn:
-		BPBL A -1
-	Pickup:
-		TNT1 A 0 A_GiveInventory ("Bitcoins", 300)
-		Stop
-	}
-}
-
-ACTOR BitCoinPinkDataCard : BitCoinCyanDataCard 15029 {
-
-	Inventory.Pickupmessage "Picked up 50 credits."
-	
-	States {
-	
-	Spawn:
-		BPIN A -1
-	Pickup:
-		TNT1 A 0 A_GiveInventory ("Bitcoins", 50)
-		Stop
-	}
-}
-
-ACTOR BitCoinRedDataCard : BitCoinCyanDataCard 15030 {
-
-	States {
-	
-	Spawn:
-		BRED A -1
-	Pickup:
-		TNT1 A 0 A_GiveInventory ("Bitcoins", 100)
-		Stop
-	}
-}
-*/
-ACTOR BitCoinWhiteDataCard : BitCoinCyanDataCard 15031 {
+ACTOR BitCoinWhiteDataCard : BitCoinCyanDataCard {
 
 	//$Title "White bitcoin datacard (+1)"
 	Inventory.Pickupmessage "Picked up 1 credit."
 	
 	States {
-	
-	Spawn:
-		BWHI A -1
-	Pickup:
-		TNT1 A 0 A_GiveInventory ("Bitcoins", 1)
-		Stop
+		
+		Spawn:
+			BWHI A -1
+		Pickup:
+			TNT1 A 0 A_GiveInventory ("Bitcoins", 1)
+			Stop
 	}
 }
 
-Actor BitCoinWhiteDataCard2 : BitCoinWhiteDataCard {
-	
-	States {
-	
-	Pickup:
-		TNT1 A 0 A_GiveInventory ("Bitcoins", 2)
-		Stop
-	}
-}
-
-ACTOR BitCoinYellowDataCard : BitCoinCyanDataCard 15032 {
+ACTOR BitCoinYellowDataCard : BitCoinCyanDataCard {
 
 	//$Title "Yellow bitcoin datacard (+100)"
 	Inventory.Pickupmessage "Picked up 100 credits."
 	
 	States {
-	
-	Spawn:
-		BYEL A -1
-	Pickup:
-		TNT1 A 0 A_GiveInventory ("Bitcoins", 100)
-		Stop
-	}
-}
-
-Actor BitCoinYellowDataCard2 : BitCoinYellowDataCard {
-	
-	States {
-	
-	Pickup:
-		TNT1 A 0 A_GiveInventory ("Bitcoins", 200)
-		Stop
+		
+		Spawn:
+			BYEL A -1
+		Pickup:
+			TNT1 A 0 A_GiveInventory ("Bitcoins", 100)
+			Stop
 	}
 }

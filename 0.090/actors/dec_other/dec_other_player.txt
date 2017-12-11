@@ -17,8 +17,8 @@ Actor DoomPlayer2 : DoomPlayer {
 	Player.StartItem "Fists"
 }
 
-Actor fakemaxhp : Inventory
-{
+Actor fakemaxhp : Inventory {
+	
 	Inventory.Amount 1
 	Inventory.MaxAmount 300
 	Inventory.InterHubAmount 300
@@ -31,8 +31,8 @@ Actor fakemaxhp : Inventory
 }
 
 // Remove it if not used.
-Actor fakeairc : Inventory
-{
+Actor fakeairc : Inventory {
+	
 	Inventory.Amount 1
 	Inventory.MaxAmount 40
 	Inventory.InterHubAmount 40

@@ -1,6 +1,6 @@
-ACTOR KaiserCacodemon 15022 {
+ACTOR KaiserCacodemon {
 	
-	//$Category Decorate/Monsters
+	//$Category Decorate/Monsters/Bosses
 	//$Title "Kaiser cacodemon"
 	
 	Health 2600

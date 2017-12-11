@@ -1,13 +1,15 @@
-Actor HearthAttackArti : CustomInventory 15093 {
+Actor HearthAttackArti : CustomInventory {
 	
 	//$NotAngled
 	//$Category Decorate/Inventory
 	//$Title "Hearth attack artifact"
-	+COUNTITEM
+	
+	//+COUNTITEM
 	+INVENTORY.INVBAR
+	
 	Inventory.MaxAmount 3
 	Inventory.Icon "SCRYX0"
-	Inventory.PickupMessage "You picked up a hearth artifact."
+	Inventory.PickupMessage "You picked up a H-A artifact."
 	
 	States {
 	
@@ -69,8 +71,8 @@ ACTOR HearthMissile : FastProjectile
 }
 */
 
-ACTOR HearthMissileSmoke
-{
+ACTOR HearthMissileSmoke {
+	
 	+NOBLOCKMAP
 	+NOGRAVITY
 	+SHADOW
@@ -204,8 +206,5 @@ ACTOR HearthAttackPuff {
 	}
 }
 
-DamageType Bio {
-	
-	Factor 1.0
-}
+
 

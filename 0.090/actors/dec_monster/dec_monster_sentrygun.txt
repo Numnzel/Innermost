@@ -1,17 +1,17 @@
-//Sentrygun-------------------------------------------------
-
-Actor SentryGun 15035 {
+Actor SentryGun {
 	
-//$Category Decorate/Monsters
-//$Title "Sentry gun"
-	obituary "%o was ventilated by a uac-sentry."
-	health 180
-	radius 20
-	height 56
-	mass 180
-	speed 0
-	MaxTargetRange 512
-	attacksound "sentry/attack"
+	//$Category Decorate/Monsters
+	//$Title "Sentry gun"
+	
+	Obituary "%o was ventilated by a sentry gun."
+	Health 180
+	Radius 20
+	Height 56
+	Mass 180
+	Speed 0
+	Maxtargetrange 512
+	Attacksound "Sentry/Attack"
+	Damagefactor "Bio", 0.0
 	
 	Species "Turret"
 	
@@ -109,9 +109,9 @@ Actor BulletPuffFriendly : NewPuff {
 
 Actor SentryBoom {
 	
-	radius 2
-	height 2
-	renderstyle Add
+	Radius 2
+	Height 2
+	Renderstyle Add
 	Scale 0.7
 	
 	+NOINTERACTION

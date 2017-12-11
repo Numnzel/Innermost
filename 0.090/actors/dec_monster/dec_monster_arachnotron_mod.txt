@@ -1,6 +1,6 @@
-Actor NewArachnotron : Arachnotron replaces Arachnotron
-{
-//$Sprite BSPIA1D1
+Actor NewArachnotron : Arachnotron replaces Arachnotron {
+	
+	//$Sprite BSPIA1D1
 
 	DamageFactor "Bio", 0.5
 	
