@@ -9,8 +9,9 @@ Actor DoomPlayer2 : DoomPlayer {
 	DamageFactor Falling, 10.0
 	DamageFactor Crush, 10.0
 	DamageFactor FriendPuff, 0.0
-	Player.ViewHeight 47
-	Player.AttackZOffset 18
+	DamageFactor Friend, 0.0
+	Player.ViewHeight 46
+	Player.AttackZOffset 17
 	Player.FallingScreamSpeed 30.0, 40.0//25.0, 50.0
 	Player.StartItem "fakeairc", 20
 	Player.StartItem "fakemaxhp", 100

@@ -15,6 +15,7 @@ brightmap flat LITEW1 { map "brightmaps/bm_flat/bm_flat_other/TLITE5_2.png" }
 brightmap flat LITEW2 { map "brightmaps/bm_flat/bm_flat_other/TLITE5_2.png" }
 
 brightmap flat TLITFL1 { map "brightmaps/bm_flat/bm_flat_other/TLITFL1.png" }
+brightmap flat TLITFL8 { map "brightmaps/bm_flat/bm_flat_other/TLITFL8.png" }
 
 brightmap flat NFMETA05 { map "brightmaps/bm_flat/bm_flat_other/NFMETA05.png" }
 brightmap flat NFMETA06 { map "brightmaps/bm_flat/bm_flat_other/NFMETA05.png" }

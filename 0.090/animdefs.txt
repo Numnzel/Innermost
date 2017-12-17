@@ -212,6 +212,24 @@ switch E097N00 on sound Switch1 pic E098N00 tics 0
 texture E100N00 range E100N04 tics 12
 texture E101N00 range E101N04 tics 12
 
+// fan textures
+
+texture FAN_AMA1 range FAN_AMA4 tics 1
+texture FAN_AMB1 range FAN_AMB4 tics 1
+texture FAN_ASA1 range FAN_ASA4 tics 1
+texture FAN_ASB1 range FAN_ASB4 tics 1
+
+texture FAN_BMA1 range FAN_BMA4 tics 1
+texture FAN_BMB1 range FAN_BMB4 tics 1
+texture FAN_BSA1 range FAN_BSA4 tics 1
+texture FAN_BSB1 range FAN_BSB4 tics 1
+
+texture FAN_CMA1 range FAN_CMA4 tics 1
+texture FAN_CMB1 range FAN_CMB4 tics 1
+texture FAN_CSA1 range FAN_CSA4 tics 1
+texture FAN_CSB1 range FAN_CSB4 tics 1
+
+
 // Cage Texture Pack
 
 

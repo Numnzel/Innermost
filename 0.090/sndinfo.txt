@@ -235,8 +235,9 @@
 
 // ScatterPistol-------------------------------------------------------
 
-	SPRPSHOT						SPRPSHOT
-	$Limit SPRPSHOT					0
+	weapons/scattergun-fire			SPRPSHOT
+	$Limit weapons/scattergun-fire	0
+	$Volume weapons/scattergun-fire	0.01
 
 	SPRPIMPT						SPRPIMPT
 	$Limit SPRPIMPT					0

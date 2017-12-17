@@ -93,7 +93,7 @@ doomednums {
 	15016 = SteamSpawner
 	15017 = FireSpawner
 	15018 = ActiveFlare
-	15019 = AutoStimpack
+	15019 = AutoStim
 	15020 = SentryBox
 	15021 = XimRocketGuy
 	15022 = KaiserCacodemon
@@ -171,7 +171,7 @@ doomednums {
 
 DamageType Bio {
 	
-	Factor 1.0
+	Factor = 1.0
 }
 
 clearskills
