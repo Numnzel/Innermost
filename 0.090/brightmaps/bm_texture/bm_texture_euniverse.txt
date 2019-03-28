@@ -624,6 +624,28 @@ brightmap texture EU028M07 { map "brightmaps/bm_texture/bm_tex_euniverse/EU028Z0
 brightmap texture EU028M08 { map "brightmaps/bm_texture/bm_tex_euniverse/EU028Z08.png" }
 brightmap texture EU028M09 { map "brightmaps/bm_texture/bm_tex_euniverse/EU028Z09.png" }
 
+brightmap texture EU028N00 { map "brightmaps/bm_texture/bm_tex_euniverse/EU028Z10.png" }
+brightmap texture EU028N01 { map "brightmaps/bm_texture/bm_tex_euniverse/EU028Z09.png" }
+brightmap texture EU028N02 { map "brightmaps/bm_texture/bm_tex_euniverse/EU028Z08.png" }
+brightmap texture EU028N03 { map "brightmaps/bm_texture/bm_tex_euniverse/EU028Z07.png" }
+brightmap texture EU028N04 { map "brightmaps/bm_texture/bm_tex_euniverse/EU028Z06.png" }
+brightmap texture EU028N05 { map "brightmaps/bm_texture/bm_tex_euniverse/EU028Z05.png" }
+brightmap texture EU028N06 { map "brightmaps/bm_texture/bm_tex_euniverse/EU028Z04.png" }
+brightmap texture EU028N07 { map "brightmaps/bm_texture/bm_tex_euniverse/EU028Z03.png" }
+brightmap texture EU028N08 { map "brightmaps/bm_texture/bm_tex_euniverse/EU028Z02.png" }
+brightmap texture EU028N09 { map "brightmaps/bm_texture/bm_tex_euniverse/EU028Z01.png" }
+brightmap texture EU028N10 { map "brightmaps/bm_texture/bm_tex_euniverse/EU028Z01.png" }
+brightmap texture EU028N11 { map "brightmaps/bm_texture/bm_tex_euniverse/EU028Z01.png" }
+brightmap texture EU028N12 { map "brightmaps/bm_texture/bm_tex_euniverse/EU028Z01.png" }
+brightmap texture EU028N13 { map "brightmaps/bm_texture/bm_tex_euniverse/EU028Z01.png" }
+brightmap texture EU028N14 { map "brightmaps/bm_texture/bm_tex_euniverse/EU028Z01.png" }
+brightmap texture EU028N15 { map "brightmaps/bm_texture/bm_tex_euniverse/EU028Z01.png" }
+brightmap texture EU028N16 { map "brightmaps/bm_texture/bm_tex_euniverse/EU028Z01.png" }
+brightmap texture EU028N17 { map "brightmaps/bm_texture/bm_tex_euniverse/EU028Z01.png" }
+brightmap texture EU028N18 { map "brightmaps/bm_texture/bm_tex_euniverse/EU028Z01.png" }
+brightmap texture EU028N19 { map "brightmaps/bm_texture/bm_tex_euniverse/EU028Z01.png" }
+brightmap texture EU028N20 { map "brightmaps/bm_texture/bm_tex_euniverse/EU028Z01.png" }
+
 //--------
 
 brightmap texture SPACE { map "brightmaps/bm_texture/bm_tex_euniverse/SPACEBM.png" }

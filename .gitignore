@@ -24,3 +24,15 @@
 *.wad.backup2
 *.wad.backup3
 *.dbprefab
+
+# Excluded files.
+
+/0.090/textures
+/0.090/sprites
+/0.090/sounds
+/0.090/patches
+/0.090/music
+/0.090/hires
+/0.090/graphics
+/0.090/flats
+/0.090/brightmaps

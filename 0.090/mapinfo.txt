@@ -369,7 +369,7 @@ defaultmap {
 	fallingdamage
 	monsterfallingdamage
 	checkswitchrange
-	gravity = 900 // default gravity = 800
+	gravity = 800 // default gravity = 800 // tested gravity = 900
 	
 	// Gameplay decoration
 	sky1 = "SPACE", 0

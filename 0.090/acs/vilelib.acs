@@ -2,10 +2,14 @@
 #include "zcommon.acs"
 
 
-#libdefine POLY_NORTH			64
-#libdefine POLY_SOUTH			192
-#libdefine POLY_WEST			128
-#libdefine POLY_EAST			0
+#libdefine ANGLE_EAST			0
+#libdefine ANGLE_NEAST			32
+#libdefine ANGLE_NORTH			64
+#libdefine ANGLE_NWEST			96
+#libdefine ANGLE_WEST			128
+#libdefine ANGLE_SWEST			160
+#libdefine ANGLE_SOUTH			192
+#libdefine ANGLE_SEAST			224
 
 #libdefine ACTOR_FACE_NORTH		0.25
 #libdefine ACTOR_FACE_WEST		0.5
@@ -15,7 +19,9 @@
 #libdefine MAXSECTORTID			900
 #libdefine STARTINGPLAYERTID	1000
 
+#libdefine HOUR					35*60*60
 #libdefine MIN					35*60
+#libdefine HMIN					35*30
 #libdefine DSEC					35*2
 #libdefine SEC					35
 #libdefine HSEC					35/2
