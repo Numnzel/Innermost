@@ -176,7 +176,7 @@ DamageType Bio {
 
 clearskills
 
-skill sk1 { // For those that doesn't usually play games +LESSENEMIES
+skill sk1 { // For those that doesn't play games +LESSENEMIES
 
 	ACSReturn = 10
 	spawnfilter = 1
@@ -191,8 +191,8 @@ skill sk1 { // For those that doesn't usually play games +LESSENEMIES
 	dropammofactor = 1.0
 	
 	textcolor = "Hexen"
-	name = "Sleeping alone"
-	key = "a"
+	name = "Shivering heart"
+	key = "h"
 }
 
 skill sk2 { // For those that doesn't played doom before
@@ -211,8 +211,8 @@ skill sk2 { // For those that doesn't played doom before
 	dropammofactor = 1.0
 	
 	textcolor = "Hexen"
-	name = "Fading in darkness"
-	key = "d"
+	name = "Sleeping alone"
+	key = "a"
 }
 
 skill sk3 { // For those that known the basics of doom
@@ -232,8 +232,8 @@ skill sk3 { // For those that known the basics of doom
 	dropammofactor = 1.0
 	
 	textcolor = "Hexen"
-	name = "Pain envisioned"
-	key = "e"
+	name = "Fading in obscurity"
+	key = "o"
 }
 
 skill sk4 { // For those who play doom regularly +NEWENEMIES
@@ -244,8 +244,28 @@ skill sk4 { // For those who play doom regularly +NEWENEMIES
 	autousehealth
 	//disablecheats
 	
-	damagefactor = 1.2
+	damagefactor = 1.1
 	aggressiveness = 0.8
+	monsterhealth = 1.0
+	friendlyhealth = 1.0
+	ammofactor = 1.0
+	dropammofactor = 1.0
+	
+	textcolor = "Hexen"
+	name = "Pain envisioned"
+	key = "e"
+}
+
+skill sk5 { // For good doom players that play casually
+
+	acsreturn = 50
+	spawnfilter = 4
+	
+	autousehealth
+	//disablecheats
+	
+	damagefactor = 1.2
+	aggressiveness = 1.0
 	monsterhealth = 1.0
 	friendlyhealth = 1.0
 	ammofactor = 1.0
@@ -256,10 +276,31 @@ skill sk4 { // For those who play doom regularly +NEWENEMIES
 	key = "u"
 }
 
-skill sk5 { // For good doom players that play casually
+skill sk6 { // For good doom players that play regularly +NEWENEMIES
 
-	acsreturn = 50
-	spawnfilter = 4
+	acsreturn = 60
+	spawnfilter = 5
+	
+	autousehealth
+	//disablecheats
+	
+	damagefactor = 1.3
+	aggressiveness = 1.0
+	monsterhealth = 1.0
+	friendlyhealth = 1.0
+	ammofactor = 1.0
+	dropammofactor = 1.0
+	
+	textcolor = "Hexen"
+	name = "Shines in the mist"
+	key = "m"
+	mustconfirm = "Are you sure?"
+}
+
+skill sk7 { // For excelent doom players +NEWENEMIES
+
+	acsreturn = 70
+	spawnfilter = 6
 	
 	autousehealth
 	//disablecheats
@@ -272,19 +313,20 @@ skill sk5 { // For good doom players that play casually
 	dropammofactor = 1.0
 	
 	textcolor = "Hexen"
-	name = "Shines in the mist"
-	key = "m"
+	name = "Drowning quietly"
+	key = "q"
+	mustconfirm = "Are you sure?"
 }
 
-skill sk6 { // For good doom players that play regularly +NEWENEMIES
-
-	acsreturn = 60
-	spawnfilter = 5
+skill sk8 { // For absolutely insane players +NEWENEMIES
+	
+	acsreturn = 80
+	spawnfilter = 7
 	
 	autousehealth
-	//disablecheats
+	disablecheats
 	
-	damagefactor = 1.6
+	damagefactor = 1.4
 	aggressiveness = 1.0
 	monsterhealth = 1.0
 	friendlyhealth = 1.0
@@ -292,36 +334,17 @@ skill sk6 { // For good doom players that play regularly +NEWENEMIES
 	dropammofactor = 1.0
 	
 	textcolor = "Hexen"
-	name = "Fading hopelessly"
-	key = "h"
-	mustconfirm = "Are you sure?"
+	name = "Into the innermost"
+	key = "i"
+	//replaceactor = "BitCoinWhiteDataCard", "BitCoinWhiteDataCard2"
+	//replaceactor = "BitCoinYellowDataCard", "BitCoinYellowDataCard2"
+	//replaceactor = "BitCoinCyanDataCard", "BitCoinCyanDataCard2"
 }
 
-skill sk7 { // For suicidal players +NEWENEMIES
-
-	acsreturn = 70
-	spawnfilter = 6
+skill sk9 { // For no one +NEWENEMIES
 	
-	autousehealth
-	//disablecheats
-	
-	damagefactor = 2.0
-	aggressiveness = 1.0
-	monsterhealth = 1.0
-	friendlyhealth = 1.0
-	ammofactor = 1.0
-	dropammofactor = 1.0
-	
-	textcolor = "Hexen"
-	name = "Pouring suffering"
-	key = "s"
-	mustconfirm = "Are you sure?"
-}
-/*
-skill sk8 { // coop
-	
-	acsreturn = 50
-	spawnfilter = 4
+	acsreturn = 90
+	spawnfilter = 8
 	
 	autousehealth
 	disablecheats
@@ -334,12 +357,12 @@ skill sk8 { // coop
 	dropammofactor = 1.0
 	
 	textcolor = "Hexen"
-	name = "Cooperative"
-	key = "c"
-	replaceactor = "BitCoinWhiteDataCard", "BitCoinWhiteDataCard2"
-	replaceactor = "BitCoinYellowDataCard", "BitCoinYellowDataCard2"
-	replaceactor = "BitCoinCyanDataCard", "BitCoinCyanDataCard2"
-}*/
+	name = "Despair"
+	key = "d"
+	//replaceactor = "BitCoinWhiteDataCard", "BitCoinWhiteDataCard2"
+	//replaceactor = "BitCoinYellowDataCard", "BitCoinYellowDataCard2"
+	//replaceactor = "BitCoinCyanDataCard", "BitCoinCyanDataCard2"
+}
 
 
 
