@@ -13,3 +13,7 @@ brightmap texture ANOX2500 { map "brightmaps/bm_texture/bm_tex_anachronox/ANOX25
 
 brightmap texture ANOX2538 { map "brightmaps/bm_texture/bm_tex_anachronox/ANOX2538.png" }
 brightmap texture ANOX2539 { map "brightmaps/bm_texture/bm_tex_anachronox/ANOX2538.png" }
+
+brightmap texture ANOX0523 { map "brightmaps/bm_texture/bm_tex_anachronox/ANOX0525.png" }
+brightmap texture ANOX0524 { map "brightmaps/bm_texture/bm_tex_anachronox/ANOX0525.png" }
+brightmap texture ANOX0525 { map "brightmaps/bm_texture/bm_tex_anachronox/ANOX0525.png" }

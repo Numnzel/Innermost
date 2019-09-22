@@ -16,4 +16,4 @@
 #include "actors/dec_monster/dec_monster_drone.txt"
 #include "actors/dec_monster/dec_monster_blooddemon.txt"
 #include "actors/dec_monster/dec_monster_wishmaster.txt"
-
+#include "actors/dec_monster/dec_monster_leech.txt"

@@ -3,7 +3,7 @@ ACTOR KaiserCacodemon {
 	//$Category Decorate/Monsters/Bosses
 	//$Title "Kaiser cacodemon"
 	
-	Health 2600
+	Health 2800
 	Radius 46
 	Height 84
 	Mass 2700

@@ -208,6 +208,8 @@ E097___ ----> ?
 E098___ ----> ?
 E099___ ----> Made by me (Numnzel)
 E100___ ----> Made by me (Numnzel)
+E101___ ----> 
+E102___ ----> ANOX Texture Pack
 
 */
 

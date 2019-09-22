@@ -20,7 +20,7 @@
 #libdefine STARTINGPLAYERTID	1000
 
 #libdefine HOUR					35*60*60
-#libdefine MIN					35*60
+#libdefine TMIN					35*60
 #libdefine HMIN					35*30
 #libdefine DSEC					35*2
 #libdefine SEC					35
@@ -73,8 +73,8 @@ str CPUMessage[30] = {
 	"Energy at 100%.",
 	"Powering systems, opening nanowalls, please wait.........",
 	"LOG: This door is remotely controlled.",
-	"",
-	"",
+	"Manual activation of secondary refrigeration system detected. Please wait...",
+	"Done.",
 	"",
 	"",
 	"",

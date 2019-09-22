@@ -12,8 +12,6 @@ brightmap texture E053N07 { map "brightmaps/bm_texture/bm_modified_tex/bm_mod_an
 brightmap texture E053N08 { map "brightmaps/bm_texture/bm_modified_tex/bm_mod_anachronox/E053Z08.png" }
 
 
-
-
 brightmap texture E080N00 { map "brightmaps/bm_texture/bm_modified_tex/bm_mod_anachronox/E080N00.png" }
 brightmap texture E080N01 { map "brightmaps/bm_texture/bm_modified_tex/bm_mod_anachronox/E080N01.png" }
 brightmap texture E080N02 { map "brightmaps/bm_texture/bm_modified_tex/bm_mod_anachronox/E080N02.png" }
@@ -28,3 +26,23 @@ brightmap texture E086N05 { map "brightmaps/bm_texture/bm_modified_tex/bm_mod_an
 brightmap texture E086N06 { map "brightmaps/bm_texture/bm_modified_tex/bm_mod_anachronox/E086N00.png" }
 brightmap texture E086N07 { map "brightmaps/bm_texture/bm_modified_tex/bm_mod_anachronox/E086N00.png" }
 brightmap texture E086N08 { map "brightmaps/bm_texture/bm_modified_tex/bm_mod_anachronox/E086N00.png" }
+
+brightmap texture E102N01 { map "brightmaps/bm_texture/bm_modified_tex/bm_mod_anachronox/E102N01.png" }
+brightmap texture E102N02 { map "brightmaps/bm_texture/bm_modified_tex/bm_mod_anachronox/E102N02.png" }
+brightmap texture E102N03 { map "brightmaps/bm_texture/bm_modified_tex/bm_mod_anachronox/E102N03.png" }
+brightmap texture E102N04 { map "brightmaps/bm_texture/bm_modified_tex/bm_mod_anachronox/E102N04.png" }
+brightmap texture E102N05 { map "brightmaps/bm_texture/bm_modified_tex/bm_mod_anachronox/E102N05.png" }
+brightmap texture E102N06 { map "brightmaps/bm_texture/bm_modified_tex/bm_mod_anachronox/E102N06.png" }
+brightmap texture E102N07 { map "brightmaps/bm_texture/bm_modified_tex/bm_mod_anachronox/E102N07.png" }
+brightmap texture E102N08 { map "brightmaps/bm_texture/bm_modified_tex/bm_mod_anachronox/E102N08.png" }
+brightmap texture E102N09 { map "brightmaps/bm_texture/bm_modified_tex/bm_mod_anachronox/E102N09.png" }
+brightmap texture E102N10 { map "brightmaps/bm_texture/bm_modified_tex/bm_mod_anachronox/E102N10.png" }
+brightmap texture E102N11 { map "brightmaps/bm_texture/bm_modified_tex/bm_mod_anachronox/E102N11.png" }
+brightmap texture E102N12 { map "brightmaps/bm_texture/bm_modified_tex/bm_mod_anachronox/E102N12.png" }
+brightmap texture E102N13 { map "brightmaps/bm_texture/bm_modified_tex/bm_mod_anachronox/E102N13.png" }
+brightmap texture E102N14 { map "brightmaps/bm_texture/bm_modified_tex/bm_mod_anachronox/E102N14.png" }
+brightmap texture E102N15 { map "brightmaps/bm_texture/bm_modified_tex/bm_mod_anachronox/E102N15.png" }
+brightmap texture E102N16 { map "brightmaps/bm_texture/bm_modified_tex/bm_mod_anachronox/E102N16.png" }
+brightmap texture E102N17 { map "brightmaps/bm_texture/bm_modified_tex/bm_mod_anachronox/E102N17.png" }
+brightmap texture E102N18 { map "brightmaps/bm_texture/bm_modified_tex/bm_mod_anachronox/E102N18.png" }
+brightmap texture E102N19 { map "brightmaps/bm_texture/bm_modified_tex/bm_mod_anachronox/E102N19.png" }

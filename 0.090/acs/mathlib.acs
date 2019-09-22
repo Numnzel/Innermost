@@ -41,6 +41,34 @@ function int abs (int x) {
     return x;
 }
 
+/*	Min: Returns the lowest value.
+	Examples:
+	min(4, 7) -> 4
+	min(-6, 2) -> -6
+*/
+
+function int min (int a, int b) {
+	
+	if (a < b)
+		return a;
+
+	return b;
+}
+
+/*	Max: Returns the highest value.
+	Examples:
+	max(4, 7) -> 7
+	max(-2, -5) -> -2
+*/
+
+function int max (int a, int b) {
+	
+	if (a > b)
+		return a;
+
+	return b;
+}
+
 /*	Power: Returns the result of elevating the input base (integer) to the input exponent (integer).
 	Examples:
 	pow(2, 5) -> 32
@@ -83,13 +111,13 @@ function int map (int x, int in_min, int in_max, int out_min, int out_max) {
 	constrain(1.6, -2.0, 1.0) -> 1.0
 */
 
-function int constrain (int x, int min, int max) {
+function int constrain (int x, int pmin, int pmax) {
 	
-	if (x < min)
-		return min;
+	if (x < pmin)
+		return pmin;
 	
-	if (x > max)
-		return max;
+	if (x > pmax)
+		return pmax;
 	
 	return x;
 }
@@ -120,11 +148,11 @@ function int concatenate (int a, int b) {
 	loopp(-3, -11, -3) -> -11
 */
 
-function int loopp (int var, int min, int max) {
+function int loopp (int var, int pmin, int pmax) {
 
 	int num = var;
 
-	if (num+1 > max) num = min; else num++;
+	if (num+1 > pmax) num = pmin; else num++;
 
 	return num;
 }
@@ -138,11 +166,11 @@ function int loopp (int var, int min, int max) {
 	loopn(-11, -11, -3) -> -3
 */
 
-function int loopn (int var, int min, int max) {
+function int loopn (int var, int pmin, int pmax) {
 
 	int num = var;
 
-	if (num-1 < min) num = max; else num--;
+	if (num-1 < pmin) num = pmax; else num--;
 
 	return num;
 }
@@ -151,9 +179,9 @@ function int loopn (int var, int min, int max) {
 	int num = var;
 
 	if (pos)
-		if (num+1 > max) num = min; else num++;
+		if (num+1 > pmax) num = pmin; else num++;
 	else
-		if (num-1 < min) num = max; else num--;
+		if (num-1 < pmin) num = pmax; else num--;
 
 	return num;
 */
@@ -166,15 +194,15 @@ function int loopn (int var, int min, int max) {
 	loopsum(62, 22, 40, 80, 1) -> 44
 */
 
-function int loopsum (int var, int sum, int min, int max, bool carriage) {
+function int loopsum (int var, int sum, int pmin, int pmax, bool carriage) {
 
 	int num = var;
 
-	if (num + sum > max)
+	if (num + sum > pmax)
 		if (carriage)
-			num = min + ((num + sum) - max);
+			num = pmin + ((num + sum) - pmax);
 		else
-			num = min;
+			num = pmin;
 	else
 		num += sum;
 
@@ -189,15 +217,15 @@ function int loopsum (int var, int sum, int min, int max, bool carriage) {
 	loopdif(62, 26, 40, 80, 1) -> 76
 */
 
-function int loopdif (int var, int dif, int min, int max, bool carriage) {
+function int loopdif (int var, int dif, int pmin, int pmax, bool carriage) {
 
 	int num = var;
 
-	if (num - dif < min)
+	if (num - dif < pmin)
 		if (carriage)
-			num = max - (min - (num - dif));
+			num = pmax - (pmin - (num - dif));
 		else
-			num = max;
+			num = pmax;
 	else
 		num -= dif;
 
