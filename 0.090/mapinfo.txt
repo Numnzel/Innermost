@@ -213,7 +213,7 @@ skill sk4 { // For those that known the basics of doom and want a hard challenge
 	spawnfilter = 4
 	
 	autousehealth
-	damagefactor = 1.1 aggressiveness = 0.8 monsterhealth = 1.0 friendlyhealth = 1.0 ammofactor = 1.0 dropammofactor = 1.0
+	damagefactor = 1.1 aggressiveness = 0.7 monsterhealth = 1.0 friendlyhealth = 1.0 ammofactor = 1.0 dropammofactor = 1.0
 	textcolor = "Hexen" name = "Pain envisioned" key = "e"
 }
 
@@ -223,7 +223,7 @@ skill sk5 { // For good doom players that play regularly +HARDERLEVELS
 	spawnfilter = 4
 	
 	autousehealth
-	damagefactor = 1.2 aggressiveness = 1.0 monsterhealth = 1.0 friendlyhealth = 1.0 ammofactor = 1.0 dropammofactor = 1.0
+	damagefactor = 1.2 aggressiveness = 0.8 monsterhealth = 1.0 friendlyhealth = 1.0 ammofactor = 1.0 dropammofactor = 1.0
 	textcolor = "Hexen" name = "Nightmare utopia" key = "u"
 }
 
@@ -233,7 +233,7 @@ skill sk6 { // For good doom players that play regularly and want a hard challen
 	spawnfilter = 5
 	
 	autousehealth
-	damagefactor = 1.3 aggressiveness = 1.0 monsterhealth = 1.0 friendlyhealth = 1.0 ammofactor = 1.0 dropammofactor = 1.0
+	damagefactor = 1.3 aggressiveness = 0.9 monsterhealth = 1.0 friendlyhealth = 1.0 ammofactor = 1.0 dropammofactor = 1.0
 	textcolor = "Hexen" name = "Shines in the mist" key = "m" mustconfirm = "Are you sure?"
 }
 
@@ -266,8 +266,8 @@ skill sk9 { // For no one +NEWENEMIES
 	spawnfilter = 8
 	
 	autousehealth disablecheats
-	damagefactor = 1.3 aggressiveness = 1.0 monsterhealth = 1.0 friendlyhealth = 1.0 ammofactor = 1.0 dropammofactor = 1.0
-	textcolor = "Hexen" name = "Despair" key = "d"
+	damagefactor = 1.4 aggressiveness = 1.0 monsterhealth = 1.0 friendlyhealth = 1.0 ammofactor = 1.0 dropammofactor = 1.0
+	textcolor = "Hexen" name = "Suffering" key = "s"
 	//replaceactor = "BitCoinWhiteDataCard", "BitCoinWhiteDataCard2"
 	//replaceactor = "BitCoinYellowDataCard", "BitCoinYellowDataCard2"
 	//replaceactor = "BitCoinCyanDataCard", "BitCoinCyanDataCard2"
@@ -309,7 +309,7 @@ defaultmap {
 	forcenoskystretch
 	lightmode = 0
 	evenlighting
-	fogdensity = 160
+	fogdensity = 8
 	//nointermission
 	
 	
@@ -367,6 +367,7 @@ map LVL01 "Hidden labs" {
 		
 	music = "music/APGHOSTD.flac"
 	
+	fogdensity = 160
 	nocheckswitchrange
 	
 	//music = "$MUSIC_E1M8"
@@ -380,6 +381,7 @@ map LVL02 "UAC Installations" { //complex
 	next = "endgame1"
 	secretnext = "endgame1"
 	
+	fogdensity = 160
 	nocheckswitchrange
 		
 	music = "music/APGALENA.flac"
@@ -404,3 +406,4 @@ map LVL06 "Space station" {
 	
 	music = "music/03PRCENT.flac"
 }
+

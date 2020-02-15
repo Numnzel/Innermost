@@ -215,12 +215,15 @@
 	basic/basicgenerator			AMGENOIS
 	generator/compressgenerator		AMCOMPGE
 	ambient/dark					DSAMB
+	
+	$alias generator/compressgenerator/soft generator/compressgenerator
+	$alias generator/compressgenerator/full generator/compressgenerator
 
-	$ambient 1 basic/basicgenerator				point			continuous 0.2
-	$ambient 2 generator/compressgenerator		point 2.0		continuous 0.2
-	$ambient 3 ambient/dark						world			continuous 0.5
-	$ambient 4 generator/compressgenerator		point 1.2		continuous 1.0
-
+	$ambient 1 basic/basicgenerator					point			continuous 0.2
+	$ambient 2 generator/compressgenerator/soft		point 2.0		continuous 0.2
+	$ambient 3 ambient/dark							world			continuous 0.5
+	$ambient 4 generator/compressgenerator/full		point 0.4		continuous 1.0
+	
 // Glasspack--------------------------------------------------------
 
 	tubes/break						TSTTB

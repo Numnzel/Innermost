@@ -14,3 +14,5 @@ brightmap texture N_TKRD05 { map "brightmaps/bm_texture/bm_tex_recoloured/TEKGRE
 brightmap texture N_TKGR17 { map "brightmaps/bm_texture/bm_tex_recoloured/TEKBRON2.png" } //unused
 brightmap texture N_TKGN17 { map "brightmaps/bm_texture/bm_tex_recoloured/TEKBRON2.png" } //unused
 brightmap texture N_TKRD17 { map "brightmaps/bm_texture/bm_tex_recoloured/TEKBRON2.png" } //unused
+
+brightmap texture N_SVLB05 { map "brightmaps/bm_texture/bm_tex_recoloured/N_SVLB05.png" }

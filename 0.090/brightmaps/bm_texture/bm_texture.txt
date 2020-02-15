@@ -9,6 +9,7 @@
 #include "brightmaps/bm_texture/bm_texture_malice.txt"
 #include "brightmaps/bm_texture/bm_texture_mortres.txt"
 #include "brightmaps/bm_texture/bm_texture_recoloured.txt"
+#include "brightmaps/bm_texture/bm_texture_silver.txt"
 #include "brightmaps/bm_texture/bm_texture_udet.txt"
 
 #include "brightmaps/bm_texture/bm_custom_texture.txt"
