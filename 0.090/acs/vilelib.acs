@@ -245,6 +245,10 @@ Function void LineSpawnShards (int id1, int id2, int shardCount, int operationTi
 		Thing_Remove(operationTid);
 		i++;
 	}
+	
+	SetLineTexture (id1, SIDE_FRONT, TEXTURE_MIDDLE, "-");
+	SetLineTexture (id1, SIDE_BACK, TEXTURE_MIDDLE, "-");
+	PlaySound (0, "sfx/glassbreak", CHAN_BODY, 1.0, FALSE, ATTN_NORM);
 }
 
 

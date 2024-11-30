@@ -14,8 +14,6 @@ Actor GlassShardNew : GlassShard {
 
 ACTOR SGShard1New : GlassShardNew {
 	
-    Obituary "Some glass shards cut %o into pieces."
-	
     States {
 		
 		Spawn:
@@ -28,8 +26,6 @@ ACTOR SGShard1New : GlassShardNew {
 }
 
 ACTOR SGShard2New : GlassShardNew {
-	
-    Obituary "Some glass shards cut %o into pieces."
 	
     States {
 		
@@ -44,8 +40,6 @@ ACTOR SGShard2New : GlassShardNew {
 
 ACTOR SGShard3New : GlassShardNew {
 	
-    Obituary "Some glass shards cut %o into pieces."
-	
     States {
 		
 		Spawn:
@@ -58,8 +52,6 @@ ACTOR SGShard3New : GlassShardNew {
 }
 
 ACTOR SGShard4New : GlassShardNew {
-	
-    Obituary "Some glass shards cut %o into pieces."
 	
     States {
 		
@@ -74,8 +66,6 @@ ACTOR SGShard4New : GlassShardNew {
 
 ACTOR SGShard5New : GlassShardNew {
 	
-    Obituary "Some glass shards cut %o into pieces."
-	
     States {
 		
 		Spawn:
@@ -88,8 +78,6 @@ ACTOR SGShard5New : GlassShardNew {
 }
 
 ACTOR SGShard6New : GlassShardNew {
-	
-    Obituary "Some glass shards cut %o into pieces."
 	
     States {
 		
@@ -119,8 +107,6 @@ ACTOR SGShard7New : GlassShardNew {
 
 ACTOR SGShard8New : GlassShardNew {
 	
-    Obituary "Some glass shards cut %o into pieces."
-	
     States {
 		
 		Spawn:
@@ -134,8 +120,6 @@ ACTOR SGShard8New : GlassShardNew {
 
 ACTOR SGShard9New : GlassShardNew {
 	
-    Obituary "Some glass shards cut %o into pieces."
-	
     States {
 		
 		Spawn:
@@ -148,8 +132,6 @@ ACTOR SGShard9New : GlassShardNew {
 }
 
 ACTOR SGShard0New : GlassShardNew {
-	
-    Obituary "Some glass shards cut %o into pieces."
 	
     States {
 		

@@ -12,7 +12,7 @@ texture LABNOTE, 984, 759 {
 
 
 
-// texture SPACE, 1920, 1080 {
+texture SPACESKY, 1680, 1050 {
 	
-	// Patch SPACESKY, 0, 0
-// }
+	Patch SPACE, 0, 0
+}

@@ -4,19 +4,16 @@ Actor SentryGun {
 	//$Title "Sentry gun"
 	
 	Obituary "%o was ventilated by a sentry gun."
-	Health 180
+	Health 260
 	Radius 20
 	Height 56
-	Mass 180
+	Mass 100
 	Speed 0
 	Maxtargetrange 512
 	Attacksound "Sentry/Attack"
 	Damagefactor "Bio", 0.0
 	
 	Species "Turret"
-	
-	//PainChance "Turret", 0
-	//DamageFactor "Turret", 0
 	
 	Dropitem "NewClip"
 	Dropitem "NewClip"
@@ -37,7 +34,6 @@ Actor SentryGun {
 	+NEVERRESPAWN
 	+NOINFIGHTING
 	+NOFEAR
-	+SEEINVISIBLE
 	-CANPUSHWALLS
 	-CANUSEWALLS
 	-ACTIVATEMCROSS
@@ -54,7 +50,7 @@ Actor SentryGun {
 			loop
 		Missile:
 			SENT B 35 A_FaceTarget
-			SENT D 1 Bright A_CustomBulletAttack(3, 3, 1, 3, "BulletPuffTurret", 0, CBAF_NORANDOM)
+			SENT D 1 Bright A_CustomBulletAttack(3, 3, 1, 4, "BulletPuffTurret", 0, CBAF_NORANDOM)
 			SENT C 4 A_MonsterRefire(0, "See")
 			goto Missile+1
 		Death:

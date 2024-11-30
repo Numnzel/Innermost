@@ -5,21 +5,22 @@ ACTOR Machinegun : Weapon {
 	//$Title "Light machinegun"
 	//$Sprite MCGNW0
 
-	Weapon.Kickback 180
+	Weapon.Kickback 100
 	Weapon.AmmoType "NewClip"
 	Weapon.AmmoGive 50
 	Weapon.AmmoUse 1
 	Weapon.Kickback 200
-	Weapon.SlotNumber 4
-	Weapon.SlotPriority 0.0
+	Weapon.SlotNumber 2
+	Weapon.SlotPriority 1.0
 	Weapon.SelectionOrder 1
 
-	+WEAPON.NOAUTOAIM
+ 	Decal BulletChip
 
 	Inventory.PickupSound "misc/w_pkup"
 	Inventory.PickupMessage "Picked up a machinegun!"
 	Obituary "%o was lit up by %k's Machinegun."
- 	Decal BulletChip
+	
+	+WEAPON.NOAUTOAIM
 
 	States {
 

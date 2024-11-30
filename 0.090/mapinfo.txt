@@ -19,15 +19,15 @@ gameinfo {
 	addinfopage = "HELPINF2" // put some control key bindings recomendations
 	//titlepage = ""
 	titlemusic = "music/APPRETTY.flac"
-	dimcolor = "00 00 00"
-	dimamount = 0.3
-	menufontcolor_title     = "InnerTurquoise" //UNTRANSLATED
-	menufontcolor_label     = "PureBlue" //Purple-cyan
-	menufontcolor_value     = "Blue"
-	menufontcolor_action    = "Purple"
-	menufontcolor_header    = "Pink"
-	menufontcolor_highlight = "Orange"
-	menufontcolor_selection = "Gold"
+	//dimcolor = "00 00 00"
+	//dimamount = 0.3
+	//menufontcolor_title     = "InnerTurquoise" //UNTRANSLATED
+	//menufontcolor_label     = "PureBlue" //Purple-cyan
+	//menufontcolor_value     = "Blue"
+	//menufontcolor_action    = "Purple"
+	//menufontcolor_header    = "Pink"
+	//menufontcolor_highlight = "Orange"
+	//menufontcolor_selection = "Gold"
 	//pausesign = "lump"
 	//cursorpic = "lump"
 	
@@ -42,8 +42,9 @@ gameinfo {
 		"Sadly, there is no way to scape from our own infernos, even if you press the Y key.",
 		"Those who say 'go ahead and do not look back' are now stabbed dead corpses, watch your back when you exit!",
 		"In the worst moments we find the inspiration and creativity that helps us to reach our objectives.",
-		"Who in the hell you think you are? You think you can just exit this without punishment foolish mortal?",
-		"Zankoku na tenshi no you ni... Shounen yo shinwa ni nare!... What?"
+		"Who in the hell do you think you are? You think you can just exit this without punishment foolish mortal?",
+		"Zankoku na tenshi no you ni... Shounen yo shinwa ni nare!... What?",
+		"What a bunch of weird, cringy messages. Who in hell wrote them? (Yeah, me)"
 }
 
 doomednums {
@@ -184,7 +185,7 @@ skill sk1 { // For those that doesn't play games +LESSENEMIES
 	
 	autousehealth
 	damagefactor = 0.4 aggressiveness = 0.2 monsterhealth = 1.0 friendlyhealth = 1.0 ammofactor = 1.0 dropammofactor = 1.0
-	textcolor = "Hexen" name = "Shivering heart" key = "h"
+	textcolor = "Hexen" name = "1. Shivering heart" key = "h"
 }
 
 skill sk2 { // For those that doesn't played doom before
@@ -194,7 +195,7 @@ skill sk2 { // For those that doesn't played doom before
 	
 	autousehealth
 	damagefactor = 0.7 aggressiveness = 0.4 monsterhealth = 1.0 friendlyhealth = 1.0 ammofactor = 1.0 dropammofactor = 1.0
-	textcolor = "Hexen" name = "Sleeping alone" key = "a"
+	textcolor = "Hexen" name = "2. Sleeping alone" key = "a"
 }
 
 skill sk3 { // For those that known the basics of doom
@@ -204,7 +205,7 @@ skill sk3 { // For those that known the basics of doom
 	
 	autousehealth defaultskill
 	damagefactor = 1.0 Aggressiveness = 0.6 monsterhealth = 1.0 friendlyhealth = 1.0 ammofactor = 1.0 dropammofactor = 1.0
-	textcolor = "Hexen" name = "Fading in obscurity" key = "o"
+	textcolor = "Hexen" name = "3. Fading in obscurity" key = "o"
 }
 
 skill sk4 { // For those that known the basics of doom and want a hard challenge +NEWENEMIES
@@ -214,7 +215,7 @@ skill sk4 { // For those that known the basics of doom and want a hard challenge
 	
 	autousehealth
 	damagefactor = 1.1 aggressiveness = 0.7 monsterhealth = 1.0 friendlyhealth = 1.0 ammofactor = 1.0 dropammofactor = 1.0
-	textcolor = "Hexen" name = "Pain envisioned" key = "e"
+	textcolor = "Hexen" name = "4. Pain envisioned" key = "e"
 }
 
 skill sk5 { // For good doom players that play regularly +HARDERLEVELS
@@ -224,7 +225,7 @@ skill sk5 { // For good doom players that play regularly +HARDERLEVELS
 	
 	autousehealth
 	damagefactor = 1.2 aggressiveness = 0.8 monsterhealth = 1.0 friendlyhealth = 1.0 ammofactor = 1.0 dropammofactor = 1.0
-	textcolor = "Hexen" name = "Nightmare utopia" key = "u"
+	textcolor = "Hexen" name = "5. Nightmare utopia" key = "u"
 }
 
 skill sk6 { // For good doom players that play regularly and want a hard challenge +NEWENEMIES
@@ -234,7 +235,7 @@ skill sk6 { // For good doom players that play regularly and want a hard challen
 	
 	autousehealth
 	damagefactor = 1.3 aggressiveness = 0.9 monsterhealth = 1.0 friendlyhealth = 1.0 ammofactor = 1.0 dropammofactor = 1.0
-	textcolor = "Hexen" name = "Shines in the mist" key = "m" mustconfirm = "Are you sure?"
+	textcolor = "Hexen" name = "6. Shines in the mist" key = "m" mustconfirm = "This is very hard. Are you sure?"
 }
 
 skill sk7 { // For excelent doom players +NEWENEMIES
@@ -244,7 +245,7 @@ skill sk7 { // For excelent doom players +NEWENEMIES
 	
 	autousehealth
 	damagefactor = 1.4 aggressiveness = 1.0 monsterhealth = 1.0 friendlyhealth = 1.0 ammofactor = 1.0 dropammofactor = 1.0
-	textcolor = "Hexen" name = "Drowning quietly" key = "q" mustconfirm = "Are you sure?"
+	textcolor = "Hexen" name = "7. Drowning quietly" key = "q" mustconfirm = "This can be frustrating. Are you sure?"
 }
 
 skill sk8 { // For insane players +NEWENEMIES
@@ -254,7 +255,7 @@ skill sk8 { // For insane players +NEWENEMIES
 	
 	autousehealth disablecheats
 	damagefactor = 1.4 aggressiveness = 1.0 monsterhealth = 1.0 friendlyhealth = 1.0 ammofactor = 1.0 dropammofactor = 1.0
-	textcolor = "Hexen" name = "Into the innermost" key = "i"
+	textcolor = "Hexen" name = "8. Into the innermost" key = "i" mustconfirm = "This is impossible. Are you sure?"
 	//replaceactor = "BitCoinWhiteDataCard", "BitCoinWhiteDataCard2"
 	//replaceactor = "BitCoinYellowDataCard", "BitCoinYellowDataCard2"
 	//replaceactor = "BitCoinCyanDataCard", "BitCoinCyanDataCard2"
@@ -267,7 +268,7 @@ skill sk9 { // For no one +NEWENEMIES
 	
 	autousehealth disablecheats
 	damagefactor = 1.4 aggressiveness = 1.0 monsterhealth = 1.0 friendlyhealth = 1.0 ammofactor = 1.0 dropammofactor = 1.0
-	textcolor = "Hexen" name = "Suffering" key = "s"
+	textcolor = "Hexen" name = "9. Suffering" key = "s" mustconfirm = "This is impossible. Are you sure?"
 	//replaceactor = "BitCoinWhiteDataCard", "BitCoinWhiteDataCard2"
 	//replaceactor = "BitCoinYellowDataCard", "BitCoinYellowDataCard2"
 	//replaceactor = "BitCoinCyanDataCard", "BitCoinCyanDataCard2"

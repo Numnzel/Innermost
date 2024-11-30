@@ -648,7 +648,7 @@ brightmap texture EU028N20 { map "brightmaps/bm_texture/bm_tex_euniverse/EU028Z0
 
 //--------
 
-brightmap texture SPACE { map "brightmaps/bm_texture/bm_tex_euniverse/SPACEBM.png" }
+brightmap texture SPACESKY { map "brightmaps/bm_texture/bm_tex_euniverse/SPACEBM.png" }
 
 
 

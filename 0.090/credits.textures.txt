@@ -113,7 +113,7 @@ EU028___ ----> Made by me (Numnzel)
 
 */
 
-/* ****** ENTANGLEMENT CREDITS ******
+/* ****** ENTANGLEMENT CREDITS (PACK OF TEXTURES MADE FROM OTHER SOURCES) ******
 
 Original sources:
 
@@ -210,6 +210,13 @@ E099___ ----> Made by me (Numnzel)
 E100___ ----> Made by me (Numnzel)
 E101___ ----> 
 E102___ ----> ANOX Texture Pack
+E104___ ----> DoomPotpourri, COMPCT01
+E105___ ----> DoomPotpourri, COMPCT01
+E106___ ----> DoomPotpourri, COMPCT01
+E107___ ----> DoomPotpourri, COMPCT01
+E108___ ----> DoomPotpourri, COMPCT01
+E109___ ----> DoomPotpourri, COMPCT01
+
 
 */
 
