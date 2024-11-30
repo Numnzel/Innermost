@@ -1,129 +1,136 @@
-
-Actor Kriobus 15003
-{
-  //$Category Decorate/Monsters
-  //$Title "Kriobus"
-  Health 1500
-  Radius 56
-  Height 80
-  Scale 1.25
-  Speed 9
-  PainChance 40
-  Mass 1500
-  MaxTargetRange 320
-  DamageFactor Fire, 2.0
-  DamageFactor Ice, 0.0
-  SeeSound "Hectebus/Sight"
-  PainSound "Hectebus/Pain"
-  DeathSound "Hectebus/Death"
-  ActiveSound "Hectebus/Active"
-  MONSTER
-  +FLOORCLIP
-  +MISSILEMORE
-  Obituary "%o was frozen by a Kriobus."
-  States
-  {
-  Spawn:
-    UMYN AAAAAAAAAABBBBBBBBBB 1 A_Look
-    Loop
-  See:
-    UMYN A 0 A_PlaySoundEx("Hectebus/Step", "SoundSlot7", 0)
-    UMYN AABBCC 3 A_Chase
-    UMYN D 0 A_PlaySoundEx("Hectebus/Step", "SoundSlot7", 0)
-    UMYN DDEEFF 3 A_Chase
-    Loop
-  Missile:
-    UMYN G 0 A_PlaySoundEx("Hectebus/Attack", "SoundSlot6", 0)
-    UMYN GGGG 4 A_FaceTarget
-    UMYN H 0 A_PlaySoundEx("Steam/Fire", "SoundSlot5", 0)
-    UMYN H 0 BRIGHT A_SpawnItemEx("SteamParticle2", -41, -41, 35, Random(18, 20), 0, (0.1)*Random(-5, 5), Random(-3, 3), 128)
-    UMYN H 1 BRIGHT A_SpawnItemEx("SteamParticle2", 41, 41, 35, Random(18, 20), 0, (0.1)*Random(-5, 5), Random(-3, 3), 128)
-    UMYN H 0 BRIGHT A_SpawnItemEx("FakeSteamParticle", -41, -41, 35, Random(18, 20), 0, (0.1)*Random(-5, 5), Random(-3, 3), 128)
-    UMYN H 1 BRIGHT A_SpawnItemEx("FakeSteamParticle", 41, 41, 35, Random(18, 20), 0, (0.1)*Random(-5, 5), Random(-3, 3), 128)
-    UMYN H 0 BRIGHT A_SpawnItemEx("FakeSteamParticle", -41, -41, 35, Random(18, 20), 0, (0.1)*Random(-5, 5), Random(-3, 3), 128)
-    UMYN H 1 BRIGHT A_SpawnItemEx("FakeSteamParticle", 41, 41, 35, Random(18, 20), 0, (0.1)*Random(-5, 5), Random(-3, 3), 128)
-    UMYN H 0 BRIGHT A_SpawnItemEx("SteamParticle2", -41, -41, 35, Random(18, 20), 0, (0.1)*Random(-5, 5), Random(-3, 3), 128)
-    UMYN H 1 BRIGHT A_SpawnItemEx("SteamParticle2", 41, 41, 35, Random(18, 20), 0, (0.1)*Random(-5, 5), Random(-3, 3), 128)
-    UMYN H 0 BRIGHT A_SpawnItemEx("FakeSteamParticle", -41, -41, 35, Random(18, 20), 0, (0.1)*Random(-5, 5), Random(-3, 3), 128)
-    UMYN H 1 BRIGHT A_SpawnItemEx("FakeSteamParticle", 41, 41, 35, Random(18, 20), 0, (0.1)*Random(-5, 5), Random(-3, 3), 128)
-    UMYN H 0 BRIGHT A_SpawnItemEx("FakeSteamParticle", -41, -41, 35, Random(18, 20), 0, (0.1)*Random(-5, 5), Random(-3, 3), 128)
-    UMYN H 1 BRIGHT A_SpawnItemEx("FakeSteamParticle", 41, 41, 35, Random(18, 20), 0, (0.1)*Random(-5, 5), Random(-3, 3), 128)
-    UMYN H 0 BRIGHT A_SpawnItemEx("SteamParticle2", -41, -41, 35, Random(18, 20), 0, (0.1)*Random(-5, 5), Random(-3, 3), 128)
-    UMYN H 1 BRIGHT A_SpawnItemEx("SteamParticle2", 41, 41, 35, Random(18, 20), 0, (0.1)*Random(-5, 5), Random(-3, 3), 128)
-    UMYN H 0 BRIGHT A_SpawnItemEx("FakeSteamParticle", -41, -41, 35, Random(18, 20), 0, (0.1)*Random(-5, 5), Random(-3, 3), 128)
-    UMYN H 1 BRIGHT A_SpawnItemEx("FakeSteamParticle", 41, 41, 35, Random(18, 20), 0, (0.1)*Random(-5, 5), Random(-3, 3), 128)
-    UMYN H 0 BRIGHT A_SpawnItemEx("FakeSteamParticle", -41, -41, 35, Random(18, 20), 0, (0.1)*Random(-5, 5), Random(-3, 3), 128)
-    UMYN H 1 BRIGHT A_SpawnItemEx("FakeSteamParticle", 41, 41, 35, Random(18, 20), 0, (0.1)*Random(-5, 5), Random(-3, 3), 128)
-    UMYN H 0 BRIGHT A_SpawnItemEx("SteamParticle2", -41, -41, 35, Random(18, 20), 0, (0.1)*Random(-5, 5), Random(-3, 3), 128)
-    UMYN H 1 BRIGHT A_SpawnItemEx("SteamParticle2", 41, 41, 35, Random(18, 20), 0, (0.1)*Random(-5, 5), Random(-3, 3), 128)
-    UMYN H 0 BRIGHT A_SpawnItemEx("FakeSteamParticle", -41, -41, 35, Random(18, 20), 0, (0.1)*Random(-5, 5), Random(-3, 3), 128)
-    UMYN H 1 BRIGHT A_SpawnItemEx("FakeSteamParticle", 41, 41, 35, Random(18, 20), 0, (0.1)*Random(-5, 5), Random(-3, 3), 128)
-    UMYN H 0 BRIGHT A_SpawnItemEx("FakeSteamParticle", -41, -41, 35, Random(18, 20), 0, (0.1)*Random(-5, 5), Random(-3, 3), 128)
-    UMYN H 1 BRIGHT A_SpawnItemEx("FakeSteamParticle", 41, 41, 35, Random(18, 20), 0, (0.1)*Random(-5, 5), Random(-3, 3), 128)
-    UMYN H 0 BRIGHT A_SpawnItemEx("SteamParticle2", -41, -41, 35, Random(18, 20), 0, (0.1)*Random(-5, 5), Random(-3, 3), 128)
-    UMYN H 1 BRIGHT A_SpawnItemEx("SteamParticle2", 41, 41, 35, Random(18, 20), 0, (0.1)*Random(-5, 5), Random(-3, 3), 128)
-    UMYN H 0 BRIGHT A_SpawnItemEx("FakeSteamParticle", -41, -41, 35, Random(18, 20), 0, (0.1)*Random(-5, 5), Random(-3, 3), 128)
-    UMYN H 1 BRIGHT A_SpawnItemEx("FakeSteamParticle", 41, 41, 35, Random(18, 20), 0, (0.1)*Random(-5, 5), Random(-3, 3), 128)
-    UMYN H 0 BRIGHT A_SpawnItemEx("FakeSteamParticle", -41, -41, 35, Random(18, 20), 0, (0.1)*Random(-5, 5), Random(-3, 3), 128)
-    UMYN H 1 BRIGHT A_SpawnItemEx("FakeSteamParticle", 41, 41, 35, Random(18, 20), 0, (0.1)*Random(-5, 5), Random(-3, 3), 128)
-    UMYN I 4
-    Goto See
-  Pain:
-    UMYN J 8 A_Pain
-    Goto See
-  Death:
-    UMYN K 6 A_Scream
-    UMYN LM 6
-    UMYN N 6 A_Fall
-    UMYN OPQRS 6
-    UMYN T -1
-    Stop
-  Raise:
-    UMYN TSRQPONMLK 6
-    Goto See
-  }
+Actor Kriobus {
+	
+	//$Category Decorate/Monsters
+	//$Title "Kriobus"
+	
+	Health 1500
+	Radius 56
+	Height 80
+	Scale 1.25
+	Speed 9
+	PainChance 40
+	Mass 1500
+	MaxTargetRange 320
+	DamageFactor Fire, 1.5
+	DamageFactor Ice, 0.5
+	
+	SeeSound "Hectebus/Sight"
+	PainSound "Hectebus/Pain"
+	DeathSound "Hectebus/Death"
+	ActiveSound "Hectebus/Active"
+	
+	MONSTER
+	+FLOORCLIP
+	+MISSILEMORE
+	
+	Obituary "%o was frozen by a Kriobus."
+	
+	States {
+		
+		Spawn:
+			UMYN AAAAAAAAAABBBBBBBBBB 1 A_Look
+			Loop
+		See:
+			UMYN A 0 A_PlaySoundEx("Hectebus/Step", "SoundSlot7", 0)
+			UMYN AABBCC 3 A_Chase
+			UMYN D 0 A_PlaySoundEx("Hectebus/Step", "SoundSlot7", 0)
+			UMYN DDEEFF 3 A_Chase
+			Loop
+		Missile:
+			UMYN G 0 A_PlaySoundEx("Hectebus/Attack", "SoundSlot6", 0)
+			UMYN GGGG 4 A_FaceTarget
+			UMYN H 0 A_PlaySoundEx("Steam/Fire", "SoundSlot5", 0)
+			UMYN H 0 BRIGHT A_SpawnItemEx("SteamParticle2", -41, -41, 35, Random(18, 20), 0, (0.1)*Random(-5, 5), Random(-3, 3), 128)
+			UMYN H 1 BRIGHT A_SpawnItemEx("SteamParticle2", 41, 41, 35, Random(18, 20), 0, (0.1)*Random(-5, 5), Random(-3, 3), 128)
+			UMYN H 0 BRIGHT A_SpawnItemEx("FakeSteamParticle", -41, -41, 35, Random(18, 20), 0, (0.1)*Random(-5, 5), Random(-3, 3), 128)
+			UMYN H 1 BRIGHT A_SpawnItemEx("FakeSteamParticle", 41, 41, 35, Random(18, 20), 0, (0.1)*Random(-5, 5), Random(-3, 3), 128)
+			UMYN H 0 BRIGHT A_SpawnItemEx("FakeSteamParticle", -41, -41, 35, Random(18, 20), 0, (0.1)*Random(-5, 5), Random(-3, 3), 128)
+			UMYN H 1 BRIGHT A_SpawnItemEx("FakeSteamParticle", 41, 41, 35, Random(18, 20), 0, (0.1)*Random(-5, 5), Random(-3, 3), 128)
+			UMYN H 0 BRIGHT A_SpawnItemEx("SteamParticle2", -41, -41, 35, Random(18, 20), 0, (0.1)*Random(-5, 5), Random(-3, 3), 128)
+			UMYN H 1 BRIGHT A_SpawnItemEx("SteamParticle2", 41, 41, 35, Random(18, 20), 0, (0.1)*Random(-5, 5), Random(-3, 3), 128)
+			UMYN H 0 BRIGHT A_SpawnItemEx("FakeSteamParticle", -41, -41, 35, Random(18, 20), 0, (0.1)*Random(-5, 5), Random(-3, 3), 128)
+			UMYN H 1 BRIGHT A_SpawnItemEx("FakeSteamParticle", 41, 41, 35, Random(18, 20), 0, (0.1)*Random(-5, 5), Random(-3, 3), 128)
+			UMYN H 0 BRIGHT A_SpawnItemEx("FakeSteamParticle", -41, -41, 35, Random(18, 20), 0, (0.1)*Random(-5, 5), Random(-3, 3), 128)
+			UMYN H 1 BRIGHT A_SpawnItemEx("FakeSteamParticle", 41, 41, 35, Random(18, 20), 0, (0.1)*Random(-5, 5), Random(-3, 3), 128)
+			UMYN H 0 BRIGHT A_SpawnItemEx("SteamParticle2", -41, -41, 35, Random(18, 20), 0, (0.1)*Random(-5, 5), Random(-3, 3), 128)
+			UMYN H 1 BRIGHT A_SpawnItemEx("SteamParticle2", 41, 41, 35, Random(18, 20), 0, (0.1)*Random(-5, 5), Random(-3, 3), 128)
+			UMYN H 0 BRIGHT A_SpawnItemEx("FakeSteamParticle", -41, -41, 35, Random(18, 20), 0, (0.1)*Random(-5, 5), Random(-3, 3), 128)
+			UMYN H 1 BRIGHT A_SpawnItemEx("FakeSteamParticle", 41, 41, 35, Random(18, 20), 0, (0.1)*Random(-5, 5), Random(-3, 3), 128)
+			UMYN H 0 BRIGHT A_SpawnItemEx("FakeSteamParticle", -41, -41, 35, Random(18, 20), 0, (0.1)*Random(-5, 5), Random(-3, 3), 128)
+			UMYN H 1 BRIGHT A_SpawnItemEx("FakeSteamParticle", 41, 41, 35, Random(18, 20), 0, (0.1)*Random(-5, 5), Random(-3, 3), 128)
+			UMYN H 0 BRIGHT A_SpawnItemEx("SteamParticle2", -41, -41, 35, Random(18, 20), 0, (0.1)*Random(-5, 5), Random(-3, 3), 128)
+			UMYN H 1 BRIGHT A_SpawnItemEx("SteamParticle2", 41, 41, 35, Random(18, 20), 0, (0.1)*Random(-5, 5), Random(-3, 3), 128)
+			UMYN H 0 BRIGHT A_SpawnItemEx("FakeSteamParticle", -41, -41, 35, Random(18, 20), 0, (0.1)*Random(-5, 5), Random(-3, 3), 128)
+			UMYN H 1 BRIGHT A_SpawnItemEx("FakeSteamParticle", 41, 41, 35, Random(18, 20), 0, (0.1)*Random(-5, 5), Random(-3, 3), 128)
+			UMYN H 0 BRIGHT A_SpawnItemEx("FakeSteamParticle", -41, -41, 35, Random(18, 20), 0, (0.1)*Random(-5, 5), Random(-3, 3), 128)
+			UMYN H 1 BRIGHT A_SpawnItemEx("FakeSteamParticle", 41, 41, 35, Random(18, 20), 0, (0.1)*Random(-5, 5), Random(-3, 3), 128)
+			UMYN H 0 BRIGHT A_SpawnItemEx("SteamParticle2", -41, -41, 35, Random(18, 20), 0, (0.1)*Random(-5, 5), Random(-3, 3), 128)
+			UMYN H 1 BRIGHT A_SpawnItemEx("SteamParticle2", 41, 41, 35, Random(18, 20), 0, (0.1)*Random(-5, 5), Random(-3, 3), 128)
+			UMYN H 0 BRIGHT A_SpawnItemEx("FakeSteamParticle", -41, -41, 35, Random(18, 20), 0, (0.1)*Random(-5, 5), Random(-3, 3), 128)
+			UMYN H 1 BRIGHT A_SpawnItemEx("FakeSteamParticle", 41, 41, 35, Random(18, 20), 0, (0.1)*Random(-5, 5), Random(-3, 3), 128)
+			UMYN H 0 BRIGHT A_SpawnItemEx("FakeSteamParticle", -41, -41, 35, Random(18, 20), 0, (0.1)*Random(-5, 5), Random(-3, 3), 128)
+			UMYN H 1 BRIGHT A_SpawnItemEx("FakeSteamParticle", 41, 41, 35, Random(18, 20), 0, (0.1)*Random(-5, 5), Random(-3, 3), 128)
+			UMYN I 4
+			Goto See
+		Pain:
+			UMYN J 8 A_Pain
+			Goto See
+		Death:
+			UMYN K 6 A_Scream
+			UMYN LM 6
+			UMYN N 6 A_Fall
+			UMYN OPQRS 6
+			UMYN T -1
+			Stop
+		Raise:
+			UMYN TSRQPONMLK 6
+			Goto See
+	}
 }
 
-Actor SteamParticle2
-{
-  Height 96
-  Radius 48
-  +MISSILE
-  +NOGRAVITY
-  +NOBLOCKMAP
-  +RIPPER
-  +NODAMAGETHRUST 
-  +DONTREFLECT
-  +BLOODLESSIMPACT
-  +NOEXTREMEDEATH
-  Damage 1
-  DamageType Ice
-  RenderStyle Add
-  Scale 1.6
-  Alpha 0.65
-  States
-  {
-  Spawn:
-    STEM A 2 A_SetTranslucent(0.6, 1)
-    STEM B 2 A_SetTranslucent(0.55, 1)
-    STEM C 2 A_SetTranslucent(0.5, 1)
-    STEM D 2 A_SetTranslucent(0.45, 1)
-    STEM E 2 A_SetTranslucent(0.4, 1)
-    STEM F 2 A_SetTranslucent(0.35, 1)
-    STEM G 2 A_SetTranslucent(0.3, 1)
-    STEM H 2 A_SetTranslucent(0.25, 1)
-    STEM I 2 A_SetTranslucent(0.2, 1)
-    STEM J 2 A_SetTranslucent(0.15, 1)
-    STEM K 2 A_SetTranslucent(0.1, 1)
-    STEM L 2 A_SetTranslucent(0.05, 1)
-    Stop
-  Death:
-    Stop
-  }
+Actor SteamParticle2 {
+	
+	Height 96
+	Radius 48
+	RenderStyle Add
+	Scale 1.6
+	Alpha 0.65
+	
+	Damage 1
+	DamageType Ice
+	
+	+MISSILE
+	+NOGRAVITY
+	+NOBLOCKMAP
+	+RIPPER
+	+NODAMAGETHRUST 
+	+DONTREFLECT
+	+BLOODLESSIMPACT
+	+NOEXTREMEDEATH
+	
+	States {
+		
+		Spawn:
+			STEM A 2 A_SetTranslucent(0.6, 1)
+			STEM B 2 A_SetTranslucent(0.55, 1)
+			STEM C 2 A_SetTranslucent(0.5, 1)
+			STEM D 2 A_SetTranslucent(0.45, 1)
+			STEM E 2 A_SetTranslucent(0.4, 1)
+			STEM F 2 A_SetTranslucent(0.35, 1)
+			STEM G 2 A_SetTranslucent(0.3, 1)
+			STEM H 2 A_SetTranslucent(0.25, 1)
+			STEM I 2 A_SetTranslucent(0.2, 1)
+			STEM J 2 A_SetTranslucent(0.15, 1)
+			STEM K 2 A_SetTranslucent(0.1, 1)
+			STEM L 2 A_SetTranslucent(0.05, 1)
+			Stop
+		Death:
+			Stop
+	}
 }
 
-Actor FakeSteamParticle : SteamParticle2
-{
-  Damage 0
-  Scale 2.2
+Actor FakeSteamParticle : SteamParticle2 {
+	
+	Damage 0
+	Scale 2.2
 }

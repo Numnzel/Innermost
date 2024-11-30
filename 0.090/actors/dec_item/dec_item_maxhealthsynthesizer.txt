@@ -1,4 +1,4 @@
-Actor MaxHealthSynthesizer : CustomInventory 15064 {
+Actor MaxHealthSynthesizer : CustomInventory {
 	
 	//$NotAngled
 	//$Category Decorate/Items
@@ -30,7 +30,7 @@ Actor MaxHealthSynthesizer : CustomInventory 15064 {
 Actor MaxHealthBonusEffect : UpgradeStamina {
 	
 	Inventory.Amount 1
-	Inventory.MaxAmount 200
+	Inventory.MaxAmount 200 // +40 x 5
 	
 	// +COUNTITEM
 	// +INVENTORY.ALWAYSPICKUP

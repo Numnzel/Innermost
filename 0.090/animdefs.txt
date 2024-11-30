@@ -1,4 +1,7 @@
+
+
 // Too Much Brown Texture Pack
+
 
 Switch TSW4A on pic TSW4B tics 0
 
@@ -18,7 +21,9 @@ texture TLIGWL1A
 	pic TLIGWL1C tics 5
 	pic TLIGWl1B tics 5
 
+	
 // Elemental Universe Texture Pack
+
 
 warp texture EU005A00 0.5
 warp texture EU005B00 
@@ -89,9 +94,105 @@ texture EU017A02 range EU017A05 tics 5
 texture EU017A08 range EU017A11 tics 5
 
 
+texture EU028A00 allowdecals oscillate
+	pic EU028A00 tics 70
+	pic EU028A01 tics 1 pic EU028A02 tics 1 pic EU028A03 tics 1 pic EU028A04 tics 1 pic EU028A05 tics 1 pic EU028A06 tics 1 pic EU028A07 tics 1 pic EU028A08 tics 1 pic EU028A09 tics 1
+	pic EU028A10 tics 70
+
+texture EU028B00 allowdecals oscillate
+	pic EU028B00 tics 70
+	pic EU028B01 tics 1 pic EU028B02 tics 1 pic EU028B03 tics 1 pic EU028B04 tics 1 pic EU028B05 tics 1 pic EU028B06 tics 1 pic EU028B07 tics 1 pic EU028B08 tics 1 pic EU028B09 tics 1
+	pic EU028A10 tics 70
+
+texture EU028C00 allowdecals oscillate
+	pic EU028C00 tics 70
+	pic EU028C01 tics 1 pic EU028C02 tics 1 pic EU028C03 tics 1 pic EU028C04 tics 1 pic EU028C05 tics 1 pic EU028C06 tics 1 pic EU028C07 tics 1 pic EU028C08 tics 1 pic EU028C09 tics 1
+	pic EU028A10 tics 70
+
+texture EU028D00 allowdecals oscillate
+	pic EU028D00 tics 70
+	pic EU028D01 tics 1 pic EU028D02 tics 1 pic EU028D03 tics 1 pic EU028D04 tics 1 pic EU028D05 tics 1 pic EU028D06 tics 1 pic EU028D07 tics 1 pic EU028D08 tics 1 pic EU028D09 tics 1
+	pic EU028A10 tics 70
+
+texture EU028E00 allowdecals oscillate
+	pic EU028E00 tics 70
+	pic EU028E01 tics 1 pic EU028E02 tics 1 pic EU028E03 tics 1 pic EU028E04 tics 1 pic EU028E05 tics 1 pic EU028E06 tics 1 pic EU028E07 tics 1 pic EU028E08 tics 1 pic EU028E09 tics 1
+	pic EU028A10 tics 70
+
+texture EU028F00 allowdecals oscillate
+	pic EU028F00 tics 70
+	pic EU028F01 tics 1 pic EU028F02 tics 1 pic EU028F03 tics 1 pic EU028F04 tics 1 pic EU028F05 tics 1 pic EU028F06 tics 1 pic EU028F07 tics 1 pic EU028F08 tics 1 pic EU028F09 tics 1
+	pic EU028A10 tics 70
+
+texture EU028G00 allowdecals oscillate
+	pic EU028G00 tics 70
+	pic EU028G01 tics 1 pic EU028G02 tics 1 pic EU028G03 tics 1 pic EU028G04 tics 1 pic EU028G05 tics 1 pic EU028G06 tics 1 pic EU028G07 tics 1 pic EU028G08 tics 1 pic EU028G09 tics 1
+	pic EU028A10 tics 70
+
+texture EU028H00 allowdecals oscillate
+	pic EU028H00 tics 70
+	pic EU028H01 tics 1 pic EU028H02 tics 1 pic EU028H03 tics 1 pic EU028H04 tics 1 pic EU028H05 tics 1 pic EU028H06 tics 1 pic EU028H07 tics 1 pic EU028H08 tics 1 pic EU028H09 tics 1
+	pic EU028A10 tics 70
+
+texture EU028I00 allowdecals oscillate
+	pic EU028I00 tics 70
+	pic EU028I01 tics 1 pic EU028I02 tics 1 pic EU028I03 tics 1 pic EU028I04 tics 1 pic EU028I05 tics 1 pic EU028I06 tics 1 pic EU028I07 tics 1 pic EU028I08 tics 1 pic EU028I09 tics 1
+	pic EU028A10 tics 70
+
+texture EU028H00 allowdecals oscillate
+	pic EU028H00 tics 70
+	pic EU028H01 tics 1 pic EU028H02 tics 1 pic EU028H03 tics 1 pic EU028H04 tics 1 pic EU028H05 tics 1 pic EU028H06 tics 1 pic EU028H07 tics 1 pic EU028H08 tics 1 pic EU028H09 tics 1
+	pic EU028A10 tics 70
+
+texture EU028I00 allowdecals oscillate
+	pic EU028I00 tics 70
+	pic EU028I01 tics 1 pic EU028I02 tics 1 pic EU028I03 tics 1 pic EU028I04 tics 1 pic EU028I05 tics 1 pic EU028I06 tics 1 pic EU028I07 tics 1 pic EU028I08 tics 1 pic EU028I09 tics 1
+	pic EU028A10 tics 70
+
+texture EU028J00 allowdecals oscillate
+	pic EU028J00 tics 70
+	pic EU028J01 tics 1 pic EU028J02 tics 1 pic EU028J03 tics 1 pic EU028J04 tics 1 pic EU028J05 tics 1 pic EU028J06 tics 1 pic EU028J07 tics 1 pic EU028J08 tics 1 pic EU028J09 tics 1
+	pic EU028A10 tics 70
+
+texture EU028K00 allowdecals oscillate
+	pic EU028K00 tics 70
+	pic EU028K01 tics 1 pic EU028K02 tics 1 pic EU028K03 tics 1 pic EU028K04 tics 1 pic EU028K05 tics 1 pic EU028K06 tics 1 pic EU028K07 tics 1 pic EU028K08 tics 1 pic EU028K09 tics 1
+	pic EU028A10 tics 70
+
+texture EU028L00 allowdecals oscillate
+	pic EU028L00 tics 70
+	pic EU028L01 tics 1 pic EU028L02 tics 1 pic EU028L03 tics 1 pic EU028L04 tics 1 pic EU028L05 tics 1 pic EU028L06 tics 1 pic EU028L07 tics 1 pic EU028L08 tics 1 pic EU028L09 tics 1
+	pic EU028A10 tics 70
+
+texture EU028M00 allowdecals oscillate
+	pic EU028M00 tics 70
+	pic EU028M01 tics 1 pic EU028M02 tics 1 pic EU028M03 tics 1 pic EU028M04 tics 1 pic EU028M05 tics 1 pic EU028M06 tics 1 pic EU028M07 tics 1 pic EU028M08 tics 1 pic EU028M09 tics 1
+	pic EU028A10 tics 70
+
+	
+// Custom textures - Puzzle textures
+
+
+texture PZ002A01 pic PZ002A01 tics 2 pic PZ002A02 tics 2 pic PZ002A03 tics 2 pic PZ002A04 tics 2 pic PZ002A05 tics 2
+texture PZ003A01 pic PZ003A01 tics 2 pic PZ003A02 tics 2 pic PZ003A03 tics 2 pic PZ003A04 tics 2 pic PZ003A05 tics 2
+texture PZ004A01 pic PZ004A01 tics 2 pic PZ004A02 tics 2 pic PZ004A03 tics 2 pic PZ004A04 tics 2 pic PZ004A05 tics 2
+texture PZ005A01 pic PZ005A01 tics 2 pic PZ005A02 tics 2 pic PZ005A03 tics 2 pic PZ005A04 tics 2 pic PZ005A05 tics 2
+texture PZ006A01 pic PZ006A01 tics 2 pic PZ006A02 tics 2 pic PZ006A03 tics 2 pic PZ006A04 tics 2 pic PZ006A05 tics 2
+texture PZ007A01 pic PZ007A01 tics 2 pic PZ007A02 tics 2 pic PZ007A03 tics 2 pic PZ007A04 tics 2 pic PZ007A05 tics 2
+texture PZ008A01 pic PZ008A01 tics 2 pic PZ008A02 tics 2 pic PZ008A03 tics 2 pic PZ008A04 tics 2 pic PZ008A05 tics 2
+texture PZ009A01 pic PZ009A01 tics 2 pic PZ009A02 tics 2 pic PZ009A03 tics 2 pic PZ009A04 tics 2 pic PZ009A05 tics 2
+texture PZ010A01 pic PZ010A01 tics 2 pic PZ010A02 tics 2 pic PZ010A03 tics 2 pic PZ010A04 tics 2 pic PZ010A05 tics 2
+texture PZ011A01 pic PZ011A01 tics 2 pic PZ011A02 tics 2 pic PZ011A03 tics 2 pic PZ011A04 tics 2 pic PZ011A05 tics 2
+texture PZ012A01 pic PZ012A01 tics 2 pic PZ012A02 tics 2 pic PZ012A03 tics 2 pic PZ012A04 tics 2 pic PZ012A05 tics 2
+texture PZ013A01 pic PZ013A01 tics 2 pic PZ013A02 tics 2 pic PZ013A03 tics 2 pic PZ013A04 tics 2 pic PZ013A05 tics 2
+texture PZ014A01 pic PZ014A01 tics 2 pic PZ014A02 tics 2 pic PZ014A03 tics 2 pic PZ014A04 tics 2 pic PZ014A05 tics 2
+texture PZ015A01 pic PZ015A01 tics 2 pic PZ015A02 tics 2 pic PZ015A03 tics 2 pic PZ015A04 tics 2 pic PZ015A05 tics 2
+texture PZ016A01 pic PZ016A01 tics 2 pic PZ016A02 tics 2 pic PZ016A03 tics 2 pic PZ016A04 tics 2 pic PZ016A05 tics 2
+texture PZ017A01 pic PZ017A01 tics 2 pic PZ017A02 tics 2 pic PZ017A03 tics 2 pic PZ017A04 tics 2 pic PZ017A05 tics 2
+texture PZ018A01 pic PZ018A01 tics 2 pic PZ018A02 tics 2 pic PZ018A03 tics 2 pic PZ018A04 tics 2 pic PZ018A05 tics 2
+
 
 // Edited/Modified textures of another packs
-
 
 
 switch E058N00 on sound Switch1 pic E059N00 tics 0
@@ -107,6 +208,26 @@ switch E065N00 off sound Switch2 pic E064N00 tics 0
 texture E080N00 range E080N03 tics 6 oscillate
 
 switch E097N00 on sound Switch1 pic E098N00 tics 0
+
+texture E100N00 range E100N04 tics 12
+texture E101N00 range E101N04 tics 12
+
+// fan textures
+
+texture FAN_AMA1 range FAN_AMA4 tics 1
+texture FAN_AMB1 range FAN_AMB4 tics 1
+texture FAN_ASA1 range FAN_ASA4 tics 1
+texture FAN_ASB1 range FAN_ASB4 tics 1
+
+texture FAN_BMA1 range FAN_BMA4 tics 1
+texture FAN_BMB1 range FAN_BMB4 tics 1
+texture FAN_BSA1 range FAN_BSA4 tics 1
+texture FAN_BSB1 range FAN_BSB4 tics 1
+
+texture FAN_CMA1 range FAN_CMA4 tics 1
+texture FAN_CMB1 range FAN_CMB4 tics 1
+texture FAN_CSA1 range FAN_CSA4 tics 1
+texture FAN_CSB1 range FAN_CSB4 tics 1
 
 
 // Cage Texture Pack

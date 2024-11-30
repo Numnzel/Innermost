@@ -1,3 +1,11 @@
+// Pickups
+
+	$limit misc/i_pkup      0
+	$limit misc/k_pkup      0
+	$limit misc/w_pkup      0
+	$limit misc/p_pkup      0
+
+
 //SPLASHES --------------------------------
 
 	world/drip						dsempty
@@ -12,13 +20,13 @@
 	//water/splash					dssplash
 
 	$limit world/drip				1
-	$limit world/watersplash		1
-	$limit world/watersplashsmall	2
-	$limit world/sludgegloop		1
-	$limit world/sludgegloopsmall	2
-	$limit world/lavasizzle			1
-	$limit world/lavsiz2			1
-	$limit world/lavasizzlesmall	2
+	$limit world/watersplash		3
+	$limit world/watersplashsmall	3
+	$limit world/sludgegloop		3
+	$limit world/sludgegloopsmall	3
+	$limit world/lavasizzle			3
+	$limit world/lavsiz2			3
+	$limit world/lavasizzlesmall	3
 
 
 //------------------------------------------
@@ -116,6 +124,9 @@
 
 	Steam/Loop						STEMLOOP
 	Steam/Fire						STEMFIRE
+	
+	$Volume Steam/Loop				0.5
+	$Volume Steam/Fire				0.5
 
 // Weapon: FireLance
 
@@ -204,11 +215,15 @@
 	basic/basicgenerator			AMGENOIS
 	generator/compressgenerator		AMCOMPGE
 	ambient/dark					DSAMB
+	
+	$alias generator/compressgenerator/soft generator/compressgenerator
+	$alias generator/compressgenerator/full generator/compressgenerator
 
-	$ambient 1 basic/basicgenerator				point			continuous 0.2
-	$ambient 2 generator/compressgenerator		point 2.0		continuous 0.2
-	$ambient 3 ambient/dark						world			continuous 0.5
-
+	$ambient 1 basic/basicgenerator					point			continuous 0.2
+	$ambient 2 generator/compressgenerator/soft		point 2.0		continuous 0.2
+	$ambient 3 ambient/dark							world			continuous 0.5
+	$ambient 4 generator/compressgenerator/full		point 0.4		continuous 1.0
+	
 // Glasspack--------------------------------------------------------
 
 	tubes/break						TSTTB
@@ -224,8 +239,9 @@
 
 // ScatterPistol-------------------------------------------------------
 
-	SPRPSHOT						SPRPSHOT
-	$Limit SPRPSHOT					0
+	weapons/scattergun-fire			SPRPSHOT
+	$Limit weapons/scattergun-fire	0
+	$Volume weapons/scattergun-fire	0.01
 
 	SPRPIMPT						SPRPIMPT
 	$Limit SPRPIMPT					0
@@ -266,6 +282,10 @@
 // Interactions------------------------------------------------------------
 
 	interaction/paper				XTYL33_P
+
+// SFX------------------------------------------------------------
+
+	sfx/glassbreak					WINBREAK
 
 // DoomPlayer-------------------------------------------------------------
 

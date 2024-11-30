@@ -1,0 +1,41 @@
+Actor ProtonEnergyCell : Ammo {
+	
+	//$NotAngled
+	//$Category Decorate/Ammo
+	//$Title "Proton cell"
+	
+	Radius 8
+	Height 8
+	Inventory.PickupMessage "P-Cells +1"
+	Inventory.Icon "KWASC0"
+	Inventory.Amount 1
+	Inventory.MaxAmount 20
+	Ammo.BackpackAmount 1
+	Ammo.BackpackMaxAmount 40
+	
+	States {
+		
+		Spawn:
+			KWAS ABCD 4
+			Loop
+	}
+}
+
+ACTOR ProtonEnergyCellPack : ProtonEnergyCell {
+	
+	//$Title "Proton cell pack"
+	
+	Radius 16
+	Height 8
+	Inventory.PickupMessage "P-Cells +4"
+	Inventory.Icon "KWASC0"
+	Inventory.Amount 4
+	
+	States {
+		
+		Spawn:
+			KWAL ABCD 4
+			Loop
+	}
+}
+

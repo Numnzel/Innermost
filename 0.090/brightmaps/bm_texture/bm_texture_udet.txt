@@ -6,3 +6,5 @@ brightmap texture SHAWNT5 { map "brightmaps/bm_texture/bm_tex_udet/SHAWNT5.png" 
 brightmap texture TEKGY17 { map "brightmaps/bm_texture/bm_tex_udet/TEKGY17.png" }
 
 brightmap texture COMPP5 { map "brightmaps/bm_texture/bm_tex_udet/COMPP5.png" }
+
+brightmap texture TEKGY5 { map "brightmaps/bm_texture/bm_tex_udet/TEKGY5.png" }

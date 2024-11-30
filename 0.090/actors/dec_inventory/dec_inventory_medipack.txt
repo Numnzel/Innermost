@@ -1,5 +1,5 @@
 /*
-Actor Medipack : Health 15019
+Actor Medipack : Health
 {
 	Game Doom
 	Inventory.Amount 50
@@ -14,25 +14,27 @@ Actor Medipack : Health 15019
 }
 */
 
-Actor MediPackObject : CustomInventory 15019
-{
-  //$NotAngled
-  //$Category Decorate/Inventory
-  //$Title "Medipack"
-  
-  //SpawnId 250
-  +INVENTORY.INVBAR
-  Inventory.MaxAmount 3
-  Inventory.Icon "HEALB0"
-  Inventory.PickupMessage "Picked up a medipack."
-  //Health.LowMessage 20, "Picked up a medipack that you REALLY need!"
-  States
-  {
-  Spawn:
-    HEAL A -1
-    Stop
-  Use:
-    TNT1 A 1 A_GiveInventory("Health", 100)
-    Stop
-  }
+Actor AutoStim : HealthPickup {
+	
+	//$NotAngled
+	//$Category Decorate/Inventory
+	//$Title "AutoStimpack"
+
+	//SpawnId 250
+	Health 1
+	Inventory.MaxAmount 300
+	Inventory.Icon "HEALB0"
+	Inventory.PickupMessage "Picked up a nano-stim cell."
+	HealthPickup.AutoUse 3
+	Scale 0.5
+	//Health.LowMessage 20, "Picked up a medipack that you REALLY need!"
+	
+	+INVENTORY.INVBAR
+	
+	States {
+		
+		Spawn:
+			HEAL A -1
+			Stop
+	}
 }

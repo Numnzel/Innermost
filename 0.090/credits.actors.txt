@@ -209,6 +209,12 @@
 	Sprites: ID Software, 3D Realms, Raven (Sprites adapted/modified)
 	Sprite Edit: Captain Toenail
 
+ - Leech
+	Decorate: Numnzel
+	GLDefs: Numnzel
+	Sounds: ID Software (Sounds adapted/modified)
+	Sprites: ID Software (Sprites adapted/modified)
+	Sprite Edit: Numnzel
 */
 
 /* ====== ACTORS : OTHERS ======

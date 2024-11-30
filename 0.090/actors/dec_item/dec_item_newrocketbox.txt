@@ -1,4 +1,4 @@
-ACTOR NewRocketBox : NewRocketAmmo 15082 {
+ACTOR NewRocketBox : NewRocketAmmo {
 	
 	//$NotAngled
 	//$Category Decorate/Ammo

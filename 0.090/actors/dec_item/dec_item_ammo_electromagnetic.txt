@@ -1,20 +1,21 @@
-Actor ElectronCell : Ammo 32401 {
+Actor ElectronCell : Ammo {
 
-  //$NotAngled
-  //$Category Decorate/Ammo
-  //$Title "Electron cell"
-	Inventory.PickupMessage "Picked up an electron cell."
-	Inventory.Amount 15
+	//$NotAngled
+	//$Category Decorate/Ammo
+	//$Title "Electron cell"
+	
+	Inventory.PickupMessage "E-Cells +50" // "Picked up an electron cell."
+	Inventory.Amount 50
 	Inventory.MaxAmount 2400
 	Inventory.Icon "CELLA0"
-	Ammo.BackpackAmount 15
+	Ammo.BackpackAmount 50
 	Ammo.BackpackMaxAmount 4800
 	
 	States {
 	
-	Spawn:
-		CELL A -1
-		Stop
+		Spawn:
+			CELL A -1
+			Stop
 	}
 }
 

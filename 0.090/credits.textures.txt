@@ -83,9 +83,9 @@
 
 Original sources:
 
-EU001___ ----> 
-EU002___ ----> 
-EU003___ ----> 
+EU001___ ----> ??
+EU002___ ----> ??
+EU003___ ----> ????
 EU004___ ----> ID Software
 EU005___ ----> ID Software
 EU006___ ----> ID Software
@@ -94,24 +94,26 @@ EU008___ ----> ID Software
 EU009___ ----> ID Software
 EU010___ ----> Made by me (Numnzel)
 EU011___ ----> ID Software
-EU012___ ----> 
-EU013___ ----> 
-EU014___ ----> 
-EU015___ ----> 
+EU012___ ----> Made by me (Numnzel)
+EU013___ ----> Made by me (Numnzel)
+EU014___ ----> Made by me (Numnzel)
+EU015___ ----> Made by me (Numnzel)
 EU016___ ----> Made by me (Numnzel)
-EU017___ ----> 
-EU018___ ----> 
-EU019___ ----> 
-EU020___ ----> 
-EU021___ ----> 
-EU022___ ----> 
+EU017___ ----> Cage Texture Pack, CGSWC00B
+EU018___ ----> ???
+EU019___ ----> ?
+EU020___ ----> ?
+EU021___ ----> ?
+EU022___ ----> ?
 EU023___ ----> Made by me (Numnzel)
 EU024___ ----> Made by me (Numnzel)
 EU025___ ----> Made by me (Numnzel)
+EU026___ ----> ID Software
+EU028___ ----> Made by me (Numnzel)
 
 */
 
-/* ****** ENTANGLEMENT CREDITS ******
+/* ****** ENTANGLEMENT CREDITS (PACK OF TEXTURES MADE FROM OTHER SOURCES) ******
 
 Original sources:
 
@@ -180,8 +182,8 @@ E062___ ----> CAGE Texture Pack
 E063___ ----> CAGE Texture Pack
 E064___ ----> CAGE Texture Pack
 E065___ ----> CAGE Texture Pack
-E066___ ----> 
-E067___ ----> 
+E066___ ----> Made by me (Numnzel)
+E067___ ----> Made by me (Numnzel)
 E068___ ----> 
 E069___ ----> 
 E070___ ---->
@@ -202,6 +204,18 @@ E093___ ----> Cage Texture Pack, CGSUPP06
 E094___ ----> Cage Texture Pack, CGSUPP07
 E095___ ----> Cage Texture Pack, CGSUPP08
 E096___ ----> Cage Texture Pack, CGSUPP09
+E097___ ----> ?
+E098___ ----> ?
+E099___ ----> Made by me (Numnzel)
+E100___ ----> Made by me (Numnzel)
+E101___ ----> 
+E102___ ----> ANOX Texture Pack
+E104___ ----> DoomPotpourri, COMPCT01
+E105___ ----> DoomPotpourri, COMPCT01
+E106___ ----> DoomPotpourri, COMPCT01
+E107___ ----> DoomPotpourri, COMPCT01
+E108___ ----> DoomPotpourri, COMPCT01
+E109___ ----> DoomPotpourri, COMPCT01
 
 
 */

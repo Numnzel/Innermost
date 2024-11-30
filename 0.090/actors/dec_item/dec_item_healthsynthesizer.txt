@@ -1,4 +1,4 @@
-Actor HealthSynthesizer : Health 15091 {
+Actor HealthSynthesizer : Health {
 	
 	//$NotAngled
 	//$Category Decorate/Items

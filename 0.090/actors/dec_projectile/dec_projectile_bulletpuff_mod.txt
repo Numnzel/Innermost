@@ -1,35 +1,41 @@
 ACTOR NewPuff : BulletPuff replaces BulletPuff {
 
-	Alpha 1.0
-	Scale 1
+	RenderStyle Translucent
+	Alpha 0.4
+	VSpeed 0
+	Scale 0.8
 	Mass 1
 	
-	States
-	{
-	Spawn:
-	Melee:
-		PUFF A 2
-		PUFF A 0 A_Jump(128,2)
-		PUFF A 2 A_SpawnItemEx("Puff2",0,0,0,0,0,0,0,128)
-		PUFF B 4
-	Dissapear:
-		PUFF CCCCDDDD 1 A_FadeOut(frandom(0.03, 0.1))
-		Loop
+	-ALLOWPARTICLES
+	
+	States {
+		
+		Spawn:
+		Melee:
+			PUFF A 0 NoDelay A_Jump(96, 2)
+			PUFF A 0 A_SpawnItemEx("PuffSFX",0,0,0,0,0,0,0,128)
+			PUFF AB 3
+		Dissapear:
+			PUFF CCCCDDDD 1 A_FadeOut(frandom(0.03, 0.1))
+			Loop
 	}
 }
 
-ACTOR Puff2
-{
+ACTOR PuffSFX {
+	
+	Mass 1
+	
 	PROJECTILE
+	+RANDOMIZE
+	+CLIENTSIDEONLY
 	+NOCLIP
 	+BRIGHT
-	Mass 1
-	States
-	{
-	Spawn:
-		PUFF E 2
-		PUFF E 2 A_PlaySound("puff/ric")
-		PUFF FGH 2
-		Stop
+	
+	States {
+	
+		Spawn:
+			PUFF E 2 NoDelay A_PlaySound("puff/ric")
+			PUFF FGH 2
+			Stop
 	}
 }

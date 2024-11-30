@@ -17,7 +17,7 @@ Actor SoulCry {
 	SeeSound "weapons/rocklf"
 	DeathSound "weapons/rocklx"
 	
-	Obituary "%o couldn't withstand the soul cry damage."
+	Obituary "%o couldn't withstand the soul cry explosive damage."
 	
 	States {
 		

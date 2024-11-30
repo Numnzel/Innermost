@@ -19,74 +19,183 @@ gameinfo {
 	addinfopage = "HELPINF2" // put some control key bindings recomendations
 	//titlepage = ""
 	titlemusic = "music/APPRETTY.flac"
-	dimcolor = "00 00 00"
-	dimamount = 0.3
-	menufontcolor_title     = "InnerTurquoise" //UNTRANSLATED
-	menufontcolor_label     = "PureBlue" //Purple-cyan
-	menufontcolor_value     = "Blue"
-	menufontcolor_action    = "Purple"
-	menufontcolor_header    = "Pink"
-	menufontcolor_highlight = "Orange"
-	menufontcolor_selection = "Gold"
+	//dimcolor = "00 00 00"
+	//dimamount = 0.3
+	//menufontcolor_title     = "InnerTurquoise" //UNTRANSLATED
+	//menufontcolor_label     = "PureBlue" //Purple-cyan
+	//menufontcolor_value     = "Blue"
+	//menufontcolor_action    = "Purple"
+	//menufontcolor_header    = "Pink"
+	//menufontcolor_highlight = "Orange"
+	//menufontcolor_selection = "Gold"
 	//pausesign = "lump"
 	//cursorpic = "lump"
 	
 	
 	
-	quitmessages =
-		"Why you want to quit? Doom 4 is not yet released dude. (Notice how old is this message...)",
+	quitmessages = 
+		"Why do you want to quit? Doom 4 is not yet released! (Notice how old is this message...)",
 		"I'm sure you will return. Yes. Sure. S-U-R-E.",
-		"You should not take a break, maybe you die in the next hour, so come here and finish this!",
+		"You should NOT take a break, maybe you die in the next hour, so come here and finish this!",
 		"I hope you are leaving for playing some vanilla Doom!",
 		"Only true doomguys show no fear against the demonic forces, so don't run away!",
 		"Sadly, there is no way to scape from our own infernos, even if you press the Y key.",
 		"Those who say 'go ahead and do not look back' are now stabbed dead corpses, watch your back when you exit!",
 		"In the worst moments we find the inspiration and creativity that helps us to reach our objectives.",
-		"Who in the hell you think you are? You think you can just exit this without punishment foolish mortal?",
-		"Zankoku na tenshi no you ni... Shounen yo shinwa ni nare!... What?"
+		"Who in the hell do you think you are? You think you can just exit this without punishment foolish mortal?",
+		"Zankoku na tenshi no you ni... Shounen yo shinwa ni nare!... What?",
+		"What a bunch of weird, cringy messages. Who in hell wrote them? (Yeah, me)"
 }
 
+doomednums {
+	
+	281 = LaserBeam_Green_Vertical
+	282 = Laserbeam_Blue_Vertical
+	283 = Laserbeam_White_Vertical
+	284 = Laserbeam_Red_Vertical
+	285 = Laserbeam_Orange_Vertical
+	291 = LaserBeam_Green_Horizontal
+	292 = Laserbeam_Blue_Horizontal
+	293 = Laserbeam_White_Horizontal
+	294 = Laserbeam_Red_Horizontal
+	295 = Laserbeam_Orange_Horizontal
+	
+	3110 = BloodDemonClone
+	
+	10000 = GreenCard
+	10001 = OrangeCard
+	10002 = SilverCard
+	10003 = PinkCard
+	10004 = Greenskull
+	10005 = Orangeskull
+	10006 = Silverskull
+	10007 = Pinkskull
+	10008 = BrownCard
+	10009 = BlackCard
+	10010 = Brownskull
+	10011 = Blackskull
+	
+	15000 = PlasmaZombie
+	15001 = CacolanternClone
+	15002 = Guardian
+	15003 = Kriobus
+	15004 = IceImp
+	
+	15006 = ChaingunGuy2
+	15007 = PrimalCacodemon
+	15008 = FireLance
+	15009 = HangingImp
+	
+	15011 = SupplyPack
+	//15012 = DataCard
+	15013 = Chair
+	15014 = ProtonEnergyCellPack
+	15015 = ProtonEnergyCell
+	15016 = SteamSpawner
+	15017 = FireSpawner
+	15018 = ActiveFlare
+	15019 = AutoStim
+	15020 = SentryBox
+	15021 = XimRocketGuy
+	15022 = KaiserCacodemon
+	15023 = FreezedImp
+	15024 = BitCoinCyanDataCard
+	
+	15031 = BitCoinWhiteDataCard
+	15032 = BitCoinYellowDataCard
+	15033 = Insignificant
+	15034 = RailBot
+	15035 = SentryGun
+	15036 = SparkSpawner
+	15037 = flaskblueA
+	15038 = flaskblueB
+	15039 = flaskpurpleA
+	15040 = flaskpurpleB
+	15041 = flaskredA
+	15042 = flaskredB
+	15043 = flaskgreenA
+	15044 = flaskgreenB
+	15045 = flaskyellowA
+	15046 = flaskyellowB
+	15047 = flaskgreyA
+	15048 = flaskgreyB
+	15049 = glassblue
+	15050 = glasspurple
+	15051 = glassred
+	15052 = glassgreen
+	15053 = glassyellow
+	15054 = glassgrey
+	15055 = WhitePowerPad
+	15056 = BluePowerPad
+	15057 = GreenPowerPad
+	15058 = RedPowerPad
+	15059 = OrangePowerPad
+	15060 = HeavyRifle
+	15061 = model1887
+	15062 = ScatterPistol
+	15063 = Machinegun
+	15064 = MaxHealthSynthesizer
+	15065 = HeavyClip
+	15066 = Colt45
+	
+	15067 = Drone
+	15068 = ElectronRifle
+	15069 = PDA
+	15070 = TechLamp3 //lowlamp
+	15071 = HangTNoBrainNew
+	15072 = HangTLookingUpNew
+	
+	15074 = ParticleSpawner2
+	15075 = LightCeiling
+	15076 = ElectronicDevice
+	15077 = NewClipBox
+	15078 = NewClip
+	15079 = NewCells
+	15080 = NewCellPack
+	15081 = NewRocketAmmo
+	15082 = NewRocketBox
+	15083 = NewShells
+	15084 = NewShellBox
+	15085 = TunnelLamp
+	15086 = SpecialKey01
+	15087 = SpecialKey02
+	15088 = Aniquiled
+	15089 = UACPlasmaticRifle
+	15090 = MissileLauncher
+	15091 = HealthSynthesizer
+	15092 = SoulCryBox
+	15093 = HearthAttackArti
+	15094 = Wishmaster
+	15095 = Leech
+	
+	32401 = ElectronCell
+}
 
+DamageType Bio {
+	
+	Factor = 1.0
+}
 
 clearskills
 
-skill sk1 { // For those that doesn't usually play games +NEWENEMIES
+skill sk1 { // For those that doesn't play games +LESSENEMIES
 
 	ACSReturn = 10
 	spawnfilter = 1
 	
 	autousehealth
-	
-	damagefactor = 0.4
-	aggressiveness = 0.2
-	monsterhealth = 1.0
-	friendlyhealth = 1.0
-	ammofactor = 1.0
-	dropammofactor = 1.0
-	
-	textcolor = "Hexen"
-	name = "Sleeping alone"
-	key = "a"
+	damagefactor = 0.4 aggressiveness = 0.2 monsterhealth = 1.0 friendlyhealth = 1.0 ammofactor = 1.0 dropammofactor = 1.0
+	textcolor = "Hexen" name = "1. Shivering heart" key = "h"
 }
 
-skill sk2 { // For those that doesn't played doom before +NEWENEMIES
+skill sk2 { // For those that doesn't played doom before
 
 	acsreturn = 20
 	spawnfilter = 3
 	
 	autousehealth
-	//disablecheats
-	
-	damagefactor = 0.7
-	aggressiveness = 0.4
-	monsterhealth = 1.0
-	friendlyhealth = 1.0
-	ammofactor = 1.0
-	dropammofactor = 1.0
-	
-	textcolor = "Hexen"
-	name = "Fading in darkness"
-	key = "d"
+	damagefactor = 0.7 aggressiveness = 0.4 monsterhealth = 1.0 friendlyhealth = 1.0 ammofactor = 1.0 dropammofactor = 1.0
+	textcolor = "Hexen" name = "2. Sleeping alone" key = "a"
 }
 
 skill sk3 { // For those that known the basics of doom
@@ -94,126 +203,76 @@ skill sk3 { // For those that known the basics of doom
 	acsreturn = 30
 	spawnfilter = 3
 	
-	autousehealth
-	//disablecheats
-	defaultskill
-	
-	damagefactor = 1.0
-	aggressiveness = 0.6
-	monsterhealth = 1.0
-	friendlyhealth = 1.0
-	ammofactor = 1.0
-	dropammofactor = 1.0
-	
-	textcolor = "Hexen"
-	name = "Pain envisioned"
-	key = "e"
+	autousehealth defaultskill
+	damagefactor = 1.0 Aggressiveness = 0.6 monsterhealth = 1.0 friendlyhealth = 1.0 ammofactor = 1.0 dropammofactor = 1.0
+	textcolor = "Hexen" name = "3. Fading in obscurity" key = "o"
 }
 
-skill sk4 { // For those who play doom regularly +NEWENEMIES
+skill sk4 { // For those that known the basics of doom and want a hard challenge +NEWENEMIES
 
 	acsreturn = 40
 	spawnfilter = 4
 	
 	autousehealth
-	//disablecheats
-	
-	damagefactor = 1.2
-	aggressiveness = 0.8
-	monsterhealth = 1.0
-	friendlyhealth = 1.0
-	ammofactor = 1.0
-	dropammofactor = 1.0
-	
-	textcolor = "Hexen"
-	name = "Nightmare utopia"
-	key = "u"
+	damagefactor = 1.1 aggressiveness = 0.7 monsterhealth = 1.0 friendlyhealth = 1.0 ammofactor = 1.0 dropammofactor = 1.0
+	textcolor = "Hexen" name = "4. Pain envisioned" key = "e"
 }
 
-skill sk5 { // For good doom players that play casually
+skill sk5 { // For good doom players that play regularly +HARDERLEVELS
 
 	acsreturn = 50
 	spawnfilter = 4
 	
 	autousehealth
-	//disablecheats
-	
-	damagefactor = 1.4
-	aggressiveness = 1.0
-	monsterhealth = 1.0
-	friendlyhealth = 1.0
-	ammofactor = 1.0
-	dropammofactor = 1.0
-	
-	textcolor = "Hexen"
-	name = "Shines in the mist"
-	key = "m"
+	damagefactor = 1.2 aggressiveness = 0.8 monsterhealth = 1.0 friendlyhealth = 1.0 ammofactor = 1.0 dropammofactor = 1.0
+	textcolor = "Hexen" name = "5. Nightmare utopia" key = "u"
 }
 
-skill sk6 { // For good doom players that play regularly +NEWENEMIES
+skill sk6 { // For good doom players that play regularly and want a hard challenge +NEWENEMIES
 
 	acsreturn = 60
 	spawnfilter = 5
 	
 	autousehealth
-	//disablecheats
-	
-	damagefactor = 1.6
-	aggressiveness = 1.0
-	monsterhealth = 1.0
-	friendlyhealth = 1.0
-	ammofactor = 1.0
-	dropammofactor = 1.0
-	
-	textcolor = "Hexen"
-	name = "Fading hopelessly"
-	key = "h"
-	mustconfirm = "Are you sure?"
+	damagefactor = 1.3 aggressiveness = 0.9 monsterhealth = 1.0 friendlyhealth = 1.0 ammofactor = 1.0 dropammofactor = 1.0
+	textcolor = "Hexen" name = "6. Shines in the mist" key = "m" mustconfirm = "This is very hard. Are you sure?"
 }
 
-skill sk7 { // For suicidal players +NEWENEMIES
+skill sk7 { // For excelent doom players +NEWENEMIES
 
 	acsreturn = 70
 	spawnfilter = 6
 	
 	autousehealth
-	//disablecheats
-	
-	damagefactor = 2.0
-	aggressiveness = 1.0
-	monsterhealth = 1.0
-	friendlyhealth = 1.0
-	ammofactor = 1.0
-	dropammofactor = 1.0
-	
-	textcolor = "Hexen"
-	name = "Pouring suffering"
-	key = "s"
-	mustconfirm = "Are you sure?"
+	damagefactor = 1.4 aggressiveness = 1.0 monsterhealth = 1.0 friendlyhealth = 1.0 ammofactor = 1.0 dropammofactor = 1.0
+	textcolor = "Hexen" name = "7. Drowning quietly" key = "q" mustconfirm = "This can be frustrating. Are you sure?"
 }
-/*
-skill sk8 { // coop
+
+skill sk8 { // For insane players +NEWENEMIES
 	
-	acsreturn = 50
-	spawnfilter = 4
+	acsreturn = 80
+	spawnfilter = 7
 	
-	autousehealth
-	disablecheats
+	autousehealth disablecheats
+	damagefactor = 1.4 aggressiveness = 1.0 monsterhealth = 1.0 friendlyhealth = 1.0 ammofactor = 1.0 dropammofactor = 1.0
+	textcolor = "Hexen" name = "8. Into the innermost" key = "i" mustconfirm = "This is impossible. Are you sure?"
+	//replaceactor = "BitCoinWhiteDataCard", "BitCoinWhiteDataCard2"
+	//replaceactor = "BitCoinYellowDataCard", "BitCoinYellowDataCard2"
+	//replaceactor = "BitCoinCyanDataCard", "BitCoinCyanDataCard2"
+}
+
+skill sk9 { // For no one +NEWENEMIES
 	
-	damagefactor = 1.3
-	aggressiveness = 1.0
-	monsterhealth = 1.0
-	friendlyhealth = 1.0
-	ammofactor = 1.0
-	dropammofactor = 1.0
+	acsreturn = 90
+	spawnfilter = 8
 	
-	textcolor = "Hexen"
-	name = "Cooperative"
-	key = "c"
-	replaceactor = "BitCoinWhiteDataCard", "BitCoinWhiteDataCard2"
-	replaceactor = "BitCoinYellowDataCard", "BitCoinYellowDataCard2"
-	replaceactor = "BitCoinCyanDataCard", "BitCoinCyanDataCard2"
-}*/
+	autousehealth disablecheats
+	damagefactor = 1.4 aggressiveness = 1.0 monsterhealth = 1.0 friendlyhealth = 1.0 ammofactor = 1.0 dropammofactor = 1.0
+	textcolor = "Hexen" name = "9. Suffering" key = "s" mustconfirm = "This is impossible. Are you sure?"
+	//replaceactor = "BitCoinWhiteDataCard", "BitCoinWhiteDataCard2"
+	//replaceactor = "BitCoinYellowDataCard", "BitCoinYellowDataCard2"
+	//replaceactor = "BitCoinCyanDataCard", "BitCoinCyanDataCard2"
+}
 
 
 
@@ -243,13 +302,15 @@ defaultmap {
 	fallingdamage
 	monsterfallingdamage
 	checkswitchrange
-	gravity = 900 // default gravity = 800
+	gravity = 800 // default gravity = 800 // tested gravity = 900
+	
 	
 	// Gameplay decoration
 	sky1 = "SPACE", 0
 	forcenoskystretch
 	lightmode = 0
 	evenlighting
+	fogdensity = 8
 	//nointermission
 	
 	
@@ -291,6 +352,7 @@ defaultmap {
 
 map MAP01 "Configuration" {
 
+	levelnum = 99
 	next = "LVL01"
 	nointermission
 	noinventorybar
@@ -306,6 +368,7 @@ map LVL01 "Hidden labs" {
 		
 	music = "music/APGHOSTD.flac"
 	
+	fogdensity = 160
 	nocheckswitchrange
 	
 	//music = "$MUSIC_E1M8"
@@ -319,6 +382,7 @@ map LVL02 "UAC Installations" { //complex
 	next = "endgame1"
 	secretnext = "endgame1"
 	
+	fogdensity = 160
 	nocheckswitchrange
 		
 	music = "music/APGALENA.flac"
@@ -343,3 +407,4 @@ map LVL06 "Space station" {
 	
 	music = "music/03PRCENT.flac"
 }
+

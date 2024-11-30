@@ -1,0 +1,125 @@
+ACTOR Leech {
+	
+	//$Category Decorate/Monsters/Bosses
+	//$Title "Leech"
+	
+	Health 3000
+	Radius 17
+	Height 56
+	//ProjectilePassHeight -16
+	Speed 0
+	FloatSpeed 3
+	Scale 1.2
+	MaxTargetRange 608
+	
+	MONSTER
+	+BOSS
+	+DONTTHRUST
+	+NOPAIN
+	+DONTHARMSPECIES
+	+DONTHARMCLASS
+	+NOBLOOD
+	+AMBUSH
+	+LOOKALLAROUND
+	+NOINFIGHTING
+	
+	var int user_ammo;
+	var int user_angle;
+	
+	SeeSound "cacok/sight"
+	PainSound "caco/pain"
+	DeathSound "caco/death"
+	ActiveSound "caco/active"
+	
+	Obituary "%o was incinirated by a computer soul."
+	
+	States {
+		
+		Spawn:
+			PSUL A 2 A_LookEx (LOF_NOSOUNDCHECK)
+			Loop
+		See:
+			"####" A 0 A_JumpIf (health > 1500, "See2")
+			"####" A 0 A_CheckFlag ("FLOAT", "See2")
+			PSUS A 0 A_ChangeFlag ("FLOAT", TRUE)
+			PSUS A 0 A_ChangeFlag ("NOGRAVITY", TRUE)
+			//PSUS A 0 A_ChangeFlag ("DONTTHRUST", FALSE)
+			PSUS A 0 A_ChangeFlag ("LOOKALLAROUND", FALSE)
+			PSUS A 0 A_SetSpeed (3)
+		See2:
+			"####" A 2 A_Chase ("", "Missile", CHF_NOPOSTATTACKTURN)
+			Loop
+		Missile:
+			"####" "#" 0 A_SetUserVar (user_ammo, max(1, health/20))
+		MissileLoop:
+			"####" X 2 A_SetUserVar (user_ammo, user_ammo-1)
+			"####" A 2 A_JumpIf (user_ammo <= 0, "MissileStart")
+			//"####" "#" 0 A_CheckFlag ("FLOAT", "MissileMove")
+			"####" "#" 0 A_Chase ("", "", CHF_NOPOSTATTACKTURN)
+			"####" "#" 0 A_JumpIfTargetInLOS (1, 0, JLOSF_DEADNOJUMP, 608.0)
+			Loop
+			"####" "#" 0 A_SetUserVar (user_angle, GetAngle(0))
+			//"####" "#" 0 A_FaceTarget
+			Loop
+		MissileStart:
+			"####" "#" 0 A_JumpIfTargetInLOS (2, 0, JLOSF_DEADNOJUMP, 608.0)
+			"####" "#" 0 A_Jump (256, 3)
+			"####" "#" 0 A_SetUserVar (user_angle, GetAngle(0))
+			"####" "#" 0 A_FaceTarget
+			"####" YBYBYBYBYBYBYBYBYBYBYBYBYBYBYBYBYBYBYBYBYBYBYBYB 1
+			"####" BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB 2 A_SpawnProjectile ("LeechFire", 28.0, 0, user_angle+random(-1,1), CMF_ABSOLUTEANGLE)//user_pitch)
+			Goto See
+		Death:
+			PSUL D 5 A_Scream
+			PSUL E 5
+			PSUL F 5
+			PSUL G 5 A_NoBlocking
+			PSUL H 2
+			Stop
+		Raise:
+			Stop
+	}
+}
+
+ACTOR LeechFire {
+	
+	Radius 2
+	Height 1
+	Speed 15
+	Damage 0
+	DamageType "Fire"
+	PROJECTILE
+	+RANDOMIZE
+	+RIPPER
+	+NODAMAGETHRUST
+	+BLOODLESSIMPACT
+	+BRIGHT
+	+BOUNCEONWALLS
+	+BOUNCEONFLOORS
+	+BOUNCEONCEILINGS
+	+DONTSPLASH
+	+PAINLESS
+	+EXPLODEONWATER
+	+DONTBOUNCEONSKY
+	+ICESHATTER
+	RenderStyle Add
+	Alpha 1.0
+	Scale 0.5
+	SeeSound "vile/firestrt"
+	DeathSound "baron/shotx"
+	Decal "BaronScorch"
+	
+	States {
+		
+		Spawn:
+			FIRI ABABCBCBCDCDCDCDCDCDCDEDEDEFEFEFGHGHGH 2 NoDelay {
+				if (waterlevel > 1) {
+					A_Remove(AAPTR_DEFAULT, RMVF_MISSILES);
+				}
+				A_FadeOut(scaleX/20);//A_FadeOut(0.025);
+				A_SetScale(scaleX+0.038);
+				A_Explode(5,112);
+			}
+			Stop
+	}
+}

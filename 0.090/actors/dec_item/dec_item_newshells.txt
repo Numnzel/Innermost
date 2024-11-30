@@ -1,4 +1,4 @@
-ACTOR NewShells : Ammo 15083 {
+ACTOR NewShells : Ammo {
 	
 	//$NotAngled
 	//$Category Decorate/Ammo

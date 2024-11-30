@@ -1,9 +1,10 @@
-ACTOR ScatterPistol : Weapon 15062 {
+ACTOR ScatterPistol : Weapon {
 	
 	//$NotAngled
 	//$Category Decorate/Weapons
 	//$Title "Scatter pistol"
 	//$Sprite SPPPA0
+	
 	Inventory.PickupSound "misc/w_pkup"
 	Inventory.PickupMessage "You got a scatter pistol!"
 	Weapon.AmmoType "NewClip"
@@ -11,7 +12,10 @@ ACTOR ScatterPistol : Weapon 15062 {
 	Weapon.AmmoUse 1
 	Weapon.SlotNumber 2
 	Weapon.SlotPriority 0.9
+	AttackSound "weapons/scattergun-fire"
 	Decal PlasmaScorch
+	
+	+WEAPON.NOAUTOAIM
 
 	States {
 
@@ -29,14 +33,11 @@ ACTOR ScatterPistol : Weapon 15062 {
 			Loop
 		Fire:
 			TNT1 A 0 A_GunFlash
-			TNT1 A 0 A_PlaySound("SPRPSHOT", CHAN_WEAPON, 0.03)
 			SPRP E 1 Bright A_FireCustomMissile("ScatterPShot", 0, 1, 0, 0, 0, 0)
 			SPRP F 1 Bright
 			TNT1 A 0 A_GunFlash
-			TNT1 A 0 A_PlaySound("SPRPSHOT", CHAN_WEAPON, 0.03)
 			SPRP G 2 A_FireCustomMissile("ScatterPShot", 0, 1, 0, 0, 0, 0)
 			TNT1 A 0 A_GunFlash
-			TNT1 A 0 A_PlaySound("SPRPSHOT", CHAN_WEAPON, 0.03)
 			SPRP G 1 A_FireCustomMissile("ScatterPShot", 0, 1, 0, 0, 0, 0)
 			SPRP D 3
 			SPRP G 3

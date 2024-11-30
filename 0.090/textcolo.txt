@@ -1,4 +1,4 @@
-
+/*
 Purple PPL {
 		#8000ff		#a000ff		0	255
 	console:
@@ -85,7 +85,7 @@ White WHI {
 		#dddddd		#ffffff		0	255
 	flat:
 		#ffffff
-}
+}*/
 /*
 Grey {
 		#808080		#a0a0a0		0	255
@@ -102,7 +102,7 @@ DarkGrey {
 	flat:
 		#606060
 }*/
-
+/*
 Hexen {
 		#272727		#515151		0	64
 		#784918		#f3a718		65	207
@@ -164,4 +164,4 @@ DarkBlue DBL {
 		#00508a		#00508a		0	255
 	flat:
 		#00508a
-}
+}*/

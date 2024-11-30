@@ -1,22 +1,26 @@
-ACTOR HeavyRifle : Weapon 15060 {
+ACTOR HeavyRifle : Weapon {
 	
 	//$NotAngled
 	//$Category Decorate/Weapons
 	//$Title "Heavy rifle"
 	//$Sprite HVYRA0
 	
-	Inventory.PickupMessage "You got a heavy rifle!"
-	Inventory.PickupSound "misc/w_pkup"
-	
+	Weapon.Kickback 120
 	Weapon.AmmoType "HeavyClip"
 	Weapon.AmmoGive 10
 	Weapon.AmmoUse 1
 	Weapon.Kickback 230
 	Weapon.SlotNumber 5
 	Weapon.SlotPriority 1.0
+	Weapon.SelectionOrder 1
 	
 	Decal BulletChip
 	
+	Inventory.PickupMessage "You got a heavy rifle!"
+	Inventory.PickupSound "misc/w_pkup"
+	Obituary "%o was lit up by %k's Heavy Rifle."
+	
+	+WEAPON.NOAUTOAIM
 	+WEAPON.NOAUTOFIRE
 	
 	States {
@@ -36,7 +40,7 @@ ACTOR HeavyRifle : Weapon 15060 {
 			Goto Select+1
 		Fire:
 			HVRF B 0 Bright A_PlaySound("weapons/riflefre", CHAN_WEAPON)
-			HVRF B 3 Bright A_FireBullets(0.8, 0.8, -1, random(49, 50), "BulletPuff") // random(32, 45), "BulletPuff")
+			HVRF B 3 Bright A_FireBullets(0.8, 0.8, -1, random(55, 65), "BulletPuff") // random(32, 45), "BulletPuff")
 			HVRG AAA 3
 			HVRG A 0 A_PlaySound("weapons/shotgr")
 			HVRG AAAAA 3

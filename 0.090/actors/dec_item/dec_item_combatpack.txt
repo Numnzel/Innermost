@@ -1,24 +1,27 @@
-Actor SupplyPack : CustomInventory 15011
-{
-//$NotAngled
-//$Category Decorate/Items
-//$Title "Supply backpack"
-  +CountItem
-  +Inventory.AlwaysPickup
-  Inventory.PickupMessage "You got a supply backpack. Added clips (10), shells (4), rockets (1)."
-  Inventory.PickupSound "misc/i_pkup"
-  States
-  {
-  Spawn:
-    CBPK A -1
-    Loop
-  Pickup:
-    TNT1 A 0 A_GiveInventory("Shell", 4)
-    TNT1 A 0 A_GiveInventory("Clip", 10)
-    TNT1 A 0 A_GiveInventory("RocketAmmo", 1)
-    //Please edit this with the custom ammo types of your mod.
-    //Make it give a large pickup worth of ammo
-    //but subtract that given from the backpack (so it gives exactly one large pickup worth)
-    Stop
-  }
+Actor SupplyPack : CustomInventory {
+	
+	//$NotAngled
+	//$Category Decorate/Items
+	//$Title "Supply backpack"
+	
+	+CountItem
+	+Inventory.AlwaysPickup
+	
+	Inventory.PickupMessage "Bullets +10. Shells +4. Rockets +1" // "You got a supply backpack. Added clips (10), shells (4) and rockets (1)."
+	Inventory.PickupSound "misc/i_pkup"
+	
+	States {
+		
+		Spawn:
+			CBPK A -1
+			Loop
+		Pickup:
+			TNT1 A 0 A_GiveInventory("NewShells", 4)
+			TNT1 A 0 A_GiveInventory("NewClip", 10)
+			TNT1 A 0 A_GiveInventory("NewRocketAmmo", 1)
+			//Please edit this with the custom ammo types of your mod.
+			//Make it give a large pickup worth of ammo
+			//but subtract that given from the backpack (so it gives exactly one large pickup worth)
+			Stop
+	}
 }

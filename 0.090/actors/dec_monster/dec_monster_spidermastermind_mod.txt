@@ -1,6 +1,0 @@
-Actor NewSpidermastermind : Spidermastermind replaces Spidermastermind
-{
-	DamageFactor "Bio", 0.5
-	
-	-NORADIUSDMG
-}

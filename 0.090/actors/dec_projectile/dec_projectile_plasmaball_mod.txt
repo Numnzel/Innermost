@@ -1,39 +1,40 @@
 
-Actor NewPlasmaBall : PlasmaBall replaces PlasmaBall
-{
-   Radius 9
-   Height 6
-   Scale 0.7
-   RenderStyle Add
-   Alpha 0.8
-   Decal "PlasmaScorch"
-   
-   States
-   {
-   Spawn:
-     PLSS AAAAAABBBBBB 1 Bright A_SpawnItemEx("PBTrail", 0, 0, 0, 0, 0, 0, 0, 0)
-     Loop
-   }
+Actor NewPlasmaBall : PlasmaBall replaces PlasmaBall {
+	
+	Radius 9
+	Height 6
+	Scale 0.65
+	Speed 30
+	RenderStyle Add
+	Alpha 0.8
+	Decal "PlasmaScorch"
+	
+	States {
+		
+		Spawn:
+			PLSS AAAAAABBBBBB 1 Bright A_SpawnItemEx("PBTrail", 0, 0, 0, 0, 0, 0, 0, 0)
+			Loop
+	}
 }
 
-Actor PBTrail
-{
-   Radius 9
-   Height 6
-   Scale 0.7
-   RenderStyle Add
-   Alpha 0.8
-   
-   +NOGRAVITY
-   +NOBLOCKMAP
-   +NOCLIP
-   
-   States
-   {
-   Spawn:
-     PLSS AAAAAABBBBBB 1 Bright A_FadeOut
-     Loop
-   }
+Actor PBTrail {
+	
+	Radius 9
+	Height 6
+	Scale 0.65
+	RenderStyle Add
+	Alpha 0.7
+	
+	+NOGRAVITY
+	+NOBLOCKMAP
+	+NOCLIP
+	
+	States {
+		
+		Spawn:
+			PLSS AAAAAABBBBBB 1 Bright A_FadeOut
+			Loop
+	}
 }
 
 
@@ -41,37 +42,37 @@ Actor PBTrail
 /*
 Actor BluePlasmaBall : PlasmaBall replaces PlasmaBall
 {
-   Radius 9
-   Height 6
-   Scale 0.3
-   RenderStyle Add
-   Alpha 0.9
-   
-   States
-   {
-   Spawn:
-     BPSM ABCDEFGHIJKLMNOPQRSTUVWX 1 Bright A_SpawnItemEx("PBTrail", 0, 0, 0, 0, 0, 0, 0, 0)
-     Loop
-   }
+	Radius 9
+	Height 6
+	Scale 0.3
+	RenderStyle Add
+	Alpha 0.9
+	
+	States
+	{
+	Spawn:
+		BPSM ABCDEFGHIJKLMNOPQRSTUVWX 1 Bright A_SpawnItemEx("PBTrail", 0, 0, 0, 0, 0, 0, 0, 0)
+		Loop
+	}
 }
 
 Actor PBTrail
 {
-   Radius 9
-   Height 6
-   Scale 0.3
-   RenderStyle Add
-   Alpha 0.9
-   
-   +NOGRAVITY
-   +NOBLOCKMAP
-   +RANDOMIZE
-   
-   States
-   {
-   Spawn:
-     BPSM ABCDEFGHIJKLMNOPQRSTUVWX 1 Bright A_FadeOut
-     Loop
-   }
+	Radius 9
+	Height 6
+	Scale 0.3
+	RenderStyle Add
+	Alpha 0.9
+	
+	+NOGRAVITY
+	+NOBLOCKMAP
+	+RANDOMIZE
+	
+	States
+	{
+	Spawn:
+		BPSM ABCDEFGHIJKLMNOPQRSTUVWX 1 Bright A_FadeOut
+		Loop
+	}
 }
 */

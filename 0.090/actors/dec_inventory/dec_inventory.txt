@@ -5,3 +5,4 @@
 #include "actors/dec_inventory/dec_inventory_soulcrybox.txt"
 #include "actors/dec_inventory/dec_inventory_electronicdev.txt"
 #include "actors/dec_inventory/dec_inventory_hearthattack.txt"
+#include "actors/dec_inventory/dec_inventory_minvulnerability.txt"

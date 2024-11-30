@@ -2,50 +2,50 @@
 pointlight BFGBALL
 {
     color 0.0 1.0 0.0
-    size 80
+    size 300
 }
 
 flickerlight BFGBALL_X1
 {
     color 0.2 1.0 0.2
-    size 80
-    secondarySize 88
+    size 330
+    secondarySize 350
     chance 0.3
 }
 
 flickerlight BFGBALL_X2
 {
     color 0.3 1.0 0.3
-    size 104
-    secondarySize 112
+    size 380
+    secondarySize 390
     chance 0.3
 }
 
 flickerlight BFGBALL_X3
 {
     color 0.5 1.0 0.5
-    size 120
-    secondarySize 128
+    size 420
+    secondarySize 440
     chance 0.3
 }
 
 flickerlight BFGBALL_X4
 {
     color 0.2 0.7 0.2
-    size 56
-    secondarySize 64
+    size 240
+    secondarySize 260
     chance 0.3
 }
 
 flickerlight BFGBALL_X5
 {
     color 0.1 0.3 0.1
-    size 48
-    secondarySize 56
+    size 180
+    secondarySize 190
     chance 0.3
 }
 
-object BFGBall
+object LogicalBFGBall
 {
     frame BFS1A { light BFGBALL }
     frame BFS1B { light BFGBALL }

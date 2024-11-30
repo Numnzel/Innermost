@@ -1,6 +1,6 @@
 
 /*
-Actor DataCard : CustomInventory 15012
+Actor DataCard : CustomInventory
 {
 //$Category Decorate_Items
   +COUNTITEM

@@ -1,4 +1,4 @@
-ACTOR NewClip : Ammo 15078 {
+ACTOR NewClip : Ammo {
 	
 	//$NotAngled
 	//$Category Decorate/Ammo

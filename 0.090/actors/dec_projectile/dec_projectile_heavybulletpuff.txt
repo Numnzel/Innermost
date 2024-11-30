@@ -4,30 +4,32 @@ ACTOR HeavyBulletPuff : BulletPuff {
 	//Scale 1.6
 	Mass 1
 	
-	States
-	{
-	Spawn:
-	Melee:
-		PUFF A 2
-		PUFF A 0 A_Jump(128,2)
-		PUFF A 2 A_SpawnItemEx("HeavyPuff2",0,0,0,0,0,0,0,128)
-		PUFF BCD 4
-		Stop
+	States {
+		
+		Spawn:
+		Melee:
+			PUFF A 2
+			PUFF A 0 A_Jump(128,2)
+			PUFF A 2 A_SpawnItemEx("HeavyPuff2",0,0,0,0,0,0,0,128)
+			PUFF BCD 4
+			Stop
 	}
 }
 
-ACTOR HeavyPuff2
-{
+ACTOR HeavyPuff2 {
+	
 	PROJECTILE
 	+NOCLIP
 	//Scale 1.6
 	Mass 1
-	States
-	{
-	Spawn:
-		PUFF E 2
-		PUFF E 2 A_PlaySound("puff/ric")
-		PUFF FGH 4
-		Stop
+	
+	States {
+		
+		Spawn:
+			PUFF E 2
+			PUFF E 2 A_PlaySound("puff/ric")
+			PUFF FGH 4
+			Stop
 	}
 }
+

@@ -20,26 +20,29 @@ Actor Flare : CustomInventory
   }
 }*/
 
-Actor ActiveFlare 15018
-{
-//$NotAngled
-//$Category Decorate/Light source
-//$Title "Active flare"
-  Radius 22
-  Height 11
-  States
-  {
-  Spawn:
-    FLAR A 0 Bright
-    FLAR A 0 Bright A_PlaySound("Flare/Light")
-    FLAR A 0 Bright A_PlaySoundEx("Flare/Loop", "SoundSlot7", 1, -1)
-  Repeat:
-    FLAR AB 1
-    Loop
-  }
+Actor ActiveFlare {
+	
+	//$NotAngled
+	//$Category Decorate/Light source
+	//$Title "Active flare"
+	
+	Radius 22
+	Height 11
+	
+	States {
+		
+		Spawn:
+			FLAR A 0 Bright
+			FLAR A 0 Bright A_PlaySound ("Flare/Light")
+			FLAR A 0 Bright A_PlaySoundEx ("Flare/Loop", "SoundSlot7", 1, -1)
+		Repeat:
+			FLAR AB 1
+			Loop
+	}
 }
+
 /*
-Actor FlareBox : PowerupGiver 15013
+Actor FlareBox : PowerupGiver
 {
 //$Category Decorate_Items
   Radius 28
@@ -67,7 +70,7 @@ Actor RedFlareLight : PowerMorph
 }
 
 /*
-Actor FlareBox : CustomInventory 15013
+Actor FlareBox : CustomInventory
 {
 //$Category Decorate_Items
   Radius 28

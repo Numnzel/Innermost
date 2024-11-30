@@ -88,3 +88,5 @@ brightmap texture T2LITW12 { map "brightmaps/bm_texture/bm_tex_2mbrown/T2LITW12.
 brightmap texture T2LITW13 { map "brightmaps/bm_texture/bm_tex_2mbrown/T2LITW13.png" }
 
 brightmap texture T2LITW14 { map "brightmaps/bm_texture/bm_tex_2mbrown/T2LITW14.png" }
+
+brightmap texture TPIPWL05 { map "brightmaps/bm_texture/bm_tex_2mbrown/TPIPWL05.png" }

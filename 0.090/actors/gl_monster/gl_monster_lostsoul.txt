@@ -40,7 +40,7 @@ flickerlight LOSTSOUL_X4
     chance 0.25
 }
 
-object NewLostSoul
+object LogicalLostSoul
 {
     frame SKULA { light LOSTSOUL    }
     frame SKULB { light LOSTSOUL    }

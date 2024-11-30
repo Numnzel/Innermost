@@ -1,45 +1,49 @@
-ACTOR PrimalCacodemon : Cacodemon 15007
-{ 
-    //$Category Decorate/Monsters
+ACTOR PrimalCacodemon : Cacodemon {
+	
+	//$Category Decorate/Monsters
 	//$Title "Primal cacodemon"
-   Health 600
-   PainChance 96
-   Meleedamage 10
-   SeeSound "caco/sight"
-   PainSound "caco/pain"
-   DeathSound "caco/death"
-   ActiveSound "caco/active"
-   HitObituary "%o was made into a snack by a primal cacodemon."
-   Obituary "%o was mowed down by a primal cacodemon."
-   States 
-   { 
-   Spawn: 
-      PRCA A 10 A_Look 
-      Loop 
-   See: 
-      PRCA A 3 A_Chase 
-      Loop 
-   Missile: 
-      PRCA BC 5 A_FaceTarget 
-      PRCA D 0 bright A_CustomMissile("CacodemonBall", 24, 0, 0, CMF_AIMOFFSET)
-      PRCA D 0 bright A_CustomMissile("CacodemonBall", 24, 0, -10, CMF_AIMOFFSET)
-      PRCA D 5 bright A_CustomMissile("CacodemonBall", 24, 0, 10, CMF_AIMOFFSET)
-      Goto See 
-   Pain: 
-      PRCA E 3 
-      PRCA E 3 A_Pain 
-      PRCA F 6 
-      Goto See 
-   Death: 
-      PRCA G 8 
-      PRCA H 8 A_Scream 
-      PRCA IJ 8 
-      PRCA K 8 A_NoBlocking 
-      PRCA L -1 A_SetFloorClip
-      Stop 
-   Raise: 
-      PRCA L 8 A_UnsetFloorClip
-      PRCA KJIHG 8 
-      Goto See 
-   } 
+	
+	Health 600
+	PainChance 96
+	Meleedamage 10
+	
+	SeeSound "caco/sight"
+	PainSound "caco/pain"
+	DeathSound "caco/death"
+	ActiveSound "caco/active"
+	
+	HitObituary "%o was made into a snack by a primal cacodemon."
+	Obituary "%o was mowed down by a primal cacodemon."
+	
+	States {
+		
+		Spawn:
+			PRCA A 10 A_Look
+			Loop
+		See:
+			PRCA A 3 A_Chase
+			Loop
+		Missile:
+			PRCA BC 5 A_FaceTarget
+			PRCA D 0 bright A_CustomMissile("CacodemonBall", 24, 0, 0, CMF_AIMOFFSET)
+			PRCA D 0 bright A_CustomMissile("CacodemonBall", 24, 0, -10, CMF_AIMOFFSET)
+			PRCA D 5 bright A_CustomMissile("CacodemonBall", 24, 0, 10, CMF_AIMOFFSET)
+			Goto See
+		Pain:
+			PRCA E 3
+			PRCA E 3 A_Pain
+			PRCA F 6
+			Goto See
+		Death:
+			PRCA G 8
+			PRCA H 8 A_Scream
+			PRCA IJ 8
+			PRCA K 8 A_NoBlocking
+			PRCA L -1 A_SetFloorClip
+			Stop
+		Raise:
+			PRCA L 8 A_UnsetFloorClip
+			PRCA KJIHG 8
+			Goto See
+	}
 }

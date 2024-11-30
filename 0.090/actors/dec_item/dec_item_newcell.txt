@@ -1,4 +1,4 @@
-ACTOR NewCells : Ammo 15079 {
+ACTOR NewCells : Ammo {
 	
 	//$NotAngled
 	//$Category Decorate/Ammo

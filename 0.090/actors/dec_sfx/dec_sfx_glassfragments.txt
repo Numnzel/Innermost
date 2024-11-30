@@ -7,146 +7,139 @@ Actor GlassShardNew : GlassShard {
 	Alpha 0.7
 	Scale 0.8
 	Obituary "Some glass shards cut %o into pieces."
+	
 	+RANDOMIZE
 	+FORCEXYBILLBOARD
 }
 
-ACTOR SGShard1New : GlassShardNew
-{
-  Obituary "Some glass shards cut %o into pieces."
-  States
-  {
-  Spawn:
-    SGSA ABCDE 4
-    Loop
-  Death:
-    SGSA E 30
-    Stop
-  }
+ACTOR SGShard1New : GlassShardNew {
+	
+    States {
+		
+		Spawn:
+			SGSA ABCDE 4
+			Loop
+		Death:
+			SGSA E 30
+			Stop
+    }
 }
 
-ACTOR SGShard2New : GlassShardNew
-{
-  Obituary "Some glass shards cut %o into pieces."
-  States
-  {
-  Spawn:
-    SGSA FGHIJ 4
-    Loop
-  Death:
-    SGSA J 30
-    Stop
-  }
+ACTOR SGShard2New : GlassShardNew {
+	
+    States {
+		
+		Spawn:
+			SGSA FGHIJ 4
+			Loop
+		Death:
+			SGSA J 30
+			Stop
+    }
 }
 
-ACTOR SGShard3New : GlassShardNew
-{
-  Obituary "Some glass shards cut %o into pieces."
-  States
-  {
-  Spawn:
-    SGSA KLMNO 4
-    Loop
-  Death:
-    SGSA O 30
-    Stop
-  }
+ACTOR SGShard3New : GlassShardNew {
+	
+    States {
+		
+		Spawn:
+			SGSA KLMNO 4
+			Loop
+		Death:
+			SGSA O 30
+			Stop
+    }
 }
 
-ACTOR SGShard4New : GlassShardNew
-{
-  Obituary "Some glass shards cut %o into pieces."
-  States
-  {
-  Spawn:
-    SGSA PQRST 4
-    Loop
-  Death:
-    SGSA T 30
-    Stop
-  }
+ACTOR SGShard4New : GlassShardNew {
+	
+    States {
+		
+		Spawn:
+			SGSA PQRST 4
+			Loop
+		Death:
+			SGSA T 30
+			Stop
+    }
 }
 
-ACTOR SGShard5New : GlassShardNew
-{
-  Obituary "Some glass shards cut %o into pieces."
-  States
-  {
-  Spawn:
-    SGSA UVWXY 4
-    Loop
-  Death:
-    SGSA Y 30
-    Stop
-  }
+ACTOR SGShard5New : GlassShardNew {
+	
+    States {
+		
+		Spawn:
+			SGSA UVWXY 4
+			Loop
+		Death:
+			SGSA Y 30
+			Stop
+    }
 }
 
-ACTOR SGShard6New : GlassShardNew
-{
-  Obituary "Some glass shards cut %o into pieces."
-  States
-  {
-  Spawn:
-    SGSB A 4
-    Loop
-  Death:
-    SGSB A 30
-    Stop
-  }
+ACTOR SGShard6New : GlassShardNew {
+	
+    States {
+		
+		Spawn:
+			SGSB A 4
+			Loop
+		Death:
+			SGSB A 30
+			Stop
+    }
 }
 
-ACTOR SGShard7New : GlassShardNew
-{
-  Obituary "Some glass shards cut %o into pieces."
-  States
-  {
-  Spawn:
-    SGSB B 4
-    Loop
-  Death:
-    SGSB B 30
-    Stop
-  }
+ACTOR SGShard7New : GlassShardNew {
+	
+    Obituary "Some glass shards cut %o into pieces."
+	
+    States {
+		
+		Spawn:
+			SGSB B 4
+			Loop
+		Death:
+			SGSB B 30
+			Stop
+    }
 }
 
-ACTOR SGShard8New : GlassShardNew
-{
-  Obituary "Some glass shards cut %o into pieces."
-  States
-  {
-  Spawn:
-    SGSB C 4
-    Loop
-  Death:
-    SGSB C 30
-    Stop
-  }
+ACTOR SGShard8New : GlassShardNew {
+	
+    States {
+		
+		Spawn:
+			SGSB C 4
+			Loop
+		Death:
+			SGSB C 30
+			Stop
+    }
 }
 
-ACTOR SGShard9New : GlassShardNew
-{
-  Obituary "Some glass shards cut %o into pieces."
-  States
-  {
-  Spawn:
-    SGSB D 4
-    Loop
-  Death:
-    SGSB D 30
-    Stop
-  }
+ACTOR SGShard9New : GlassShardNew {
+	
+    States {
+		
+		Spawn:
+			SGSB D 4
+			Loop
+		Death:
+			SGSB D 30
+			Stop
+    }
 }
 
-ACTOR SGShard0New : GlassShardNew
-{
-  Obituary "Some glass shards cut %o into pieces."
-  States
-  {
-  Spawn:
-    SGSB E 4
-    Loop
-  Death:
-    SGSB E 30
-    Stop
-  }
+ACTOR SGShard0New : GlassShardNew {
+	
+    States {
+		
+		Spawn:
+			SGSB E 4
+			Loop
+		Death:
+			SGSB E 30
+			Stop
+    }
 }

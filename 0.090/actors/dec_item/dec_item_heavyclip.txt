@@ -1,4 +1,4 @@
-Actor HeavyClip : Ammo 15065 {
+Actor HeavyClip : Ammo {
 	
 	//$NotAngled
 	//$Category Decorate/Ammo
@@ -7,7 +7,7 @@ Actor HeavyClip : Ammo 15065 {
 	Height 12
 	Radius 9
 	
-	Inventory.PickupMessage "Heavy clip +10"
+	Inventory.PickupMessage "Heavy bullets +10"
 	Inventory.Amount 10
 	Inventory.MaxAmount 100
 	Inventory.Icon "HVRCA0"

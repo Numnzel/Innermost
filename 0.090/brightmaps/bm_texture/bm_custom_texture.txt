@@ -1,0 +1,228 @@
+
+// Custom source texture
+
+brightmap texture PZ001A00 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ001Z00.png" }
+
+//--------
+
+brightmap texture PZ003A00 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ003Z00.png" }
+brightmap texture PZ003A01 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ003Z00.png" }
+brightmap texture PZ003A02 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ003Z00.png" }
+brightmap texture PZ003A03 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ003Z00.png" }
+brightmap texture PZ003A04 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ003Z00.png" }
+brightmap texture PZ003A05 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ003Z00.png" }
+brightmap texture PZ003B00 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ003Z00.png" }
+brightmap texture PZ003B01 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ003Z00.png" }
+brightmap texture PZ003B02 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ003Z00.png" }
+brightmap texture PZ003B03 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ003Z00.png" }
+brightmap texture PZ003B04 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ003Z00.png" }
+brightmap texture PZ003B05 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ003Z00.png" }
+
+brightmap texture PZ004A00 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ004Z00.png" }
+brightmap texture PZ004A01 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ004Z00.png" }
+brightmap texture PZ004A02 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ004Z00.png" }
+brightmap texture PZ004A03 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ004Z00.png" }
+brightmap texture PZ004A04 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ004Z00.png" }
+brightmap texture PZ004A05 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ004Z00.png" }
+brightmap texture PZ004B00 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ004Z00.png" }
+brightmap texture PZ004B01 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ004Z00.png" }
+brightmap texture PZ004B02 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ004Z00.png" }
+brightmap texture PZ004B03 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ004Z00.png" }
+brightmap texture PZ004B04 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ004Z00.png" }
+brightmap texture PZ004B05 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ004Z00.png" }
+
+brightmap texture PZ005A00 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ005Z00.png" }
+brightmap texture PZ005A01 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ005Z00.png" }
+brightmap texture PZ005A02 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ005Z00.png" }
+brightmap texture PZ005A03 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ005Z00.png" }
+brightmap texture PZ005A04 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ005Z00.png" }
+brightmap texture PZ005A05 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ005Z00.png" }
+brightmap texture PZ005B00 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ005Z00.png" }
+brightmap texture PZ005B01 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ005Z00.png" }
+brightmap texture PZ005B02 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ005Z00.png" }
+brightmap texture PZ005B03 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ005Z00.png" }
+brightmap texture PZ005B04 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ005Z00.png" }
+brightmap texture PZ005B05 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ005Z00.png" }
+
+brightmap texture PZ006A00 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ006Z00.png" }
+brightmap texture PZ006A01 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ006Z00.png" }
+brightmap texture PZ006A02 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ006Z00.png" }
+brightmap texture PZ006A03 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ006Z00.png" }
+brightmap texture PZ006A04 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ006Z00.png" }
+brightmap texture PZ006A05 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ006Z00.png" }
+brightmap texture PZ006B00 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ006Z00.png" }
+brightmap texture PZ006B01 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ006Z00.png" }
+brightmap texture PZ006B02 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ006Z00.png" }
+brightmap texture PZ006B03 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ006Z00.png" }
+brightmap texture PZ006B04 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ006Z00.png" }
+brightmap texture PZ006B05 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ006Z00.png" }
+
+brightmap texture PZ007A00 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ007Z00.png" }
+brightmap texture PZ007A01 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ007Z00.png" }
+brightmap texture PZ007A02 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ007Z00.png" }
+brightmap texture PZ007A03 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ007Z00.png" }
+brightmap texture PZ007A04 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ007Z00.png" }
+brightmap texture PZ007A05 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ007Z00.png" }
+brightmap texture PZ007B00 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ007Z00.png" }
+brightmap texture PZ007B01 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ007Z00.png" }
+brightmap texture PZ007B02 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ007Z00.png" }
+brightmap texture PZ007B03 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ007Z00.png" }
+brightmap texture PZ007B04 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ007Z00.png" }
+brightmap texture PZ007B05 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ007Z00.png" }
+
+brightmap texture PZ008A00 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ008Z00.png" }
+brightmap texture PZ008A01 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ008Z00.png" }
+brightmap texture PZ008A02 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ008Z00.png" }
+brightmap texture PZ008A03 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ008Z00.png" }
+brightmap texture PZ008A04 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ008Z00.png" }
+brightmap texture PZ008A05 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ008Z00.png" }
+brightmap texture PZ008B00 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ008Z00.png" }
+brightmap texture PZ008B01 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ008Z00.png" }
+brightmap texture PZ008B02 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ008Z00.png" }
+brightmap texture PZ008B03 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ008Z00.png" }
+brightmap texture PZ008B04 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ008Z00.png" }
+brightmap texture PZ008B05 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ008Z00.png" }
+
+brightmap texture PZ009A00 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ009Z00.png" }
+brightmap texture PZ009A01 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ009Z00.png" }
+brightmap texture PZ009A02 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ009Z00.png" }
+brightmap texture PZ009A03 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ009Z00.png" }
+brightmap texture PZ009A04 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ009Z00.png" }
+brightmap texture PZ009A05 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ009Z00.png" }
+brightmap texture PZ009B00 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ009Z00.png" }
+brightmap texture PZ009B01 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ009Z00.png" }
+brightmap texture PZ009B02 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ009Z00.png" }
+brightmap texture PZ009B03 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ009Z00.png" }
+brightmap texture PZ009B04 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ009Z00.png" }
+brightmap texture PZ009B05 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ009Z00.png" }
+
+brightmap texture PZ010A00 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ010Z00.png" }
+brightmap texture PZ010A01 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ010Z00.png" }
+brightmap texture PZ010A02 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ010Z00.png" }
+brightmap texture PZ010A03 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ010Z00.png" }
+brightmap texture PZ010A04 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ010Z00.png" }
+brightmap texture PZ010A05 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ010Z00.png" }
+brightmap texture PZ010B00 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ010Z00.png" }
+brightmap texture PZ010B01 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ010Z00.png" }
+brightmap texture PZ010B02 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ010Z00.png" }
+brightmap texture PZ010B03 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ010Z00.png" }
+brightmap texture PZ010B04 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ010Z00.png" }
+brightmap texture PZ010B05 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ010Z00.png" }
+
+brightmap texture PZ011A00 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ011Z00.png" }
+brightmap texture PZ011A01 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ011Z00.png" }
+brightmap texture PZ011A02 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ011Z00.png" }
+brightmap texture PZ011A03 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ011Z00.png" }
+brightmap texture PZ011A04 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ011Z00.png" }
+brightmap texture PZ011A05 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ011Z00.png" }
+brightmap texture PZ011B00 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ011Z00.png" }
+brightmap texture PZ011B01 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ011Z00.png" }
+brightmap texture PZ011B02 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ011Z00.png" }
+brightmap texture PZ011B03 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ011Z00.png" }
+brightmap texture PZ011B04 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ011Z00.png" }
+brightmap texture PZ011B05 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ011Z00.png" }
+
+brightmap texture PZ012A00 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ012Z00.png" }
+brightmap texture PZ012A01 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ012Z00.png" }
+brightmap texture PZ012A02 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ012Z00.png" }
+brightmap texture PZ012A03 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ012Z00.png" }
+brightmap texture PZ012A04 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ012Z00.png" }
+brightmap texture PZ012A05 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ012Z00.png" }
+brightmap texture PZ012B00 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ012Z00.png" }
+brightmap texture PZ012B01 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ012Z00.png" }
+brightmap texture PZ012B02 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ012Z00.png" }
+brightmap texture PZ012B03 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ012Z00.png" }
+brightmap texture PZ012B04 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ012Z00.png" }
+brightmap texture PZ012B05 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ012Z00.png" }
+
+brightmap texture PZ013A00 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ013Z00.png" }
+brightmap texture PZ013A01 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ013Z00.png" }
+brightmap texture PZ013A02 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ013Z00.png" }
+brightmap texture PZ013A03 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ013Z00.png" }
+brightmap texture PZ013A04 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ013Z00.png" }
+brightmap texture PZ013A05 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ013Z00.png" }
+brightmap texture PZ013B00 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ013Z00.png" }
+brightmap texture PZ013B01 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ013Z00.png" }
+brightmap texture PZ013B02 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ013Z00.png" }
+brightmap texture PZ013B03 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ013Z00.png" }
+brightmap texture PZ013B04 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ013Z00.png" }
+brightmap texture PZ013B05 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ013Z00.png" }
+
+brightmap texture PZ014A00 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ014Z00.png" }
+brightmap texture PZ014A01 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ014Z00.png" }
+brightmap texture PZ014A02 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ014Z00.png" }
+brightmap texture PZ014A03 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ014Z00.png" }
+brightmap texture PZ014A04 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ014Z00.png" }
+brightmap texture PZ014A05 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ014Z00.png" }
+brightmap texture PZ014B00 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ014Z00.png" }
+brightmap texture PZ014B01 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ014Z00.png" }
+brightmap texture PZ014B02 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ014Z00.png" }
+brightmap texture PZ014B03 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ014Z00.png" }
+brightmap texture PZ014B04 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ014Z00.png" }
+brightmap texture PZ014B05 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ014Z00.png" }
+
+brightmap texture PZ015A00 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ015Z00.png" }
+brightmap texture PZ015A01 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ015Z00.png" }
+brightmap texture PZ015A02 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ015Z00.png" }
+brightmap texture PZ015A03 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ015Z00.png" }
+brightmap texture PZ015A04 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ015Z00.png" }
+brightmap texture PZ015A05 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ015Z00.png" }
+brightmap texture PZ015B00 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ015Z00.png" }
+brightmap texture PZ015B01 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ015Z00.png" }
+brightmap texture PZ015B02 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ015Z00.png" }
+brightmap texture PZ015B03 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ015Z00.png" }
+brightmap texture PZ015B04 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ015Z00.png" }
+brightmap texture PZ015B05 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ015Z00.png" }
+
+brightmap texture PZ016A00 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ016Z00.png" }
+brightmap texture PZ016A01 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ016Z00.png" }
+brightmap texture PZ016A02 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ016Z00.png" }
+brightmap texture PZ016A03 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ016Z00.png" }
+brightmap texture PZ016A04 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ016Z00.png" }
+brightmap texture PZ016A05 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ016Z00.png" }
+brightmap texture PZ016B00 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ016Z00.png" }
+brightmap texture PZ016B01 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ016Z00.png" }
+brightmap texture PZ016B02 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ016Z00.png" }
+brightmap texture PZ016B03 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ016Z00.png" }
+brightmap texture PZ016B04 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ016Z00.png" }
+brightmap texture PZ016B05 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ016Z00.png" }
+
+brightmap texture PZ017A00 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ017Z00.png" }
+brightmap texture PZ017A01 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ017Z00.png" }
+brightmap texture PZ017A02 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ017Z00.png" }
+brightmap texture PZ017A03 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ017Z00.png" }
+brightmap texture PZ017A04 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ017Z00.png" }
+brightmap texture PZ017A05 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ017Z00.png" }
+brightmap texture PZ017B00 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ017Z00.png" }
+brightmap texture PZ017B01 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ017Z00.png" }
+brightmap texture PZ017B02 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ017Z00.png" }
+brightmap texture PZ017B03 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ017Z00.png" }
+brightmap texture PZ017B04 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ017Z00.png" }
+brightmap texture PZ017B05 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ017Z00.png" }
+
+brightmap texture PZ018A00 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ018Z00.png" }
+brightmap texture PZ018A01 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ018Z00.png" }
+brightmap texture PZ018A02 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ018Z00.png" }
+brightmap texture PZ018A03 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ018Z00.png" }
+brightmap texture PZ018A04 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ018Z00.png" }
+brightmap texture PZ018A05 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ018Z00.png" }
+brightmap texture PZ018B00 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ018Z00.png" }
+brightmap texture PZ018B01 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ018Z00.png" }
+brightmap texture PZ018B02 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ018Z00.png" }
+brightmap texture PZ018B03 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ018Z00.png" }
+brightmap texture PZ018B04 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ018Z00.png" }
+brightmap texture PZ018B05 { map "brightmaps/bm_texture/bm_custom_tex/bm_puzzle_tex/PZ018Z00.png" }
+
+//--------
+
+brightmap texture E100N00 { map "brightmaps/bm_texture/bm_custom_tex/E100Z00.png" }
+brightmap texture E100N01 { map "brightmaps/bm_texture/bm_custom_tex/E100Z01.png" }
+brightmap texture E100N02 { map "brightmaps/bm_texture/bm_custom_tex/E100Z02.png" }
+brightmap texture E100N03 { map "brightmaps/bm_texture/bm_custom_tex/E100Z03.png" }
+brightmap texture E100N04 { map "brightmaps/bm_texture/bm_custom_tex/E100Z04.png" }
+
+brightmap texture E101N00 { map "brightmaps/bm_texture/bm_custom_tex/E101Z00.png" }
+brightmap texture E101N01 { map "brightmaps/bm_texture/bm_custom_tex/E101Z01.png" }
+brightmap texture E101N02 { map "brightmaps/bm_texture/bm_custom_tex/E101Z02.png" }
+brightmap texture E101N03 { map "brightmaps/bm_texture/bm_custom_tex/E101Z03.png" }
+brightmap texture E101N04 { map "brightmaps/bm_texture/bm_custom_tex/E101Z04.png" }
